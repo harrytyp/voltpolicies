@@ -133,10 +133,13 @@ def search_policies_enhanced(query: str, max_results: int = 10) -> list:
                 
                 source = "Volt Europa" if any(k in meta_file.name for k in ["MOP", "amsterdam", "Amsterdam"]) else "Volt Deutschland"
                 
+                # Add page fragment to URL for direct linking
+                page_url = f"{doc_url}#page={page_num}" if doc_url else ""
+                
                 results.append({
                     "document": doc_name,
                     "source": source,
-                    "url": doc_url,
+                    "url": page_url,
                     "page": page_num,
                     "section_heading": heading,
                     "score": score,
