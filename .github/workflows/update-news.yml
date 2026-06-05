@@ -27,15 +27,17 @@ jobs:
       - name: Fetch news (incremental)
         run: python .github/scripts/fetch_news.py
       
-      - name: Generate status
-        run: python .github/scripts/generate_status.py
+      - name: Generate status + sources
+        run: |
+          python .github/scripts/generate_status.py
+          python .github/scripts/generate_sources.py
       
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add cache/ known_pdfs.json STATUS.md
+          git add cache/ known_pdfs.json STATUS.md SOURCES.md
           
           if git diff --cached --quiet; then
             echo "No changes — skipping commit"
