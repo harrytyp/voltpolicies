@@ -30,7 +30,6 @@
 | European Constitution | [PDF](https://volteuropa.org/storage/pdf/policies/provisions-for-a-european-constitution.pdf) |
 | Live Animal Transportation | [PDF](https://volteuropa.org/storage/pdf/policies/regulation-of-live-animal-transportation.pdf) |
 | Space Policy | [PDF](https://volteuropa.org/storage/pdf/policies/volt-space-policy.pdf) |
-| energy transition &amp; climate change | [PDF](https://volteuropa.org/storage/pdf/policies/energy-transition-&amp;-climate-change.pdf) |
 
 ---
 
