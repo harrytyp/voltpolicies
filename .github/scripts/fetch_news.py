@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """
-Fetch Volt news from multiple sources:
-1. RSS feeds (20 items each)
-2. Mastodon API (all posts)
-3. Volt website scraping (all articles + category pages)
-Only processes NEW articles (skips existing).
+Fetch ALL Volt news with pagination.
+Sources: RSS + Mastodon API + Website scraping (all pages).
+Only adds NEW articles (incremental).
 """
 
 import json
@@ -116,14 +114,15 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
         return []
 
 
-def scrape_volt_articles(name: str, base_url: str, paths: list) -> list:
-    """Scrape articles from Volt website."""
-    print(f"  Scraping: {name}...")
+def scrape_paginated(name: str, base_url: str, path: str, max_pages: int = 20) -> list:
+    """Scrape all pages of a news section."""
+    print(f"  Scraping: {name} (all pages)...")
+    
     all_articles = []
     seen = set()
     
-    for path in paths:
-        url = base_url.rstrip('/') + path
+    for page in range(1, max_pages + 1):
+        url = f"{base_url.rstrip('/')}{path}?page={page}"
         try:
             r = subprocess.run(
                 ["curl", "-sL", url],
@@ -133,6 +132,7 @@ def scrape_volt_articles(name: str, base_url: str, paths: list) -> list:
             from bs4 import BeautifulSoup
             soup = BeautifulSoup(r.stdout, 'html.parser')
             
+            page_articles = 0
             for a in soup.find_all('a', href=True):
                 href = a['href']
                 text = a.get_text(strip=True)
@@ -161,26 +161,32 @@ def scrape_volt_articles(name: str, base_url: str, paths: list) -> list:
                             'source': name,
                             'via': 'website_scrape'
                         })
+                        page_articles += 1
+            
+            if page_articles == 0:
+                # No new articles on this page - we've reached the end
+                break
+                
         except Exception as e:
-            print(f"    Error scraping {url}: {e}")
+            print(f"    Error on page {page}: {e}")
+            break
     
-    print(f"    → {len(all_articles)} articles")
+    print(f"    → {len(all_articles)} articles across {page} pages")
     return all_articles
 
 
-def load_existing_articles(source_name: str) -> set:
-    """Load existing article links to avoid re-processing."""
+def load_existing(source_name: str) -> list:
+    """Load existing articles from cache."""
     if not CACHE_DIR:
-        return set()
+        return []
     
     safe_name = re.sub(r'[^\w\-]', '_', source_name)
     cache_path = CACHE_DIR / f"news_{safe_name}.json"
     
     if cache_path.exists():
         with open(cache_path, 'r', encoding='utf-8') as f:
-            articles = json.load(f)
-        return {a.get('link', '') for a in articles}
-    return set()
+            return json.load(f)
+    return []
 
 
 def save_articles(source_name: str, articles: list):
@@ -195,20 +201,12 @@ def save_articles(source_name: str, articles: list):
         json.dump(articles, f, indent=2, ensure_ascii=False)
 
 
-def merge_and_deduplicate(existing: list, new: list) -> list:
-    """Merge existing and new articles, deduplicate by link."""
-    seen = set()
-    result = []
-    
-    # Existing first (preserve order)
-    for a in existing:
-        link = a.get('link', '')
-        if link and link not in seen:
-            seen.add(link)
-            result.append(a)
-    
-    # New articles (add only if not already present)
+def merge_incremental(existing: list, new: list) -> list:
+    """Merge existing and new articles, keeping existing order."""
+    seen = {a.get('link', '') for a in existing if a.get('link')}
+    result = list(existing)
     added = 0
+    
     for a in new:
         link = a.get('link', '')
         if link and link not in seen:
@@ -230,42 +228,28 @@ def fetch_all_news() -> dict:
     
     all_news = {}
     
-    # 1. Volt Deutschland
+    # 1. Volt Deutschland (RSS + paginated scraping)
     print("\n=== Volt Deutschland ===")
     de_rss = fetch_rss_feed("Volt Deutschland RSS", "https://voltdeutschland.org/neuigkeiten/rss")
-    de_scrape = scrape_volt_articles(
-        "Volt Deutschland",
-        "https://voltdeutschland.org",
-        ["/neuigkeiten", "/neuigkeiten?category=pressemitteilungen"]
-    )
-    existing_de = load_existing_articles("Volt Deutschland News")
-    merged_de = merge_and_deduplicate(
-        [{'title': '', 'link': l, 'description': '', 'date': '', 'source': 'Volt Deutschland News', 'via': 'existing'} for l in existing_de if l],
-        de_rss + de_scrape
-    )
-    all_news["Volt Deutschland News"] = merged_de
+    de_paginated = scrape_paginated("Volt Deutschland", "https://voltdeutschland.org", "/neuigkeiten", max_pages=10)
     
-    # 2. Volt Europa
+    existing_de = load_existing("Volt Deutschland News")
+    all_news["Volt Deutschland News"] = merge_incremental(existing_de, de_rss + de_paginated)
+    
+    # 2. Volt Europa (RSS + paginated scraping)
     print("\n=== Volt Europa ===")
     eu_rss = fetch_rss_feed("Volt Europa RSS", "https://volteuropa.org/news/rss")
-    eu_scrape = scrape_volt_articles(
-        "Volt Europa",
-        "https://volteuropa.org",
-        ["/news", "/news?category=press-releases"]
-    )
-    existing_eu = load_existing_articles("Volt Europa News")
-    merged_eu = merge_and_deduplicate(
-        [{'title': '', 'link': l, 'description': '', 'date': '', 'source': 'Volt Europa News', 'via': 'existing'} for l in existing_eu if l],
-        eu_rss + eu_scrape
-    )
-    all_news["Volt Europa News"] = merged_eu
+    eu_paginated = scrape_paginated("Volt Europa", "https://volteuropa.org", "/news", max_pages=15)
     
-    # 3. Mastodon
+    existing_eu = load_existing("Volt Europa News")
+    all_news["Volt Europa News"] = merge_incremental(existing_eu, eu_rss + eu_paginated)
+    
+    # 3. Mastodon (all posts via API)
     print("\n=== Mastodon ===")
     mastodon = fetch_mastodon_all("voltinthepress")
-    existing_mastodon = load_existing_articles("Volt in the Press  Mastodon")
-    merged_mastodon = merge_and_deduplicate(existing_mastodon, mastodon)
-    all_news["Volt in the Press (Mastodon)"] = merged_mastodon
+    
+    existing_mastodon = load_existing("Volt in the Press  Mastodon")
+    all_news["Volt in the Press (Mastodon)"] = merge_incremental(existing_mastodon, mastodon)
     
     # Save all
     print("\n=== Saving ===")
