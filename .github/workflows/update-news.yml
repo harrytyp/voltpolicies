@@ -2,9 +2,8 @@ name: Update Volt Policies
 
 on:
   schedule:
-    # Run every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   update:
@@ -21,40 +20,28 @@ jobs:
       
       - name: Install dependencies
         run: |
-          pip install requests pymupdf
+          pip install requests pymupdf beautifulsoup4
       
       - name: Check for new PDFs
-        run: |
-          python .github/scripts/check_new_pdfs.py
+        run: python .github/scripts/check_new_pdfs.py
       
-      - name: Fetch RSS feeds
-        run: |
-          python .github/scripts/fetch_news.py
+      - name: Fetch news
+        run: python .github/scripts/fetch_news.py
       
-      - name: Commit and push changes
+      - name: Generate status
+        run: python .github/scripts/generate_status.py
+      
+      - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Stage all changes
-          git add cache/
-          git add known_pdfs.json
+          git add cache/ known_pdfs.json STATUS.md
           
-          # Check if there are changes
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            
-            # Count new files
-            NEW_PDFS=$(git diff --cached --name-only | grep -c "\.txt$" || true)
-            NEW_NEWS=$(git diff --cached --name-only | grep -c "news_" || true)
-            
-            MSG="Update: "
-            [ "$NEW_PDFS" -gt 0 ] && MSG="${MSG}${NEW_PDFS} new text files, "
-            [ "$NEW_NEWS" -gt 0 ] && MSG="${MSG}news feeds, "
-            MSG="${MSG%-2} - $TIMESTAMP"
-            
-            git commit -m "$MSG"
+            git commit -m "Auto-update: $TIMESTAMP"
             git push
           fi

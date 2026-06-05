@@ -9,11 +9,16 @@ Fetch Volt news from multiple sources:
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 from xml.etree import ElementTree as ET
 from html import unescape
 
-CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
+# Use cache_manager for correct path
+sys.path.insert(0, str(Path(__file__).parent))
+from cache_manager import get_cache_dir
+
+CACHE_DIR = None  # Will be set in fetch_all_news()
 
 
 def fetch_rss_feed(name: str, url: str) -> list:
@@ -162,6 +167,8 @@ def fetch_volt_website(name: str, url: str) -> list:
 
 def fetch_all_news() -> dict:
     """Fetch news from all sources."""
+    global CACHE_DIR
+    CACHE_DIR = get_cache_dir()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     
     all_news = {}
