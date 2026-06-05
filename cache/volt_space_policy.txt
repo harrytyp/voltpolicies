@@ -1,0 +1,2672 @@
+1
+Volt’s Space Policy
+A Collaborative and Exploratory Space Strategy for Europe
+1
+
+
+2
+Table of Contents
+Abstract
+4
+Executive Summary
+5
+Introduction
+8
+Reasoning: Why does Volt need a Space Policy?
+8
+Collaborative and Exploratory Vision
+8
+Space Policy Goals and Objectives
+12
+Relevance for Volt’s 5+1 Challenges
+14
+Smart State
+14
+Economic Renaissance
+14
+Social Equality
+14
+Global Balance
+15
+Citizen Empowerment
+15
+EU Reform
+15
+Space as the next frontier for science and discovery
+15
+Space Physics and Astronomy
+16
+Search for life
+17
+Policy Recommendations
+19
+Space Balance: Space Debris and the Sustainable Use of Space
+20
+Space Debris and Space Traffic Management
+20
+Eco-design principles and the Sustainable Use of Space
+22
+Policy Recommendations
+23
+Revolutionising European Space Transportation Sector
+25
+Advanced In-space Transportation: Propulsion and Power Sources
+26
+Policy Recommendations
+27
+European human spaceflight and robotic exploration
+29
+Moon and Mars Missions as a first step for solar system exploitation and interstellar
+migration
+30
+Deep Space Exploration and Interstellar missions
+33
+Future of ISS and Space habitats
+33
+Policy Recommendations
+34
+Providing public goods and benefits to Europe and beyond
+37
+Communications
+37
+Navigation capabilities
+38
+Earth Observation: Protecting Humanity
+38
+Start-ups and increasing accessibility to European Space information from the Copernicus
+programme
+40
+Space, public health and pandemics
+40
+2
+
+
+3
+Technology transfer, innovation and economic benefits
+42
+Fostering
+European
+Space
+commercialisation
+while
+leveraging
+on
+governmental
+involvement
+42
+Policy Recommendations
+43
+European and planetary defence
+46
+European defence: Preserving the integrity of European Space infrastructure, integration
+and orbital access
+46
+Peaceful uses of Outer Space
+46
+Planetary Defence
+48
+Policy Recommendations
+48
+Advanced Space Exploitation
+49
+Space Mining and In-Situ Resource Utilisation (ISRU)
+49
+Space exploration to solve energy and material needs
+51
+Space Based Solar Power (SBSP)
+52
+Advanced fusion fuels
+52
+Policy Recommendations
+53
+Governance and Space institutions in the European and international context
+55
+European Space institutions
+55
+European Space Agency or Space Agency of the European Union?
+56
+Push for a European Union led Space Agency
+56
+Geo-return policy
+57
+Role of an International Space Agency (ISA)
+58
+International Regulatory Agency (IRA)
+59
+Policy Recommendations
+60
+Education and outreach
+62
+Policy Recommendations
+62
+3
+
+
+4
+I.
+Abstract
+The European Space sector is a symbol of European integration and collaboration. It
+also contributes to the sustainable development of our economy, with every 1 euro
+invested in Space returning at least 3-4 euros, according to ESA. Europe is currently a
+world leader in earth observation and provides numerous opportunities for small and
+medium enterprises (SMEs). Despite this, it was identified that the European nations
+are lagging behind compared to other space-faring nations, particularly in Space
+exploration and human spaceflight. Furthermore, it is necessary to highlight the
+benefits that advanced Space exploitation activities of the full solar system will
+achieve, and our Space strategies should account for them. To achieve these visions,
+an ambitious exploratory agenda is necessary, European and international governance
+institutions should be adapted, and increased funding effort in the European Union is
+fundamental. Furthermore, the aspects of “Space balance”, such as the rise of Space
+debris, traffic management and the environmental impact of industry, shall be
+addressed to ensure a sustainable use of Space. In addition, the Space industry should
+get onboard the environmental transition by highlighting and exploiting all the
+ecological benefits from Earth observation, Space mining, Space based solar power,
+planetary sciences research, and the planetary engineering sciences required for Mars
+terraforming.
+4
+
+
+5
+II.
+Executive Summary
+Space is of strategic importance for Europe, and Space needs the European Union.
+Investing in Space can improve our daily lives and the European economy by creating
+new technologies and jobs while supporting our policies and priorities.
+The Space sector generated a global revenue of 271 billion dollars in 20191. The
+European Union currently has a global competitive Space sector with satellite
+manufacturing capturing a third of the world market. Several SMEs in the European
+Union are dedicated to a variety of downstream Space applications. Services, such as
+Earth Observation, Navigation, and Communications, currently receive significant
+policy support because of their potential contribution to public goods, welfare, and
+national security. These technologies improve our daily lives considerably, from
+enabling satellite TV, internet and smartphone connections, to precision agriculture,
+disaster relief and improving meteorological predictions. They can also be key tools to
+mitigate climate change and environmental destruction while contributing to the
+Sustainable Development Goals. Although the benefits are clear within the Space
+industry, there is a need to increase citizen awareness to boost its public and private
+users and fully exploit the advantages in terms of new start-ups, applications and
+public support.
+In addition to this, spaceflight and -exploration can bring major breakthroughs, and
+this policy aims at further increasing European ambitions to enable future advanced
+exploitation of the solar system for the benefit of all. Our EU policies should include
+the long term strategies of terraforming Mars, Venus, and fixing our planet; the full
+solar system, development of Space mining; and future energy concepts such as Space
+based solar power and nuclear fusion. Technology developed through programmes
+for physics and astronomy research and to explore Mars and the solar system can
+achieve major breakthroughs, producing spillover effects and new applications for
+Earth. The microgravity environment can bring advantages in the manufacturing of
+computer chips and in the biomedical field of research with the development of
+treatments,implants, and vaccines. Planetary defence will also allow us to prevent
+future asteroid impacts. Indeed, it could be the world's first natural extinction event
+preventable by humans. Finding and analysing extraterrestrial life in the solar system
+could bring incredible benefits for biology and medical fields while providing valuable
+insights into the origin of life on Earth and our role in the Universe. Space can also
+help to answer major questions, such as whether we are the only intelligent species in
+the Universe, and could provide major insights into the search for extraterrestrial
+intelligence. Such a contact could bring incredible technological and cultural
+breakthroughs. Future Space habitats could also allow us to shift the bulk of the heavy
+1 SIA, State of the Satellite Industry Report, 2019 https://sia.org/22nd_ssir/
+5
+
+
+6
+polluting industries to Space and even allow humans to live there, while the
+terraforming of Mars will help us to develop the technology not only to live there, but
+to geoengineer earth, reverse climate change and foster its biodiversity. Therefore,
+we argue to push for larger human Space flight efforts and develop an autonomous
+European crewed Space transportation system.
+In addition, the Space industry is rapidly changing with the exponential increase in
+investment from venture capital. It can be observed how citizen interest is shifting
+financial resources to this sector, where the next frontier awaits. This does not mean
+governments should recede from Space exploration. Rather, they should take the lead
+through commercialisation to enable the growth of a competitive Space industry and
+exploit the benefits of the Space market economy to reduce costs and increase Space
+access.
+We should also remember that Space debris is rapidly increasing, and as with climate
+change, it will eventually reach an uncontrollable situation. The Kessler effect, the
+accumulation of loose material in Earth’s orbit, has the potential to destroy all of our
+Space assets and dreams while also causing irreparable damage to our world's fragile
+economy. International agreements currently do not deal with this issue, and the
+currently approved voluntary guidelines do not seem to produce a deceleration. With
+the rise of Space traffic, the issue will continue to deteriorate, and there is therefore a
+need for government intervention in the international field to develop a regulatory
+framework for collision avoidance, Space debris mitigation, and active debris removal.
+The
+objective
+of
+this
+Space
+policy
+is
+to
+support
+and
+provide
+valuable
+recommendations for Volt members and leaders to achieve these Space objectives,
+while supporting public outreach and education.
+6
+
+
+7
+How to read this document?
+The introduction section contains the reasoning for a Space policy, main vision, goals,
+and relevance for each of Volt’s 5+1 challenges. Each of the chapters in this policy
+document addresses one of the key policies for Space. At the end of each, the
+recommendations are summarised in tabular format. The last chapter specifies the
+relevance of the Space policy to Volt’s mapping of policies portfolio, highlighting
+specific possible additions and its usefulness as an integrated policy.
+7
+
+
+8
+III.
+Introduction
+This Space policy proposal for Europe is based on two core values: the collaborative
+nature of Space, and the need for a larger exploratory vision to guarantee the
+advanced sustainable exploitation of Space resources. The following sections will
+address why Volt needs a Space policy, our vision, our goals, and the relevance of the
+Space policy to Volt’s challenges.
+A.Reasoning: Why does Volt need a Space Policy?
+Volt’s Space policy was created for various reasons, including:
+●
+In general, Space policies are not addressed by political associations on
+campaign stages. We consider this a failure to empower citizens to address
+space-related aspects, benefits, and concerns. Political associations also have a
+responsibility to contribute to dissemination, outreach and education, allowing
+citizens to make informed decisions. In Europe, this is an unexploited
+communication channel.
+●
+Europe is lagging in Space innovation and is being left behind in the new Space
+era, especially in Space transportation, human spaceflight, and Moon and Mars
+exploration.
+●
+There is a global need to push the knowledge and technological frontiers,
+which calls for larger Space exploration efforts to eventually exploit the full
+benefit of human presence throughout the solar system to sustain economic
+growth, reduce inequality, increase our living standards and solve Earth’s
+environmental problems.
+●
+Humanity has to step up to address fundamental challenges and risks to
+preserve the legacy of life in the universe. By contributing to Earth observation
+programmes to study environmental issues, by becoming a multi-planetary
+species and by developing planetary protection systems and effective asteroid
+early warning systems, it will be possible to significantly reduce the chances of
+extinction of the Earth’s biosphere.
+●
+A sustainable Space balance is needed to achieve all these goals, and as for
+climate change, the Space debris problem has to be tackled before it is too late.
+B. Collaborative and Exploratory Vision
+Volt believes in a common Space policy that supports European integration and assists
+our citizens to overcome the global challenges of our era, such as climate change,
+while improving their quality of life. Furthermore, the international Space context is
+changing fast. Competition is growing since old and new actors - such as the US,
+Russia, China, and India - are engendering renewed challenges and ambitions in Space.
+Investment in Space militarisation is rapidly increasing and becoming comparable to
+the cold war race, undermining the peaceful uses of outer Space. The resulting
+in-space military tests could pose a threat to our orbital resources through the already
+8
+
+
+9
+high risk of an uncontrolled escalation of Space debris resulting from the increasingly
+crowded Earth's orbits and past unsustainable spacecraft designs. Therefore, there is
+a need for regulation comparable to aviation as for collision avoidance and
+sustainability.
+At the same time, Space activities are becoming increasingly commercial because of
+greater involvement of the private sector. In fact, major technological improvements
+and new private companies - such as SpaceX, Virgin Galactic and Rocket Lab - are
+changing the traditional industrial and business models in the Space sector. These
+developments are making access to Space and the widespread use of Space
+technologies in our everyday lives easier and cheaper, as has been done with solar
+technology, medical tools, and fire-fighting equipment. Furthermore, Space flight
+activities enhance innovation by inspiring society. As an example, the Apollo
+programme led to an increase in science and advanced engineering degrees2, which
+would later contribute to improving our world and achieving technological and
+scientific breakthroughs.
+A common policy on Space is of strategic importance for Europe3. The Space industry
+does not only foster innovation, wellbeing and economic growth4, but it also
+reinforces Europe’s role as a global player and it is an asset for its security and
+defence, both inside and outside its borders. Space is inherently a transnational and
+global environment. As such, it requires strategic policies to maintain the geopolitical
+and market balance and, at the same time, it offers opportunities for greater
+international integration and collaboration. In fact, Space exploration and its
+resources have the potential to enable humanity to become multi-planetary, mitigate
+the risks of asteroid impacts, and contribute to solving our biggest challenges, such as
+the current energy and environmental crisis. It should be noted that Space is at the
+frontier of technology and research, using the best of our capabilities, and that these
+are the main drivers to sustain social productivity and economic growth in the
+information era5.
+Affordable space-access will not only provide worldwide internet-access, fast
+inter-continental travel, and enable Space tourism, but will someday allow us to shift
+heavy industries outside of our delicate world. Creating the resources needed by
+recycling available materials (In-situ resource utilisation) allows us to further explore
+5 Long, X. Scientific and technological innovation related to real economic growth, ISSN: 2516-1652
+4 K. W. George, 2018, “The Economic Impacts of the Commercial Space Industry”, Space Policy 47,
+181-186
+3 All member states have decided that integrating space into the European society and economy,
+encouraging a globally competitive European space sector, ensuring european autonomy in space
+access in a cost effective and sustainable way are major goals. European Ministers Ready ESA for a
+United Space in Europe in the Era of Space 4.0, ESA, December 2016.
+2 NASA, 2015, Historical Studies in the Societal Impact of Spaceflight, p. 531.
+9
+
+
+10
+the solar system, and through asteroid mining, we will retrieve key materials such as
+cobalt and other rare earth-metals needed for our environmental transition. This
+would not only decrease their value, but would make new technologies available for
+everyone. The colonisation of Mars and other solar system bodies will foster
+innovation, leading to large breakthroughs in all knowledge fields that will benefit
+society through technological transfer, as for efficient water-scarce agriculture
+practises for desert regions. The subsequent terraforming activities - deliberately
+altering a planet’s atmosphere to make it more suitable for humans - will also provide
+us with the tools to manage our Earth’s climate and environment to prevent climate
+change, enhance biodiversity and assure its conservation and sustainability for
+millennia.
+Furthermore, access to Space, the Moon and the outer solar system will allow for
+Space based solar power and unlock huge amounts of helium-3 reserves, which will be
+necessary to power an increasing population on a future resource depleted Earth,
+especially in the case of renewable energy not meeting all world demands. Primary
+energy consumption may double by 2100, while fossil fuel reserves may last for
+100-150 years at-most6. Furthermore, because of the current environmental crisis,
+there is an approximate carbon budget of around 120 gigatonnes to limit the world’s
+temperature below 1.5 degrees with a 66% probability7, which means that only about
+20% of the remaining fossil fuel reserves are available for consumption. Uranium
+reserves may help for some years, but eventually alternatives will be required. Fusion
+energy based on deuterium/helium-3 may provide the capability, the Moon and the
+Gas Giants the energy source, Space habitats and ISRU the infrastructure and Space
+transportation the means to get there.
+7 IPCC, AR5 Synthesis Report: Climate Change 2014, available at https://www.ipcc.ch/report/ar5/syr/
+6 BP, Statistical Review of World Energy, available at
+https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy/downl
+oads.html
+10
+
+
+11
+Currently, the European Union is one of the world's leaders in exploiting earth
+observation technologies. In this exploratory policy, Volt wants to acknowledge these
+achievements, and increase efforts in human spaceflight,exploration, and science.
+Policy actions implemented now should account for long term strategic objectives of
+evolutionary growth, sustainable exploitation of the full solar system and reduction of
+our dependence on Earth’s critical resources, starting with the European Union
+playing a pivotal role in human spaceflight, lunar and mars exploration missions along
+with our international partners89. These actions will also spillover with long term
+exploitation applications and technology transfer for the benefits of the Earth, as
+explained with Space based solar power, Space mining, and helium-3 reserves. To
+achieve all this, the legal, political, and technical challenges must be solved, such as
+enhancing our Space transportation sector with state-of-the-art sustainable Space
+access capabilities and autonomous crew capabilities, and enabling the development
+of suborbital commercial flight. In addition, it is necessary to ensure a “Space balance”
+to assure the long term sustainability of Space resources by solving the current Space
+debris issue, establishing traffic management regulations and guaranteeing a fair
+9 Collaboration can enable large space projects in the post cold war era.  Pedersen, K. S., Thoughts on
+international space cooperation and interests in the post-cold war world, Space Policy, 8(3), 205–220.
+doi:10.1016/0265-9646(92)90050-6
+8 International cooperation is seen as key for achieving a sustainable space infrastructure and economy
+for solar system exploration and interstellar migration. Jones, R. M. Synthesis of a Space Infrastructure,
+Proceedings of Space 90, Second International Conference, Engineering, Construction and Operations
+in Space II, 1990
+11
+
+
+12
+distribution of their benefits among our world citizens.
+To conclude, Volt believes that to ensure Europe’s and the world's prosperity, the
+European Space agencies and industry should increase their exploratory ambitions
+and become leaders in scientific, explorational, and human Space flight activities in
+Space. Expanding human presence into the solar system will allow for an open-ended
+future for humanity with prosperous growth in an environment unconstrained by
+energy, Space and material bounds10. This policy provides recommendations and
+guidelines to get there.
+C. Space Policy Goals and Objectives
+Our Space policy wants the European Union to be the leader in making humanity a
+Space faring civilization by proposing a deeply explorative and utilising agenda. We
+want a groundbreaking increase in efforts to research and develop technologies to
+explore the universe and to exploit Space resources, from our near-earth Space with
+fundamental
+applications
+for
+earth
+observation,
+climate
+change
+studies,
+communications and navigation, to Space mining for key resources, the use of
+space-based solar power for our energy needs, and the colonisation and terraforming
+of Mars and other celestial bodies. To achieve these goals, we believe that a
+collaborative and transparent policy is needed, supported by a long-term European
+plan to foster Space education. These goals can be summarised as follows:
+➢Exploratory strategy
+○
+Push for Space Exploration
+○
+Investment in infrastructure, innovation and technology development
+➢Encouraging the collaborative nature of Space in Europe and abroad
+○
+The European Union shall be an equal and key partner in international
+Space sciences and exploration missions
+○
+Encouraging international regulatory frameworks for sustainable Space
+exploration
+➢Securing European strategic and autonomous capabilities
+○
+Guaranteeing
+a
+cost-effective
+and
+sustainable
+European
+Space
+transportation infrastructure with crew-rated capabilities
+○
+Fostering European human Space flight activities
+○
+Launching ambitious Space exploration missions to the solar system
+➢Sustainability
+○
+Space Debris Mitigation
+○
+Contribution to mitigate humanity’s environmental impact
+○
+Mitigation of the Space industry’s ecological impact
+10 Hammond, W. E. , Space Transportation: A systems approach to analysis and Design, 1999
+12
+
+
+13
+➢Investment in Public Goods
+○
+Contribution to society and welfare
+○
+To sustain ambitious projects and enable commercialisation of Space
+➢Space Culture
+○
+Large public outreach
+○
+Support for Space education
+D. Relevance for Volt’s 5+1 Challenges
+Volt Space Policy will serve the greater objectives of Volt. In order to do so, the goals
+of the policy are filtered through the 5+1 challenges that Volt aims to tackle with its
+activities.
+1. Smart State
+Governments should provide state-of-the-art public services for the benefit of
+their citizens and residents. Space science related achievements can improve
+transparency and decision-making thanks to high-quality real-time data produced by
+our Space infrastructure.
+13
+
+
+14
+2. Economic Renaissance
+European economies must be the engine of society’s progress and allow for
+a decent living standard for everyone. Investing in the Space sector would foster the
+EU's leadership in innovation. The EU is investing over €14 billion in Space activities for
+the period 2021-2027. The return on investment is estimated to be really high
+compared to other possibilities. Indeed, it is estimated to have a direct return of €3-4
+for every euro allocated.11 Advanced exploitation capabilities from Space mining,
+Space based solar power and colonisation of other planets could result in even higher
+returns.
+3. Social Equality
+Space activities contribute to all the Sustainable Development Goals. One of
+its goals is to reduce inequality and ensure fairness. For example, the proposal for
+Space-based solar power or satellite internet mega constellations will allow energy to
+reach inaccessible places in less developed regions. The policy also calls for promoting
+women in Space and other STEM fields.
+4. Global Balance
+We want to establish policies in line with the Sustainable Development Goals.
+Space applications cover all the 17 SDGs, making it a fundamental domain to develop
+in order to tackle global challenges and strengthen the EU’s global role. Satellite
+technology is key for understanding and mitigating climate change and for better
+forecasting
+to
+support
+renewable
+energy
+infrastructure.
+In
+addition,
+Space
+sustainability, or “Space balance” shall also be pursued, addressing the alarming rise in
+Space debris with mitigation, active removal and Space traffic management
+strategies, and by mitigating Space missions and launching environmental impact
+through eco-design principles.12
+12 European Space Agency (ESA), Ecodesign, available
+at:https://www.esa.int/Safety_Security/Clean_Space/ecodesign
+11 EU space policy - Consilium (europa.eu)
+14
+
+
+15
+5. Citizen Empowerment
+At the core of this Space policy is a 2 year policy process involving volters of
+all chapters. Furthermore, our policy addresses the need for larger outreach
+activities and education in Space studies to enable informed citizens who know about
+the benefits and opportunities that Space offers.
+6. EU Reform
+The policy addresses the need for greater collaboration in Space matters in
+the European Union, and a larger financial effort to achieve our exploratory and
+exploitation goals and to guarantee the technological transfer and involvement of
+non-space sectors. One of its core proposals is the creation of a European Union Space
+Agency encompassing ESA and EUSPA activities (TBD).
+IV.
+Space as the next frontier for science and
+discovery
+Since the beginning of the Space Age, access to Space has stimulated the
+development of brand-new branches of science that were previously unknown, from
+planetology to high-energy astrophysics, from exobiology to gravitational wave
+astrophysics. Consequently, deeper questions about our universe have followed.
+Recent
+technological
+advances,
+together
+with
+the
+leadership
+and
+reliability
+demonstrated by ESA and its international partners, brought us to the verge of a new
+epoch of scientific discovery, where answers to some of the most fundamental
+questions might be dealt with.
+For instance, ESA’s Planck satellite launched in 2009 performed an unprecedented
+mapping of the anisotropies of the cosmic microwave background radiation and it
+provided us with the most precise measurements of the main cosmological
+parameters, such as the density of matter and dark matter, the age of the universe
+and the Hubble constant. XMM-Newton, ESA’s largest X-ray observatory, was
+launched in 1999, and it is still perfectly functioning and providing us an
+unprecedented view of the high-energy phenomena in the universe that shine in the
+X-rays, such as accreting black holes, supernovas, and galaxy clusters. The next decade
+will see the development and launch of new large missions led by ESA, just to name a
+few: the first space-based gravitational wave observatory LISA, the largest X-ray
+observatory ever made, Athena, and the astrobiology mission to Mars, ExoMars, that
+will land a rover on the red planet.
+15
+
+
+16
+From this perspective, Volt believes that Europe should and can be a leading player in
+this endeavour. Innovative methods and technologies developed for science will
+provide a strategic competitive edge and benefits for our society and economy. Volt
+supports increasing EU funding in Space sciences, which is required to develop
+long-term research projects that will improve our knowledge of the physical world
+and that will keep Europe at the forefront of international research.
+Volt supports ESA becoming a funding agency for Space research and cultural projects
+carried out by its member states. This would allow ESA to directly support Space
+research and outreach activities across Europe in a more harmonised and coordinated
+way. In fact, relying mostly on national agencies to fund Space research has shown
+several disadvantages, such as limited funding, dependence on the current national
+political choices, limited international collaborations, limited competition and risk
+aversion. This is why Volt fully supports continued and increased funding in Space
+science from the EU and commercial entities.
+A.Space Physics and Astronomy
+Space research is crucial for the technical development of humanity, like quantum
+communications, better air transport, better and cleaner energy management, mining
+asteroids, etc. Also, there is research that is not directly related to society in the short
+term, such as gravitational wave observation from Space, astronomy, or geodesy, but
+which could bring major breakthroughs and eventual life changing applications.
+Talking about quantum communications, Chinese researchers, just in 2017, teleported
+information from Earth to a satellite over a distance of 1400 km13. This experiment
+can't be done horizontally (the maximum is 144 km, achieved in an experiment in Las
+Canarias, Spain14) because atmospheric turbulence breaks the quantum state.
+Temperature and the absence of seismic vibrations make Space attractive for the
+study of gravitational waves. ESA already saw the potential of Space for these
+purposes with the project LISA (Laser Interferometer Space Antenna). Moreover, for
+technical reasons, Space and terrestrial gravitational wave observatories are not
+competitive, but complementary.
+B. Search for life
+Recent progress in the fields of astrobiology and astronomy, findings of possible
+14 Herbst, Thomas, et al., 2015, Teleportation of entanglement over 143 km, Proceedings of the
+National Academy of Sciences 112.46 (2015): 14202-14205.
+13 Ren, J., Xu, P., Yong, H. et al., 2017 Ground-to-satellite quantum teleportation. Nature 549, 70–73,
+available at: https://doi.org/10.1038/nature23675
+16
+
+
+17
+habitable conditions on Mars and the Jovian Planet’s moons or “icy worlds” and
+discoveries of extremophiles on Earth which can survive extreme environments have
+led to speculation that life may be thriving in the universe. Currently, large efforts are
+being focused on astrobiology research on Mars, after the discovery of several
+habitable hotspots and even systems of subsurface lakes resembling Earth’s
+subsurface glacial lakes. The European Space Agency (ESA) is looking to launch the
+Exomars in collaboration with NASA. The primary mission goal is to determine if there
+has ever been life on Mars, and to better understand the history of water on the
+planet.15 The launch has been delayed as the ESA originally collaborated with the
+Roscosmos Space Corporation, however the collaboration has been suspended as a
+result of the war in Ukraine.
+Furthermore, exoplanet research has been progressing at advanced leaps since the
+first confirmed detection of an exoplanet in 1992, which has led to the discoveries of
+rare planetary systems and allows us to understand how common habitable planets
+are in the universe. Recently, potentially habitable planets have been discovered in
+our closest solar system, Alpha Centauri, which is raising these prospects. With the
+future launch of observation telescopes, it will be possible to study their atmospheres
+and perhaps obtain the first image of an Earth twin. Looking for habitable exoplanets
+is not only a merit of its own, but by studying their geology, atmosphere and
+ecosystems, it will be possible to further understand our planet's atmosphere and
+ocean dynamics, which could contribute to incredible advances in terms of climate
+science and planetary engineering. Up to now, there have been two dedicated ESA
+missions for exoplanet research, CoRoT and CHEOPS, while future missions such as
+Ariel and Plato are devised16.
+In addition to the search for life in our solar system and exoplanet detection, there
+have been research efforts in the search and detection of intelligent extraterrestrial
+life. If another civilization is present within our interstellar neighbourhood, as
+predicted by the Drake Equation, and would attempt to contact us, our current
+technological knowledge foresees two main methods: radio communication or
+sending interstellar probes17. Recently, the first two interstellar objects were
+discovered, Oumuamua and Borisov, which raises these possibilities18 and calls for
+future rendezvous missions.
+18 Loeb, Avi, 2020, Let’s Search for Alien Probes, Not Just Alien Signals, Scientific American, Opinion,
+December 22, 2020, available at
+https://www.scientificamerican.com/article/lets-search-for-alien-probes-not-just-alien-signals/
+17 Bracewell, R., 1960, Communications from superior galactic communities, Nature 186, 670–671
+(1960), available at: https://doi.org/10.1038/186670a0
+16 Exoplanet Mission Timeline:
+https://sci.esa.int/web/exoplanets/-/60649-exoplanet-mission-timeline
+15 European Space Agency (ESA), N° 6–2020: ExoMars to take off for the Red Planet in 2022, available at:
+https://www.esa.int/Newsroom/Press_Releases/ExoMars_to_take_off_for_the_Red_Planet_in_2022
+17
+
+
+18
+Furthermore, there have also been efforts to search for intelligent extraterrestrial
+signals, whether intentional or as a consequence of artificial “leakage” . Serious
+concepts to perform targeted searches and full sky surveys with current technology
+and within limited budgets have been proposed over the years, as with NASA’s Project
+Cyclops19. This project aimed to search for extraterrestrial beacons within the
+microwave “water hole” frequency window between spectral lines of hydrogen (1420
+MHz) and the hydroxyl radical (1662 MHz), which is hypothesised as a potential
+communication channel. Workshops at the time also concluded that it was timely and
+feasible to perform serious searches with modest resources and enormous spillover
+benefits20, and numerous leading scientists, including Carl Salgan and seven Nobel
+prize winners, urged a systematic worldwide search for extraterrestrial intelligence21.
+Research and development efforts continued with worldwide searches, including
+European Union member states and a NASA official SETI programme, with projects
+such as the HRMS search, which has currently studied a minuscule fraction of our
+galaxy. Future concepts include highly efficient ultraviolet receivers constructed
+directly in Space or on the Moon, preventing atmospheric absorption22.
+In the HRMS search, cost figures were considered unacceptable within the political
+sphere and prevented their continuation, forcing most SETI efforts to continue under
+the SETI Institute umbrella with the help of private donors, such as Paul Allen. Its high
+public interest combined with enormous media coverage combined with its small
+budget share compared to other NASA activities prevented broad geopolitical
+support. Only recently, a dedicated budget for technology-signatures search has been
+granted23. SETI research is essentially an easy political target24, and requires adequate
+support. It is therefore necessary to increase European SETI research efforts, and we
+support the creation of a European Space Agency (ESA) division for SETI research
+and the development of a long term comprehensive plan in combination with
+other Space agencies and the scientific community.
+Volt also supports the inclusion of astrobiology sciences, including SETI research,
+in school curricula in all the European Union.
+24 Garber, S. J., 1999, Searching for Good Science: The Cancellation of NASA’s SETI Program, Journal of
+the British Interplanetary Society, Volume 52
+23 Kaufman, M., Technosignatures and the Search for Extraterrestrial Intelligence, available at:
+https://astrobiology.nasa.gov/news/technosignatures-and-the-search-for-extraterrestrial-intelligence/
+22 Ross, M. et al., 2011, Optical SETI: Moving Toward the Light, in Searching for Extraterrestrial
+Intelligence - SETI Past, Present, and Future, Shuch, H. Paul, Springer-Verlag
+21 Sagan, C., Extraterrestrial Intelligence: An International Petition, Science, Volume 218, 1982
+20 Philip Morrison, John Billingham, John Wolfe, 1979, The search for extraterrestrial intelligence—SETI,
+Acta Astronautica, Volume 6, Issues 1–2, 1979, available at:
+https://www.sciencedirect.com/science/article/abs/pii/0094576579901437
+19 NASA, 1972, Technical Report CR-114445 - Project Cyclops: A design study of a system for detecting
+extraterrestrial intelligent life
+18
+
+
+19
+C. Policy Recommendations
+R.1.1. Increase efforts for astrophysics and exoplanet research.
+R.1.2. Favour the design and development of sample return missions as a means
+to further increase the European contribution to the world scientific
+community.
+R.1.3. Creation of an ESA division for Search for Extraterrestrial Intelligence
+(SETI) research and development of a long term comprehensive plan in
+combination with other Space agencies and the scientific community.
+R.1.4. Inclusion of astrophysics and astrobiology sciences, including SETI
+research, in school curricula in all the European union.
+19
+
+
+20
+V.
+Space
+Balance:
+Space
+Debris
+and
+the
+Sustainable Use of Space
+A.Space Debris and Space Traffic Management
+Space might seem big enough, but the number of spacecraft populating it is following
+a near-exponential curve. Threats to the integrity of the orbital environment are
+driven by the development of large constellations, which enable excellent coverage
+and unparalleled resilience but also crowd key orbits, small cubesats with little safety
+margins25, the persistent threat of uncontrolled/old/malfunctioning spacecraft,
+military demonstrations in which states wish to show their capability to destroy
+satellites, and the inherent risk of micro-meteoroids and larger objects.
+The ever-increasing risk of collision would not only impact the colliding objects, but
+would create a chain reaction, known as the “Kessler syndrome,”26 that would cascade
+to all objects in the same or neighbouring orbits. This not only puts the critical Space
+infrastructure (telecommunications, observation, navigation, weather forecasts…) at
+great risk, but would also prevent further use of the affected orbit.
+Today, there are no formal regulations, nor incentives for the Space industry to build
+and operate responsibly, preventing such events. The US monitors orbits and shares
+the data with its partners; its FCC agency allocates frequency rights linked to the
+rights to operate in given orbits; startups such as LeoLabs provide a tracking service;
+and the World Economic Forum is providing a “Space Sustainability Rating” to rank
+satellites according to de-orbiting and debris mitigation strategies.
+We, however, believe it is the role of independent institutions to preserve the
+integrity of orbits and their assets. Concretely, Europe should spearhead the
+creation of an independent international body, further described in Chapter 8,
+responsible for the following:
+➢Transparent and collaborative tracking and cataloguing of all objects in the
+Earth’s
+vicinity,
+providing
+a
+consistent,
+complete
+and
+up-to-date
+characterization of objects;
+26 Kessler, Donald J., Cour‐Palais, Burton G., 1978, Collision frequency of artificial satellites: The
+creation of a debris belt, Journal of Geophysical Research, 83: 2637–2646
+25 See Swarm Technologies and FCC settlement, available at:
+https://www.theverge.com/2018/12/20/18150684/swarm-technologies-illegal-satellite-launch-fcc-settl
+ement-fine
+20
+
+
+21
+➢Well-organised and sustainable allocation of orbits for new spacecraft;
+➢Traffic management with a defined “Space Code of Conduct”, attributing
+manoeuvring priorities, and supporting legal issues and  insurance cases;
+➢Enforce the legal obligation to design for safe collision avoidance manoeuvres
+and safe de-orbiting.
+This regulatory body would ideally be gradually equipped with capabilities to use
+“Space tugs” positioned in critical orbits, to assist with de-orbiting and collision
+avoidance, through robotic and/or laser technology, and an advanced analytics centre
+to process the data and anticipate scenarios as ahead as possible. As a bridge to the
+aforementioned vision, we propose to:
+➢Increase financial support to the Clean Space initiative27 and others for
+Space debris mitigation strategies, especially for projects aiming at direct
+removal of large objects, which shall develop an operational removal system
+before 2030;
+➢All public Space activities should implement debris mitigation measures
+and mandatory decommissioning. Private companies could be subjected to
+national law penalties for non-conformance28 and funding conditions when
+accessing grants, loans and other government benefits;
+➢Introduce regulations aiming at the mandatory decommissioning of all
+launched
+Space
+objects
+within
+the
+European
+and
+national
+laws29.
+Regulations analogous to the Emission Trading System to impose mechanisms
+for monetary penalisation of debris generating techniques and processes could
+also be explored;
+➢Use trade sanctions to ensure these regulations are met and push for an
+international agreement to set procedures and guidelines for automated
+collision avoidance systems through ICAO and EASA;
+➢Push for a UN Space Treaty to implement legally mandatory guidelines for
+Space debris mitigation for all member states;
+➢Raise awareness of the Space debris problem to empower European citizens
+and their political and economic leaders so that they become aware of the
+29 Committee on the Peaceful Uses of Outer Space (COPUOS), Space Debris Mitigation Guidelines and
+European Space Agency (ESA), available at: ESA Space Debris Mitigation Compliance Verification
+Guidelines
+28 Pelton, J. N., 2015, New solutions for the space debris problem. Cham: Springer
+27 European Space Agency (ESA), Clean space, available at: Clean Space
+21
+
+
+22
+potential global threat30.
+Furthermore, mega-constellations offer a unique Space architecture that can enable
+many applications, from precise navigation technology to worldwide internet access.
+Nevertheless, the increase of Space objects requires adequate traffic management
+and debris mitigation regulations as proposed in this text. In addition, luminosity
+contamination assessments shall be performed for European Space missions and
+adherence to regulations in European and national law shall be determined following
+the assessments and recommendations from the astronomy community.31
+B. Eco-design principles and the Sustainable Use of Space
+Space applications can have enormous advantages in combating climate change and
+environmental
+destruction.
+Nevertheless,
+within
+the
+Space
+industry
+the
+environmental burdens will continue to increase along with the expected growth in
+the sector as envisioned for this strategy. Although the impact of the industry remains
+low when compared to other sectors, it may still be possible to further reduce its
+impact and act as a technological symbol. As a result, along with all of our human
+activities,
+it
+is
+necessary to thoroughly investigate its potential impact for
+accountability. The United Nations Committee on the Peaceful Uses of Outer Space
+has adopted guidelines to ensure the long-term sustainability of the Space industry,
+with the 27th mentioning the use of technologies to minimise the environmental
+impact of manufacturing and launching Space assets32. In the European Union,
+inter-sectoral environmental regulations already affect some aspects of the Space
+industry, and some national legislation exists that particularly addresses the Space
+industry, as in France with the Space Operations Act, aiming to make operators
+responsible for the prevention of risks to humans and the environment33. Volt Europa
+already promotes ambitious actions to regulate and mitigate these environmental
+effects, which are applied to all industries, such as for climate change with the
+proposed Hybrid Emission System and strict emission reduction objectives. We
+therefore propose to push for the adoption of these guidelines at national and
+European legislative levels to investigate and mitigate the Space sector's impact
+on humans and the environment with Life Cycle Assessments (LCA).
+33 Maury, T., Loubet, P., Serrano, S. M., Gallice, A., Sonnemann, G., 2020 Application of environmental life
+cycle assessment (LCA) within the space sector: A state of the art, Acta Astronautica, available at: doi:
+10.1016/j.actaastro.2020.01.035
+32 UNOOSA, Guidelines for the Long-Term Sustainability of Outer Space Activities of the Committee on
+Peaceful Uses of Outer Space Adopted, Press Release, 2019
+31 It is advised to keep close track of their recommendations and workshops, as of the recent UNOOSA
+workshop, available at Dark and Quiet Skies for Science and Society
+30 Pelton, J. N.. 2015, New solutions for the space debris problem, Cham: Springer
+22
+
+
+23
+C. Policy Recommendations
+R.2.1. Europe should spearhead the creation of an independent international
+body equipped with capabilities to use “Space tugs'' positioned in critical
+orbits, to assist with de-orbiting and collision avoidance, through robotic
+and/or laser technology, and an advanced analytics centre to process the data
+and anticipate scenarios as far ahead as possible. It would be responsible for:
+1. Transparent and collaborative tracking and cataloguing of all objects in
+the Earth’s vicinity, providing a consistent, complete and up-to-date
+characterization of objects;
+2. Well-organised and sustainable allocation of orbits for new spacecraft;
+3. Traffic management with a defined “Space Code of Conduct”,
+attributing manoeuvring priorities, and supporting legal issues and
+insurance cases;
+4. Enforce the legal obligation to design for safe collision avoidance
+manoeuvres and safe de-orbiting.
+R.2.2. Increase financial support to the Clean Space initiative34 and others for
+Space debris mitigation strategies, especially for projects aiming at direct
+removal of large objects, which shall develop an operational removal
+system before 2030.
+R.2.3. All public Space activities shall implement debris mitigation measures
+and mandatory decommissioning. Private companies could be subjected to
+national law penalties for non-conformance35 and funding conditions
+when accessing grants, loans and other government benefits.
+R.2.4. Introduce regulations aiming at the mandatory decommissioning of all
+launched
+Space objects within the European and national laws3637.
+Regulations analogous to the Emission Trading System to impose mechanisms
+for monetary penalisation of debris generating techniques and processes
+could also be explored.
+R.2.5. Use trade sanctions to ensure these regulations are met and push for
+an
+international
+agreement
+to
+set
+procedures
+and
+guidelines
+for
+automated collision avoidance systems through ICAO and EASA.
+R.2.6. Push for a UN Space Treaty to implement legally mandatory guidelines
+37 European Space Agency (ESA), available at: ESA Space Debris Mitigation Compliance Verification
+Guidelines
+36 Committee on the Peaceful Uses of Outer Space (COPUOS), Space Debris Mitigation Guidelines
+35 Pelton, J. N.,  2015, New solutions for the space debris problem, Cham: Springer.
+34 European Space Agency (ESA), Clean Space, available at: Clean Space
+23
+
+
+24
+for Space debris mitigation to all member states.
+R.2.7. Raise awareness of the Space debris problem to empower European
+citizens and their political and economic leaders so that they become aware
+of the potential global threat38.
+R.2.8. Perform luminosity contamination assessments for European Space
+missions and enforce regulations in European and national law following the
+assessments and recommendations from the astronomy community.39
+R.2.9. Make operators responsible for the prevention of risks to humans and
+the environment40, following the French Space Operators Act, at national
+and European legislative level, to investigate and mitigate the Space
+sector’s impact on humans and the environment with Life Cycle Assessments
+(LCA).
+40 Maury, T., Loubet, P., Serrano, S. M., Gallice, A.,  Sonnemann, G., 2020, Application of environmental
+life cycle assessment (LCA) within the space sector: A state of the art, Acta Astronautica, available at:
+doi: 10.1016/j.actaastro.2020.01.035
+39 It is advised to keep close track of their recommendations and workshops, as of the recent UNOOSA
+workshop, available at: Dark and Quiet Skies for Science and Society
+38 Pelton, J. N., 2015, New solutions for the space debris problem, Cham: Springer.
+24
+
+
+25
+VI.
+Revolutionising
+European
+Space
+Transportation Sector
+European Space Transportation has been incredibly successful with the development
+of the Ariane and Vega families. The Ariane 4 was able to capture more than half of
+the global commercial satellite market in 199741.
+We are now entering the ”New Space” era and this picture is changing. There is a need
+for innovations in the Space access sector at the European level, as new actors have
+entered
+the
+global
+Space
+transportation
+industry,
+introducing
+technological
+breakthroughs, such as reusability and dedicated small satellite launchers. This has led
+to an aggressive reduction of launch costs in all market segments, which will foster
+the development of the Space industry but might threaten European competitiveness
+and autonomy. There are also new applications on the near horizon, from the
+launching of mega constellations, to the suborbital market with intercontinental
+travel, Space tourism and scientific research, which will depend on the development
+of new technologies and require ramping up European efforts to benefit from its
+market returns. Furthermore, we are currently in an ecological and climate crisis,
+which requires revolutionary transformation within the industry. Volt already
+proposes to include a carbon price in accordance with our 1.5 degree goals in all
+sectors, and Space transportation should also be accounted for. It is also necessary to
+conduct further lifecycle analysis to determine the full environmental impact before a
+matured Space access and suborbital travel industry is fully operational. The sector
+should also be involved in Space debris mitigation by adequately decommissioning all
+stages, as the upper stages represent 20% of the total Space debris.
+In addition to reusability, new unconventional launch methods are being slowly
+developed which could revolutionise Space access, such as Space elevators,
+rocket-based combined air breathing propulsion and spaceplanes, sky hook concepts,
+and sled launch. It is important to also support the development of those, as in the
+long run, they will enable us to beat the rocket equation and guarantee affordable
+Space access. To bridge the gap, there are other more near term concepts, such as
+reusing rocket stages, air or balloon launches, and innovative strategies to reduce
+costs, from extensive use of 3D printing technology, to reducing subcontracting and
+revisiting the distributed production chain and the European geo-return policy.
+Introducing commercialisation and competition in the launch transportation sector
+with
+new
+private
+actors
+could
+also
+incentivise the development of newer,
+cost-effective concepts.
+Although there are some current European projects and historical attempts, the
+investment in the development of these systems is minuscule compared to what is
+being done in the USA, China, or other countries (up to date, only American rockets
+41 Hammond, W. E, 1999, Space Transportation: A systems approach to analysis and Design
+25
+
+
+26
+have been reused, and no small European rocket companies are operating). There are
+also many potential concepts, limited budgets and workforce, and therefore some
+sort of coordination is required.
+The strategy therefore calls for an ambitious European coordinated roadmap to
+develop fully reusable and sustainable operational concepts with public-private
+partnerships, that could eventually hand over their operations to different companies
+to foster commercialisation and further reduce costs. In addition, it will foster
+European
+competitions
+for
+innovative
+launch
+and
+other
+Space
+exploration
+technologies to promote the investment of venture capital, based on the success of
+the X Prize challenge.
+In addition, crewed launchers have not yet been developed in Europe, which threatens
+our strategic autonomy for human spaceflight. The development of the Ariane 5 was
+initially proposed to substitute the successful Ariane 4 for a human rated launcher,
+but the proposals for crewed upper stages were eventually abandoned, and there are
+no plans for a human rated Ariane 6. As mentioned in the next section this is key for
+Space exploration, to improve welfare and public health, and to enable key
+technologies to fight environmental destruction. The strategy also calls for the
+development of European crewed launch systems.
+Furthermore, a network of spaceports with universal launch facilities will be required
+when Space tourism and intercontinental suborbital travel take off. Small spaceports
+for small launchers and sounding rockets are also being developed in northern Europe
+because of their privileged position for Sun Synchronous Orbits, and the policy should
+incentivise their construction. European spaceports for larger launchers may also be
+pursued, as although their non-equatorial position would reduce their performance,
+their simplified transportation logistics might allow for cost effective operations of
+reusable vehicles. We therefore propose to push for the construction of spaceports
+in continental Europe.
+A.Advanced
+In-space
+Transportation:
+Propulsion
+and
+Power Sources
+Considering in-space transportation, traditional chemical rockets, while powerful,
+have significant weight requirements. This calls for advanced in-space propulsion
+concepts such as solar sailing and electric propulsion. Electric propulsion devices
+produce far lower thrust than chemical rockets, but they are significantly more
+propellant efficient. The resulting spacecraft mass reduction allows for new mission
+profiles.42 For electric propulsion, Europe currently funds these devices through the
+42 The electric propulsion devices have been used to cost-effectively extend the life times of low
+orbiting satellites such as GOCE.
+26
+
+
+27
+EPIC project43, part of the Horizon 2020 programme. We recommend increasing
+funding for the follow up of this and similar projects.
+Another interesting venue to explore with respect to plasma propulsion is synergy
+with nuclear fusion research. The opportunities for synergy between fusion research
+and electric propulsion research are vast because both fields face similar questions
+when manipulating plasma4445. If made available for human Space flight, this could
+drastically reduce trip times for interplanetary missions, such as an Earth-Mars
+mission, thus minimising radiation exposure for astronauts46. There are also additional
+technologies
+which
+might
+bring
+breakthroughs,
+such
+as
+fission
+propulsion,
+Magneto-Inertial Fusion47 and the Mach effect thruster.
+Currently, most satellites depend on solar panels for onboard power. Solar insolation
+decreases when moving further away from the sun48. This limits the available power
+for deep Space missions with solar panels. For missions further into the outer region
+of the solar system, it will be necessary to rely on Radio-isotope Thermoelectric
+Generators (RTGs)49. Since 2009, RTGs using Americium-241 as a heat source have
+been developed as part of an ESA funded programme50. Americium can be separated
+from spent nuclear fuel using current nuclear reprocessing. This way RTGs provide a
+market for the reuse of nuclear waste51. Furthermore, some electric propulsion
+concepts, such as VASIMIR and Magnetoplasmadynamic-Thrusters have high input
+power requirements (100-500 KW), which could be provided by a nuclear reactor.
+Therefore, we encourage the further development and deployment of RTGs, and
+feasibility studies should be done on space-born nuclear reactors.
+B. Policy Recommendations
+R.3.1. Implement an ambitious European coordinated roadmap to develop fully
+reusable and sustainable operational concepts for all parload market
+segments
+(big
+and
+small
+dedicated
+launchers)
+with
+public
+private
+partnerships, which could hand in their operations to different companies to
+51 Hammond W., 1999, Space Transportation: A Systems Approach to Analysis and Design
+50 Ambrosi, R.M., Williams, H., Watkinson, E.J. et al., 2019, European Radioisotope Thermoelectric
+Generators (RTGs) and Radioisotope Heater Units (RHUs) for Space Science and Exploration. Space Sci
+Rev 215, 55 (2019), available at: https://doi.org/10.1007/s11214-019-0623-9
+49 https://www.space.com/692-esa-chief-europe-space-nuclear-power-options.html
+48 https://en.wikipedia.org/wiki/Inverse-square_law
+47 Several American Universities are investigating this concept in cooperation with NASA. For example
+the University of Washington,Princeton, University of Huntsville Alabama.
+46 Aime P., Gajeri, M., Kezerashvili, R., 2020, Exploration of trans-Neptunian objects using Direct Fusion
+Drive.
+45 An example of a fusion research  inspired plasma propulsion device is VASIMR
+44 Comunidad de Madrid, Prometeo Project. Also see an example of a fusion research  inspired plasma
+propulsion device is VASIMR
+43 European Space Agency (ESA), 2014-2020 EPIC project
+27
+
+
+28
+fostering commercialisation and further cost reduction while guaranteeing a
+successful social pay off.
+R.3.2. Develop an European crewed launch system to guarantee strategic
+autonomy, support our human Space flight programme and to enable europe
+to participate in future intercontinental suborbital travel.
+R.3.3. Introduce European competitions for innovative launch and other Space
+exploration technologies to promote the investment of venture capital.
+R.3.4. Support research of the environmental impact of Space transportation
+infrastructure regarding ozone depletion, mesospheric and stratospheric
+cloud formation, global warming, environmental and human toxicity and
+Space debris mitigation.
+R.3.5. Invest in future unconventional launch concepts such as skyhook systems,
+orbital airships, magnetically assisted launches, and Space elevators. Push for
+international collaboration for its development.
+R.3.6. Push for the construction of spaceports in continental Europe for all
+launcher sectors to support the European launch industry and suborbital
+intercontinental travel applications.
+R.3.7. Explore and devise a flagship exploration mission using advanced electric
+propulsion and solar sailing.
+R.3.8. Support the development and deployment of RTGs for deep Space
+exploration missions.
+R.3.9. Promote feasibility studies on novel advanced in-space propulsion and
+power concepts such as fusion propulsion, onboard nuclear reactors, the
+alcubierre drive and the mach effect thruster through the establishment of
+European advanced propulsion concepts directorate.
+28
+
+
+29
+VII.
+European
+human
+spaceflight
+and
+robotic
+exploration
+Europe has built world-class capabilities in exploration, whether on its own for
+robotics missions (Rosetta), or with international partners in human spaceflight
+through the International Space Station programme and its ecosystem. Exploration
+embodies the far future of mankind; it confronts us with the greatest unknowns while
+offering a horizon of possibilities. It stands for technological prowess and sovereign
+pride. It has managed in the last 3 decades to overcome national barriers and bring
+remarkable international cooperation; and Europe has heavily invested in occupying a
+significant seat in its development. All that has been done in the field so far is surely
+“exploratory”, but an age of “utilisation” will come. Its building blocks are assembling
+now, and Europe should not be left behind. Human spaceflight enables enormous
+flexibility when it comes to Space missions, and can bring significant advancements in
+life-sciences and medicine fields, as well as complementary advantages for in-orbit
+servicing operations, enabling satellite reparations and refuelling opportunities to
+extend mission lifetimes while fostering sustainability.
+The future of human spaceflight is taking once again a geopolitical turn, as the US
+progressively disengages from the ISS and strives for the Artemis programme, hoping
+to onboard international partners along the way. As of today, only US defence
+partners have signed, with the exception of Luxembourg. Europe's investment should
+not have been made in vain, and more importantly, should not solely support the US
+interests now that we are acquiring means towards strategic autonomy. The following
+points could leverage Europe's achievements in creating a sustainable, inclusive Space
+economy, while preserving strategic, independent access:
+1. Bridge ground industries (for example, pharmaceuticals, fluids, energy,
+construction/manufacturing, telecommunications...) with the Space industry to
+develop purpose-built modules (s) for large-scale production applications that
+take advantage of the unique Space environment. These applications can be
+divided into two categories: Earth Benefits and Space Benefits, with the latter
+focusing on developing sustainable trade in Space. These should also enable
+crewed applications, which will be decided on a case-by-case basis and
+pending on member states' priorities, which may eventually replace the ISS
+European activities;
+2. Evolve Orion ESM and the EL3 plans (European Large Lunar Lander) into an
+independent capability for Europe to access the cislunar Space and the lunar
+surface. Institutions can support the infrastructure and stimulate surface
+utilisation for industries.
+The EU should also seek international collaboration for human spaceflight, with
+elements on the critical path of the above solutions preferably operated by Europe, or
+at least, developed by European partners to ensure strategic autonomy. They should,
+29
+
+
+30
+however, have a level of compatibility with US Artemis and LEO commercialization
+initiatives, for safety redundancy, scale effect, and diplomatic reasons. Elements on
+the non-critical path may also be proactively open to the global community, including
+developing countries. We also propose that the programme leverages the potential
+for commercialisation to reduce costs in the different segments and concrete
+business cases, which may eventually take on the role of providing commercial Space
+stations for Europe and the rest of the world. The potential economic returns of these
+endeavours should satisfy long-term global societal development first and foremost,
+be fairly distributed among partners (whether EU or non-EU), and preclude the
+prevalence of one single player/nation.
+A.Moon and Mars Missions as a first step for solar system
+exploitation and interstellar migration
+The Moon and Mars missions aim to increase our knowledge of these terrestrial
+bodies; develop technologies and infrastructure for our long term solar system
+exploitation and interstellar migration objectives, exploit their unique resources, and
+eventually allow for self-sustaining human settlements. Despite their crucial role, no
+European crewed mission has landed on the Moon or on Mars. There is, however, a
+timeline to achieve this. According to the ESA website, the current timeline for
+Europe’s Mars and Lunar programme is as follows52:
+MOON:
+●
+Orion with European Service Module — 2021
+●
+Orion landing on the Moon — by 2024
+●
+Gateway first European experiment — 2022 with the first module
+●
+Gateway first ESA astronaut — mid 2020s
+●
+Luna — mid-2020s
+●
+European Large Logistics lander — by 2028
+●
+First three European astronauts on the Gateway — second half of 2020s
+●
+First European astronaut on the Moon before 2030
+MARS:
+●
+ExoMars trace gas orbiter — now
+●
+ExoMars rover and drill — launching 2022, landing 2023
+●
+Mars Sample Return:
+52 European Space Agency (ESA), European vision of exploration, available at:
+https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/European_visi
+on_of_exploration
+30
+
+
+31
+🌕First element, NASA Perseverance, rover — currently on Mars
+🌕ESA’s Earth Return Orbiter, Sample Fetch Rover and Transfer Arm — by
+2026
+🌕Landing of first martian samples on Earth — 2031.
+As it can be seen, there are no official Mars landings, whereas NASA is leading with
+pioneering human exploration projects such as the Artemis programme and the Mars
+Direct and Semi-direct concepts.
+It is fundamental to pursue further ambitious projects. The Moon’s farside can
+mitigate the effects of earthshine and human electromagnetic emissions, allowing for
+ambitious astrophysical science. It is also seen as a test-bed for crew training and life
+sciences research, which may be complementary to the ISS or analogue missions on
+Earth. In addition, lunar material resources can be exploited to produce oxygen and
+water for life support and rocket propellants, making it an ideal servicing depot
+outside of Earth's gravitational well to sustain our solar system transportation
+infrastructure. In addition, He3 is available in larger quantities, which may allow for
+advanced fusion energy, which may sustainably solve our near term energy needs.
+For our current civilization, Mars is a marvel. Its ideal location and acceptable journey
+times, in combination with its future potential habitability make it an ideal objective
+for early human expansion through the solar system. The planet is believed to have
+had vast ocean systems in its past. It is thought it may have supported simple
+lifeforms, and may possibly still do so in certain habitable spots and its subsurface
+lakes53. Mars is therefore a unique environment for astrobiological experiments and
+the search for extraterrestrial life.
+Furthermore, due to its location, Mars is likely to become the main launching and
+control point for future asteroid mining and deep Space operations. When it comes to
+natural mineral resources, as well as fresh water, the supply of natural resources to be
+found in the asteroids could potentially resupply Earth’s dwindling resources through
+deep-space mining. The natural jumping off point for such future operations would be
+Mars, specifically Mars’ moons Phobos and Deimos. To guarantee Europe an equal
+share in the future wealth of the asteroids, we need an adequate infrastructure on
+these moons.
+Mars will also significantly increase our knowledge of our own planet through
+comparative meteorology, hydrology, and planetary evolution and climate history.54
+These studies will not only allow for planetary engineering to make Mars habitable
+again, but will also serve as a testbed to increase our knowledge of these
+technologies for application on other planets and even on Earth to revert
+54 Hammond, W. E., 1999, Space Transportation: A systems approach to analysis and Design
+53 Water on Mars: discovery of three buried lakes intrigues scientists, nature, available
+at:https://www.nature.com/articles/d41586-020-02751-1
+31
+
+
+32
+environmental destruction and climate change. These terraforming efforts could start
+as early as 2045 and be completed within 2 centuries.55Terraforming efforts to make
+humanity multi-planetary are also seen as necessary to maintain life as we know it in
+the universe by allowing for a “backup” of humanity and Earth’s biosphere in the case
+of future extinction events.
+In addition, the challenges of Moon and Mars exploration and colonisation will result
+in the development of innovative technologies which will foster economic growth in
+today’s information era. The first missions will require groundbreaking advancements
+in life support and energy and food production in extreme environments. These could
+enable us to increase our food production yield in many of today's desertic regions, as
+at polar latitudes, deserts and even allow for oceanic cities, especially in less
+developed regions.
+Space exploration is fundamentally a long-term investment, i.e., the return on
+investment from Space exploration is not immediately, but in the future. In other
+words, when planning a mission into outer Space, we do not expect to get much
+immediate financial gain (beyond the political gain and the P.R. opportunities
+attached to a successful Space mission), but we expect the net-gain in the long run to
+be more than worth it through eventual exploitation activities and technology
+transfer for non-space sectors and applications, both in political, PR, scientific and
+financial/economic terms.
+The technology developed on the Moon and Mars (as life-support and environmental
+control technology) should be able to be applied on Earth to help us better deal with
+our terrestrial environmental problems. If we learn how to terraform the Martian
+dessert, there is no reason we cannot push back the Sahara as well. And if we learn
+how to scrub the excess CO2 from the Martian atmosphere, we can apply the same
+technology to fight the greenhouse effect on Earth. This advantage is already in line
+with some of the aims formulated by practically all the national and international
+(non-commercial) Space agencies, including ESA, as this sort of application of Lunar
+and Martian exploration for environmental studies can be considered a natural “next
+step” from such activities as geomonitoring. The UAE’s Al-Amal Mars probe, which is in
+Mars’ orbit is a good example of this kind of programme: One of its stated aims is to
+measure Mars’ atmosphere in order to better understand global weather processes. In
+this way, Mars is very much “a sandbox” for geological/aerological and environmental
+studies, the end results of which should then be applied back on Earth. Just like GPS
+started out as Space technology, but eventually found its way into every smartphone
+on Earth, so can Mars and the Moon result in technological innovations that will make
+their way back to Earth.
+55 Mars: Bringing a Dead World to Life, Life, May 1991, pp. 24-35
+32
+
+
+33
+It is therefore key to support the development of ambitious concepts for Moon and
+Mars exploration that leverage international collaboration with the European
+Union as a key and equal partner. Europe should push for an ambitious
+international Mars exploration programme that culminates with the landing and
+establishment of a permanent research outpost by 2040.
+B. Deep Space Exploration and Interstellar missions
+In addition to the inner solar system, it is also fundamental to explore the solar
+system’s gas giants and kuiper belt objects. Interior water oceans have been
+confirmed in some of Jupiter and Saturn's moons, and are even thought to have been
+present in the past of other minor planets, such as Ceres and Pluto. These ocean
+worlds raise the possibility of past and recent extraterrestrial life, and their huge
+quantities of water and other volatiles such as helium-3 may be key for future solar
+system exploitation. It is therefore necessary to support an ambitious agenda which
+will culminate with the robotic exploration of the interior oceans of these worlds.
+Exploration of the icy gas giants, Uranus and Neptune, is also necessary to support
+our long term goals. Up to now, only Voyager 2 has performed a flyby of these
+planets, discovering surprising features such as Triton's geysers. Therefore, they
+remain relatively unexplored and the chances of major breakthroughs in planetary
+science are high. Recent exoplanet surveys have revealed a plethora of similar "icy
+worlds," as well as some surprising mini-Neptunes and super Earths.56 This is leading
+to many questions about our solar system’s formation, and by studying these planets,
+it will be possible to increase our knowledge of the evolution of our solar system and
+the habitability of the galaxy. Europe should support flagship missions to study
+these icy worlds.
+Interstellar missions are also slowly becoming a reality and entering the agendas of
+key Space players, such as NASA and the Breakthrough initiative. It is necessary to
+support technology development roadmaps to send exploration probes to
+proxima centauri and other solar systems, which will one day enable us to visit
+new habitable exo-worlds.
+C. Future of ISS and Space habitats
+With the international Space station (ISS) expected to be discontinued at the end of
+the decade, it is necessary to start planning for the future of Space stations. The ISS
+has
+contributed
+to
+innovative
+discoveries
+in
+life
+science
+research
+and
+for
+56 Destination Uranus! Rare chance to reach ice giants excites scientists, Nature, March 2020, available
+at: https://www.nature.com/articles/d41586-020-00619-y
+33
+
+
+34
+manufacturing in Space. It is now known that it's possible to plant in Space, and an
+upcoming mission will explore efficient extreme agriculture, which could have
+incredible applications to support food production in desert-like Earth regions with
+extreme environments and even on Mars.
+Future commercialisation of Space station operations will build on the discoveries and
+infrastructure of the ISS and allow private industries to exploit its full potential. NASA
+and its partners are also planning to develop the Lunar Gateway, which will support
+the Artemis mission and deep Space exploration. The European Union should join
+these efforts and become an equal partner to guarantee its success and benefit from
+its research and applications.
+In addition, previous studies have shown the potential applications and feasibility of
+large Space stations, such as the O'Neill cylinders57. These could support a growing
+human
+population,
+enable
+full
+Space
+exploration
+activities
+and
+allow
+the
+manufacturing of necessary Space infrastructure, e.g. for space-based solar power,
+astronomical observatories and mining. It is necessary to invest in a technological
+demonstration roadmap which can serve as a proof of concept and bring these Space
+habitats to reality.
+D. Policy Recommendations
+R.4.1. We propose to support the development of ambitious concepts for Moon
+and Mars exploration, based on international collaboration with the European
+Union as a key and equal partner.
+R.4.2. Europe shall push for an ambitious international programme of Mars
+exploration, to be culminated in the landing and establishment of a
+permanent research outpost by 2040.
+R.4.3. Europe needs to strive to place European astronauts on the Moon and
+Mars.
+R.4.4. Europe should bridge the gap between non-space industries (such as
+pharmaceuticals,
+fluids,
+energy,
+construction/manufacturing,
+telecommunications, and so on) and the Space industry in order to develop
+specific modules for large-scale production applications that take advantage
+of the unique Space environment. These applications may be divided into
+earth-based and space-based: developing sustainable trading in orbit. These
+should also enable crewed applications, to be decided on a case-by-case basis
+and depending on Member States priorities, which may eventually replace the
+57 Johnson, Richard D. and Holbrow, Charles, 1977, Space Settlements: A Design Study, NASA-SP-413,
+available at: http://large.stanford.edu/courses/2016/ph240/martelaro2/docs/nasa-sp-413.pdf
+34
+
+
+35
+European ISS activities.
+R.4.5. Europe should evolve the European Service Module (Orion ESM)58 and the
+European Large Logistic Lander (EL3)59 plans into an independent capability
+for Europe to access cislunar Space and the lunar surface. Institutions can
+support the infrastructure and stimulate the use of surface industries.
+R.4.6. Europe should evaluate the leverage of commercialisation potential to
+reduce costs in the different segments and concrete business cases that may
+eventually take over the role of providing commercial Space stations for
+Europe and the rest of the world. The potential economic returns from these
+endeavours should primarily serve long-term global societal development and
+be distributed fairly among partners (whether EU or non-EU), precluding
+domination by any single player/nation.
+R.4.7. Europe should seek international collaboration for human space-flight,
+especially on non-critical pathway elements that can be proactively opened to
+the global Space community.
+R.4.8. We call for the guarantee of Europe’s strategic autonomy in crew access to
+Space and robotic exploration of the Moon and Mars.
+R.4.9. We recommend that Europe increase its research into effective radiation
+protection technology and survival in microgravity. One of the main dangers
+of any crewed journey outside our atmosphere and geomagnetic field is the
+threat of Space radiation on the one hand and bone decalcification and
+muscle atrophy on the other. An ideal location for this would be the surface
+of the Moon, which is still close to Earth (compared to Mars) but still requires
+several technological breakthroughs to become habitable; especially in the
+areas of radiation protection and the problem of keeping humans alive and
+healthy in an environment with minimal gravity.
+R.4.10.
+Europe should implement an ambitious agenda for the full
+exploration of the solar system’s ocean world, which will culminate in robotic
+exploration of the interior oceans.
+R.4.11.
+Europe should perform a European flagship mission to explore the
+exploration of the ice worlds of Uranus and Neptune.
+R.4.12.
+Europe should plan a technological roadmap for robotic interstellar
+missions to Proxima Centauri and other solar systems.
+R.4.13.
+We propose to support the commercialisation of low Earth orbit
+59 European Space Agency (ESA), European Large Logistic Lander, available at:
+https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/European_Lar
+ge_Logistics_Lander
+58 Airbus, Orion ESM, available at:
+https://www.airbus.com/en/products-services/space/exploration/moon/orion-esm
+35
+
+
+36
+orbital Space stations.
+R.4.14.
+Europe should step up efforts in the development, manufacturing
+and operation of the upcoming Lunar Gateway.60
+R.4.15.
+Europe should support research into the manufacturing and
+application of future large Space settlements and a technology development
+roadmap, including demonstrators.
+60 European Space Agency (ESA), Gateway to the Moon, available at:
+https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Gateway_to_the_Moon
+and Lunar Gateway: Earth’s guard post against asteroids? , available at:
+https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Lunar_Gateway_Earth_s_guard
+_post_against_asteroids
+36
+
+
+37
+VIII.
+Providing
+public
+goods
+and
+benefits
+to
+Europe and beyond
+Large Space projects, from establishing a GPS network and an Earth observation
+system to the creation of large Space habitats, require large upfront investments,
+involve many positive externalities and may entail numerous risks that private
+companies are not always willing to assume. It is therefore key that governments take
+an active role in developing the necessary infrastructure to improve the lives of
+citizens by investing in key Space projects, and that these are backed by key political
+figures61. In addition, a broad political base is needed, which requires transparent
+political support and consideration of major public concerns. Commercialisation can
+further contribute to the development of these assets and even play a greater role in
+finding new business opportunities by building upon the inertia of government R&D
+and its infrastructure, as seen with the recent large increase in venture capital
+investment in suborbital travel and Space transportation.
+A.Communications
+Providing a European-based location and navigation service for citizens and
+businesses is essential to improving the quality of life of our citizens on Earth. Thanks
+to several services, such as communication and navigation, our satellites enhance the
+transmission of data and information so that it can be faster and its impact greater.
+A simple example: faster and more wide-ranging transmission of data with broader
+signal coverage would enable the unmanned aviation sector to operate more safely. In
+concrete terms, this would mean supporting companies leading the efforts to
+integrate unmanned aviation into the European Single Sky and assuring the safe
+operability of unmanned aircraft systems (UAS) in urban and remote areas, from
+monitoring illegal fisheries to transporting vaccines. Volt believes that citizens’
+connectivity is crucial to engaging all people in an increasingly interconnected and
+globalised world.
+Our telecommunications infrastructure should also be sustainable and compatible
+with radio astronomy and SETI research. These studies typically use passive strategies
+on key frequencies which can cover the full spectrum. Currently, the International
+Telecommunication Union is responsible for the allocation of these frequencies, and
+as the radio spectrum becomes more crowded with more and more applications, it
+becomes increasingly challenging for scientific research to compete with commercial
+or military users. It is therefore fundamental to push for a flexible frequency
+61 Hammond, W. E., 1999, Space Transportation: A systems approach to analysis and Design
+37
+
+
+38
+allocation system by the International Telecommunication Union that guarantees
+temporary and permanent observation rights for the studies of these sciences, at
+least until an ambitious Space- or Moon-based radio astronomy observatory is
+developed.
+B. Navigation capabilities
+Navigation systems allow us to determine our precise position. The applications are
+diverse and range from the downstream use of geolocation services to the precise
+determination of the orbit of our Earth satellites. In Europe, the Galileo system is
+currently
+being
+deployed
+and
+used.
+Among
+the
+concepts
+currently
+under
+consideration is the augmentation of the global navigation satellite system (GNSS)
+system with LEO satellites62. These concepts should be supported and explored to
+complement our European Galileo system.
+Navigation capabilities are not limited to the Earth. The Moon and Mars could also
+benefit
+from
+a
+navigation
+system,
+providing precise positioning and timing
+information to our robotic exploration systems and eventually to human settlers. It is
+therefore fundamental to push ahead with the implementation of these future
+navigation technologies on the Moon and Mars.
+C. Earth Observation: Protecting Humanity
+To the best of our current knowledge, our planet is the only one in the universe where
+life as we know it is possible, despite the groundbreaking scientific discoveries of
+thousands of exoplanets orbiting other stars. Since the beginning of the Space age,
+we have been able to observe our whole planet at once and to monitor the variation
+over time of global phenomena such as climate, desertification and water distribution.
+Because our planet is experiencing sudden and continuous changes, it is of paramount
+importance to monitor the sustainability of the growth of our population and
+economic system.
+To achieve such an ambitious goal, Earth observation and climate monitoring with
+satellites are needed63. Reliable data, fast monitoring and global coverage are indeed
+fundamental requirements for the Earth observing programme, and this can only be
+achieved with a large fleet of coordinated satellites. Currently, 26 of the 50 essential
+63 J. Yang, P. Gong, R. Fu, M. Zhang, J. Chen, S. Liang, B. Xu, J. Shi, R. Dickinson, 2013, The role of satellite
+remote sensing in climate change studies, Nat. Clim. Change 3 (2013) 875–883, available at: doi:
+10.1038/nclimate1908.
+62 Lei Wang, Zhicheng Lü, Xiaomei Tang, Feixue Wang, LEO-Augmented GNSS Based on Communication
+Navigation Integrated Signal, 10.3390/s19214700
+38
+
+
+39
+variables for climate change assessment are monitored by satellites64. An example of
+what Volt is aspiring to is the European Union's Copernicus Earth observation
+programme65,
+coordinated
+and
+managed
+by
+the
+European
+Commission
+but
+implemented in partnership with the Member States, the ESA, the European
+Organisation for the Exploitation of Meteorological Satellites (EUMETSAT), the
+European Centre for Medium-Range Weather Forecasts (ECMWF), EU agencies and
+Mercator Océan. Copernicus aims to establish a wide range of Earth observation
+capacity by providing accessible information on our planet's environment to
+understand and mitigate the effects of climate change and ensure civil security on a
+global level. These achievements would guide service providers, public authorities,
+and international organisations to improve the quality of life of European citizens and
+the whole world, who would also have full, open and free access to this information. In
+this way, many new downstream services could be developed for the benefit of all.
+As an example, satellite data from the Copernicus programme can be used efficiently
+to track national greenhouse gas emissions inventories and other pollutants, to
+support monitoring and verification tools and ensure the success of the Paris
+Agreement.66 The European Commission is currently developing the technologies and
+systems needed, as with the CO2M mission, to have operational space-based
+instruments in a satellite constellation by the end of the decade that can track global
+emissions and land-use change with high temporal and spatial resolution, and use
+data-rich Europe as an excellent calibration tool. This is essential to evaluate the
+effectiveness of our strategies within the Energy Transition and Climate Change
+Policy, and to guarantee a stricter Emission Trading System compatible with the 1.5°C
+maximum global warming target, which requires immediate policy action. We
+therefore propose to increase
+efforts
+to achieve the development of an
+observation-based
+greenhouse
+gas
+emissions
+monitoring
+and
+verification
+capacity system in a shorter period of time, so that we can efficiently realise our
+energy transition goals.
+It is indeed for ‘all’ that Volt calls for a stronger EU to be a positive global player that
+recognises
+what
+Copernicus
+embodies:
+Volt’s
+core
+values
+of
+cooperation,
+sustainability, solidarity and innovation. Moreover, Volt acknowledges that in the
+European Space sector it would be difficult, if not impossible, for a single European
+country to develop such a programme independently. Volt believes that only the EU,
+with the European Commission playing an essential role, will be able to achieve the
+66 European Commission, 2017, CO2 TF-B report: An Operational Anthropogenic Co2 Emissions
+Monitoring & Verification Support Capacity, available at:
+https://www.copernicus.eu/sites/default/files/2019-09/CO2_Red_Report_2017.pdf
+65 Copernicus, Europe’s exe on Earth, available at: https://www.copernicus.eu/en
+64 CEOS, ESA, 2015, Satellite Earth Observations in Support of Climate Information Challenges, available
+at: http://eohandbook.com/cop21/files/CEOS_EOHB_2015_COP21.pdf
+39
+
+
+40
+vision, funding, and technology required to develop the most ambitious Earth
+observation programme ever.
+D. Start-ups and increasing accessibility to European Space
+information from the Copernicus programme
+There is also a need to increase the dissemination of Space technologies to develop a
+larger set of applications for our citizens. Recently, numerous Space start-ups have
+been emerging with the support of venture capital and numerous business incubators.
+We believe it is important to further develop more business incubators in Europe and
+to also align them with our long-term technological roadmaps for Space exploration
+and exploitation.
+For example, in the context of Earth Observation downstream SSME and use of
+Copernicus data, it might not be sufficient to provide only raw data to the market, but
+also to develop key applications and platforms with public agencies to foster the
+dissemination of knowledge and know-how and to create incentives for the
+emergence of an efficient commercial sector. In addition, a strong reference to
+privacy and data protection is missing. Considering the EU’s efforts to protect
+privacy and the fact that Earth observation and surveillance might pose a threat to it
+as technology advances and commercial applications in the downstream sector
+evolve, it would be useful to show our interests in citizens’ data and privacy clearly.
+E. Space, public health and pandemics
+Following the Covid-19 pandemic of 2020, the global community realised that
+infectious diseases have been spreading across the planet since the beginning, just as
+the human population. The difference between now and the past is that we are
+strongly interconnected, a phenomenon that will only increase as transportation
+technology innovates and evolves. While the interconnectedness of a global
+ecosystem helps infectious diseases spread at a high pace, it has also led humanity to
+great achievements in various fields of scientific and cultural innovation, as well as
+closer international cooperation.
+In fact, thanks to international cooperation, the collection and distribution of data is
+increasing, and it is becoming more available through satellite technologies and
+high-quality coverage systems, such as the Geographical Information System (GIS) and
+Earth Observation (EO).
+A major European effort in gathering this data collected from Space would help
+40
+
+
+41
+European scientists to develop more precise models to:67
+●
+Analyse and track the risk of disease outbreaks;
+●
+Monitor environmental factors such as air quality or human-animal or
+human-human interaction;
+●
+Monitor the spread of infectious diseases geographically and quantitatively;
+●
+Monitor the production and distribution of vaccines globally (via GIS).
+With these tools, the European Union could take the lead in assessing the public
+health impact of diseases on its citizens and the rest of the world.
+Volt believes that the EU can play an important role in monitoring the supply chain
+networks to counter the impact of diseases at any stage and any level of risk. To do so,
+the EU should invest in satellite technologies that help identify safe and viable
+transportation routes, as well as in unmanned aviation as a tool for delivering
+essential medical and subsistence supplies to hard-to-reach areas.
+Volt’s Space Policy promotes the use of electric, ergo zero-emission, automated
+transportation, unmanned aircraft systems and telemedicine as tools that enable
+immediate, rapid response. guaranteed by the reliability of Space technologies in a
+safe and predictive way.68 Efficient use of these tools must be made through the use
+of the global navigation satellite system (GNSS), supported by LEO satellite
+constellations, and through the European Union’s commitment to high coverage for
+communication networks using 5G.
+These tools will enable healthcare providers in the EU to provide diagnosis and
+treatments with more accurate and timely information while providing healthcare
+services to as many patients as possible and mitigating the spread of infectious
+diseases or the deterioration of critical medical situations.
+In summary, Volt is a proponent of Space as one of the main tools to achieve greater
+public health security and current and future pandemics. Warning systems linking
+Space data to public health facilities are needed to monitor and prevent future
+pandemics. According to Volt, these achievements should not be limited to the
+European Union, but should benefit the whole world in order to create beneficial and
+sustainable international cooperation.
+68 See the European Regulation (EU) 2019/947 and Regulation (EU) 2019/945) on UAS, available at:
+https://www.easa.europa.eu/regulations#regulations-uas---unmanned-aircraft-systems
+67 ISU, 2020, The role of space during pandemics, ISU Team Project report
+41
+
+
+42
+F. Technology transfer, innovation and economic benefits
+Volt believes in the positive spillover effect that Space has on the global and
+European economies. In terms of commercial spaceflight opportunities, spaceflight
+offers a new opportunity to spur socio-economic growth through the development of
+dedicated technological districts, new employment opportunities, specific educational
+programmes, and side business opportunities (e.g. edutainment, marketing and
+sponsorship, research spinoffs). Space has a major impact on the labour market in
+particular. Due to technological innovation trends in robotic applications for industrial
+purposes, many jobs would be at high risk of automation or could change significantly.
+Volt aims to lead the discussion on the future of aerospace jobs with industry and
+Member States to foster an organic labour market and the development of industrial
+innovation.
+In this context, Volt supports technological spin-off opportunities. Many of the
+technological innovations developed for Space exploration can be found in everyday
+applications and specific R&D programmes for consumer goods. Supporting spin-off
+applications for Space technologies would foster the creation of new private-sector
+innovative start-ups and create new business ecosystems.
+Information and capabilities derived from Space offer significant potential as a driver
+for new business. The aim of the Volt Space Policy is to encourage EU activities that
+provide sustainable space-based services and applications for new user communities
+and customers through interaction with innovative digital technologies such as IoT,
+machine learning, Big Data, autonomous driving, etc. The application of space-derived
+solutions would benefit and enhance the technological development of trending
+areas such as cyber security, smart cities, precision agriculture and fishing and climate
+change monitoring.
+G. Fostering
+European
+Space
+commercialisation
+while
+leveraging on governmental involvement
+The Space industry is becoming increasingly commercial as private sector revenues
+grow exponentially and non-European entrepreneurs bring in venture capital. This
+leads to a highly competitive global scenario and poses a challenge to the security of
+supply in the European Union.
+This increase in Space commercialisation could bring enormous benefits by shifting
+spending towards optimal development in a competitive world, increasing Space
+cooperation in the international market and even enhancing global efforts to explore
+Space to Mars and beyond. Nevertheless, history shows that the involvement of the
+government is fundamental in the establishment of key infrastructures that enable
+42
+
+
+43
+exploitation of new territories for human involvement.
+For this reason, we suggest that commercialisation/privatisation should be used as
+a means to use the market economy to achieve specific targets, rather than as an
+end
+in
+itself.
+An
+efficient
+trade-off
+should
+be
+pursued where European
+governments actively contribute to Space applications with high costs and risky
+infrastructure and technology development, uncertain demand and long pay-back
+periods, such as in Space transportation (new reusable crewed vehicles, Space lifts),
+Space exploration and Moon/Mars exploration missions and habitat construction, and
+in designing efficient regulations to foster private sector participation and contribute
+to optimal infrastructure development.
+In addition, the exploratory nature of Space activities should be highlighted and
+the “estimated return” should not be the only rationale when proposing
+government involvement in new Space assets. Scientific and technological research
+and development should remain an important justification for Space investment. We
+should keep in mind that our civilisation is currently in an early exploratory phase
+within the five-phased evolutionary programme, preparing for eventual colonisation,
+resource exploitation and planetary engineering in the solar system. Our Space
+programmes should therefore be adapted accordingly. This is not only to go beyond
+Space, but also to provide us with the necessary capabilities to monitor and design our
+own planet and prevent catastrophic climate change and environmental destruction.
+H.Policy Recommendations
+R.5.1. The exploratory nature of Space activities should be highlighted, and the
+“estimated return” should not be the only rationale when proposing
+government involvement in new Space assets.
+R.5.2. Europe should push for the International Telecommunication Union to
+guarantee temporary and permanent allocations for radio astronomy and
+SETI research.
+R.5.3. Member States should promote European concepts for lunar and Martian
+navigation systems to support our exploration missions.
+R.5.4. The augmentation of our European GNSS system by LEO satellites should
+be further explored.
+R.5.5. We support the European Union’s efforts in Earth observation and the
+Copernicus programme. The EU should take the lead in monitoring the
+atmosphere, oceans and environmental issues.
+R.5.6. We should intensify our efforts to develop an observation-based GHG
+monitoring and verification capacity system in a shorter period of time to
+43
+
+
+44
+efficiently accomplish our energy transition goals.
+R.5.7. Europe should increase the number of European Space incubators and
+projects.
+R.5.8. Europe should incentivise the use of Copernicus data by developing key
+applications and supporting their dissemination to the public sector.
+R.5.9. We recommend commercialisation/privatisation as a means to use the
+market economy to achieve specific targets, but not as an end in itself. In
+doing so, always consider how to contribute to reducing costs in key areas of
+Space transportation and to achieving  our exploration goals.
+R.5.10.
+Member States should organise outreach campaigns involving
+non-space industries and companies to provide training and knowledge on
+potential
+benefits
+of
+Earth
+observation
+and
+infrastructure,
+Space
+manufacturing, intercontinental travel, etc. to encourage participation and
+investment.
+R.5.11.
+Use of Space technologies should be expanded to achieve greater
+public health safety in terms of public health and current and future
+pandemics. Warning systems linking Space data to public health institutions
+are needed to monitor and prevent future pandemics. According to Volt, such
+achievements should not be confined to the European Union, but should
+serve the whole world to create beneficial and sustainable international
+cooperation.
+R.5.12.
+Member
+States
+should
+facilitate
+European
+competition with
+exploration goals and rewarding milestones based on perceived risks to
+guarantee short-term payoff. This will enhance the development of key
+technologies and their spillover effects by attracting venture capital.
+R.5.13.
+Member States shall promote an efficient balance between public
+and private involvement in Space activities, e.g. with active competition in
+Space transportation, while guaranteeing a market by the government based
+on European autonomy and security. A prevention of perpetual monopolistic
+charters in all areas is needed.
+R.5.14.
+Member States should create government programmes to develop
+Space infrastructure and technology with active involvement of the private
+sector and hand in its use and operation, to foster commercialisation while
+guaranteeing  social benefits.
+R.5.15.
+The focus should be on highlighting the explorative nature of Space
+activities when deciding on the development of new types of Space assets,
+and not only the exploitation/or short term profitability of investments.
+R.5.16.
+Europe must push ahead with the promotion of international
+44
+
+
+45
+commercialisation partnerships to enhance cooperation with other nations in
+Space. The private sector should assume its responsibility as an international
+actor.
+45
+
+
+46
+IX.
+European and planetary defence
+A.European defence: Preserving the integrity of European
+Space infrastructure, integration and orbital access
+Space assets are part of national and European critical infrastructure today. Satellites
+provide decision makers with secure communications; they provide imagery for critical
+decisions, from intelligence needs to monitoring agriculture and economic structures;
+they serve us all for positioning, navigation and timing. In the future, they will also
+serve as critical data relays for citizens, and the analysis derived from their signals and
+imagery will be embedded in a wide range of societal applications. In parallel,
+commercial players are populating Space with new business cases around the Internet
+and Internet-of-Things from the sky. All this makes Space infrastructure, as well as the
+optimal orbital locations of this infrastructure, a strategic matter.
+Despite international agreements and public speeches about the peaceful use of
+Outer Space, the US, Russia and China have long recognised this strategic value and
+developed capabilities to undermine their geopolitical opponents. This is not only
+about surveillance and support of ground-based military assets or sending weapons
+over Space and identifying them from Space, but now also threatening satellites.
+The first apparent sign of this affecting Europe came in 2017, when a Russian satellite
+came dangerously close to a French intelligence satellite. Europe should have no
+interest in encouraging such behaviour, and it has no power to stop the United
+States, Russia, or China from engaging in such behaviour.
+However, Europe must
+ensure that its critical Space infrastructure and strategic orbital positions remain
+secure, now and in the long term.
+As a result, Europe should develop sufficient capabilities to detect threats, whether
+from Space or from the ground. This would require a combination of optical and
+radar instruments as well as a powerful analysis and management infrastructure that
+could be deployed from Space if necessary.
+B. Peaceful uses of Outer Space
+We believe in the continued peaceful use of Space for scientific and economic
+activities in accordance with Space law. While bodies brought into Space can
+contribute to strengthening the defence of European citizens and the European Union
+both inside and outside the EU borders, all developments should be in accordance
+with the Outer Space Treaty and the Space Preservation Treaty.69 Space, the Moon
+and other celestial bodies should remain free of weapons of mass destruction,
+69 United Nations, United Nations Treaties and Principles on Outer Space, available at:
+http://www.unoosa.org/pdf/publications/STSPACE11E.pdf
+46
+
+
+47
+weapons testing of any kind and the establishment of military bases.
+Recently, our transatlantic ally, the USA, opened a new debate in Space when they
+announced the establishment of a “Space Force”. This sheds light on the recent trend
+towards the militarisation of Space, which could lead to a new arms race.70 Weapons in
+Space are not completely banned under the Outer Space Treaty (OST) of 1967, which
+only regulates the use of nuclear weapons in Space.71
+The militarisation of Space goes against our core values of a sustainable and
+prosperous Space industry and human expansion into the solar system. Regardless of
+the enormous number of casualties and environmental damage that a space-based
+weapon could cause on Earth, as well as the enormous cost and waste of resources for
+such a defence system, any potential use of weapons against a satellite could result in
+an enormous amount of Space debris, endangering the entire Space industry and its
+derivatives, as stated in the point on Space debris. We will therefore urge the EU and
+the UN to approve Space demilitarisation treaties such as the Preventing an Arms
+Race in Outer Space (PAROS)72 and the Space Preservation Treaty.
+A strategy to further secure our orbital assets should also ensure sustainable Space
+traffic management and acknowledge the risks of Space debris that any Space
+weapon tests or military campaign could generate in our near-Earth Space
+environment. The EU should therefore ban all weapons tests or the use of weapons
+that could create Space debris and condemn foreign nations that do so, taking
+necessary action under trade agreements and other international mechanisms.
+It should also be noted that the use of Space weapons for military purposes must be
+kept separate from the use of Space weapons for research purposes. Some advanced
+propulsion concepts, such as pulsed nuclear fission or fusion propulsion, currently
+have an unclear legal status. The Orion project, which could have used our current
+nuclear arsenal for exploration purposes, was cancelled due to problems with the
+OST. These technologies could also have very real practical implications for the
+development of asteroid deflection concepts. These restrictions should be relaxed to
+allow the development of advanced technologies for our exploratory goals.
+72 NTI, PAROS Treaty, available at:
+https://www.nti.org/education-center/treaties-and-regimes/proposed-prevention-arms-race-space-par
+os-treaty/
+71 Federation of American Scientists, Prevention of an Arms Race in Outer Space, available at:
+https://programs.fas.org/ssp/nukes/ArmsControl_NEW/nonproliferation/NFZ/NP-NFZ-PAROS.html
+70 Reaching Critical Will, Outer Space - Militarization, weaponization, and the prevention of an arms
+race, available at:
+https://www.reachingcriticalwill.org/resources/fact-sheets/critical-issues/5448-outer-space
+47
+
+
+48
+C. Planetary Defence
+Technologies for asteroid detection and deflection will also be developed. These are
+currently in their infancy and we still do not yet have an effective warning system.
+Recently, an asteroid was detected just 24 hours before its flyby of Earth. Had this
+asteroid impacted over a city, it would have caused massive devastation, as it was
+predicted that it could have as much energy as the Tsar Bomb, similar to the Tunguska
+event in 1908, which flattened 2000 km2 of the Siberian forest. In regards to
+Tunguska, it has been hypothesised that this later impact could have been caused by
+an iron-based asteroid grazing the Earth, which, if it had impacted, would have created
+a near extinction73. It is necessary to get serious about planetary defence and push for
+an active asteroid defence system. An asteroid impact could be the first extinction
+event that humans actively avoid.
+D. Policy Recommendations
+R.6.1. The EU should enhance its SSA and C4ISR capabilities to protect the EU's
+critical infrastructures in Space and on Earth.
+R.6.2. The EU should develop and deploy common Space defence systems to
+achieve a key milestone towards the establishment of a Common Security and
+Defence Policy that fosters internal military cooperation and enables a
+stronger Union on the global stage.
+R.6.3. The EU should strongly oppose the weaponization of Space, support the
+adoption of international treaties in favour of demilitarisation of Space and
+sanction foreign nations that take the opposite path.
+R.6.4. Push for a reassessment of the OST to allow for the use of nuclear
+technologies in Space for peaceful advanced propulsion concepts and for
+asteroid defence systems.
+R.6.5. We call for the implementation of
+a European concept for an active
+asteroid defence system and push for a global agreement on international
+efforts to establish an effective warning network and deflection strategy.
+73 Daniil E Khrennikov, Andrei K Titov, Alexander E Ershov, Vladimir I Pariev, Sergei V Karpov, 2020, On
+the possibility of through passage of asteroid bodies across the Earth’s atmosphere, Monthly Notices
+of the Royal Astronomical Society, Volume 493, Issue 1, March 2020, Pages 1344–1351, available at:
+https://doi.org/10.1093/mnras/staa329
+48
+
+
+49
+X.
+Advanced Space Exploitation
+To date, humanity is exploiting a tiny, negligible fraction of what Space has to provide.
+The colonisation of the entire solar system will not only provide us with more
+resources to enhance our quality of life, reduce inequality and fight climate change,
+but the expansion of human settlements will also provide the basis for the
+development of new technologies, improved social structures and infinite possibilities
+for the social and moral development of humanity. These latter aspects will utilise the
+current “information era” to an unimaginable extent.
+This chapter addresses the benefits of Space resources and advanced exploitation of
+the solar system and how we can get there.
+A.Space Mining and In-Situ Resource Utilisation (ISRU)
+Space mining could not only increase exponentially our exploration capabilities by
+utilising Space resources outside of our Earth's gravitational well74, but its universal
+presence within the inner solar system and in the outer regions could also allow us to
+retrieve vast quantities of rare earths such as platinum, which are essential to
+achieving our energy and ecological transition goals, while ensuring sustainable
+resource extraction with a low carbon and ecological footprint.75 The development of
+the necessary
+technologies,
+the
+creation
+of
+new
+European companies to
+demonstrate the technologies and exploit these resources through public-private
+partnerships, and the development of a legal framework to ensure commercial
+exploitation under the Outer Space Treaty must be encouraged.
+Given the benefits that Space mining could bring to Space exploration and the energy
+transition, we propose to take a progressive and egalitarian perspective on the
+ownership and use of Space resources. Therefore, Space mining for sustainable
+exploration and use of the Earth could not be considered a national appropriation and
+the safe zones described in the Artemis Accords could be an excellent approach to
+perform the described operations in accordance with the OST. These Accords can be
+signed by the European Union and we can set up a working group to develop an
+international regime for the utilisation and exploitation of Space resources within
+the framework of the United Nations.76 In addition, a mechanism should be created
+76 Many initiatives are investigating this concept. For example The Hague International Space Resources
+Governance or the 2019 COPUOS proposal made by Belgium and Greece.
+75 Andreas Makoto Hein, Michael Saidani, Hortense Tollu, 2018, Exploring Potential Environmental
+Benefits of Asteroid Mining, 69th International Astronautical Congress 2018, Oct 2018, Bremen,
+Germany, available at: https://hal.archives-ouvertes.fr/hal-01910090/document
+74 Amara Graps + 30 Co-authors, In-Space Utilisation of Asteroids: Answers to Questions from the
+Asteroid Miners, ASIME 2016 White Paper
+49
+
+
+50
+to ensure fair redistribution of resources while providing incentives for developing
+technology and the implementation of mining activities. This could guarantee that
+lower-income and less developed countries benefit from Space mining. In addition, in
+the context of commercialisation, mechanisms should be in place to ensure fair
+competition among a variety of actors while preventing long-lasting monopolies or
+property rights.
+Space mining could be a breakthrough in Space exploration, as In-Situ Resource
+Utilisation (ISRU)77 would allow, for example, water and fuel to be extracted and
+spacecraft and planetary components to be built directly outside the Earth's
+gravitational pull, significantly reducing launch costs and promoting humanity's
+expansion in the solar system. This is the key to a future human presence on the
+Moon. Asteroids also pose a significant threat78 to our world. By developing these
+technologies, we would also enhance our planetary defences by increasing our
+knowledge of their internal structure and composition, which would allow us to plan
+missions to avoid any possible disastrous collision. Furthermore, building a robust
+commercial Space mining industry would improve our economy by bringing back huge
+amounts of rare earth elements such as platinum. A single asteroid could be worth
+billions.79
+Asteroid mining could also be more sustainable by reducing the environmental impact
+associated with using Earth materials for Space missions, as the ISRU would be able to
+produce these components directly in Space. Additionally, mining rare earths in Space
+and bringing them back for terrestrial use, such as platinum for green technologies
+that aid environmental transition, could have a smaller carbon footprint, increase
+availability and be more profitable than mining directly on Earth.80
+There are also many companies with advanced plans, such as Planetary Resources,
+Deep Space Industries, Orbital Sciences Corporation, Ispace and Bigelow Aerospace,
+many of which have already launched some demonstrator missions. A recent study by
+the Keck Institute study mentioned that by 2025 we could have the technology to
+80 Andreas Makoto Hein, Michael Saidani, Hortense Tollu, 2018, Exploring Potential Environmental
+Benefits of Asteroid Mining, 69th International Astronautical Congress 2018, Oct 2018, Bremen,
+Germany, available at: https://hal.archives-ouvertes.fr/hal-01910090/document
+79 Business Insider, 2017, Goldman Sachs: space-mining for platinum is ‘more realistic than perceived’,
+available at:
+https://www.businessinsider.nl/goldman-sachs-space-mining-asteroid-platinum-2017-4/?international=t
+rue&r=US
+78 Masterson, A., 2019, Space agency ups risk of asteroid-Earth collision, available at:
+https://cosmosmagazine.com/space/space-agency-ups-risk-of-asteroid-earth-collision/
+77 Amara Graps + 30 Co-authors, In-Space Utilisation of Asteroids: Answers to Questions from the
+Asteroid Miners, ASIME 2016 White Paper
+50
+
+
+51
+retrieve a 500t asteroid81 and that commercial asteroid mining could begin in 2040.82
+Furthermore, some countries, such as the US, Luxembourg and the UAE have already
+introduced favourable legislation that is inspiring and attracting new businesses.
+Despite all the potential benefits and regulatory pressure, there are some concerns
+with the 1967 Outer Space Treaty that could prevent commercial companies from
+mining asteroid resources, and although there is consensus among experts that it
+could be possible with its current formulation and with concrete “loopholes,”83 it
+highlights the importance of reforming and updating this treaty. In the absence of a
+clear international treaty, the European Union should also use trade agreements
+with third countries to provide certainty to commercial Space companies with
+granted exploitation patents and permissions. These could be based on preliminary
+surveys and speculative values, which would also allow for partially financing these
+operations.
+We will encourage companies and start-ups to develop and launch missions to the
+Moon, asteroids and other smaller bodies in the Solar System to demonstrate
+critical technologies such as In-Situ Resource Utilisation (ISRU) and asteroid
+capture. It will do so by proposing related missions to ESA, by setting up European
+competitions with financial rewards, similar to the Google Lunar X Prize,84 and by
+funding
+grants,
+purchasing
+equity
+and
+reimbursing
+costs
+for
+research
+and
+development. We will also work towards favourable legislation in all EU Member
+States, as has already been done in Luxembourg85 and the US, and work towards
+bilateral agreements with other countries. The aim is not only to bring certainty to
+future asteroid mining companies and ensure that Space resources are subject to the
+“common property right”, but also to regulate the sector to ensure high safety
+standards. We will also support the establishment of an international adjudicative
+body within the UN, such as is being done with the United Nations Convention on the
+Law of the Sea (UNCLOS).
+B. Space exploration to solve energy and material needs
+Global energy demand is projected to increase by orders of magnitude in the next few
+85 CNBC, 2018, Luxembourg leads the trillion-dollar race to become the Silicon Valley of asteroid
+mining, available at:
+https://www.cnbc.com/2018/04/16/luxembourg-vies-to-become-the-silicon-valley-of-asteroid-mining.ht
+ml
+84 X PRIZE, The New Space Race, available at: https://lunar.xprize.org/prizes/google-lunar
+83Andreas Makoto Hein, Michael Saidani, Hortense Tollu, 2018, Exploring Potential Environmental
+Benefits of Asteroid Mining, 69th International Astronautical Congress 2018, Oct 2018, Bremen,
+Germany, available at: https://hal.archives-ouvertes.fr/hal-01910090/document
+82 International Space University, 2010, ASTRA: Asteroid mining, Technologies Roadmap and
+Applications
+81 Keck, Institute of Space Studies. Asteroid Retrieval Feasibility Study
+51
+
+
+52
+decades. Although classical terrestrial renewable energies are an excellent source,
+their scalability might not be sufficient in the next centuries. Moreover, fossil fuels
+will eventually be depleted, and considering that we are constrained to consuming
+only 7 years of actual GHG emissions, they may soon be an unacceptable energy
+source. Nuclear fission technology poses other issues, and its fuel will eventually
+become scarce. Advanced breeding technologies may be able to extend the lifetime
+of these resources, but in the long term, we will run out of radioactive material and
+need other sources to support renewable energy.
+1. Space Based Solar Power (SBSP)
+Space Based Solar Power (SBSP) is one of these options, and one of the most
+promising, but still largely unexplored. The International Academy of Astronautics
+concluded in 2011 that SBSP is already feasible and could be realised in just 10 to 15
+years.86 Almost a decade has passed since, but efforts have been minimal.
+Three factors force us to consider the SBSP: the growing world population, increasing
+per capita energy consumption, and the need to fight climate change.
+Generating solar energy in Earth orbit, where sunlight is available more than 99,8% of
+the time, could be the most promising way to simultaneously address climate change
+and the increasing global energy demand. Indeed, the Earth receives only one part in
+2.3 billion of the Sun’s output, making SBSP by far the largest potential energy source
+available. Solar arrays in Earth’s orbit could collect almost 10 times the energy of the
+same solar arrays installed on the ground. It can also guarantee global supply to
+hard-to-reach regions and low-income countries, which increases their capacity for
+democratisation and contributes directly to the sustainable development goals. At
+present, only the United States, China, and Japan are active in this field. The European
+Union must not be left behind. The EU has to invest in this promising technology and
+foster its research and development. Further, close partnerships with the private
+sector can be mutually beneficial to reduce costs.
+2. Advanced fusion fuels
+As humankind expands further into Space, we need to take advantage of the
+abundant resources. There is the possibility of using advanced fusion fuels such as
+He-3 for nuclear fusion. Although terrestrial reserves may eventually be depleted,
+He-3 is available along with other energy sources for extraction on the Moon and in
+almost infinite proportions in the outer solar system,87 as in the Jovian moons,
+underlining the need for Space exploration.
+87 Palaszewski, Bryan, Atmospheric Mining in the Outer Solar System, National Aeronautics and Space
+Administration, 2005
+86 John C. Mankins, 2011, Space Solar Power, International Academy of Astronautics.
+52
+
+
+53
+The first fusion reactors may be designed to use the hydrogen isotopes deuterium
+and tritium as fuel, because achieving net energy production would be easiest to
+achieve with these fuels. The drawback is that this reaction produces neutrons which
+damage the reactor wall over time. Next generation fusion fuels such as He-3
+promise to improve the state of art on this issue, as these reactions (known as
+aneutronic fusion) do not produce neutrons.88 The only difficulty is that the reaction
+rate
+is lower and higher temperatures are required. But with advances in
+superconductor technology, these conditions may well be met. Furthermore, the ionic
+fusion products could be captured in an electric field and their kinetic energy could be
+converted directly into electric power. This achieves higher conversion efficiencies
+than traditional Carnot processes.89
+With this technology, it will not only be possible to further break through our current
+energy limitations on Earth and ensure a sustainable environment, but it will also
+provide infinite opportunities for Space exploration with advanced fusion propulsion
+concepts. Interstellar migration will finally be possible.
+C. Policy Recommendations
+R.7.1. The EU should incentivise the development of technologies required for
+Space mining and asteroid capturing for economic and planetary defence
+purposes.
+R.7.2. The EU should establish a working group to develop an international
+regime for the use and exploitation of Space resources within the framework
+of the United Nations.90
+R.7.3. In the absence of a clear international treaty, the European Union should
+use trade agreements with third countries to provide certainty for Space
+commercial companies with granted exploitation patents and permissions.
+R.7.4. Member States should encourage companies and start-ups to develop and
+launch missions to the Moon, asteroids and other smaller bodies in the solar
+system to demonstrate critical technologies such as In-Situ Resource
+Utilisation (ISRU) and asteroid capture.
+R.7.5. The EU should harmonise the legal framework for ISRU among its Member
+States and advocate for the establishment of an international adjudicative
+body within the UN to maintain the register for patents and permissions.
+90 Many initiatives are investigating this concept. For example The Hague International Space Resources
+Governance or the 2019 COPUOS proposal made by Belgium and Greece.
+89 Wikipedia, Direct energy conversion,  available at: Direct energy conversion
+88 Freidberg, 2007, Plasma Physics and Fusion Energy, p. 27, Cambridge University Press
+53
+
+
+54
+R.7.6. The EU should promote Space Based Solar Power (SBSP) and the creation
+of a European technology roadmap with targeted investments in the
+establishment of European start-ups in the field of Space energy.
+R.7.7. The EU should push the development of nuclear fusion, especially using
+He-3 concepts, as it is available in large quantities in Space and will allow us to
+fully explore the solar system through advanced fusion propulsion concepts.
+54
+
+
+55
+XI.
+Governance and Space institutions in the
+European and international context
+European Space agencies need to be further integrated to improve efficiency,
+cooperation and synergies. Furthermore, it is also necessary to address the low level
+of investment in European Space activities compared to the international context,91
+which may reduce the benefits of the Space economy, some of which have been
+addressed in previous chapters. The Member States' combined military expenditure
+amounted to EUR 223.4 billion in 2018, equivalent to approximately 1.4% of the
+European Union's GDP.92 If the EU spent 0.14% of EU GDP (EUR 22.34 billion) a year on
+the Space programme, we would be able to provide funding and achieve larger
+exploratory results. NASA’s 2020 official budget is around 22 billion USD93, which is
+approximately four times the ESA budget.94 One of our key proposals is to link at least
+1/10 of the funding for Space programmes and Space organisations to defence
+expenses.
+Many of the issues addressed, such as the militarisation of Space, Space debris and
+traffic management, or human exploration of Mars and the Moon, fall within the
+scope of international Space cooperation and international law. In the interest of
+efficient policy application, the strategy should therefore distinguish between what it
+can achieve through European collaboration and its institutions and what it can
+pursue in the international context.
+A.European Space institutions
+The European Union hosts the largest number of Space agencies in the world. On the
+one hand, there is the European Space Agency (ESA), an intergovernmental entity in
+which not all Member States participate, and in which not only Member States
+participate. For example, Canada, Switzerland and Norway are participating in the
+ESA. Furthermore, the European Union recently announced the European Union
+Agency for the Space programme (EUSPA), which will create synergies between the
+various EU Space components. On the other hand, many Member States have their
+own Space agencies or comparable institutions, such as the German Aerospace Center
+(DLR) for Germany and the Centre Nationale d’Etudes Spatiales (CNES) for France.
+94 European Space Agency (ESA), 6.49 Billion Euro in 2020, Funding, available at:
+https://www.esa.int/About_Us/Corporate_news/Funding
+93 The Planetary Society, NASA's FY 2020 Budget, available at:
+https://www.planetary.org/space-policy/nasas-fy-2020-budget#:~:text=NASA's%20budget%20in%20fi
+scal%20year,of%20all%20U.S.%20government%20spending
+92 European Defence Agency, DEFENCE DATA, 2017-2018: Key findings and analysis
+91 According to EuroConsult, the EU contributes to 9% of global investment in space exploration. Larrea
+Brito, N., Clarence Dee, J. and Seminari, S., Global Prospect for Space Exploration: A Strategic and
+Economic Assessment, IAC - The CyberSpace Edition, 12-14 October 2020. IAC-20,A3,1,4x57292
+55
+
+
+56
+B. European
+Space
+Agency
+or
+Space
+Agency
+of
+the
+European Union?
+ESA represents a successful model for integration and synergy inside and outside the
+EU. The agency provides the EU with a gateway to Space and is currently working with
+the EU to implement the Copernicus and Galileo programmes. Nevertheless, it should
+be noted that ESA is an intergovernmental entity outside the European Union and
+therefore subject to a different regulatory framework. It is funded by its members
+and, to a lesser extent, directly by the European Union. This decoupled approach has
+several advantages and disadvantages, which are explained in more detail below:
+Advantages of a decoupled ESA/EU
+Disadvantages of a decoupled ESA/EU
+●
+Decoupled from European
+politics. A government Space
+agency like NASA may be more
+exposed to electoral cycles, which
+could affect the effectiveness of
+Space missions which typically
+require more than ten years from
+conception to execution.
+●
+It may be easier to involve
+external EU countries, although
+this could also be implemented in
+an EU-based agency (e.g. Norway’s
+participation in the European
+Economic Area).
+●
+Low Political Integration. It is
+difficult to link European political
+objectives and roadmaps with
+Space aspects.
+●
+Geo-returns are linked.
+Geo-return policy becomes easier
+to implement because members
+contribute directly, whereas the
+European Union’s share will
+depend on European policy
+decisions. This would bring the
+disadvantages of a geo-return
+aspect with lower industrial
+efficiency and regional biases.
+Nevertheless, the geo-return
+policy might also be attractive.
+●
+Lower EU legacy. It might be
+more difficult to highlight the
+successes of the EU and the
+benefits of EU integration.
+●
+Less subject to EU oversight.
+With European political oversight,
+it is possible to include more
+comprehensive transparency and
+accountability regulations.
+1. Push for a European Union led Space Agency
+We recognise the need for the European Union to have its own Space agency. Indeed,
+in such a strategic sector, it is essential that the EU can act as a single voice through an
+56
+
+
+57
+institutionalised body to effectively represent our strategic interests.
+We therefore advocate that what is done today by ESA and EUSPA can be done in
+the future by a fully European Union-led Space Agency - whether this is achieved by
+transforming ESA into an EU agency, by dissolving and re-founding it on paper only, or
+by transferring its responsibilities and tasks to a new, ad hoc created EU agency. This
+will ensure that ongoing scientific programmes are not interrupted and that ESA's
+bureaucratic structures are changed as little as possible. The states that are members
+of ESA but not of the EU (Norway, Canada, Switzerland, United Kingdom) are
+guaranteed a special partnership agreement that continues their current membership
+of ESA.
+This will ensure that the Union has full control over its Space policy, while at the same
+time ensuring greater efficiency and better use of economic resources by bringing
+together the current EU institutions dealing with Space into a single body at a later
+stage.
+At the same time, we believe that all geographical levels of the Union (not only
+EU-wide, but also local and national) should play a role in accordance with the
+principles of subsidiarity and distributed leadership. We support local space-related
+companies, initiatives and scientific activities.
+C. Geo-return policy
+To keep up in "New Space," Europe needs more cross-border cooperation, more
+speed, and more courage.
+ESA was successful in the old world, where Space funding was provided by
+governments, resulting in a stable foundation for European (and global) Space
+activities.95 The money for the Space industry was secure and did not encourage
+risk-taking in the development of new Space technologies. Consequently, the Space
+landscape has not changed significantly in the last 30 years.
+The geographical return, or “Geo-return,” policy is a fundamental pillar of ESA’s
+structure. At the heart of this concept is the desire of European nations to
+develop their high-tech sectors and engage in Space activities. In other words, ESA
+member states pay a membership fee to ESA and get equivalently valued
+high-tech
+Space
+contracts
+back
+for
+their
+industry
+under
+the
+Geo-return
+agreement. This is the main incentive for smaller European countries to be members
+of ESA, as they are not able to compete for Space contracts on a competitive basis.
+95 Clemens Rumpf, 2015, Increased competition will challenge ESA’s space authority, The Space Review,
+February 2, 2015, available at: https://www.thespacereview.com/article/2687/1
+57
+
+
+58
+This policy is not aimed at increasing efficiency, but has other goals, such as the
+development of high-tech sectors in member nations.
+This approach succeeded in preserving the status quo. Today, however, we are
+entering an era in which efficiency is the most important factor in Space contracting,
+as private investment accounts for an increasingly large share of the Space industry.
+For the Ariane 6 launcher, ESA has scrapped its fundamental principle of Geo-return in
+order to compete with SpaceX cost standards. The significance of this step cannot be
+overstated.
+Unlike ESA, this dilemma does not exist a priori with the EU, as EU contracts are
+awarded on a more competitive basis. Therefore, the EU has good reasons to
+strengthen its authority in European Space, as its infrastructure is already set up for a
+competitive market.
+Nonetheless, there are other areas where commercial considerations are not
+decisive. Science and exploration missions as well as human spaceflight are
+examples of such areas. These areas have a good chance of experiencing a
+continuation of ESA principles because they strengthen Europe as a whole.
+Based on several factors (including increasing internal competitiveness, maintaining
+fairness and political stability), we recommend moving forward with the progressive
+revision
+of
+the
+current
+Industrial
+Return
+Coefficient
+to
+increase
+market
+competitiveness and foster innovation. In this way, stronger innovation would emerge
+in all sub-sectors where commercial considerations are decisive. Political stability
+should be maintained by allowing Member States' industries the time they need to
+adjust to change through staggered reform.
+D. Role of an International Space Agency (ISA)
+We also want to call for the establishment of an International Space Agency (ISA)
+to enhance international collaboration and technology transfer. This would enable
+humanity to pursue goals of common interest in the exploration of Space exploration
+and the advanced exploitation of the solar system. This could be established within
+the United Nations or as an independent entity within the United Nations Office for
+Outer Space Affairs serving as a bridge. The agency could be responsible for
+promoting ambitious international Space missions and infrastructure, such as the
+development of future Space access systems like Space planes and Space lifts, the
+construction of Space habitats and space-based solar power satellites, and the
+coordination of an international human Space flight mission to Mars and its eventual
+colonisation. In addition, it may be crucial to advance sustainable development goals
+58
+
+
+59
+and enable the democratisation of Space by supporting current non-spacefaring
+nations and providing them with the necessary technologies and capabilities to
+ensure that no one is left behind in the race for new Space.
+Increased international cooperation for such advanced projects would be an excellent
+symbol of world peace and cooperation that could enhance parallel efforts to combat
+climate change. It should be emphasised that the pursuit of such common interests
+for the benefit of all is difficult to achieve with national Space agencies with national
+interests. Apollo was primarily motivated by political competition rather than a desire
+to gain a competitive advantage in lunar exploration, which is comparable to US
+Artemis rhetoric about American Boots on the Moon with American rockets.
+Furthermore, the agency could:
+●
+simplify project management of international programmes;
+●
+contribute to the development of standards and principles for safer Space
+together with the proposed international tribunal;
+●
+collect and disseminate Space information as a clearinghouse.
+We would like to emphasise that the ISA will only be in charge of executive and
+operational tasks. Legal issues, such as Space traffic management, should be
+addressed by a new international tribunal.
+E. International Regulatory Agency (IRA)
+In addition to the International Space Agency, we also want the European Union to
+push for the development of an International Regulatory Agency (IRA), similar to the
+International Civil Aviation Organisation (ICAO) and the International Tribunal for the
+Law of the Sea (ITLOS).
+The agency would promote the implementation of international on-orbit services,
+rendezvous, proximity operations, Space debris de-orbiting and safe disposal, as well
+as standards for technical interfaces, designs, operations and transparency to foster
+best practices, commercial participation and technological development to enhance
+these Space activities.
+In the context of the introduction of Space tourism and international suborbital travel,
+it is not only important to develop sustainable and reusable crewed launchers, but
+also to define and harmonise aerospace law regulations to guarantee safety
+standards and prove jurisdictional support to incentivise their development. Europe
+should therefore lay the basis of suborbital travel and Space tourism in European
+and national laws and push for international agreements to extend the scope of
+59
+
+
+60
+ICAOs or establish a new international civil association for suborbital travel and
+Space tourism. In summary, the deployment of these tribunals could create the
+necessary international framework for:
+●
+Space debris mitigation;
+●
+Space traffic management;
+●
+Space transportation environmental impact;
+●
+satellite light pollution regulations;
+●
+safety standards for crewed missions, Space tourism and suborbital
+travel ( together with ICAO);
+●
+Space mining guidelines and regulations;
+●
+planetary protection policy;
+●
+standardisation
+and
+principles
+for
+safer
+Space,
+similar
+to
+the
+International
+Organisation
+for
+Standardisation
+(ISO)
+and
+the
+Consultative Committee for Space Data Systems (CCSDS).
+F. Policy Recommendations
+R.8.1. Europe’s trade agreements with third countries shall be used to ensure
+the correct implementation and application of sustainable policies, practices
+and incentives for Space access, exploration and exploitation. This is of
+particular importance for the problem of Space debris, as there are currently
+no international treaties.
+R.8.2. Europe should increase expenditure on European Space programmes and
+associations to at least one tenth of our defence expenditure. The level of
+funding,
+organisation
+and ambition in Space exploration and human
+spaceflight shall be at least comparable to that of NASA and CNSA.96
+R.8.3. Member States should push for the creation of a European Union-led
+Space Agency, encompassing the current ESA and EUSPA activities, subject to
+a wider EU oversight and linked to long-term European policy objectives. This
+also applies to highlighting the benefits of the coupled approach.
+R.8.4. On
+the
+basis
+of
+several
+factors
+(including
+increasing
+internal
+competitiveness, maintaining fairness and political stability), we recommend
+to go forward with the progressive revision of the current Industrial Return
+Coefficient to increase market competitiveness and foster innovation. his
+would create more pressure for innovation in all sub-sectors where economic
+considerations are decisive. At the same time, political stability should be
+kept in mind by giving Member States' industry the necessary time to adapt
+96 According to Euroconsult, the EU contributes to 9% of global investment in space exploration. Larrea
+Brito, N., Clarence Dee, J. and Seminari, S., Global Prospect for Space Exploration: A Strategic and
+Economic Assessment, IAC - The CyberSpace Edition, 12-14 October 2020. IAC-20,A3,1,4x57292
+60
+
+
+61
+to change by staggering the reform.
+R.8.5. Based on several factors (including political symbolism, the desire for
+world collaboration and the need for strategic autonomy), we recommend
+continuing the collaborative model for large Space missions and become an
+equal partner for human Space flight activities for Moon and Mars
+exploration, as well as developing a strategic autonomy in the development
+of cost-effective European crewed Space transportation and sustainable
+Space access systems.
+R.8.6. Europe should push for the creation of an International Regulatory Agency
+(IRA) similar to the International Civil Aviation Organisation (ICAO) and
+International
+Tribunal
+for
+the
+Law on Sea (ITLOS), to promote the
+implementation of international standards for on-orbit servicing, rendezvous,
+proximity operations, Space debris de-orbiting and safe disposal, as well as
+standards for technical interfaces, designs, operations and transparency to
+foster
+best
+practices,
+commercial
+participation
+and
+technological
+development to enhance these Space activities.
+61
+
+
+62
+XII.
+Education and outreach
+Considering the scarce awareness of ESA among Europeans, we aim to increase the
+importance and relevance of its work for citizens.97 Continuous education is one of the
+tools to provide the population with comprehensive information on Space activities
+and costs at every stage of life. We want to raise awareness of Space projects, their
+effects on global society and individuals, the opportunities that Space technology
+offers for everyday life and to stimulate economic growth. This task should not only
+be carried out by the ESA, but also by national and European institutions, which
+should work to ensure that Space as a discipline is easily accessible and available to
+everyone.
+Considering that most Europeans share the feeling of the European Union as a central
+and competitive player in the Space arena, we want to make Space even more
+appealing for its citizens by investing in more interactive participation between the
+ESA and the public. This could be possible in various ways, such as the presence of
+European astronauts at public events or in schools, or the establishment of an official
+ESA Museum dedicated to European Space history. Through the museum, it would be
+possible to give our citizens a more tangible relationship with European Space
+activities - for example, through interactive tours, educational support, tours, movies
+and merchandising. Another source of information must be the national Space
+agencies and Member States. Thanks to language and geographical proximity, they
+can increase the impact of Space knowledge on their citizens, both through national
+programmes and space-related university studies. These studies should be as
+interactive and interdisciplinary as possible, ranging from science to history and from
+medicine to art. We believe that investing in culture and education gives Europeans
+access to knowledge that brings them closer to building a better Europe together.
+A.Policy Recommendations
+R.9.1. Member States should include more affordable Space studies in all
+educational levels' curricula, with a comprehensive review of Space science,
+engineering,
+and applications, as well as inclusion of Space aspects
+throughout the curricula, particularly in non-space-related areas where Space
+97 About 17% of the Europeans had never heard about ESA, and only 37% knew exactly what ESA is.
+This survey was carried out by Harris Interview in December 2018 on a sample of more than 5000
+people in France, Germany, Italy, Spain and the UK (the five most populous ESA countries). Survey
+available at:
+https://www.esa.int/About_Us/Welcome_to_ESA/How_much_do_European_citizens_know_about_spac
+e
+62
+
+
+63
+applications could bring synergies.
+R.9.2. Member States must address the lack of female students in space-related
+studies and STEM subjects, as well as raise female students' awareness of
+Space issues and professions in order to motivate them to participate.
+R.9.3. Europe should promote cooperation between ESA and European artists
+and the film industry, as well as provide financial incentives for filming at ESA
+locations.
+R.9.4. We recommend the creation of an official ESA Museum dedicated to
+European Space history, which currently houses the ESA’s archival documents
+(Historical Archives of the European Union, Fiesole, Italy).
+63
+
+

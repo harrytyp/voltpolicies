@@ -1,0 +1,2 @@
+# Ignore PDFs (only keep extracted text and news)
+cache/*.pdf
