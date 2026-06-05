@@ -11,8 +11,8 @@ Auto-updated every 6 hours via GitHub Actions.
 |----------|-------|--------------|
 | Volt Europa PDFs | 15 | ✅ Scraped every 6h |
 | Volt Deutschland PDFs | 17 | ✅ Scraped every 6h |
-| News feeds (RSS) | 3 sources | ✅ Every 6h |
-| **Total** | **32 PDFs + 60 news articles** | |
+| News articles | 193 | ✅ Every 6h (RSS + API + Scraping) |
+| **Total** | **32 PDFs + 193 news articles** | |
 
 ### CI Status
 
@@ -90,13 +90,19 @@ Auto-updated every 6 hours via GitHub Actions.
 
 ---
 
-## 📰 News Sources (RSS Feeds)
+## 📰 News Sources
 
-| Source | RSS Feed | Articles |
-|--------|----------|----------|
-| Volt Deutschland | [volteuropa.org/neuigkeiten/rss](https://voltdeutschland.org/neuigkeiten/rss) | 20 |
-| Volt Europa | [volteuropa.org/news/rss](https://volteuropa.org/news/rss) | 20 |
-| Volt in the Press (Mastodon) | [mastodon.social/@voltinthepress.rss](https://mastodon.social/@voltinthepress.rss) | 20 |
+| Source | Method | Articles |
+|--------|--------|----------|
+| Volt Deutschland | RSS + Website scraping | 22 |
+| Volt Europa | RSS + Website scraping | 22 |
+| Volt in the Press | Mastodon API (all posts) | 149 |
+| **Total** | | **193** |
+
+### How it works
+- **RSS feeds**: Quick fetch, latest 20 articles each
+- **Mastodon API**: Fetches ALL posts via pagination (149+ posts)
+- **Website scraping**: Extracts article links from news pages
 
 ---
 
