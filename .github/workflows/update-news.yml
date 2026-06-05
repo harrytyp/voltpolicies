@@ -2,7 +2,7 @@ name: Update Volt Policies
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 6 * * *'  # Once daily at 06:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -19,13 +19,12 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: |
-          pip install requests pymupdf beautifulsoup4
+        run: pip install requests pymupdf beautifulsoup4
       
       - name: Check for new PDFs
         run: python .github/scripts/check_new_pdfs.py
       
-      - name: Fetch news
+      - name: Fetch news (incremental)
         run: python .github/scripts/fetch_news.py
       
       - name: Generate status
@@ -39,9 +38,9 @@ jobs:
           git add cache/ known_pdfs.json STATUS.md
           
           if git diff --cached --quiet; then
-            echo "No changes"
+            echo "No changes — skipping commit"
           else
-            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "Auto-update: $TIMESTAMP"
+            CHANGED=$(git diff --cached --stat | tail -1)
+            git commit -m "Auto-update: $CHANGED"
             git push
           fi

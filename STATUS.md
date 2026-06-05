@@ -9,11 +9,11 @@
 | Volt Europa PDFs | 15 |
 | Volt Deutschland PDFs | 17 |
 | **Total PDFs** | **32** |
-| Volt Deutschland News | 22 |
-| Volt Europa News | 22 |
+| Volt Deutschland News | 34 |
+| Volt Europa News | 42 |
 | Volt in the Press  Mastodon  | 149 |
-| **Total News** | **193** |
-| **Grand Total** | **225** |
+| **Total News** | **225** |
+| **Grand Total** | **257** |
 
 ## Sources
 

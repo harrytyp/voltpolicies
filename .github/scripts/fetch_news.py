@@ -3,7 +3,8 @@
 Fetch Volt news from multiple sources:
 1. RSS feeds (20 items each)
 2. Mastodon API (all posts)
-3. Volt website scraping (all articles)
+3. Volt website scraping (all articles + category pages)
+Only processes NEW articles (skips existing).
 """
 
 import json
@@ -14,11 +15,10 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 from html import unescape
 
-# Use cache_manager for correct path
 sys.path.insert(0, str(Path(__file__).parent))
 from cache_manager import get_cache_dir
 
-CACHE_DIR = None  # Will be set in fetch_all_news()
+CACHE_DIR = None
 
 
 def fetch_rss_feed(name: str, url: str) -> list:
@@ -63,17 +63,14 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
     print(f"  Mastodon API: @{username}...")
     
     try:
-        # Find account ID
         r = subprocess.run(
             ["curl", "-sL", f"https://mastodon.social/api/v1/accounts/lookup?acct={username}"],
             capture_output=True, text=True, timeout=30
         )
         account = json.loads(r.stdout)
         account_id = account.get('id')
-        total = account.get('statuses_count', 0)
-        print(f"    Account ID: {account_id}, Total posts: {total}")
+        print(f"    Account ID: {account_id}")
         
-        # Fetch all posts with pagination
         all_posts = []
         max_id = None
         
@@ -95,7 +92,6 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
             
             for post in data:
                 content = post.get('content', '')
-                # Extract links from HTML content
                 links = re.findall(r'href="(https?://[^"]+)"', content)
                 text_clean = re.sub(r'<[^>]+>', '', content).strip()
                 
@@ -104,65 +100,126 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
                     'link': post.get('url', ''),
                     'description': text_clean[:500],
                     'date': post.get('created_at', ''),
-                    'source': f'Volt in the Press (Mastodon)',
+                    'source': 'Volt in the Press (Mastodon)',
                     'via': 'mastodon_api',
                     'external_links': links[:3]
                 })
             
             max_id = data[-1]['id']
-            
             if len(data) < 40:
                 break
         
-        print(f"    → {len(all_posts)} posts fetched")
+        print(f"    → {len(all_posts)} posts")
         return all_posts
     except Exception as e:
         print(f"    → Error: {e}")
         return []
 
 
-def fetch_volt_website(name: str, url: str) -> list:
-    """Scrape news articles from Volt website."""
-    print(f"  Website: {name}...")
+def scrape_volt_articles(name: str, base_url: str, paths: list) -> list:
+    """Scrape articles from Volt website."""
+    print(f"  Scraping: {name}...")
+    all_articles = []
+    seen = set()
     
-    try:
-        import subprocess
-        result = subprocess.run(
-            ["curl", "-sL", url],
-            capture_output=True, text=True, timeout=30
-        )
-        
-        from bs4 import BeautifulSoup
-        soup = BeautifulSoup(result.stdout, 'html.parser')
-        
-        articles = []
-        seen = set()
-        
-        for a in soup.find_all('a', href=True):
-            href = a['href']
-            title = a.get_text(strip=True)
+    for path in paths:
+        url = base_url.rstrip('/') + path
+        try:
+            r = subprocess.run(
+                ["curl", "-sL", url],
+                capture_output=True, text=True, timeout=30
+            )
             
-            # Filter for news articles
-            if title and len(title) > 15 and ('/neuigkeiten/' in href or '/news/' in href):
-                if not href.startswith('http'):
-                    href = f"https://{url.split('//')[1].split('/')[0]}{href}"
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(r.stdout, 'html.parser')
+            
+            for a in soup.find_all('a', href=True):
+                href = a['href']
+                text = a.get_text(strip=True)
                 
-                if href not in seen:
-                    seen.add(href)
-                    articles.append({
-                        'title': title[:200],
-                        'link': href,
-                        'description': '',
-                        'date': '',
-                        'source': name,
-                        'via': 'website_scrape'
-                    })
-        
-        print(f"    → {len(articles)} articles")
-        return articles
-    except Exception as e:
-        print(f"    → Error: {e}")
-        return []
+                if not text or len(text) < 15:
+                    continue
+                
+                # Match article patterns
+                is_article = False
+                if '/neuigkeiten/' in href and href != '/neuigkeiten' and '?' not in href:
+                    is_article = True
+                elif '/news/' in href and href != '/news' and '?' not in href:
+                    is_article = True
+                
+                if is_article:
+                    if not href.startswith('http'):
+                        href = base_url.rstrip('/') + ('/' if not href.startswith('/') else '') + href
+                    
+                    if href not in seen:
+                        seen.add(href)
+                        all_articles.append({
+                            'title': text[:200],
+                            'link': href,
+                            'description': '',
+                            'date': '',
+                            'source': name,
+                            'via': 'website_scrape'
+                        })
+        except Exception as e:
+            print(f"    Error scraping {url}: {e}")
+    
+    print(f"    → {len(all_articles)} articles")
+    return all_articles
+
+
+def load_existing_articles(source_name: str) -> set:
+    """Load existing article links to avoid re-processing."""
+    if not CACHE_DIR:
+        return set()
+    
+    safe_name = re.sub(r'[^\w\-]', '_', source_name)
+    cache_path = CACHE_DIR / f"news_{safe_name}.json"
+    
+    if cache_path.exists():
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            articles = json.load(f)
+        return {a.get('link', '') for a in articles}
+    return set()
+
+
+def save_articles(source_name: str, articles: list):
+    """Save articles to cache."""
+    if not CACHE_DIR:
+        return
+    
+    safe_name = re.sub(r'[^\w\-]', '_', source_name)
+    cache_path = CACHE_DIR / f"news_{safe_name}.json"
+    
+    with open(cache_path, 'w', encoding='utf-8') as f:
+        json.dump(articles, f, indent=2, ensure_ascii=False)
+
+
+def merge_and_deduplicate(existing: list, new: list) -> list:
+    """Merge existing and new articles, deduplicate by link."""
+    seen = set()
+    result = []
+    
+    # Existing first (preserve order)
+    for a in existing:
+        link = a.get('link', '')
+        if link and link not in seen:
+            seen.add(link)
+            result.append(a)
+    
+    # New articles (add only if not already present)
+    added = 0
+    for a in new:
+        link = a.get('link', '')
+        if link and link not in seen:
+            seen.add(link)
+            result.append(a)
+            added += 1
+    
+    if added > 0:
+        print(f"    + {added} new articles")
+    
+    return result
 
 
 def fetch_all_news() -> dict:
@@ -173,50 +230,51 @@ def fetch_all_news() -> dict:
     
     all_news = {}
     
-    # 1. RSS feeds (quick, 20 items each)
-    print("Fetching RSS feeds...")
-    rss_feeds = {
-        "Volt Deutschland News": "https://voltdeutschland.org/neuigkeiten/rss",
-        "Volt Europa News": "https://volteuropa.org/news/rss",
-    }
-    for name, url in rss_feeds.items():
-        articles = fetch_rss_feed(name, url)
-        all_news[name] = articles
+    # 1. Volt Deutschland
+    print("\n=== Volt Deutschland ===")
+    de_rss = fetch_rss_feed("Volt Deutschland RSS", "https://voltdeutschland.org/neuigkeiten/rss")
+    de_scrape = scrape_volt_articles(
+        "Volt Deutschland",
+        "https://voltdeutschland.org",
+        ["/neuigkeiten", "/neuigkeiten?category=pressemitteilungen"]
+    )
+    existing_de = load_existing_articles("Volt Deutschland News")
+    merged_de = merge_and_deduplicate(
+        [{'title': '', 'link': l, 'description': '', 'date': '', 'source': 'Volt Deutschland News', 'via': 'existing'} for l in existing_de if l],
+        de_rss + de_scrape
+    )
+    all_news["Volt Deutschland News"] = merged_de
     
-    # 2. Mastodon API (all posts)
-    print("\nFetching Mastodon posts...")
-    mastodon_posts = fetch_mastodon_all("voltinthepress")
-    all_news["Volt in the Press (Mastodon)"] = mastodon_posts
+    # 2. Volt Europa
+    print("\n=== Volt Europa ===")
+    eu_rss = fetch_rss_feed("Volt Europa RSS", "https://volteuropa.org/news/rss")
+    eu_scrape = scrape_volt_articles(
+        "Volt Europa",
+        "https://volteuropa.org",
+        ["/news", "/news?category=press-releases"]
+    )
+    existing_eu = load_existing_articles("Volt Europa News")
+    merged_eu = merge_and_deduplicate(
+        [{'title': '', 'link': l, 'description': '', 'date': '', 'source': 'Volt Europa News', 'via': 'existing'} for l in existing_eu if l],
+        eu_rss + eu_scrape
+    )
+    all_news["Volt Europa News"] = merged_eu
     
-    # 3. Volt website scraping
-    print("\nScraping Volt websites...")
-    de_articles = fetch_volt_website("Volt Deutschland", "https://voltdeutschland.org/neuigkeiten")
-    eu_articles = fetch_volt_website("Volt Europa", "https://volteuropa.org/news")
+    # 3. Mastodon
+    print("\n=== Mastodon ===")
+    mastodon = fetch_mastodon_all("voltinthepress")
+    existing_mastodon = load_existing_articles("Volt in the Press  Mastodon")
+    merged_mastodon = merge_and_deduplicate(existing_mastodon, mastodon)
+    all_news["Volt in the Press (Mastodon)"] = merged_mastodon
     
-    # Merge website articles into RSS sources
-    all_news.setdefault("Volt Deutschland News", []).extend(de_articles)
-    all_news.setdefault("Volt Europa News", []).extend(eu_articles)
-    
-    # Deduplicate all sources
-    for source in all_news:
-        seen = set()
-        unique = []
-        for article in all_news[source]:
-            key = article.get('link', article.get('title', ''))
-            if key not in seen:
-                seen.add(key)
-                unique.append(article)
-        all_news[source] = unique
-    
-    # Save to cache
+    # Save all
+    print("\n=== Saving ===")
     total = 0
     for name, articles in all_news.items():
-        safe_name = re.sub(r'[^\w\-]', '_', name)
-        cache_path = CACHE_DIR / f"news_{safe_name}.json"
-        with open(cache_path, 'w', encoding='utf-8') as f:
-            json.dump(articles, f, indent=2, ensure_ascii=False)
-        total += len(articles)
-        print(f"  {name}: {len(articles)} articles saved")
+        save_articles(name, articles)
+        count = len(articles)
+        total += count
+        print(f"  {name}: {count} articles")
     
     print(f"\nTotal: {total} articles")
     return all_news
