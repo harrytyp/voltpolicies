@@ -1,79 +1,197 @@
 # Volt Policies
 
-Shared cache + MCP server for the **Volt Policy Reference Checker**.
+Shared cache + MCP server for the **Volt Policy Reference Checker** Hermes skill.
+Auto-updated every 6 hours via GitHub Actions.
 
-## What's in here
+---
 
-- `cache/*.txt` — Extracted text from 32+ Volt policy PDFs
-- `cache/news_*.json` — RSS news feeds (auto-updated every 6 hours)
-- `mcp_server.py` — MCP server for use from any MCP client
-- `.github/workflows/` — Auto-updates PDFs + news every 6 hours
+## 📊 Corpus Status
 
-## Quick Start
+| Category | Count | Auto-Updated |
+|----------|-------|--------------|
+| Volt Europa PDFs | 15 | ✅ Scraped every 6h |
+| Volt Deutschland PDFs | 17 | ✅ Scraped every 6h |
+| News feeds (RSS) | 3 sources | ✅ Every 6h |
+| **Total** | **32 PDFs + 60 news articles** | |
 
-### As Hermes Skill (already configured)
+### CI Status
+
+| Workflow | Status | Trigger |
+|----------|--------|---------|
+| Update Volt Policies | ![Update Volt Policies](https://github.com/harrytyp/voltpolicies/actions/workflows/update-news.yml/badge.svg) | Every 6 hours + manual |
+
+---
+
+## 📄 Volt Europa Policies (15 PDFs)
+
+### Mapping of Policies (MOP 9.0)
+| Challenge | PDF |
+|-----------|-----|
+| Challenge 1 — Smart State | [mop-9.0-challenge-1-smart-state.pdf](https://volteuropa.org/storage/pdf/policies/mop-9.0-challenge-1-smart-state.pdf) |
+| Challenge 2 — Economic Renaissance | [mop-9.0-challenge-2-economic-renaissance.pdf](https://volteuropa.org/storage/pdf/policies/mop-9.0-challenge-2-economic-renaissance.pdf) |
+| Challenge 3 — Social Equality | [mop-9.0-challenge-3-social-equality.pdf](https://volteuropa.org/storage/pdf/policies/mop-9.0-challenge-3-social-equality.pdf) |
+| Challenge 4 — Global Balance | [mop-9.0-challenge-4-global-balance.pdf](https://volteuropa.org/storage/pdf/policies/mop-9.0-challenge-4-global-balance.pdf) |
+| Challenge 5 — Citizen Empowerment | [mop-9.0-challenge-5-citizen-empowerment.pdf](https://volteuropa.org/storage/pdf/policies/mop-9.0-challenge-5-citizen-empowerment.pdf) |
+| Challenge 5.1 — EU Reform | [mop-9.0-challenge-5-1-eu-reform.pdf](https://volteuropa.org/storage/pdf/policies/mop-9.0-challenge-5-1-eu-reform.pdf) |
+
+### Foundational & Other Documents
+| Document | PDF |
+|----------|-----|
+| Amsterdam Declaration | [amsterdam_declaration.pdf](https://volteuropa.org/storage/pdf/policies/amsterdam_declaration.pdf) |
+| Amsterdam Declaration (Supporting) | [supporting_document_amsterdam_declaration.pdf](https://volteuropa.org/storage/pdf/policies/supporting_document_amsterdam_declaration.pdf) |
+| Campaign Narrative 2024 | [campaign-narrative-2024-eu-elections.pdf](https://volteuropa.org/storage/pdf/eu-elections-2024/campaign-narrative-2024-eu-elections.pdf) |
+| Economic Vision | [the-economic-vision-of-volt-europa-final.pdf](https://volteuropa.org/storage/pdf/policies/the-economic-vision-of-volt-europa-final.pdf) |
+| Electoral Reform | [electoral-reform-policy.pdf](https://volteuropa.org/storage/pdf/policies/electoral-reform-policy.pdf) |
+| Energy Transition & Climate Change | [energy-transition-&-climate-change.pdf](https://volteuropa.org/storage/pdf/policies/energy-transition-&-climate-change.pdf) |
+| Space Policy | [volt-space-policy.pdf](https://volteuropa.org/storage/pdf/policies/volt-space-policy.pdf) |
+| European Constitution | [provisions-for-a-european-constitution.pdf](https://volteuropa.org/storage/pdf/policies/provisions-for-a-european-constitution.pdf) |
+| Live Animal Transportation | [regulation-of-live-animal-transportation.pdf](https://volteuropa.org/storage/pdf/policies/regulation-of-live-animal-transportation.pdf) |
+
+---
+
+## 🇩🇪 Volt Deutschland Policies (17 PDFs)
+
+### Statuten (Statutes)
+| Document | PDF |
+|----------|-----|
+| Satzung | [satzung-von-volt-deutschland.pdf](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/satzung-von-volt-deutschland.pdf) |
+| Finanzordnung | [finanzordnung-von-volt-deutschland.pdf](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/finanzordnung-von-volt-deutschland.pdf) |
+| Schiedsgerichtsordnung | [schiedsgerichtsordnung-von-volt-deutschland.pdf](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/schiedsgerichtsordnung-von-volt-deutschland.pdf) |
+| Allgemeine Wahlordnung | [allgemeine-wahlordnung-von-volt-deutschland.pdf](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/allgemeine-wahlordnung-von-volt-deutschland.pdf) |
+| Geschäftsordnung Bundesparteitage | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/geschaftsordnung-fur-ordentliche-und-ausserordentliche-bundesparteitage-von-volt-deutschland-1.pdf) |
+| Geschäftsordnung Online-Bundesparteitage | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/volt-deutschland-go-obpt-202602.pdf) |
+
+### Programme
+| Document | PDF |
+|----------|-----|
+| Grundsatzprogramm 2023 | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/grundsatzprogramm_volt_deutschland_2023_01_28.pdf) |
+
+### Wahlprogramme (Election Programmes)
+| Document | PDF |
+|----------|-----|
+| Bundestagswahl 2025 | [PDF](https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf) |
+| Bundestagswahl 2025 (Leichte Sprache) | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/btw-wahl-2025/gepruftes-wahl-programm-leichte-sprache-volt-bundestags-wahl-2025.pdf) |
+| Europawahl 2024 | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/europawahl_2024/volt-wahlprogramm-europawahl-2024.pdf) |
+
+### Positionspapiere (Position Papers)
+| Document | PDF |
+|----------|-----|
+| Ehegattensplitting stufenweise abschaffen | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/ehegattensplitting-stufenweise-abschaffen-(1).pdf) |
+| Wehrfähige EU | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/positionspapier-wehrfahige-eu-2-ziel-als-mindestsatz-fur-eine-eu-kompatible-vollausstattung-der-bundeswehr.pdf) |
+| Nukleare Teilhabe | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/nukleare-teilhabe-in-europa-neu-denken-1.pdf) |
+| Magnetschwebebahn | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/positionspapier-_magnetschwebebahn-potenziale-fur-eine-zukunftsfeste-mobilitat-nutzen_-(veroffentlichte-version).pdf) |
+
+### Unvereinbarkeitsbeschlüsse (Incompatibility Decisions)
+| Document | PDF |
+|----------|-----|
+| Antisemitismus | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/unvereinbarkeitsbeschluss-antisemitismus-und-zum-schutz-judischen-lebens.pdf) |
+| Rechtsextremismus | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/unvereinbarkeitsbeschluss-fur-jegliche-zusammenarbeit-mit-rassistischen,-rechtsextremen,-demokratie-und-verfassungsfeindlichen-gruppierungen-und-parteien,-insbesondere-der-afd-(1).pdf) |
+| Linksextremismus | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/unvereinbarkeitsbeschluss-linksextremismus-(1).pdf) |
+
+---
+
+## 📰 News Sources (RSS Feeds)
+
+| Source | RSS Feed | Articles |
+|--------|----------|----------|
+| Volt Deutschland | [volteuropa.org/neuigkeiten/rss](https://voltdeutschland.org/neuigkeiten/rss) | 20 |
+| Volt Europa | [volteuropa.org/news/rss](https://volteuropa.org/news/rss) | 20 |
+| Volt in the Press (Mastodon) | [mastodon.social/@voltinthepress.rss](https://mastodon.social/@voltinthepress.rss) | 20 |
+
+---
+
+## 🔧 Setup
+
+### Hermes Skill
 ```bash
-python3 volt_policy_checker.py search "climate"
+python3 cache_manager.py setup-github https://github.com/harrytyp/voltpolicies.git
 ```
 
-### As MCP Server
-
-**1. Clone the repo:**
-```bash
-git clone git@github.com:harrytyp/voltpolicies.git ~/.hermes/volt-policy-cache
-```
-
-**2. Install dependencies:**
-```bash
-pip install mcp pymupdf
-```
-
-**3. Configure your MCP client:**
-
-Add to your MCP config (e.g., `~/.hermes/config.yaml` or VS Code settings):
-
+### MCP Server (any MCP client)
 ```json
 {
   "mcpServers": {
     "volt-policies": {
       "command": "python3",
-      "args": ["~/.hermes/volt-policy-cache/mcp_server.py"]
+      "args": ["/path/to/voltpolicies/mcp_server.py"]
     }
   }
 }
 ```
 
+**Requirements:** `pip install mcp pymupdf`
+
 ### Available Tools
 
-| Tool | Description |
-|------|-------------|
-| `volt_search(query)` | Search policy documents |
-| `volt_search_news(query)` | Search news/press mentions |
-| `volt_check(statement)` | Verify a claim against policy |
-| `volt_verify_citation(citation)` | Check if a citation exists |
-| `volt_fetch_news()` | Refresh RSS feeds |
-| `volt_cache_status()` | Show cache info |
+| Tool | Description | Returns |
+|------|-------------|---------|
+| `volt_search(query)` | Search policy PDFs | Document, URL, page, excerpt |
+| `volt_search_news(query)` | Search news articles | Title, URL, date, description |
+| `volt_check(statement)` | Verify claim vs. policy | Verdict, sources, URLs |
+| `volt_verify_citation(citation)` | Check if citation exists | Found/not found, URL, page |
+| `volt_fetch_news()` | Refresh RSS feeds | Article counts |
+| `volt_cache_status()` | Show cache info | Directory, counts, size |
 
 ### Available Resources
 
 | Resource | Description |
 |----------|-------------|
-| `volt://policies/list` | List all policy documents |
-| `volt://news/latest` | Get latest news articles |
+| `volt://policies/list` | List all policy documents with URLs |
+| `volt://news/latest` | Get latest news with direct links |
 
-## Auto-Update
+---
+
+## 🔄 Auto-Update
 
 GitHub Actions runs every 6 hours:
-1. Scrapes Volt websites for new PDFs
-2. Fetches RSS news feeds
-3. Commits changes automatically
 
-## Manual Update
+1. **Scrapes** Volt Europa + Volt Deutschland for new PDFs
+2. **Fetches** RSS news from 3 sources
+3. **Extracts** text from any new PDFs (with page numbers)
+4. **Commits** changes automatically
 
+To force a manual update:
 ```bash
 # Pull latest
-git -C ~/.hermes/volt-policy-cache pull
+git pull
 
 # Or use the skill
 python3 volt_policy_checker.py sync
 ```
+
+---
+
+## 📁 Repository Structure
+
+```
+voltpolicies/
+├── .github/
+│   ├── workflows/
+│   │   └── update-news.yml           ← CI: auto-updates every 6h
+│   └── scripts/
+│       ├── cache_manager.py          ← Cross-device sync config
+│       ├── volt_policy_checker.py    ← Core search/check logic
+│       ├── volt_policy_checker_enhanced.py  ← Search with page numbers
+│       ├── check_new_pdfs.py         ← Scrapes for new PDFs
+│       └── fetch_news.py             ← RSS feed fetcher
+├── cache/
+│   ├── *_meta.json (32 files)        ← Page-level metadata
+│   ├── *.txt (32 files)              ← Extracted text
+│   └── news_*.json (3 files)         ← RSS feeds
+├── mcp_server.py                     ← MCP server (stdio)
+├── known_pdfs.json                   ← PDF URL registry
+├── .gitignore                        ← Ignores PDFs
+└── README.md
+```
+
+---
+
+## Precedence Rules
+
+When checking for consistency:
+1. **Wahlprogramme** override Grundsatzprogramm on campaign topics
+2. **Position papers** override Grundsatzprogramm on specific topics
+3. **Grundsatzprogramm** overrides MOP 9.0
+4. **Unvereinbarkeitsbeschlüsse** are absolute
+5. **Amsterdam Declaration** is foundational
+6. **News articles** are supplementary
