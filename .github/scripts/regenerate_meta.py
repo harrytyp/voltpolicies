@@ -8,25 +8,19 @@ KNOWN = CACHE.parent / "known_pdfs.json"
 
 # Load known PDFs
 known = json.loads(KNOWN.read_text())
-if isinstance(known, list):
-    items = known
-elif isinstance(known, dict):
-    items = known.get("pdfs", known)
-    if isinstance(items, dict):
-        items = items.values()
-else:
-    items = []
+pdfs_dict = {}
+if isinstance(known, dict) and "pdfs" in known:
+    for url, info in known["pdfs"].items():
+        if isinstance(info, dict):
+            pdfs_dict[info.get("name", url)] = url
+elif isinstance(known, list):
+    for item in known:
+        if isinstance(item, dict) and "url" in item:
+            pdfs_dict[item.get("name", str(item["url"]))] = item["url"]
 
-pdf_urls = {}
-for item in items:
-    if isinstance(item, dict):
-        n = item.get("name", "")
-        u = item.get("url", "")
-        if u: pdf_urls[n] = u
+print(f"Found {len(pdfs_dict)} known PDFs")
 
-print(f"Found {len(pdf_urls)} known PDFs")
-
-for name, url in sorted(pdf_urls.items()):
+for name, url in sorted(pdfs_dict.items()):
     safe = re.sub(r'[^\w\-]', '_', name)
     meta = CACHE / f"{safe}_meta.json"
     pdf = CACHE / f"{safe}.pdf"
