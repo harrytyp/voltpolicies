@@ -96,22 +96,34 @@ def should_skip(url: str) -> bool:
 
 
 def extract_text_from_pdf(pdf_path: Path) -> str:
-    """Extract text from a PDF using pymupdf."""
+    """Extract text from PDF using pymupdf. Creates .txt AND _meta.json (per-page)."""
     txt_path = CACHE_DIR / f"{pdf_path.stem}.txt"
+    meta_path = CACHE_DIR / f"{pdf_path.stem}_meta.json"
     
-    if txt_path.exists():
+    if txt_path.exists() and meta_path.exists():
         return txt_path.read_text(encoding='utf-8', errors='replace')
     
     try:
         import fitz
         doc = fitz.open(str(pdf_path))
-        text = ""
-        for page in doc:
-            text += page.get_text() + "\n\n"
+        pages_data = []
+        full_text = ""
+        for i, page in enumerate(doc):
+            page_text = page.get_text()
+            pages_data.append({"page": i + 1, "text": page_text})
+            full_text += page_text + "\n\n"
         doc.close()
         
-        txt_path.write_text(text, encoding='utf-8')
-        return text
+        txt_path.write_text(full_text, encoding='utf-8')
+        
+        # Also save per-page metadata
+        meta_path.write_text(json.dumps({
+            "document": pdf_path.stem.replace("_", " "),
+            "url": "",  # filled in by the caller
+            "pages": pages_data
+        }, indent=2, ensure_ascii=False), encoding='utf-8')
+        
+        return full_text
     except ImportError:
         print("  Warning: pymupdf not installed")
         return ""
