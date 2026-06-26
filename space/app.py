@@ -2,6 +2,7 @@
 """
 Volt Policy Chatbot — FAISS Semantic Search.
 Multilingual, production-ready, auto-updating via GitHub.
+Non-blocking startup: Gradio sofort verfügbar, Index lädt im Hintergrund.
 """
 import json, os, subprocess, re, sys, threading, datetime, logging
 from pathlib import Path
@@ -14,50 +15,54 @@ BASE = Path("/data/cache/repo")
 CACHE_PATH = BASE / "cache"
 LOG = logging.getLogger("volt")
 
-# ── Repo Setup (resilient) ──────────────────────────────────────────────────
-def setup(max_retries=3):
-    """Clone/pull GitHub repo. Retries on failure. Existing clone = safe fallback."""
-    BASE.mkdir(parents=True, exist_ok=True)
-    CACHE_PATH.mkdir(parents=True, exist_ok=True)
+# ── Thread-safe State ───────────────────────────────────────────────────────
+# Mutable container for thread-safe sharing between bg-thread and tools
+FAISS_READY = [False]        # True once index is loaded
+FAISS_INFO = ["⏳ FAISS Index wird geladen..."]
+SEARCH_MODULE = [None]       # Will hold the search_semantic module
 
-    for attempt in range(1, max_retries + 1):
+# ── Background Initialization ───────────────────────────────────────────────
+def _init_async():
+    """Run setup + FAISS import in background thread. Gradio starts immediately."""
+    # Step 1: Clone/pull repo
+    for attempt in range(1, 4):
         try:
+            BASE.mkdir(parents=True, exist_ok=True)
+            CACHE_PATH.mkdir(parents=True, exist_ok=True)
             if (BASE / ".git").exists():
-                result = subprocess.run(
-                    ["git", "-C", str(BASE), "pull", "--ff-only"],
-                    capture_output=True, timeout=30, text=True,
-                )
-                LOG.info("Git pull: %s", result.stdout.strip() or result.stderr.strip() or "OK")
+                subprocess.run(["git", "-C", str(BASE), "pull", "--ff-only"],
+                               capture_output=True, timeout=30)
             else:
-                result = subprocess.run(
-                    ["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
-                    capture_output=True, timeout=120, text=True,
-                )
-                LOG.info("Git clone: %s", result.stdout.strip() or "OK")
+                subprocess.run(["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
+                               capture_output=True, timeout=120)
             break
         except Exception as e:
-            LOG.warning("Git attempt %d/%d failed: %s", attempt, max_retries, e)
-            if attempt == max_retries and not (BASE / ".git").exists():
-                LOG.error("Cannot clone repo — Space will have no data.")
-                return False
-    return True
+            LOG.warning("Git attempt %d/3 failed: %s", attempt, e)
 
-# ── Semantic Search Engine ──────────────────────────────────────────────────
-setup()
-os.environ["VOLT_CACHE_DIR"] = str(CACHE_PATH)
-sys.path.insert(0, str(BASE))
-sys.path.insert(0, str(BASE / "scripts"))
-sys.path.insert(0, str(BASE / ".github" / "scripts"))
+    # Step 2: Add repo paths and import search
+    os.environ["VOLT_CACHE_DIR"] = str(CACHE_PATH)
+    sys.path.insert(0, str(BASE))
+    sys.path.insert(0, str(BASE / "scripts"))
+    sys.path.insert(0, str(BASE / ".github" / "scripts"))
 
-try:
-    from search_semantic import semantic_search, index_available
-    HAS_FAISS = index_available()
-    LOG.info("FAISS index %s (%d vectors)",
-             "available" if HAS_FAISS else "NOT found (run build_index.py)")
-except Exception as e:
-    semantic_search, index_available = None, lambda: False
-    HAS_FAISS = False
-    LOG.warning("FAISS import failed: %s", e)
+    try:
+        import search_semantic as ss
+        SEARCH_MODULE[0] = ss
+
+        if ss.index_available():
+            FAISS_READY[0] = True
+            idx, _ = ss._load_index()
+            n = idx.ntotal if idx else 0
+            FAISS_INFO[0] = f"✅ FAISS Vektorsuche aktiv ({n} Vektoren)"
+            LOG.info("FAISS ready: %d vectors", n)
+        else:
+            FAISS_INFO[0] = "⚠️ FAISS Index nicht gefunden — CI Build ausstehend?"
+            LOG.warning("FAISS index not found at %s", ss.INDEX_PATH)
+    except Exception as e:
+        FAISS_INFO[0] = f"⚠️ FAISS Fehler: {e}"
+        LOG.error("FAISS init failed: %s", e)
+
+threading.Thread(target=_init_async, daemon=True).start()
 
 # ── Daily Git Pull ──────────────────────────────────────────────────────────
 def _puller():
@@ -83,12 +88,18 @@ NVIDIA_KEY     = os.environ.get("NVIDIA_API_KEY", os.environ.get("nvidia_nim", "
 
 # ── Tool Implementations ────────────────────────────────────────────────────
 
+def _semantic_search(query, max_results=10):
+    """Thread-safe wrapper. Returns empty list if not ready yet."""
+    if not FAISS_READY[0] or SEARCH_MODULE[0] is None:
+        return None  # Signal: not ready
+    return SEARCH_MODULE[0].semantic_search(query, max_results=max_results)
+
+
 def search_policies(query: str, max_results: int = 5) -> str:
     """Semantic search across policy documents. Returns formatted text for LLM."""
-    if not HAS_FAISS:
-        return json.dumps({"results": [], "note": "Semantischer Index wird geladen — bitte in 1 Min erneut versuchen."})
-
-    results = semantic_search(query, max_results=max_results)
+    results = _semantic_search(query, max_results)
+    if results is None:
+        return json.dumps({"results": [], "note": FAISS_INFO[0]})
     if not results:
         return json.dumps({"results": [], "note": "Keine Ergebnisse gefunden."})
 
@@ -101,31 +112,26 @@ def search_policies(query: str, max_results: int = 5) -> str:
         lines.append(f"\n- {title} (Score: {score:.2f})")
         if url:
             lines.append(f"  URL: {url}")
-        else:
-            lines.append("  URL: (no external URL)")
         if preview:
             lines.append(f"  Excerpt: ...{preview}...")
-
     return "\n".join(lines)
 
 
 def search_news(query: str, max_results: int = 8) -> list:
-    """Semantic news search. Returns list for tool result."""
-    if not HAS_FAISS:
-        return [{"error": "Index nicht verfügbar"}]
-
-    results = semantic_search(query, max_results=max_results * 2)
+    """Semantic news search."""
+    results = _semantic_search(query, max_results * 2)
+    if results is None:
+        return [{"error": FAISS_INFO[0]}]
     news = [r for r in results if r.get("type") == "news"]
     return news[:max_results]
 
 
 def check_statement(statement: str) -> dict:
-    """Check a claim against policy documents. Returns verdict dict."""
-    if not HAS_FAISS:
+    """Check a claim against policy documents."""
+    results = _semantic_search(statement, 5)
+    if results is None:
         return {"statement": statement, "verdict": "NO_MATCH", "confidence": "LOW",
-                "sources": [], "note": "Index nicht verfügbar"}
-
-    results = semantic_search(statement, max_results=5)
+                "sources": [], "note": FAISS_INFO[0]}
     score = results[0]["score"] if results else 0
 
     if score >= 0.7:
@@ -135,20 +141,15 @@ def check_statement(statement: str) -> dict:
     else:
         verdict, confidence = "NO_MATCH", "LOW"
 
-    return {
-        "statement": statement,
-        "verdict": verdict,
-        "confidence": confidence,
-        "sources": results[:3],
-    }
+    return {"statement": statement, "verdict": verdict, "confidence": confidence,
+            "sources": results[:3]}
 
 
 def verify_citation(citation: str) -> dict:
     """Verify if a specific citation exists in the documents."""
-    if not HAS_FAISS:
-        return {"citation": citation, "found": False, "sources": []}
-
-    results = semantic_search(citation, max_results=3)
+    results = _semantic_search(citation, 3)
+    if results is None:
+        return {"citation": citation, "found": False, "sources": [], "note": FAISS_INFO[0]}
     found = any(r.get("score", 0) > 0.8 for r in results)
     return {"citation": citation, "found": found, "sources": results[:3]}
 
@@ -323,25 +324,23 @@ default_val = next((v for _, v in choices if v and not v.startswith("_sep_")), N
 
 # ── Gradio UI ───────────────────────────────────────────────────────────────
 
-CSS = """footer { display: none !important; }
-.status-msg { font-size: 0.85em; color: #888; margin-bottom: 0.5em; }"""
-
-INDEX_STATUS = "✅ FAISS Vektorsuche aktiv" if HAS_FAISS else "⏳ FAISS Index wird geladen..."
+CSS = """footer { display: none !important; }"""
 
 with gr.Blocks(title="Volt Policy Chatbot", fill_height=True, css=CSS,
                theme=gr.themes.Soft(primary_hue="purple", secondary_hue="indigo")) as demo:
-    gr.Markdown(f"## 💜 Volt Policy Chatbot\n4 tools · multilingual FAISS search · daily CI updates  \n{INDEX_STATUS}")
+
+    status_display = gr.Markdown(f"## 💜 Volt Policy Chatbot\n4 tools · multilingual FAISS search · daily CI updates  \n{FAISS_INFO[0]}")
 
     with gr.Row():
         dd = gr.Dropdown(choices=choices, label="Model", value=default_val, interactive=True, scale=4,
                          info="🟢 = API-Key aktiv · 🔴 = kein Key")
-        gr.Button("🔄", variant="secondary", scale=0, min_width=60).click(
-            fn=lambda: gr.Dropdown(choices=build_choices()), outputs=[dd])
+        refresh_btn = gr.Button("🔄", variant="secondary", scale=0, min_width=60)
+        refresh_btn.click(fn=lambda: gr.Dropdown(choices=build_choices()), outputs=[dd])
 
     gr.ChatInterface(fn=chat, type="messages", additional_inputs=[dd], title="")
 
     gr.Markdown(f"**Source:** [github.com/harrytyp/voltpolicies]({GIT_REPO}) · daily CI · "
-                f"FAISS multilingual search · 1400+ policy + news vectors")
+                f"FAISS multilingual search · policy + news vectors")
 
 if __name__ == "__main__":
     demo.launch(server_name="0.0.0.0", server_port=7860)
