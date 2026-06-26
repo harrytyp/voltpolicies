@@ -1,0 +1,275 @@
+{
+  "_meta": {
+    "description": "Volt Europa national chapters configuration",
+    "source": "https://volteuropa.org/volt-in-your-country",
+    "updated": "2026-06-07"
+  },
+  "chapters": {
+    "Volt Albanien": {
+      "country": "AL",
+      "website": "https://www.voltalbania.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "sq"
+    },
+    "Volt Österreich": {
+      "country": "AT",
+      "website": "https://www.voltoesterreich.org",
+      "rss_feeds": ["/neuigkeiten/rss", "/feed", "/rss"],
+      "news_path": "/neuigkeiten",
+      "news_lang": "de",
+      "policy_pages": ["/programm", "/programm/programme"]
+    },
+    "Volt Belgien": {
+      "country": "BE",
+      "website": "https://www.voltbelgium.org",
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
+      "news_path": "/news",
+      "news_lang": "nl",
+      "policy_pages": ["/policies", "/programme"]
+    },
+    "Volt Bulgarien": {
+      "country": "BG",
+      "website": "https://volt.bg",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "bg",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Kroatien": {
+      "country": "HR",
+      "website": "https://www.voltcroatia.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "hr",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Zypern": {
+      "country": "CY",
+      "website": "http://voltcyprus.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "en",
+      "policy_pages": ["/policies", "/programme"]
+    },
+    "Volt Tschechien": {
+      "country": "CZ",
+      "website": "https://www.voltcesko.org",
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
+      "news_path": "/news",
+      "news_lang": "cs",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Dänemark": {
+      "country": "DK",
+      "website": "https://www.voltdanmark.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "da",
+      "policy_pages": ["/politik", "/program"]
+    },
+    "Volt Estland": {
+      "country": "EE",
+      "website": "http://volteesti.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "et",
+      "policy_pages": ["/policies", "/programm"]
+    },
+    "Volt Finnland": {
+      "country": "FI",
+      "website": "https://www.voltsuomi.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "fi",
+      "policy_pages": ["/policies", "/politik", "/programm"]
+    },
+    "Volt Frankreich": {
+      "country": "FR",
+      "website": "https://www.voltfrance.org",
+      "rss_feeds": ["/actualites/rss", "/feed", "/rss"],
+      "news_path": "/actualites",
+      "news_lang": "fr",
+      "policy_pages": ["/programme", "/policies"]
+    },
+    "Volt Deutschland": {
+      "country": "DE",
+      "website": "https://www.voltdeutschland.org",
+      "rss_feeds": ["/neuigkeiten/rss", "/feed", "/rss"],
+      "news_path": "/neuigkeiten",
+      "news_lang": "de",
+      "policy_pages": [
+        "/programm/programme/statuten-de",
+        "/programm/programme/wahlprogramme"
+      ]
+    },
+    "Volt Griechenland": {
+      "country": "GR",
+      "website": "https://www.voltgreece.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "el",
+      "policy_pages": ["/programme", "/policies"]
+    },
+    "Volt Ungarn": {
+      "country": "HU",
+      "website": "https://www.volthungary.org",
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
+      "news_path": "/news",
+      "news_lang": "hu",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Irland": {
+      "country": "IE",
+      "website": "https://voltireland.org",
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
+      "news_path": "/news",
+      "news_lang": "en",
+      "policy_pages": ["/policies", "/programme"]
+    },
+    "Volt Italien": {
+      "country": "IT",
+      "website": "https://www.voltitalia.org",
+      "rss_feeds": ["/rss", "/feed", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "it",
+      "policy_pages": ["/programm", "/policies"]
+    },
+    "Volt Kosovo": {
+      "country": "XK",
+      "website": "https://voltkosovo.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "sq",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Lettland": {
+      "country": "LV",
+      "website": "https://voltlatvija.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "lv",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Litauen": {
+      "country": "LT",
+      "website": "https://www.voltlietuva.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "lt",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Luxemburg": {
+      "country": "LU",
+      "website": "https://www.voltluxembourg.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "fr",
+      "policy_pages": ["/programme", "/policies"]
+    },
+    "Volt Malta": {
+      "country": "MT",
+      "website": "https://www.voltmalta.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "en",
+      "policy_pages": ["/policies", "/programme"]
+    },
+    "Volt Niederlande": {
+      "country": "NL",
+      "website": "https://www.voltnederland.org",
+      "rss_feeds": ["/nieuws/rss", "/feed", "/rss"],
+      "news_path": "/nieuws",
+      "news_lang": "nl",
+      "policy_pages": ["/standpunten", "/standpunten/overzicht/verkiezingsprogramma", "/policies", "/program"]
+    },
+    "Volt Norwegen": {
+      "country": "NO",
+      "website": "https://www.voltnorge.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "no",
+      "policy_pages": ["/politikk", "/policies"]
+    },
+    "Volt Polen": {
+      "country": "PL",
+      "website": "https://www.voltpolska.org",
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
+      "news_path": "/news",
+      "news_lang": "pl",
+      "policy_pages": ["/program", "/policies"]
+    },
+    "Volt Portugal": {
+      "country": "PT",
+      "website": "https://www.voltportugal.org",
+      "rss_feeds": ["/feed", "/rss", "/noticias/rss", "/noticias/feed"],
+      "news_path": "/noticias",
+      "news_lang": "pt",
+      "policy_pages": ["/programa", "/policies"]
+    },
+    "Volt Rumänien": {
+      "country": "RO",
+      "website": "https://www.voltromania.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "ro",
+      "policy_pages": ["/policies", "/program", "/programa"]
+    },
+    "Volt Slowakei": {
+      "country": "SK",
+      "website": "https://www.voltslovensko.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "sk",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Slowenien": {
+      "country": "SI",
+      "website": "https://voltslovenia.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "sl",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Spanien": {
+      "country": "ES",
+      "website": "https://www.voltespana.org",
+      "rss_feeds": ["/feed", "/rss", "/noticias/rss", "/noticias/feed"],
+      "news_path": "/noticias",
+      "news_lang": "es",
+      "policy_pages": ["/programa", "/policies", "/nuestras-politicas"]
+    },
+    "Volt Schweden": {
+      "country": "SE",
+      "website": "https://www.voltsverige.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss", "/nyheter/rss"],
+      "news_path": "/nyheter",
+      "news_lang": "sv",
+      "policy_pages": ["/politik", "/program"]
+    },
+    "Volt Schweiz": {
+      "country": "CH",
+      "website": "https://www.voltswitzerland.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "de",
+      "policy_pages": ["/politik", "/programm", "/policies"]
+    },
+    "Volt Ukraine": {
+      "country": "UA",
+      "website": "https://voltukraine.org",
+      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "news_path": "/news",
+      "news_lang": "uk",
+      "policy_pages": ["/policies", "/program"]
+    },
+    "Volt Vereinigtes Königreich": {
+      "country": "GB",
+      "website": "https://voltuk.org",
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
+      "news_path": "/news",
+      "news_lang": "en",
+      "policy_pages": ["/policies", "/programme"]
+    }
+  }
+}
