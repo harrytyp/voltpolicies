@@ -24,28 +24,26 @@ SEARCH_MODULE = [None]       # Will hold the search_semantic module
 # ── Background Initialization ───────────────────────────────────────────────
 def _init_async():
     """Run setup + FAISS import in background thread. Gradio starts immediately."""
-    # Step 1: Clone/pull repo (ensure scripts/ directory exists)
+    # Step 1: Fresh clone every time (avoids stale state from old deploys)
     for attempt in range(1, 4):
         try:
             BASE.mkdir(parents=True, exist_ok=True)
-            CACHE_PATH.mkdir(parents=True, exist_ok=True)
+            # Remove old .git + checked-out files, then fresh shallow clone
             if (BASE / ".git").exists():
-                subprocess.run(["git", "-C", str(BASE), "pull", "--ff-only"],
-                               capture_output=True, timeout=60)
-                # If scripts missing after pull → stale clone → force fresh
-                if not (BASE / "scripts" / "search_semantic.py").exists():
-                    LOG.warning("Old clone without scripts/ — forcing fresh clone")
-                    shutil.rmtree(str(BASE / ".git"), ignore_errors=True)
-                    subprocess.run(["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
-                                   capture_output=True, timeout=120)
-            else:
-                subprocess.run(["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
-                               capture_output=True, timeout=120)
+                shutil.rmtree(str(BASE / ".git"), ignore_errors=True)
+                # Clean all files except persistent cache/
+                for item in list(BASE.iterdir()):
+                    if item.name != "cache":
+                        if item.is_dir():
+                            shutil.rmtree(str(item), ignore_errors=True)
+                        else:
+                            item.unlink(missing_ok=True)
+            CACHE_PATH.mkdir(parents=True, exist_ok=True)
+            subprocess.run(["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
+                           capture_output=True, timeout=120)
             break
         except Exception as e:
             LOG.warning("Git attempt %d/3 failed: %s", attempt, e)
-            import traceback
-            traceback.print_exc()
 
     # Step 2: Add repo paths and import search (only if repo has our scripts)
     search_module_path = BASE / "scripts" / "search_semantic.py"
