@@ -1,7 +1,43 @@
-# Volt Policies
+# 💜 Volt Policies
 
-Shared cache + MCP server for the **Volt Policy Reference Checker** Hermes skill.
-Auto-updated daily via GitHub Actions.
+> **Chat with Volt Europa & Deutschland Politik — mit Quellenangaben**  
+> 🤗 **[→ Zum HuggingFace Space](https://huggingface.co/spaces/harrytyp/voltpolicies)**  
+> 🔗 `https://huggingface.co/spaces/harrytyp/voltpolicies`
+
+Shared cache + FAISS semantic search + MCP server for Volt policy documents.  
+Auto-updated daily via GitHub Actions. **Multilingual search** across 1400+ policy & news vectors.
+
+---
+
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  GitHub (harrytyp/voltpolicies) — Single Source of Truth    │
+│                                                             │
+│  mcp_server.py · scripts/search_semantic.py                 │
+│  scripts/build_index.py · scripts/chapters.json (33 Länder) │
+│  space/app.py (HF Space wrapper) · .github/workflows/       │
+│  cache/faiss.index + chunks.json · cache/*_meta.json        │
+└──────────────────────┬──────────────────────────────────────┘
+                       │ GitHub Actions (täglich 06:00 UTC)
+                       │ - scraped neue PDFs
+                       │ - fetch news
+                       │ - baut FAISS Index
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│  HF Space (harrytyp/voltpolicies) — Chatbot + MCP           │
+│                                                             │
+│  Startup: github.com/harrytyp/voltpolicies  (clone/pull)    │
+│  └─ import search_semantic → semantic_search(query)         │
+│  └─ FAISS Index + chunks aus cache/                         │
+│  └─ intfloat/multilingual-e5-small Embeddings               │
+│                                                             │
+│  Auto-Pull: täglich 07:00 UTC → immer aktuell               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Der HF Space pullt selbstständig aus GitHub** — kein Token, kein GitHub→HF Push nötig (außer für `space/app.py` selbst).
 
 ---
 
@@ -35,18 +71,19 @@ python3 cache_manager.py setup-github https://github.com/harrytyp/voltpolicies.g
 }
 ```
 
-**Requirements:** `pip install mcp pymupdf beautifulsoup4`
+**Requirements:** `pip install mcp faiss-cpu sentence-transformers numpy pymupdf beautifulsoup4`
 
-### Available Tools
+### Available Tools (7)
 
 | Tool | Description | Returns |
 |------|-------------|---------|
-| `volt_search(query)` | Search policy PDFs | Document, URL#page, excerpt |
-| `volt_search_news(query)` | Search news articles | Title, URL, date, description |
-| `volt_check(statement)` | Verify claim vs. policy | Verdict, sources, URLs |
+| `volt_search(query, chapters?)` | **FAISS semantic search** policy PDFs | Title, URL#page, score, preview |
+| `volt_search_news(query, chapters?)` | **FAISS semantic search** news | Title, URL, date, source |
+| `volt_check(statement, chapters?)` | Verify claim vs. policy (cosine score) | Verdict (MATCH/PARTIAL/NO_MATCH) |
 | `volt_verify_citation(citation)` | Check if citation exists | Found/not found, URL, page |
-| `volt_fetch_news()` | Refresh news | Article counts |
-| `volt_cache_status()` | Show cache info | Directory, counts, size |
+| `volt_fetch_news()` | Refresh news cache | Article counts by source |
+| `volt_cache_status()` | Show FAISS index + cache status | Vector count, PDFs, articles |
+| `volt_list_chapters()` | List 33 national chapters with codes | Country codes, names, websites |
 
 ### Available Resources
 
@@ -63,8 +100,11 @@ GitHub Actions runs **daily at 06:00 UTC**:
 
 1. **Scrapes** Volt websites for new PDFs (with page-level metadata)
 2. **Fetches** news: RSS + Mastodon API (all posts) + paginated scraping
-3. **Generates** STATUS.md and SOURCES.md with live counts
-4. **Commits** only changes (incremental)
+3. **Rebuilds** FAISS index with new embeddings (via `scripts/build_index.py`)
+4. **Generates** STATUS.md and SOURCES.md with live counts
+5. **Commits** only changes (incremental)
+
+**HF Space** pulls the latest index daily at 07:00 UTC → neue Vektoren automatisch verfügbar.
 
 ---
 
@@ -72,22 +112,34 @@ GitHub Actions runs **daily at 06:00 UTC**:
 
 ```
 voltpolicies/
+├── mcp_server.py                     ← FAISS MCP server (7 tools)
+├── scripts/
+│   ├── search_semantic.py            ← FAISS cosine similarity search
+│   ├── build_index.py                ← Embedding index builder
+│   └── chapters.json                 ← 33 national chapters config
+├── space/
+│   ├── app.py                        ← HF Space Gradio chatbot (FAISS)
+│   ├── requirements.txt              ← Gradio + FAISS deps
+│   └── README.md                     ← HF Space metadata
+├── docs/
+│   └── search-architecture.md        ← FAISS + multilingual architecture
 ├── .github/
 │   ├── workflows/
 │   │   └── update-news.yml           ← CI: daily at 06:00 UTC
 │   └── scripts/
-│       ├── cache_manager.py          ← Cross-device sync config
-│       ├── volt_policy_checker.py    ← Core search/check logic
-│       ├── volt_policy_checker_enhanced.py  ← Search with page numbers
-│       ├── check_new_pdfs.py         ← Scrapes for new PDFs
-│       ├── fetch_news.py             ← Multi-source news fetcher
-│       ├── generate_status.py        ← Generates STATUS.md
-│       └── generate_sources.py       ← Generates SOURCES.md
+│       ├── volt_policy_checker.py        ← Legacy word-count search
+│       ├── volt_policy_checker_enhanced.py ← Legacy page-number search
+│       ├── cache_manager.py             ← Cross-device cache sync
+│       ├── check_new_pdfs.py            ← Scrapes for new PDFs
+│       ├── fetch_news.py                ← Multi-source news fetcher
+│       ├── generate_status.py           ← Generates STATUS.md
+│       └── generate_sources.py          ← Generates SOURCES.md
 ├── cache/
-│   ├── *_meta.json                   ← Page-level metadata (32 files)
-│   ├── *.txt                         ← Extracted text (32 files)
-│   └── news_*.json                   ← News articles (3 files)
-├── mcp_server.py                     ← MCP server (stdio)
+│   ├── faiss.index                   ← FAISS index (1409 vectors)
+│   ├── chunks.json                   ← Searchable text chunks
+│   ├── *_meta.json                   ← Page-level metadata (33 files)
+│   ├── *.txt                         ← Extracted text (33 files)
+│   └── news_*.json                   ← News articles (3 sources)
 ├── known_pdfs.json                   ← PDF URL registry
 ├── STATUS.md                         ← Auto-generated: live counts
 ├── SOURCES.md                        ← Auto-generated: full source list
