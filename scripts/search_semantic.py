@@ -5,6 +5,7 @@ Replaces old string-matching + dictionary approach.
 """
 
 import json
+import os
 import numpy as np
 from pathlib import Path
 
@@ -14,7 +15,14 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / ".github" / "scr
 
 from cache_manager import get_cache_dir
 
-CACHE_DIR = get_cache_dir()
+# Allow override via env var (production: HF Space setzt VOLT_CACHE_DIR)
+_env_cache = os.environ.get("VOLT_CACHE_DIR")
+if _env_cache:
+    _cache_path = Path(_env_cache)
+    _cache_path.mkdir(parents=True, exist_ok=True)
+    CACHE_DIR = _cache_path
+else:
+    CACHE_DIR = get_cache_dir()
 INDEX_PATH = CACHE_DIR / "faiss.index"
 CHUNKS_PATH = CACHE_DIR / "chunks.json"
 
