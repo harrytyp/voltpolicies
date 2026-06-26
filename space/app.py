@@ -299,20 +299,12 @@ CSS = """footer { display: none !important; }"""
 
 EXAMPLES = [
     ["What is Volt's position on EU reform?"],
-    ["Wahlprogramm Drogenpolitik 2025"],
-    ["What is happening with Volt in Germany?"],
-    ["Volt supports nuclear energy"],
-    ["Challenge 5.1 - EU Reform"],
+    ["Latest news from Volt Europa"],
+    ["Is it true that Volt wants a European Army?"],
+    ["Does Volt speak of a United Europe?"],
 ]
 
-TOOLS_HTML = """
-<div style="display:flex;gap:8px;flex-wrap:wrap;margin:4px 0 8px 0">
-  <span style="background:#e8d5f5;padding:3px 10px;border-radius:6px;font-size:0.82em">🔍 search_policies</span>
-  <span style="background:#d5f5e8;padding:3px 10px;border-radius:6px;font-size:0.82em">📰 search_news</span>
-  <span style="background:#f5e8d5;padding:3px 10px;border-radius:6px;font-size:0.82em">✅ check_statement</span>
-  <span style="background:#f5d5e8;padding:3px 10px;border-radius:6px;font-size:0.82em">📖 verify_citation</span>
-</div>
-"""
+TOOLS_HTML = ""
 
 with gr.Blocks(title="Volt Policy Chatbot", fill_height=True, css=CSS,
                theme=gr.themes.Soft(primary_hue="purple", secondary_hue="indigo")) as demo:
@@ -325,7 +317,7 @@ with gr.Blocks(title="Volt Policy Chatbot", fill_height=True, css=CSS,
         gr.Button("🔄", variant="secondary", scale=0, min_width=60).click(
             fn=lambda: gr.Dropdown(choices=build_choices()), outputs=[dd])
 
-    gr.Markdown("### 🔧 Tools")
+
     gr.HTML(TOOLS_HTML)
 
     gr.ChatInterface(
