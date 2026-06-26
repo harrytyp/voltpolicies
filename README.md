@@ -1,6 +1,6 @@
 # 💜 Volt Policies
 
-> **Chat with Volt Europa & Deutschland**  
+> **Chat with Volt Europa & the national Volt Chapters**  
 > 🤗 **[→ HuggingFace Space](https://huggingface.co/spaces/harrytyp/voltpolicies)**  
 > 🔗 `https://huggingface.co/spaces/harrytyp/voltpolicies`
 
@@ -37,8 +37,7 @@ Auto-updated daily via GitHub Actions. **Multilingual search** across 1400+ poli
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Der HF Space pullt selbstständig aus GitHub** — kein Token, kein GitHub→HF Push nötig (außer für `space/app.py` selbst).
-
+** HF Space pulls from GitHub**
 ---
 
 ## 📊 Live Status & Sources
