@@ -1,7 +1,7 @@
 # 💜 Volt Policies
 
-> **Chat with Volt Europa & Deutschland Politik — mit Quellenangaben**  
-> 🤗 **[→ Zum HuggingFace Space](https://huggingface.co/spaces/harrytyp/voltpolicies)**  
+> **Chat with Volt Europa & Deutschland**  
+> 🤗 **[→ HuggingFace Space](https://huggingface.co/spaces/harrytyp/voltpolicies)**  
 > 🔗 `https://huggingface.co/spaces/harrytyp/voltpolicies`
 
 Shared cache + FAISS semantic search + MCP server for Volt policy documents.  
