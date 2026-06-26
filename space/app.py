@@ -4,7 +4,7 @@ Volt Policy Chatbot — FAISS Semantic Search.
 Multilingual, production-ready, auto-updating via GitHub.
 Non-blocking startup: Gradio sofort verfügbar, Index lädt im Hintergrund.
 """
-import json, os, subprocess, re, sys, threading, datetime, logging
+import json, os, subprocess, re, sys, threading, datetime, logging, shutil
 from pathlib import Path
 import gradio as gr
 import httpx
@@ -24,20 +24,28 @@ SEARCH_MODULE = [None]       # Will hold the search_semantic module
 # ── Background Initialization ───────────────────────────────────────────────
 def _init_async():
     """Run setup + FAISS import in background thread. Gradio starts immediately."""
-    # Step 1: Clone/pull repo
+    # Step 1: Clone/pull repo (ensure scripts/ directory exists)
     for attempt in range(1, 4):
         try:
             BASE.mkdir(parents=True, exist_ok=True)
             CACHE_PATH.mkdir(parents=True, exist_ok=True)
             if (BASE / ".git").exists():
                 subprocess.run(["git", "-C", str(BASE), "pull", "--ff-only"],
-                               capture_output=True, timeout=30)
+                               capture_output=True, timeout=60)
+                # If scripts missing after pull → stale clone → force fresh
+                if not (BASE / "scripts" / "search_semantic.py").exists():
+                    LOG.warning("Old clone without scripts/ — forcing fresh clone")
+                    shutil.rmtree(str(BASE / ".git"), ignore_errors=True)
+                    subprocess.run(["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
+                                   capture_output=True, timeout=120)
             else:
                 subprocess.run(["git", "clone", "--depth", "1", GIT_REPO, str(BASE)],
                                capture_output=True, timeout=120)
             break
         except Exception as e:
             LOG.warning("Git attempt %d/3 failed: %s", attempt, e)
+            import traceback
+            traceback.print_exc()
 
     # Step 2: Add repo paths and import search (only if repo has our scripts)
     search_module_path = BASE / "scripts" / "search_semantic.py"
