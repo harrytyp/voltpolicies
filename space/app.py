@@ -298,11 +298,11 @@ default_val = next((v for _, v in choices if v and not v.startswith("_sep_")), N
 CSS = """footer { display: none !important; }"""
 
 EXAMPLES = [
-    "What is Volt's position on EU reform?",
-    "Wahlprogramm Drogenpolitik 2025",
-    "What is happening with Volt in Germany?",
-    "Volt supports nuclear energy",
-    "Challenge 5.1 - EU Reform",
+    ["What is Volt's position on EU reform?"],
+    ["Wahlprogramm Drogenpolitik 2025"],
+    ["What is happening with Volt in Germany?"],
+    ["Volt supports nuclear energy"],
+    ["Challenge 5.1 - EU Reform"],
 ]
 
 TOOLS_HTML = """
