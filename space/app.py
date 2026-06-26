@@ -39,7 +39,14 @@ def _init_async():
         except Exception as e:
             LOG.warning("Git attempt %d/3 failed: %s", attempt, e)
 
-    # Step 2: Add repo paths and import search
+    # Step 2: Add repo paths and import search (only if repo has our scripts)
+    search_module_path = BASE / "scripts" / "search_semantic.py"
+    if not search_module_path.exists():
+        FAISS_INFO[0] = "⏳ Git Repository wird geladen — bitte 1-2 Minuten warten..."
+        # Retry after 30s — maybe clone is still running
+        threading.Timer(30.0, _retry_init).start()
+        return
+
     os.environ["VOLT_CACHE_DIR"] = str(CACHE_PATH)
     sys.path.insert(0, str(BASE))
     sys.path.insert(0, str(BASE / "scripts"))
@@ -59,8 +66,19 @@ def _init_async():
             FAISS_INFO[0] = "⚠️ FAISS Index nicht gefunden — CI Build ausstehend?"
             LOG.warning("FAISS index not found at %s", ss.INDEX_PATH)
     except Exception as e:
-        FAISS_INFO[0] = f"⚠️ FAISS Fehler: {e}"
+        FAISS_INFO[0] = f"⚠️ FAISS nicht verfügbar: {e}"
         LOG.error("FAISS init failed: %s", e)
+
+
+def _retry_init():
+    """Retry initialization after a delay (clone might still be running)."""
+    search_module_path = BASE / "scripts" / "search_semantic.py"
+    if not search_module_path.exists():
+        FAISS_INFO[0] = "⏳ Repository wird noch geladen..."
+        threading.Timer(30.0, _retry_init).start()
+        return
+    # Repo is ready — call the full init again
+    _init_async()
 
 threading.Thread(target=_init_async, daemon=True).start()
 
