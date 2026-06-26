@@ -94,24 +94,21 @@ OPENROUTER_KEY = os.environ.get("OPENROUTER_API_KEY", os.environ.get("openrouter
 NVIDIA_KEY     = os.environ.get("NVIDIA_API_KEY", os.environ.get("nvidia_nim", ""))
 
 # ── Tools ───────────────────────────────────────────────────────────────────
-def search_policies(query: str, max_results: int = 5) -> str:
+def search_policies(query: str, max_results: int = 5) -> list:
+    """Semantic search across policy documents. Returns list of result dicts."""
     if not FAISS_READY:
-        return json.dumps({"results": [], "note": FAISS_INFO})
+        return []
     results = SEMANTIC_SEARCH(query, max_results=max_results)
-    if not results:
-        return json.dumps({"results": [], "note": "Keine Ergebnisse gefunden."})
-    lines = [f"Search results ({len(results)} documents):"]
+    out = []
     for r in results:
-        title = r.get("title", "")
-        url = r.get("url", "")
-        score = r.get("score", 0)
-        preview = (r.get("text_preview") or "")[:300]
-        lines.append(f"\n- {title} (Score: {score:.2f})")
-        if url:
-            lines.append(f"  URL: {url}")
-        if preview:
-            lines.append(f"  Excerpt: ...{preview}...")
-    return "\n".join(lines)
+        out.append({
+            "title": r.get("title", ""),
+            "url": r.get("url", ""),
+            "source": r.get("source", ""),
+            "score": round(r.get("score", 0), 4),
+            "text_preview": (r.get("text_preview") or "")[:500],
+        })
+    return out
 
 
 def search_news(query: str, max_results: int = 8) -> list:
@@ -234,8 +231,7 @@ def chat(msg, history, model_key):
             tool_log.append(f"  {icons.get(fn, '🔧')} {fn}(\"{arg_val}\")")
             try:
                 if fn == "search_policies":
-                    _, result = search_policies(args.get("query", msg))
-                    result = {"formatted": result}
+                    result = search_policies(args.get("query", msg))
                 elif fn == "search_news":
                     result = search_news(args.get("query", ""))
                 elif fn == "check_statement":
