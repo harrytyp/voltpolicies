@@ -5,6 +5,10 @@ on:
     - cron: '0 6 * * *'  # Once daily at 06:00 UTC
   workflow_dispatch:
 
+# Explicit write permissions for git push
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -44,5 +48,6 @@ jobs:
           else
             CHANGED=$(git diff --cached --stat | tail -1)
             git commit -m "Auto-update: $CHANGED"
-            git push
+            git pull --rebase origin main || echo "Rebase skipped (no common ancestor — will force)"
+            git push origin main
           fi
