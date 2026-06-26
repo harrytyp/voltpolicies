@@ -295,12 +295,35 @@ choices = build_choices()
 default_val = next((v for _, v in choices if v and not v.startswith("_sep_")), None)
 
 # ── Gradio UI ───────────────────────────────────────────────────────────────
-CSS = """footer { display: none !important; }"""
+CSS = """
+footer { display: none !important; }
+.tool-grid { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+.tool-grid button { flex: 1; min-width: 140px; padding: 8px 12px !important; font-size: 0.85em !important; }
+.examples-grid { display: flex; gap: 6px; flex-wrap: wrap; margin: 4px 0 12px 0; }
+.examples-grid button { font-size: 0.8em !important; padding: 4px 10px !important; border-radius: 12px !important; }
+"""
+
+EXAMPLES = [
+    ("🔍", "What is Volt's position on EU reform?"),
+    ("🔍", "Wahlprogramm Drogenpolitik 2025"),
+    ("📰", "What is happening with Volt in Germany?"),
+    ("✅", "Check: Volt supports nuclear energy"),
+    ("📖", "Verify: Challenge 5.1 - EU Reform"),
+]
+
+TOOLS_HTML = """
+<div style="display:flex;gap:8px;flex-wrap:wrap;margin:8px 0">
+  <span style="background:#e8d5f5;padding:4px 10px;border-radius:6px;font-size:0.85em">🔍 search_policies</span>
+  <span style="background:#d5f5e8;padding:4px 10px;border-radius:6px;font-size:0.85em">📰 search_news</span>
+  <span style="background:#f5e8d5;padding:4px 10px;border-radius:6px;font-size:0.85em">✅ check_statement</span>
+  <span style="background:#f5d5e8;padding:4px 10px;border-radius:6px;font-size:0.85em">📖 verify_citation</span>
+</div>
+"""
 
 with gr.Blocks(title="Volt Policy Chatbot", fill_height=True, css=CSS,
                theme=gr.themes.Soft(primary_hue="purple", secondary_hue="indigo")) as demo:
 
-    gr.Markdown(f"## 💜 Volt Policy Chatbot\n4 tools · multilingual FAISS search · daily CI updates  \n{FAISS_INFO}")
+    gr.Markdown(f"## 💜 Volt Policy Chatbot\n{FAISS_INFO}")
 
     with gr.Row():
         dd = gr.Dropdown(choices=choices, label="Model", value=default_val, interactive=True, scale=4,
@@ -308,7 +331,31 @@ with gr.Blocks(title="Volt Policy Chatbot", fill_height=True, css=CSS,
         gr.Button("🔄", variant="secondary", scale=0, min_width=60).click(
             fn=lambda: gr.Dropdown(choices=build_choices()), outputs=[dd])
 
-    gr.ChatInterface(fn=chat, type="messages", additional_inputs=[dd], title="")
+    # Tool showcase
+    gr.Markdown("### 🔧 Tools")
+    gr.HTML(TOOLS_HTML)
+
+    # Chat
+    chatbot = gr.Chatbot(type="messages", label="Chatbot", scale=1)
+    msg = gr.Textbox(placeholder="Ask about Volt policies...", show_label=False, container=False, scale=1)
+    clear = gr.Button("🗑 Clear", variant="secondary", size="sm")
+
+    # Example chips — clicking populates the textbox
+    gr.Markdown("💡 **Try asking:**")
+    with gr.Row():
+        for icon, question in EXAMPLES:
+            gr.Button(f"{icon} {question[:35]}...", variant="secondary", size="sm", min_width=120).click(
+                fn=lambda q=question: q, outputs=[msg])
+
+    # Chat submit
+    def respond(msg, history, model_key):
+        result = chat(msg, history, model_key)
+        history.append({"role": "user", "content": msg})
+        history.append({"role": "assistant", "content": result})
+        return history, ""
+
+    msg.submit(respond, [msg, chatbot, dd], [chatbot, msg])
+    clear.click(lambda: None, None, chatbot, queue=False)
 
     gr.Markdown(f"**Source:** [github.com/harrytyp/voltpolicies]({GIT_REPO}) · daily CI · "
                 f"FAISS multilingual search · policy + news vectors")
