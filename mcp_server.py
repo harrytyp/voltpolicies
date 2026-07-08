@@ -1,30 +1,33 @@
 #!/usr/bin/env python3
 """
-Volt Policy MCP Server (Enhanced with FAISS Semantic Search + Chapter Filtering)
-Exposes Volt policy search with multilingual embeddings, URLs, page numbers, and news links.
-Supports selective search by country chapter (33 national chapters).
+Volt Policy MCP Server (Enhanced with Chapter Filtering)
+Exposes Volt policy search with URLs, page numbers, and news links.
+Supports selective search by country chapter.
 """
 
 import json
 import sys
 from pathlib import Path
 
-# Add .github/scripts for existing tools
+# Add our venv site-packages so it works regardless of the calling python
+_VENV_SITE = Path(__file__).resolve().parent / ".venv" / "lib" / "python3.13" / "site-packages"
+if _VENV_SITE.is_dir() and str(_VENV_SITE) not in sys.path:
+    sys.path.insert(0, str(_VENV_SITE))
+
+# Add scripts to path
 scripts_dir = Path(__file__).parent / ".github" / "scripts"
 sys.path.insert(0, str(scripts_dir))
-
-# Add our scripts for semantic search
-semantic_dir = Path(__file__).parent / "scripts"
-sys.path.insert(0, str(semantic_dir))
 
 from cache_manager import get_cache_dir, load_config
 from mcp.server.fastmcp import FastMCP
 
+# Add our scripts to path
+semantic_dir = Path(__file__).parent / "scripts"
+sys.path.insert(0, str(semantic_dir))
+
 mcp = FastMCP(
     "volt-policies",
-    instructions="Search and verify statements against Volt Europa and all 33 national chapter policy documents and news. "
-                 "Supports filtering by country/chapter. Returns PDF URLs, page numbers, and direct news article links. "
-                 "Uses semantic search (multilingual FAISS embeddings) — queries work in any language across all chapter languages."
+    instructions="Search and verify statements against Volt Europa and all 33 national chapter policy documents and news. Supports filtering by country/chapter. Returns PDF URLs, page numbers, and direct news article links. Uses semantic search (multilingual embeddings) — queries work in any language across all chapter languages."
 )
 
 # Load chapters config for listing
@@ -50,10 +53,10 @@ def _parse_chapters(chapters: str | list[str] | None) -> list[str] | None:
 @mcp.tool()
 def volt_search(query: str, max_results: int = 10, chapters: str = None) -> str:
     """Search Volt policy documents for a topic.
-
-    Uses semantic search (multilingual FAISS embeddings) — queries work in any language
+    
+    Uses semantic search (multilingual embeddings) — queries work in any language
     across all 33 national chapters. English is universal fallback.
-
+    
     Args:
         query: Search term or phrase (e.g., "climate change", "UN Security Council")
         max_results: Maximum number of results to return (default 10)
@@ -61,15 +64,15 @@ def volt_search(query: str, max_results: int = 10, chapters: str = None) -> str:
                  Examples: "DE" (Germany only), "EU,DE,FR" (EU + Germany + France),
                  "Volt Österreich", "all" (all chapters, default).
                  Use volt_list_chapters() to see all available.
-
+    
     Returns:
         JSON with document name, PDF URL, page number, section heading, and text excerpt
     """
     from search_semantic import semantic_search, index_available
-
+    
     if not index_available():
         return json.dumps({"error": "No semantic index found. Run build_index.py first."}, indent=2)
-
+    
     ch = _parse_chapters(chapters)
     results = semantic_search(query, max_results, chapters=ch)
     return json.dumps(results, indent=2, ensure_ascii=False)
@@ -78,10 +81,10 @@ def volt_search(query: str, max_results: int = 10, chapters: str = None) -> str:
 @mcp.tool()
 def volt_search_news(query: str, max_results: int = 10, chapters: str = None) -> str:
     """Search Volt news articles with direct article URLs.
-
-    Uses semantic search (multilingual FAISS embeddings) — queries work in any language
+    
+    Uses semantic search (multilingual embeddings) — queries work in any language
     across all 33 national chapters. English is universal fallback.
-
+    
     Args:
         query: Search term (e.g., "defence", "ICC", "election")
         max_results: Maximum results (default 10)
@@ -89,15 +92,15 @@ def volt_search_news(query: str, max_results: int = 10, chapters: str = None) ->
                  Examples: "DE" (Germany only), "EU,DE,FR,IT,ES",
                  "Volt Österreich News", "all" (default).
                  Use volt_list_chapters() to see all available.
-
+    
     Returns:
         JSON with title, direct URL, date, source, and description
     """
     from search_semantic import semantic_search, index_available
-
+    
     if not index_available():
         return json.dumps({"error": "No semantic index found. Run build_index.py first."}, indent=2)
-
+    
     ch = _parse_chapters(chapters)
     results = semantic_search(query, max_results, chapters=ch)
     return json.dumps(results, indent=2, ensure_ascii=False)
@@ -106,33 +109,33 @@ def volt_search_news(query: str, max_results: int = 10, chapters: str = None) ->
 @mcp.tool()
 def volt_check(statement: str, chapters: str = None) -> str:
     """Check if a statement matches, contradicts, or relates to Volt policy.
-
+    
     Returns verdict with PDF URLs, page numbers, and news article links.
-    Uses semantic search (multilingual FAISS embeddings).
-
+    Uses semantic search (multilingual embeddings).
+    
     Args:
         statement: The claim to verify (e.g., "Volt supports nuclear energy")
         chapters: Optional filter — comma-separated country codes or chapter names.
                  Narrow to specific countries for more targeted results.
                  Use volt_list_chapters() to see all available.
-
+    
     Returns:
         JSON with verdict, confidence, sources with URLs and pages
     """
     from search_semantic import semantic_search, index_available
-
+    
     if not index_available():
         return json.dumps({"error": "No semantic index found. Run build_index.py first."}, indent=2)
-
+    
     ch = _parse_chapters(chapters)
-
+    
     policy_results = semantic_search(statement, max_results=5, chapters=ch)
     news_results = semantic_search(statement, max_results=5, chapters=ch)
-
+    
     # Determine verdict based on top scores
     verdict = "NO_MATCH"
     confidence = "LOW"
-
+    
     if policy_results and policy_results[0]["score"] >= 0.7:
         verdict = "MATCH"
         confidence = "HIGH"
@@ -142,7 +145,7 @@ def volt_check(statement: str, chapters: str = None) -> str:
     elif news_results and news_results[0]["score"] >= 0.5:
         verdict = "NEWS_REFERENCE"
         confidence = "MEDIUM"
-
+    
     analysis = {
         "statement": statement,
         "verdict": verdict,
@@ -150,61 +153,55 @@ def volt_check(statement: str, chapters: str = None) -> str:
         "sources": policy_results[:3],
         "news": news_results[:3]
     }
-
+    
     return json.dumps(analysis, indent=2, ensure_ascii=False)
 
 
 @mcp.tool()
 def volt_verify_citation(citation: str) -> str:
-    """Verify if a specific policy citation exists in the documents.
-
-    Falls back to keyword search for exact citation matching.
-
+    """Verify if a specific policy citation exists.
+    
+    Returns the matching document with URL and page number.
+    
     Args:
         citation: The citation to verify (e.g., "Challenge 5.1 - EU Reform")
-
+    
     Returns:
         JSON with found/not found, URL, page, and context
     """
-    try:
-        from volt_policy_checker import verify_citation
-        result = verify_citation(citation)
-    except Exception as e:
-        result = {"error": str(e)}
+    from volt_policy_checker import verify_citation
+    result = verify_citation(citation)
     return json.dumps(result, indent=2, ensure_ascii=False)
 
 
 @mcp.tool()
 def volt_fetch_news() -> str:
     """Fetch latest news from all RSS feeds.
-
+    
     Returns:
         JSON with fetch summary
     """
-    try:
-        from volt_policy_checker import fetch_all_news
-        all_news = fetch_all_news()
-        summary = {name: len(articles) for name, articles in all_news.items()}
-        total = sum(summary.values())
-        return json.dumps({"total": total, "by_source": summary}, indent=2)
-    except Exception as e:
-        return json.dumps({"error": str(e)})
+    from fetch_news import fetch_all_news
+    all_news = fetch_all_news()
+    summary = {name: len(articles) for name, articles in all_news.items()}
+    total = sum(summary.values())
+    return json.dumps({"total": total, "by_source": summary}, indent=2)
 
 
 @mcp.tool()
 def volt_cache_status() -> str:
-    """Show status of the local policy cache and FAISS index.
-
+    """Show status of the local policy cache.
+    
     Returns:
-        JSON with cache info, index status, vector count
+        JSON with cache info
     """
     import search_semantic
     index_ok = search_semantic.index_available()
-
+    
     cache_dir = get_cache_dir()
     news_files = list(cache_dir.glob("news_*.json"))
     meta_files = list(cache_dir.glob("*_meta.json"))
-
+    
     # Count news articles
     total_news = 0
     for nf in news_files:
@@ -213,22 +210,18 @@ def volt_cache_status() -> str:
                 total_news += len(json.load(f))
         except:
             pass
-
+    
     vector_count = 0
     if index_ok:
-        try:
-            idx, _ = search_semantic._load_index()
-            if idx is not None:
-                vector_count = idx.ntotal
-        except:
-            pass
-
+        idx, _ = search_semantic._load_index()
+        if idx is not None:
+            vector_count = idx.ntotal
+    
     status = {
         "index": {
             "available": index_ok,
             "path": str(search_semantic.INDEX_PATH) if index_ok else None,
             "vector_count": vector_count,
-            "model": "intfloat/multilingual-e5-small",
         } if index_ok else {"available": False},
         "pdf_count": len(meta_files),
         "news_files": len(news_files),
@@ -241,16 +234,16 @@ def volt_cache_status() -> str:
 @mcp.tool()
 def volt_list_chapters() -> str:
     """List all available Volt national chapters with country codes.
-
+    
     Use this to see which chapters you can filter by in volt_search,
     volt_search_news, and volt_check. You can filter by country code
     (e.g. "DE", "FR", "IT") or by chapter name (e.g. "Volt Österreich").
-
+    
     Returns:
         JSON with list of chapters, country codes, and websites
     """
     chapters_list = []
-    # Add EU
+    # Add EU 
     chapters_list.append({
         "code": "EU",
         "name": "Volt Europa",
@@ -289,13 +282,10 @@ def list_policies() -> str:
 @mcp.resource("volt://news/latest")
 def latest_news() -> str:
     """Get the latest news articles with direct URLs."""
-    try:
-        from volt_policy_checker import load_cached_news
-        articles = load_cached_news()
-        articles.sort(key=lambda x: x.get('date', ''), reverse=True)
-        return json.dumps({"count": len(articles), "articles": articles[:20]}, indent=2, ensure_ascii=False)
-    except Exception as e:
-        return json.dumps({"error": str(e)})
+    from volt_policy_checker import load_cached_news
+    articles = load_cached_news()
+    articles.sort(key=lambda x: x.get('date', ''), reverse=True)
+    return json.dumps({"count": len(articles), "articles": articles[:20]}, indent=2, ensure_ascii=False)
 
 
 if __name__ == "__main__":

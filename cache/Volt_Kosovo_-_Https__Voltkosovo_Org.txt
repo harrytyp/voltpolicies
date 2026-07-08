@@ -1,0 +1,67 @@
+404 Page Not Found – Volt Kosova
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt is a pan-European party and movement with over 22,000 members in 31 countries.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltkosovo.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Open positions at Volt Kosova
+
+Leading the Charge for a Sustainable Future
+
+A new economy that works for everyone
+
+Healthy European Ecosystems
+
+Members of the European Parliament
+
+Get your Op-Ed/blog published on our website
+
+The Missing Piece of Europe: Why Volt Kosovo Matters
+
+Outsourcing Europe’s Problems: How Bilateral Solutions Undermine European Federalism and Enlargement
+
+One year after the terrorist attacks on Israel: choosing the side of human rights
+
+Volt Kosova & Switzerland: More than just a cooperation
+
+The Founding of Volt Kosova: A Call to Unity and Progress
+
+With your support we can increase our budget and do more good in Kosovo.
+
+Subscribe to our newsletter
+
+Click on the button below to subscribe to our newsletter and stay up-to-date about everything we do.
+
+General questions and feedback
+
+Press and media enquiries

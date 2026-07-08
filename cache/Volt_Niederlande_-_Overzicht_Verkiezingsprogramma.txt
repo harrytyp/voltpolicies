@@ -1,0 +1,175 @@
+Verkiezings­programma's – Volt Nederland
+
+nav-menu#openSitesNav">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Afdelingen in de gemeenten
+
+...alle Volt gemeenten
+
+Afdelingen in de provincies
+
+Volt Provincie Utrecht
+
+...alle Volt provincies
+
+Volt is een pan-Europese partij en beweging met meer dan 23.000 leden in 31 landen.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltnederland.org/zoeken">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+data-nav-menu-target="link" data-title="5">
+
+Gemeenteraadsverkiezingen 2026
+
+Tweede Kamerverkiezingen 2025
+
+Volt There - Buitenlandstichting Volt
+
+Charge - Wetenschappelijk Platform Volt
+
+Ga voor een groene omgeving
+
+Ga voor een goede basis
+
+Ga voor gelijkwaardigheid
+
+Ga voor een innovatieve economie
+
+Ga voor Europa in een veilige wereld
+
+Bekijk alle standpunten
+
+Diversiteit & Inclusie
+
+Connect | Initiatieven
+
+Permanent Overleg Verkiezingsprogramma
+
+Eerste Kamer stemt in met omstreden de Uitvoerings- en implementatiewet Asiel- en migratiepact 2026
+
+The future of Ireland is the EU
+
+De toekomst van Ierland is de EU
+
+Laurens Dassen tijdens Europadag: Investeer in Europese alternatieven!
+
+Historische stemming in de Eerste Kamer over de asielwetten
+
+Senaat Praat - Regeringsverklaring, asielwetten en een minderheidskabinet
+
+Terugblikken op de campagne en samen vooruitkijken: richting de Provinciale Statenverkiezingen
+
+Parkzicht Breda, Paul Windhausenweg 1
+
+Beleidsavond Zuid-Holland: Wonen 🏠
+
+Provinciehuis Zuid-Holland (Zuid-Hollandplein 1, Den Haag)
+
+Eindhoven: Meet-up - Pride month - nog steeds nodig?
+
+Theaterzaal Cafe 't Rozenknopje, Hoogstraat 59, 5615PA Eindhoven
+
+Eindhoven: Pride Parade - United we stand
+
+Hoek Emmasingel, Willemstraat, Eindhoven
+
+Beleidsavond Zuid-Holland: Ruimte 🏙️
+
+Provinciehuis Zuid-Holland (Zuid-Hollandplein 1, Den Haag)
+
+Beleidsavond Zuid-Holland: Democratie & bestuur 🏛️
+
+Provinciehuis Zuid-Holland (Zuid-Hollandplein 1, Den Haag)
+
+Verkiezings­programma's
+
+topic-sidebar#toggleSidebar">
+
+Verkiezings­programma's
+
+Verkiezings­programma's
+
+Op deze pagina vind je meer informatie over de standpunten van Volt: de Europese verkiezingen van 2024 en de Tweede Kamerverkiezingen van 2025.
+
+Tweede Kamerverkiezingen 2025
+
+Ontwikkeling verkiezingsprogramma
+
+Europees Parlementsverkiezingen 2024
+
+Verkiezingsprogramma in verschillende talen
+
+Samenvatting in verschillende talen
+
+Tweede Kamerverkiezingen 2023
+
+Hoofdlijnen van beleid
+
+Hoofdlijnen van beleid
+
+Als lid van Volt kun je wijzigingen op de tekst voorstellen door in te loggen op
+
+. Je vindt hier ook alle regels voor het indienen en ondersteunen van voorstellen. Als je je wachtwoord vergeten bent of nooit een wachtwoord gekregen hebt, kun je dat aanvragen door op de loginpagina te klikken op "Wachtwoord vergeten?".
+
+De 5 + 1 uitdagingen in Europa volgens Volt
+
+Volt heeft 5+1 fundamentele uitdagingen gedefinieerd die in elk Europees land en in heel Europa moeten worden aangepakt.
+
+De 5 uitdagingen zijn in principe hetzelfde voor elk land, maar de implementatie kan worden aangepast aan de nationale context en rekening houden met lokale realiteiten. De +1 uitdaging - ons voorstel om de EU te hervormen en te versterken - is identiek in alle landen.
+
+Lees hier onze verkiezingsprogramma’s.
+
+Onderwijs en digitalisering zijn sleutelelementen van de 21e eeuw.
+
+Economische renaissance
+
+De Europese economieën moeten de motor van de vooruitgang van de samenleving zijn.
+
+Iedereen in Europa moet verzekerd zijn van gelijke rechten en kansen.
+
+Europa moet verantwoordelijkheid nemen voor zijn rol in mondiale uitdagingen.
+
+Mensen moeten in staat worden gesteld invloed uit te oefenen op de politiek voorbij de verkiezingen.
+
+Wij houden van de EU - maar er is altijd ruimte voor verbetering
+
+Meepraten, meewerken en mee beslissen. Vanaf €2,50 / maand.
+
+Met jouw donatie voeren we campagne voor de verkiezingen!
+
+Schrijf je in voor onze maandelijkse nieuwsbrief en volg alle ontwikkelingen rond Volt.
+
+Statuten & Jaarverslagen
+
+Initiatieven | Connect
+
+Diversiteit & Inclusie
+
+Volt There - Buitenlandstichting Volt
+
+Charge - Wetenschappelijk Platform Volt

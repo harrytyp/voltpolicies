@@ -1,0 +1,63 @@
+Policies – Volt Magyarország / Hungary
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt is a pan-European party and movement with over 22,000 members in 31 countries.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://volthungary.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+Our political priorities
+
+What are we working for?
+
+The Hungarian activists of Volt are building a political party that brings more Europe to Hungary and more Hungary to Europe.
+
+We believe that today's challenges do not stop at borders, so our future, prosperity and security can only be guaranteed by a united, strong and diverse EU, where the citizens of the member states not only live next door but actively shape their common future together.
+
+We also want a well-functioning democracy in our country, where parties representing the interests of various groups in our society talk about our future, prepare for efficient governance, and win their mandate to serve the public in a fair competition.
+
+More Europe to Hungary, more Hungary to Europe!
+
+Let's restore democracy!
+
+Let's discuss our common interests!
+
+Let's demand effective governance!
+
+Everything in 'Our goals in Hungary'
+
+Everything in 'The 5+1 Challenges'
+
+Our political priorities
+
+Our political priorities
+
+Everything in 'Our political priorities'
+
+Subscribe to our newsletter!
+
+Receive our monthly newsletter and get informed about our events and our most recently published content.

@@ -1,0 +1,55 @@
+404 Page Not Found – Volt Éireann / Ireland
+
+nav-menu#openSitesNav">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt is active in more than 30 countries throughout Europe. Find all the national sites below.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltireland.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+The EU on the Global Stage
+
+A more humane and safe asylum system
+
+Empowering European Democracy
+
+An ambitious climate agenda for Europe
+
+Volt Ireland Leadership
+
+Volt Ireland at the GA in Frankfurt from Thijs’ perspective
+
+Expansion of our social media presence
+
+Sorry, the page you requested does not exist (anymore). We keep track of all these errors and will improve our website accordingly. Check out the menu and search on the top right of this page, go to the
+
+to find what you were looking for.
+
+Sign up for our monthly newsletter and follow everything Volt Ireland
+
+Open Positions at Volt Europa

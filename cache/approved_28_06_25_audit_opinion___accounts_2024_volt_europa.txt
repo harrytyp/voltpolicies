@@ -1,0 +1,492 @@
+Bedrijfsrevisoren 
++ 32 56 22 19 84 
+info@boesverrue.be 
+Pres. Kennedypark 39,  8500 Kortrijk 
+Luikersteenweg 233, bus 3, 3500 Hasselt 
+INDEPENDENT AUDITOR’S REPORT TO THE GENERAL MEETING OF THE 
+INTERNATIONAL ASSOCIATION VOLT EUROPA  
+BOULEVARD BISSCHOFFSHEIM 39/4 
+1000 BRUSSELS 
+0730.949.438 
+FOR THE YEAR ENDED DECEMBER 31, 2024 
+ 
+ 
+We have reviewed the accounts consisting of both the balance sheet as at December 31, 
+2024, and the income statement for the year then ended of the international association 
+VOLT EUROPA for the year ended December 31, 2024, in accordance with the financial-
+reporting framework applicable in Belgium, and which show a balance sheet total of € 
+470.439 and a net loss for the year of € 159.893. 
+ 
+Responsibility of the Board of Directors for the preparation of the accounts 
+ 
+The Board of Directors is responsible for the preparation of the accounts that give a true and 
+fair view in accordance with the financial-reporting framework applicable in Belgium, and 
+for such internal control as the Board of Directors determines is necessary to enable the 
+preparation of the accounts that are free from material misstatement, whether due to fraud 
+or error. 
+ 
+Responsibility of the independent practitioner 
+ 
+Our responsibility is to express a conclusion on these accounts based on our review 
+procedures. We conducted our review in accordance with International Standards on Review 
+Engagements (ISRE) 2400 (Revised), Engagements to Review Historical Financial 
+Statements. ISRE 2400 (Revised) requires us to conclude whether anything has come to our 
+attention that the accounts, taken as a whole, are not prepared in all material respects in 
+accordance with the applicable financial reporting framework. ISRE 2400 (Revised) also 
+requires us to comply with relevant ethical requirements. 
+A review of the accounts in accordance with ISRE 2400 (Revised) is a limited assurance 
+engagement. The practitioner performs procedures, primarily consisting of making enquiries 
+of management and others within the entity, as appropriate, and applying analytical 
+procedures, and evaluates the evidence obtained.  
+The procedures performed in a review are substantially less than those performed in an audit 
+conducted in accordance with International Standards on Auditing. Accordingly, we do not 
+express an opinion on these accounts.  
+ 
+ 
+
+
+Bedrijfsrevisoren 
++ 32 56 22 19 84 
+info@boesverrue.be 
+Pres. Kennedypark 39,  8500 Kortrijk 
+Luikersteenweg 233, bus 3, 3500 Hasselt 
+ 
+ 
+ 
+ 
+Conclusion 
+ 
+Based on our review, nothing has come to our attention that causes us to believe that these 
+accounts do not present fairly, in all material respects, the own funds and the financial 
+position of the international association VOLT EUROPA as at December 31, 2024, and of 
+the financial results of its operations for the year then ended, in accordance with the 
+financial-reporting framework applicable in Belgium. 
+ 
+Hasselt, 19th May, 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BOES & VERRUE BEDRIJFSREVISOREN 
+Certified Auditor  
+Represented by  
+Yannick Boes 
+Certified Auditor  
+ 
+ 
+
+
+Not for profit - Financial statements
+(EUR)
+31/12/2023
+31/12/2024
+Assets
+Current assets
+665,054.16
+470,439.40
+VII. Amounts receivable and payable within one year
+135,751.68
+10,925.86
+A. Amounts receivable trade debtors
+135,751.68
+10,925.86
+400000.000 Customers
+9,939.38
+8,846.34
+404000.000 Invoices to be made
+125,812.30
+0.00
+404101.000 Credit notes to be received (Charges)
+0.00
+2,079.52
+IX. Credit institutions
+529,302.48
+452,893.54
+550000.000 Paypal
+288.44
+1,223.11
+550000.001 Bank account
+588.35
+676.73
+550000.002 Bank account
+3,852.54
+960.00
+550000.003 Bank account
+524,573.15
+450,033.70
+X. Deferred charges and accrued income
+0.00
+6,620.00
+491000.000 Income obtained
+0.00
+6,620.00
+Total assets
+665,054.16
+470,439.40
+Volt Europa 0730.949.438
+31/12/2024
+2
+
+
+(EUR)
+31/12/2023
+31/12/2024
+Equity and liabilities
+Equity
+568,237.88
+408,345.16
+IV. Accumulated profit (+)/ loss (-)
+568,237.88
+408,345.16
+140000.000 Profit carried forward
+568,237.88
+408,345.16
+Amounts payable
+96,816.28
+62,094.24
+IX. Current portion of amounts payable after one year
+88,769.69
+50,368.77
+C. Trade debts
+67,410.04
+44,918.02
+440000.000 Suppliers
+13,522.12
+22,617.39
+444000.000 Invoices to be received - costs
+43,887.92
+22,300.63
+444100.000 Credit notes to make
+10,000.00
+0.00
+E.1. Taxes
+16,515.36
+5,450.75
+451900.000 Current account VAT administration
+16,515.36
+5,450.75
+E.2. Remuneration and social security costs
+4,844.29
+0.00
+455000.001 Remuner. admin./direct. pay.
+4,844.29
+0.00
+X. Deferrals and accruals
+8,046.59
+11,725.47
+492000.000 Accrued charges
+8,046.59
+11,725.47
+Total liabilities
+665,054.16
+470,439.40
+Volt Europa 0730.949.438
+31/12/2024
+3
+
+
+(EUR)
+31/12/2023
+31/12/2024
+Income statement
+I. Income
+1,384,896.36
+713,870.71
+A. Turnover
+1,372,663.55
+712,394.16
+700000.000 Sales
+1,261,620.87
+685,607.66
+704000.000 Services
+111,042.68
+26,786.50
+D. Other operating income
+12,232.81
+1,476.55
+745000.000 Recovered costs - guaranteed salary
+10,752.62
+0.00
+745500.000 Miscellan. recovery of costs
+0.00
+644.24
+745900.000 Compensations received
+0.00
+16.68
+749000.000 Miscellaneous operating income
+1,480.19
+815.63
+II. Charges
+-1,072,297.96
+-871,278.75
+A. Goods for resale, raw materials and consumables
+-936.06
+0.00
+606000.000 Transport costs on purchases
+-936.06
+0.00
+B. Services and other goods
+-640,911.95
+-445,790.52
+Rent and rental charges
+-30,731.20
+-40,513.26
+610000.000 Rent land and buildings
+-18,541.57
+-37,440.53
+610200.000 Rent machinery and equipment
+-11,216.70
+-2,118.37
+610410.000 Rental rm: passenger cars
+-972.93
+-954.36
+Maintenance and repairs
+-1,621.09
+-4,928.48
+611000.000 Maintenance grounds & buildings
+-251.68
+0.00
+611000.001 Maintenance land and buildings
+0.00
+-4,719.00
+611100.000 Maintenance interior
+-1,092.85
+-75.50
+611410.000 Maintenance rm: passenger cars
+-276.56
+-133.98
+Deliveries to the company
+-33,546.72
+-6,353.07
+612050.000 Fuel passenger cars
+-274.15
+-395.79
+612110.000 Telecommunication costs
+0.00
+-123.82
+612120.000 Postal charges
+-13.00
+-14.54
+612300.000 Small equipment
+-1,063.50
+-700.00
+612400.000 Office equipment
+-3,188.69
+-4.80
+612410.000 Printed matter
+-14,206.29
+-5,114.12
+612420.000 Documentation/subscriptions
+-7,287.83
+0.00
+612515.000 Non specific workwear/work clothes
+-7,513.26
+0.00
+Allowances to third parties
+-154,016.89
+-125,249.89
+613100.000 Committees
+-3,679.47
+-12,850.99
+613110.000 Fees
+-149,174.08
+-40,796.68
+613120.000 Administration costs soc. secretariat
+-1,163.34
+-9,308.82
+613140.000 Management fees
+0.00
+-62,293.40
+Volt Europa 0730.949.438
+31/12/2024
+4
+
+
+(EUR)
+31/12/2023
+31/12/2024
+Insurance premiums
+-5,018.33
+-6,834.85
+613450.000 Insurance general costs
+-4,745.20
+0.00
+613450.001 Insurance general costs
+0.00
+-6,556.72
+613460.000 Civil Liability Insurance
+-273.13
+-278.13
+Representation costs
+-128,221.17
+-61,579.09
+613150.000 Travel and accommodation costs
+-85,912.14
+-45,015.54
+614000.000 Representation costs
+-27,219.40
+-2,732.24
+614100.000 Restaurant
+-14,609.95
+-13,752.80
+614200.000 Gifts (without logo)
+-479.68
+-78.51
+Miscellaneous
+-248,014.60
+-200,331.88
+613133.000 Arbitration costs
+0.00
+-850.00
+613134.000 Legal announcements
+-297.66
+-315.82
+613200.000 Software and Maintenance contracts
+-169,892.98
+-82,302.17
+613210.000 Other contributions
+0.00
+-5,566.00
+615000.000 Publicity
+-11,406.02
+-91,605.00
+615100.000 Trade fairs
+-38,092.70
+-15,082.17
+615200.000 Training courses and seminars
+-15,269.38
+-4,610.72
+616000.000 Rechargeable costs
+-13,055.86
+0.00
+Temporary employees and persons made available to the company
+-39,741.95
+0.00
+617010.000 Temporary employees
+-39,741.95
+0.00
+C. Remunerations, social security costs and pensions
+-429,774.45
+-425,299.91
+620200.000 Salaries employees
+-311,399.72
+-327,550.61
+621200.000 Employers' contribution for social security - salaried employees
+-112,950.84
+-94,486.36
+622200.000 Hospitalization insurance
+-100.25
+0.00
+623000.000 Insurance work accidents
+-276.52
+-669.19
+623240.000 Medical service and costs
+-235.80
+0.00
+624000.000 Pensions
+-4,811.32
+-2,593.75
+G. Other operating charges
+-675.50
+-188.32
+640301.000 Non-ded. VAT miscellan.
+0.00
+-188.32
+643000.000 Donations
+-675.50
+0.00
+Operational profit/loss
+312,598.40
+-157,408.04
+IV. Financial income
+1,203.46
+2,338.41
+C. Other financial income
+1,203.46
+2,338.41
+754000.000 Exchange results
+8.10
+6.75
+758400.000 Advantageous payment differences
+1,131.75
+2,201.11
+759000.000 Miscellaneous financial income
+63.61
+130.55
+Volt Europa 0730.949.438
+31/12/2024
+5
+
+
+(EUR)
+31/12/2023
+31/12/2024
+V. Financial charges
+-2,699.15
+-4,823.09
+A. Interest and other debt charges
+0.00
+-507.40
+650001.000 Failure interests
+0.00
+-507.40
+C. Other financial charges
+-2,699.15
+-4,315.69
+654000.000 Exchange results
+-683.12
+-125.33
+659010.000 Bank charges
+-1,641.15
+-3,979.05
+659020.000 Disadvantageous payment differences
+-374.88
+-211.31
+Profit/loss of the financial year before taxes
+311,102.71
+-159,892.72
+Profit/loss of the financial year
+311,102.71
+-159,892.72
+Volt Europa 0730.949.438
+31/12/2024
+6
+
+
+(EUR)
+31/12/2023
+31/12/2024
+Appropriation account
+0.00
+0.00
+A. Profit/loss to be appropriated
+568,237.88
+408,345.16
+1. Profit/Loss to be appropriated for the financial year
+311,102.71
+-159,892.72
+2. Profits/loss brought forward
+257,135.17
+568,237.88
+790000.000 Profit brought forward
+257,135.17
+568,237.88
+D. Result to be carried forward
+-568,237.88
+-408,345.16
+1. Profit to be carried forward
+-568,237.88
+-408,345.16
+693000.000 Accumulated profits
+-568,237.88
+-408,345.16
+Volt Europa 0730.949.438
+31/12/2024
+7
+
+
+
+

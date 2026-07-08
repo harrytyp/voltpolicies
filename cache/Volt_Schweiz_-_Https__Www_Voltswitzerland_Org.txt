@@ -1,0 +1,119 @@
+Policies – Volt Schweiz
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt teams in Switzerland
+
+Volt is represented in over 30 countries in Europe. Here you will find links to Volt websites in other countries.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltswitzerland.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Parental Leave Initiative
+
+Fact Check on the Chaos-Initiative
+
+NO to the Amendment of the Civil Service Act
+
+Volt Switzerland Elects New Board at National Assembly in Basel
+
+Volt says YES to a reform of property taxation
+
+Volt says YES to e-ID
+
+Switzerland must stand together with the EU - now more than ever
+
+Fact-based. Pragmatic. Progressive.
+
+We stand for solution-oriented and future-oriented politics throughout Europe. Because national politics reaches its limits when faced with the challenges of our time. We think European and want to use synergies to enable everyone to live a better life.
+
+A united Europe with a federal democracy.
+
+A digitalised state that serves all citizens
+
+Everything in 'Smart State'
+
+A green economy that benefits everyone
+
+European basic income
+
+Everything in 'Economic Renaissance'
+
+A society that offers everyone the same rights and opportunities
+
+Everything in 'Social Equality'
+
+An environmental policy that transforms Europe into a green powerhouse
+
+Everything in 'Global Balance'
+
+An innovative democracy that empowers everyone to participate
+
+Everything in 'Citizen Empowerment'
+
+A stable relationship at eye level
+
+Everything in 'New European policy'
+
+Overview of our stance on current and past votes
+
+Everything in 'Votes'
+
+Volt has defined 5+1 fundamental challenges that need to be addressed in every European country and in Europe as a whole.
+
+Why 5 + 1 challenges?
+
+The 5 challenges are essentially the same for each country, but their implementation can be adapted at the national level to take into account local circumstances.
+
+Challenge No. +1 - our proposal to reform and strengthen the EU - is identical in all our national programs. Here in Switzerland, our relations with the EU are the focus.
+
+Take a look at our Europe-wide programme!
+
+Education and digitalisation are key elements of the 21st century
+
+An innovative economy is the engine for the progress of society.
+
+No one should be left behind - regardless of gender, income, religion or origin.
+
+Europe must live up to its responsibility in the world to secure our common future.
+
+European citizens must be able to make informed political decisions, independently influence politics beyond elections and exercise their democratic rights.
+
+We love the EU - but that doesn't mean there isn't room for improvement.
+
+Become a member or supporter
+
+Support us financially
+
+Sign up for our newsletter
+
+General questions and feedback
+
+Press and media enquiries

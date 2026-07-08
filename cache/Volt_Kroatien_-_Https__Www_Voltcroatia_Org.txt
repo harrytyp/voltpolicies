@@ -1,0 +1,55 @@
+404 Page Not Found – Volt Hrvatska / Croatia
+
+nav-menu#openSitesNav">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+S više od 120 izabranih predstavnika diljem Europe i tisućama pristaša, neumorno radimo na pronalaženju dugoročnih rješenja za velike probleme našeg vremena preko granica.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://volthrvatska.org/pretraga">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Pregledaj sve politike
+
+Članovi Upravnog odbora
+
+Hrvatski Dan Državnosti
+
+Lokalni izbori u Hessenu 2026
+
+Lokalni izbori u Bavarskoj 2026
+
+Pregledaj više vijesti
+
+Sorry, the page you requested does not exist (anymore). We keep track of all these errors and will improve our website accordingly. Check out the menu and search on the top right of this page, go to the
+
+to find what you were looking for.
+
+Pridružite se promjeni!
+
+Sign up for our newsletter and follow all developments around Volt.
+
+Neformalna udruga ''Volt Hrvatska''

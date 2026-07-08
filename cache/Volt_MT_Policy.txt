@@ -1,0 +1,135 @@
+Policies – Volt Malta
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Our Volt Neighbours in the Mediterranean
+
+Volt is active in more than 30 countries throughout Europe. Find all the national sites below.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltmalta.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Past Projects & Electoral History
+
+Social Equity & Justice
+
+Environment & Climate Change
+
+Our Projects & Electoral History
+
+Volt’s Nela Riehl wins Best Newcomer at European Parliament Awards
+
+Volt Europa on the current escalation in the Middle East
+
+Two Volt MEPs take leadership roles in key European Parliament committees
+
+Volt joins Greens/EFA in the European Parliament
+
+Volt Malta & MEP Candidate Matthias Iannis Portelli Campaign expenses 2024 EU Elections
+
+Volt gets 5 pan-European MEPs elected
+
+What does Volt think?
+
+Politics has stuck in solutions of the last century. But we look at realistic, social and sustainable solutions of the 21st century. Volt sees six challenges for this.
+
+Social Equity & Justice
+
+Social Equity & Justice
+
+Building a society where everyone has the potential to succeed
+
+Education System & Students
+
+Everything in 'Social Equity & Justice'
+
+A state that works for its people and fulfils its duty, efficiently
+
+Political System Reform
+
+Everything in 'Smart State'
+
+An economy that grows from the bottom up
+
+Ease Of Doing Business
+
+Everything in 'Economic Revolution'
+
+Public participation is essential to democracy
+
+Everything in 'Citizen Empowerment'
+
+Environment & Climate Change
+
+Environment & Climate Change
+
+We must take responsibility for our environment and climate
+
+Construction Industry Regulation
+
+Fossil Fuel Phase-out
+
+Green Energy & Solar Rights
+
+Everything in 'Environment & Climate Change'
+
+The island needs solutions to its own unique challenges
+
+Public Transport in Gozo
+
+Everything in 'Gozo's Future'
+
+Volt has defined 5+1 fundamental Challenges that need to be tackled in each European country and in Europe as a whole.
+
+Why 5 + 1 Challenges?
+
+The 5 Challenges are basically the same for every country, but their implementation can be adapted on the national level to take into account local realities.
+
+The +1 Challenge – our proposal to reform and strengthen the EU – is identical across all our national programmes.
+
+View the policy portfolio
+
+Education and digitalisation are key elements of the 21st century
+
+An innovative economy must be the engine of society's progress
+
+No-one should be left behind - no matter their gender, income, religion. or origin
+
+Europe needs to assume responsibility for its role in global challenges
+
+People must be empowered to influence politics beyond elections alone
+
+We love the EU - this doesn't mean there is no room for improvement
+
+Discuss, work and decide with us. Membership fees start from €0 - 10/year
+
+With your support we can amplify our campaign!
+
+Sign up for our newsletter and follow all developments around Volt

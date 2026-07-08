@@ -1,0 +1,131 @@
+Politik – Volt Sverige / Sweden
+
+nav-menu#openSitesNav">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt är verksamt i mer än 30 länder i hela Europa. Hitta alla nationella webbplatser nedan.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltsverige.org/s%C3%B6k">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+data-nav-menu-target="link" data-title="5">
+
+Volts mandatinnehavare
+
+Europaparlamentariker
+
+Borrowed Time: Who Really Benefits from Lower Fuel Taxes
+
+Det svenska politiker inte pratar om
+
+Vad är "europeisk lokalpolitik"?
+
+Moderaternas dubbla migrationspolitik
+
+Volts uppmaning till europeisk självständighet: Dags att bygga Europas förenta stater
+
+Stockholm: Purple Hour
+
+Bröd och Salt, Tullhus, Skeppsbron 3, Stockholm
+
+Politiken har fastnat i lösningar från förra århundradet.
+
+Men vi tror på realistiska, sociala och hållbara lösningar för det 21:a århundradet.
+
+Med dagens kontinentala och globala utmaningar måste den europeiska politiken återuppfinna sig själv och anpassa sig till aktuella problem och utmaningar. Volt anser därför att den europeiska politiken måste vara ett centralt kapitel. Det är bara genom ett utvecklat europeiskt perspektiv som gemensamma problem kan tas upp och lösas. Att medborgarnas inflytande står i centrum för denna utveckling är av enorm betydelse här.
+
+Ge mer inflytande till Europaparlamentet istället för Europeiska rådet
+
+Begränsa Europeiska rådets inflytande
+
+Ta fram en grundlag för EU
+
+EMU/Eurozonen och svenskt medlemska
+
+Allt i 'Europapolitik'
+
+I en tid när temperaturen stiger och arter dör ut samtidigt som vi inte har någon planet B så är det uppenbart att klimat och miljö hör till våra absolut viktigaste frågor.
+
+Utsläppshandel och koldioxidskatter
+
+Diplomati och klimatåtgärder
+
+Allt i 'Klimat & Miljö'
+
+Volts definition av ’Migration’ innefattar alla individer som frivilligt eller ofrivilligt flyttar från en plats till en annan med avsikten att bosätta sig temporärt eller permanent. Detta inkluderar migration mellan länder, men även intern migration inom länder. Utmaningarna varierar mellan dessa olika grupper och kräver därmed en mångfacetterad politik.
+
+Ett Europeiskt asylsystem
+
+Permanenta uppehållstillstånd
+
+Sverige har välkomnat många människor in i landet men inte in i samhället. Detta måste vi bli bättre på.
+
+Medborgarnas deltagande
+
+I ett fungerande samhälle behövs lagar och regler och att dessa följs. Därför är rättsväsendet en väsentlig del av vårt gemensamma samhälle.
+
+Gränsöverskridande brottslighet
+
+Förebygga och åtgärda
+
+Allt i 'Lag & Ordning'
+
+Vårdköer och stressig arbetsmiljö för vårdpersonal var verklighet redan före pandemin. Nu är det ännu viktigare att satsa på en av våra viktigaste samhällsfunktioner. Detta gäller självklart både fysisk och psykisk hälsa samt tandvård.
+
+Allt i 'Vård & Omsorg'
+
+Volt har definierat 5+1 grundläggande utmaningar som måste hanteras i varje europeiskt land och i Europa som helhet.
+
+Varför 5 + 1 utmaningar?
+
+De 5 utmaningarna är i princip desamma för alla länder, men deras genomförande kan anpassas på nationell nivå för att ta hänsyn till lokala förhållanden.
+
+Utmaningen +1 - vårt förslag om att reformera och stärka EU - är identisk i alla våra nationella program.
+
+View the policy portfolio
+
+Utbildning och digitalisering är viktiga delar av det 21:a århundradet
+
+En innovativ ekonomi måste vara motorn i samhällets utveckling
+
+Ingen ska lämnas utanför - oavsett kön, inkomst, religion eller ursprung
+
+Europa måste ta ansvar för sin roll i de globala utmaningarna
+
+Människor måste ges möjlighet att påverka politiken bortom enbart val
+
+Vi älskar EU - det betyder inte att det inte finns utrymme för förbättringar
+
+Rösta, engagera dig och bli en del av vårt paneuropeiska nätverk.
+
+Med ditt stöd kan vi öka vår kampanjbudget!
+
+Anmäl dig till vårt nyhetsbrev och följ utvecklingen kring Volt.
+
+Europeiska communities
+
+Allmänna frågor, återkoppling och media:

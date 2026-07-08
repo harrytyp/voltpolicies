@@ -1,0 +1,281 @@
+Policies – Volt Norge
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt is active in more than 30 countries throughout Europe. Find all the national sites below.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltnorway.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Stronger Together in a Changing World
+
+Norway’s Future is European: Why Now is the Time to Join
+
+Stronger Together in a Changing World
+
+Norway and Europe: A Symbiotic and Evolving Relationship
+
+Stronger Together in a Changing World
+
+How EU Membership Could Brighten Our Norwegian Lives
+
+Stronger Together in a Changing World
+
+A new economy that works for everyone
+
+The EU on the Global Stage
+
+For chances without borders
+
+A more humane and safe asylum system
+
+A dynamic European labour market
+
+A thriving EU with renewed legitimacy
+
+Empowering European Democracy
+
+An ambitious climate agenda for Europe
+
+Healthy European Ecosystems
+
+Integrity at Volt Europa
+
+Volt Sense - European Citizen Sensor Network
+
+Members of the European Parliament
+
+The EU Is Opening the Door — Norway Should Walk Through It
+
+Science Speaks. The Evidence Is Already In.
+
+From Crisis to Crisis: Why Europe Must Stop Subsidising Fossil Fuels and Start Building Energy Sovereignty
+
+Volt Norway at the General Assembly in Warsaw
+
+Volt Norway at the Country Council Retreat in Berlin
+
+Europe at the Edge: Why we cannot trust the old security order anymore
+
+What does Volt think?
+
+Politics has stuck in solutions of the last century. But we look at realistic, social and sustainable solutions of the 21st century. Volt sees six challenges for this.
+
+Stronger Together in a Changing World
+
+Stronger Together in a Changing World
+
+Norway thrives as a modern, open economy—yet its potential is limited by standing on the sidelines of Europe’s largest market. As a global leader in sustainability, innovation, and trade, Norway has everything to gain from shaping the future of the EU from within. The world is facing unprecedented challenges: climate change, shifting geopolitical power, and the digital revolution demand bold, collective action. By joining the EU, Norway can amplify its influence, secure its economic future, and help build a Europe that works for all.
+
+Norway’s Future is European: Why Now is the Time to Join
+
+Norway and Europe: A Symbiotic and Evolving Relationship
+
+How EU Membership Fuels Success for Sweden, Finland, and Denmark
+
+How EU Membership Could Brighten Our Norwegian Lives
+
+Everything in 'Stronger Together in a Changing World'
+
+A new economy that works for everyone
+
+A new economy that works for everyone
+
+As the world's largest trading bloc, the EU owes its success to extensive economic integration, resulting in increased prosperity, stability, and overall well-being. However, the EU needs to change the way it works to face the climate, geopolitical and digital challenges we face today. Volt will modernise the EU’s framework, by focusing on innovation, taxation, and sustainability, building an economy that can effectively tackle these issues.
+
+Triple funding to Horizon Europe
+
+Foster a thriving industry across the bloc
+
+Implement widespread carbon pricing
+
+Move towards a circular economy
+
+Everything in 'A new economy that works for everyone'
+
+The EU on the Global Stage
+
+The EU on the Global Stage
+
+In a world that is changing drastically, Volt wants the EU to become an actor for a fairer, more sustainable and more equal world. To achieve this, the EU needs to reform itself and its structures to speak with one voice and act as a true union. Only then will we be capable of playing a significant role on the global stage.
+
+One voice for the EU in the world
+
+A vision for a wider, stronger and more inclusive union
+
+A progressive foreign policy culture
+
+Reducing the global North-South economic divide
+
+Everything in 'The EU on the Global Stage'
+
+No-one should be left behind in Europe, but according to the European Commission, factors such as wealth, education level and social status heavily influence our chances at well-being. Volt is committed to fighting discrimination, improving social mobility, and building a society in which we can all thrive. Quality public services and the highest standards of protection, both on and offline, are crucial for building a prosperous Europe.
+
+Guarantee equal opportunities
+
+Ensure that the fundamental rights of LGBTQIA+ people are respected across the Union
+
+Strengthen sanctions against hate crimes
+
+Everything in 'Thriving Together'
+
+For chances without borders
+
+For chances without borders
+
+Europe is held back by unrealised potential. Our proposal ushers in a new era of empowerment over punishment. Those struggling most deserve support through basic income and opportunities through reskilling. Successful citizens and businesses will thrive with fewer barriers. By lifting all Europeans with coordinated reforms in income, taxes and worker rights at the EU level, we can unlock an unprecedented era in which every person's potential, in every region, is fulfilled for a brighter future of shared prosperity.
+
+Develop a European Social Union
+
+Create a European Basic Income (EBI)
+
+Set minimum wage standards
+
+Everything in 'For chances without borders'
+
+A more humane and safe asylum system
+
+A more humane and safe asylum system
+
+Europe’s current asylum system is dysfunctional. It leads to refugees and asylum seekers enduring distressing conditions, and being left in legal limbo. There is an urgent need for change. Volt aims to introduce a fair relocation system, protect the human rights of vulnerable individuals, and create safe regular pathways for refugees.
+
+Support decentralised asylum procedures
+
+Uphold human rights within the asylum system
+
+Provide protection using external checkers
+
+Establish safe pathways to the EU
+
+Everything in 'A more humane and safe asylum system'
+
+A dynamic European labour market
+
+A dynamic European labour market
+
+Recognising Europe’s need to attract new talent while preventing workers’ exploitation, Volt proposes a common European migration code to manage migration effectively and fill skills gaps. Our goal is to create a system that respects the rights of migrant workers, boosts the appeal of the European market and fosters prosperity for a European Union that is truly rights-based and offers the same guarantees across all Member States.
+
+Attract international talent
+
+Create a safe environment for all workers
+
+Create regular and safe ways to meet the high demand across all industries
+
+Strengthen the rights of all workers
+
+Everything in 'A dynamic European labour market'
+
+A thriving EU with renewed legitimacy
+
+A thriving EU with renewed legitimacy
+
+At Volt, we believe in fortifying the EU’s capacity for collective action, ensuring that Member States collaborate effectively to address shared challenges. Central to this is the bolstering of the EU’s democratic legitimacy.
+
+Initiate a European Convention to reform the European Treaties in the new legislative term
+
+Build the path towards a European Federal Declaration
+
+Establish the right of legislative initiative for the European Parliament
+
+Elect an EU Prime Minister
+
+Everything in 'A thriving EU with renewed legitimacy'
+
+Empowering European Democracy
+
+Empowering European Democracy
+
+Volt is committed to creating a more democratic and fairer EU that tackles modern challenges. We will build a system that prioritises the interest of over 500 million citizens, transcending the constraints of national politics, and strengthening trust in the European project, through an informed citizenry and a robust and transparent European media landscape.
+
+Harmonised voting systems for European elections
+
+Voting rights in your country of residence
+
+European Political Parties
+
+Citizen participation in policy-making
+
+Everything in 'Empowering European Democracy'
+
+An ambitious climate agenda for Europe
+
+An ambitious climate agenda for Europe
+
+Climate change is already here. To mitigate its effects, we need to eliminate greenhouse emissions and transition to a greener economy. Volt has a holistic plan for that. Starting from the Paris Agreement targets, we envision a zero-carbon future with sustainable buildings, empowered energy communities and decentralised energy systems that work for all Europeans.
+
+Achieve climate neutrality by 2040
+
+A bold strategy to meet the Paris Agreement 1.5° limit
+
+Extend the use of the European Union Emissions Trading System
+
+Reduce harmful industrial emissions
+
+Everything in 'An ambitious climate agenda for Europe'
+
+Healthy European Ecosystems
+
+Healthy European Ecosystems
+
+We are part of the European ecosystem, and yet we are allowing the natural world to deteriorate around us. Nature in the EU is in serious decline, with 80% of land and water habitats in bad condition. Volt wants to reverse this trend, revitalising biodiversity in the EU, mitigating the impacts of pollution and ensuring a better life for the animals that we share our continent with
+
+Nature Restoration Law
+
+Transparency, Monitoring and Reporting
+
+Everything in 'Healthy European Ecosystems'
+
+Volt has defined 5+1 fundamental Challenges that need to be tackled in each European country and in Europe as a whole.
+
+Why 5 + 1 Challenges?
+
+The 5 Challenges are basically the same for every country, but their implementation can be adapted on the national level to take into account local realities.
+
+The +1 Challenge – our proposal to reform and strengthen the EU – is identical across all our national programmes.
+
+All Policies in one place
+
+Education and digitalisation are key elements of the 21st century
+
+An innovative economy must be the engine of society's progress
+
+No-one should be left behind - no matter their gender, income, religion. or origin
+
+Europe needs to assume responsibility for its role in global challenges
+
+People must be empowered to influence politics beyond elections alone
+
+We love the EU - this doesn't mean there is no room for improvement
+
+Discuss, work and decide with us.
+
+Donate today and join thousands of people like you.
+
+Subscribe to our newsletter and become part of the change, for a future made in Europe!

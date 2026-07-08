@@ -1,0 +1,218 @@
+1 
+ 
+A segurança passiva contribuiu para o avanço 
+da energia nuclear como reforço das energias 
+renováveis: Um misto flexível de ambas é a 
+melhor estratégia para a transição energética.  
+ 
+Iniciativa Política 
+Relativa à “Política de Transição Energética e Alterações Climáticas do 
+Volt - Uma Transformação Ambiental Abrangente para a Europa ”  
+ 
+ 
+Posição no MEP: O conteúdo da alteração proposta deve ser acrescentado ao MEP, na página 
+10 Política de Transição Energética e Alterações Climáticas do Volt. 
+ 
+ 
+Onde se lê:  
+ 
+• 
+«Novos tipos de reatores de fissão nuclear (por exemplo, sal fundido, regeneradores 
+ou pequenos reatores modulares) só seriam permitidos se considerados 
+significativamente mais seguros do que os modelos atuais e se forem necessários 
+para a transição energética. Além disso, os cidadãos seriam sempre consultados sobre 
+novos locais e ser-lhes-ia dado direito de veto absoluto. 
+ 
+• 
+Volt apoia a investigação dos conceitos avançados de fissão e fusão nuclear, como 
+de sal fundido, Gen4, regeneradores e, potencialmente, pequenos reatores modulares, 
+bem como a utilização de reatores de investigação e radioisótopos nucleares para outras 
+aplicações de baixo risco, tais como medicina, esterilização de alimentos e exploração 
+espacial.» 
+ 
+ 
+Deve constar:  
+«Apesar de uma transição energética mundial para energias 100% renováveis ser 
+provavelmente viável no futuro, a viabilidade de tal ser concretizado na prática antes de 
+2050, tal como proposto por Jacobson et Al. [0] não alcançou consenso científico [1,2]. 
+Um dos maiores problemas consiste no facto de quanto maior for a penetração das energias 
+renováveis, maior será a quantidade de armazenamento ou infraestruturas necessárias 
+para compensar a intermitência do vento e do sol, e essa relação não é linear [3]. 
+ 
+Durante os últimos anos, várias iniciativas interdisciplinares têm salientado o papel essencial 
+que as tecnologias nucleares podem desempenhar numa transição para energias limpas no 
+mundo [4] e na Europa [5]. Para além de atuar como estabilizadores de rede, aumentando 
+a diversidade e a autossuficiência energética, a atual quota-parte de energia nuclear 
+tornará a transição para energias limpas menos dispendiosa: sem o nuclear, a transição 
+global custaria ao mundo mais 1,6 biliões de euros entre 2018 e 2040, e o crescimento 
+necessário para as energias renováveis nos próximos 20 anos terá de ser extraordinário 
+[6]; mas a atual rede de reatores nucleares está a envelhecer e, se não for alargada, reduzirá 
+
+
+2 
+ 
+significativamente a sua capacidade energética até 2040 [6], de modo que pode demorar 
+significativamente mais tempo para nos livrarmos do gás natural ou de outras fontes de 
+energia à base de combustíveis fósseis, produzindo mais emissões, ameaçando os nossos 
+planos de enfrentar o aquecimento global e implicando também mais mortes devido à 
+poluição atmosférica: as estimativas de vidas salvas pela geração de energia nuclear apontam 
+para 1,8 milhões de vidas salvas entre 1971 e 2009 [7]. 
+ 
+Considerando que não queremos alargar a tecnologia nuclear atual, que não oferece 
+uma segurança intrínseca contra acidentes do tipo Fukushima, queremos permanecer 
+abertos a novos projetos sobre reatores avançados de fissão nuclear que fazem uso de 
+sistemas de segurança passiva, ou seja, em caso de pior cenário de acidente, desligará 
+qualquer reação nuclear sem intervenção externa. 
+ 
+O Volt apoia a investigação sobre conceitos avançados de fissão e fusão nuclear que 
+implementem a segurança passiva de origem, tais como sal fundido, GenIII+, Gen4, 
+reprodutores rápidos e pequenos reatores modulares, bem como a utilização de reatores de 
+investigação e radioisótopos nucleares para a geração de energia e outras aplicações, tais 
+como medicina, esterilização de alimentos e exploração espacial. 
+ 
+Existem outras vantagens destas tecnologias em comparação com os reatores nucleares Gen 
+II-III, para além de serem mais seguros: de um modo geral apresentam progressos em termos 
+de sustentabilidade, economia, fiabilidade e resistência à proliferação; são tipicamente mais 
+eficientes, produzem menos resíduos nucleares ou podem mesmo consumir os resíduos 
+nucleares gerados por outros reatores [8,9]. 
+ 
+O principal problema das novas tecnologias nucleares avançadas poderá ser o seu elevado 
+custo de capital: mas pequenos reatores modulares (<~ 300 Mw de potência), além de terem 
+uma modularidade que lhes permite adaptarem-se a uma rede energética alimentada 
+principalmente por energias renováveis, poderiam dar à tecnologia nuclear o custo inferior e 
+a padronização necessários para beneficiar de economias de escala no fabrico, para diminuir 
+o custo de produção e para atrair investidores. 
+ 
+Assim, novos tipos de reatores de fissão nuclear só serão permitidos se forem 
+considerados significativamente mais seguros do que os tipos atuais, mas estas 
+tecnologias devem poder competir no mercado no mesmo patamar de igualdade das 
+energias renováveis, até que seja alcançada a neutralidade carbónica. Para alguns exemplos 
+de projetos nucleares avançados, ver as referências [10-15]. 
+ 
+O diálogo e a transparência com as comunidades locais é essencial, pelo que será criada 
+uma agência científica europeia dedicada a verificar, no prazo de alguns meses, as 
+preocupações de segurança em caso de forte oposição das comunidades locais e avaliar 
+projetos alternativos de energia limpa que possam fornecer o mesmo fornecimento de 
+energia, mas nenhum direito de veto absoluto é concedido às comunidades locais: um dos 
+princípios do Volt é que o interesse geral deve prevalecer sobre o interesse local no caso 
+de infraestruturas essenciais, se a decisão for cientificamente fundamentada.  
+ 
+Este princípio deve também ser válido para a eleição de locais para o depósito de 
+resíduos nucleares (como o construído em Olkiluoto [16]) se forem necessários.» 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+3 
+ 
+Referências 
+ 
+[0] Jakobson et Al., 100% Clean and Renewable Wind, Water, and Sunlight All-Sector Energy 
+Roadmaps for 139 Countries of the World 
+ 
+[1] C.T.M.Clarke et Al, Evaluation of a proposal for reliable low-cost grid power with 100% 
+wind, water, and solar 
+ 
+[2] John E. Bistline and Geoffrey J. Blanford, More than one arrow in the quiver: Why “100% 
+renewables” misses the mark  
+ 
+[3] Ziegler et Al., Storage Requirements and Costs of Shaping Renewable Energy Toward Grid 
+Decarbonization 
+ 
+[4] Interdisciplinary MIT study: The Future of Nuclear Energy in a Carbon-Constrained World 
+ 
+[5] 
+IEA 
+(2020) 
+Sustainable 
+Recovery 
+https://www.iea.org/reports/sustainable-
+recovery/electricity#maintain-the-role-of-hydro-and-nuclear-power  
+ 
+[6] IEA (2019) Nuclear Power in a Clean Energy System – Analysis 
+ 
+[7] Pushker A. Kharecha, Prevented Mortality and Greenhouse Gas Emissions from Historical 
+and Projected Nuclear Power  
+ 
+[8] WNA, Generation IV Nuclear Reactors: WNA  
+ 
+[9] Badawy M.Elsheikh, Safety assessment of molten salt reactors in comparison with light 
+water reactors  
+ 
+[10] Terrapower TerraPower: Home, 
+ 
+[11] eVinci New Plants > eVinci™ Micro Reactor 
+ 
+[12] BWRX-300 Making nuclear energy cost-competitive 
+ 
+[13] PRISM PRISM  
+ 
+[14] Rolls Royce SMR Small modular reactors 
+ 
+[15] NuScale NuScale Power | SMR Nuclear Technology 
+ 
+[16] Onkalo http://www.posiva.fi/en/final_disposal/onkalo#.XxoGX3UzYXU 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Título Original: A Passive safety advanced nuclear in  
+support of renewables: A flexible mix is the best  
+strategy for the energy transition 
+ 
+Aprovado em Assembleia-Geral do Volt Europa 
+como Iniciativa Política  
+Outubro de 2020 
+ 
+ 
+Tradução do inglês a cargo do Volt Portugal 
+Janeiro de 2021  
+ 
+ 
+©Volt Europa  A.I.S.B.L.  
+Todos os direitos reservados 
+ 
+
+

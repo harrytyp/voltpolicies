@@ -1,0 +1,15 @@
+{
+  "document": "Volt HU Policy",
+  "url": "",
+  "source": "Volt HU Policy",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Policies \u2013 Volt Magyarorsz\u00e1g / Hungary\n\nnav-menu#openSitesNav\">\n\nnav-menu#toggleLanguageMenu\">\n\nnav-menu#openSitesNav\">\n\nnav-menu#closeSitesNav\"\n\nclass=\"flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden\">\n\nVolt is a pan-European party and movement with over 22,000 members in 31 countries.\n\nnav-menu#closeSitesNav\">\n\nclass=\"flex cursor-pointer items-center gap-3 text-body-2 text-purple-500\">\n\nsearch#containerClicked search#submit\" action=\"https://volthungary.org/search\">\n\nsearch#search\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"inherit\">\n\nsearch#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput\"\n\nname=\"q\" data-nav-menu-target=\"link\" data-title=\"6\">\n\nsearch#clearInput\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"17\" viewBox=\"0 0 16 17\" fill=\"none\">\n\nnav-menu#openTab\" data-nav-menu-target=\"link\"\n\ndata-nav-menu-target=\"link\" data-title=\"2\">\n\nOur political priorities\n\nWhat are we working for?\n\nThe Hungarian activists of Volt are building a political party that brings more Europe to Hungary and more Hungary to Europe.\n\nWe believe that today's challenges do not stop at borders, so our future, prosperity and security can only be guaranteed by a united, strong and diverse EU, where the citizens of the member states not only live next door but actively shape their common future together.\n\nWe also want a well-functioning democracy in our country, where parties representing the interests of various groups in our society talk about our future, prepare for efficient governance, and win their mandate to serve the public in a fair competition.\n\nMore Europe to Hungary, more Hungary to Europe!\n\nLet's restore democracy!\n\nLet's discuss our common interests!\n\nLet's demand effective governance!\n\nEverything in 'Our goals in Hungary'\n\nEverything in 'The 5+1 Challenges'\n\nOur political priorities\n\nOur political priorities\n\nEverything in 'Our political priorities'\n\nSubscribe to our new"
+    },
+    {
+      "page": 2,
+      "text": "sletter!\n\nReceive our monthly newsletter and get informed about our events and our most recently published content."
+    }
+  ]
+}

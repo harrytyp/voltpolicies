@@ -1,0 +1,71 @@
+ 
+ 
+Volt Europa - Data Protection 
+Report 2021 
+ 
+Data Protection Officers  
+Since summer 2020, two dedicated members are the DPOs of Volt Europa. They can 
+be contacted at dpo@volteuropa.org.  
+ 
+Data Governance  
+One of the DPOs continues her participation in the “Governance Commission”. 
+ 
+Accountability  
+The “Data Protection Library”, placed on Google Drive, was updated. It is a collection 
+of relevant data protection documents.  
+ 
+Rights of the data subject  
+Many requests about rights of data subjects reached the DPOs.  
+We coordinated the requested actions (information, correction or deletion) in close 
+cooperation with the Secretary General and the TechTeam.  
+ 
+Personal data breach  
+At the end of December 2021, the General Secretary and the DPO received 
+notification  of a data breach. A Dutch journalist announced on Twitter that he had 
+received member data of Volt members from at least the Netherlands and Belgium. 
+The GS and Dutch  DPO took the steps that needed to be taken in this situation and 
+the EUR DPOs were always kept informed. It seemed that a Volt member with access 
+to this personal data transferred it to the journalist. To prevent such data breaches in 
+the future, GS,  TechLeads and DPO are in contact. The necessary measures will be 
+taken in 2022.  
+ 
+Data Processing Agreements  
+Some Data Processing Agreements and “Joint Controllership Agreements” are in  
+process.  
+ 
+Technical and organisational measures [TOM]   
+The DPOs continued the documentation of technical and organisational measures. 
+They  adhered to the relevant processes, and answered corresponding questions of 
+Page 1 - Volt Data Protection Report 2021 
+
+
+ 
+ 
+functional  teams and national chapters.  
+ 
+Records of processing activities  
+There is no obligation to keep records of processing activities for us. Nevertheless it 
+is  favourable to have an overview of this. The DPOs updated this register.  
+ 
+Risk assessment  
+If the data processing “is likely to result in a high risk for the rights and freedoms of  
+natural persons” [Art. 35 (1) GDPR] a Data Protection Impact Assessment (DPIA) is  
+required.   
+The DPOs’ analysis of requests for a risk assessment led them to conclude that no 
+DPIA  was needed, but that it was important to consider it in the first place.  
+ 
+National chapters  
+If requested, the DPOs advised national chapters on questions related to data  
+protection.  
+Volt España asked them to take on the role of national DPO until a qualified member  
+was found. DPO Robert Seifert agreed to take on this task for a limited time. 
+ 
+Perspective  
+The growth of the organisation brings new data protection challenges. To stay aware 
+of data protection considerations in Volt Europa  
+requires continuous checks, advice and proposals for the whole organisation. 
+ 
+December 2021  
+ 
+By the Data Protection Officers 
+Page 2 - Volt Data Protection Report 2021 

@@ -1,0 +1,123 @@
+Policies – Volt Slovenija / Slovenia
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Coming soon - we are preparing to launch Volt in Slovenia
+
+Volt is a pan-European party and movement with over 32,000 members in 30 countries.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltslovenia.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Programmes and positions
+
+Programmes and positions
+
+Economic Rennaissance
+
+Our European deputies
+
+The team of Volt Slovenia
+
+Newsletter - April 2026
+
+Newsletter - March 2026
+
+Jaz-Premier.ka ? Do you have what it takes?
+
+Newsletter - February 2026
+
+Newsletter - January 2026
+
+Volt demands Europe to unite after the military operation in Venezuela
+
+We are a 21st-century party that believes in pragmatism and seeks solutions that are truly feasible and effective. In our work, we focus on best practices, both at home and abroad, because we believe that tested solutions can bring positive change more quickly. We are inspired by successful approaches from other countries that have faced similar challenges, and we strive to transfer knowledge and adapt these practices to our environment.
+
+Our vision is based on proven results and evidence of what actually works, rather than abstract promises or ideology. We are convinced that decisions should be built on data analysis, measurable outcomes, and concrete examples of success.
+
+Our (5+1) principal themes
+
+Paving the way towards the Europe we need to matter on geopolitical level.
+
+Everything in 'European Reforms'
+
+People must be empowered to influence politics beyond elections alone.
+
+Transparency and corruption
+
+Public participation and direct democracy
+
+Everything in 'Citizen empowerment'
+
+Economic Rennaissance
+
+Economic Rennaissance
+
+An innovative economy must be the engine of society's progress.
+
+Economic and industrial development
+
+Everything in 'Economic Rennaissance'
+
+Education and digitalisation are key for a 21st century Slovenia.
+
+Education and Science
+
+Security, Justice and Crime Prevention
+
+Food quality and autonomy
+
+Everything in 'Smart State'
+
+Leave no one behind - no matter age, race, religion or gender.
+
+Social Affairs and Inclusive society
+
+Affordable Housing and Construction
+
+Ethnic minorities and religion
+
+Everything in 'Social equality'
+
+Europe needs to assume responsibility for its role in global challenges.
+
+Climate change and civil protection
+
+Asylum and immigration
+
+Everything in 'Global Balanace'
+
+Shape the future of Slovenia and Europe!
+
+With your financial support, we can reach more people!
+
+Keep up to date with Volt!
+
+Subscribe to our monthly newsletter and follow all developments regarding Volt.

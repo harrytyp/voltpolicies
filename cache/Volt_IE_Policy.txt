@@ -1,0 +1,121 @@
+Policies – Volt Éireann / Ireland
+
+nav-menu#openSitesNav">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt is active in more than 30 countries throughout Europe. Find all the national sites below.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltireland.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+The EU on the Global Stage
+
+A more humane and safe asylum system
+
+Empowering European Democracy
+
+An ambitious climate agenda for Europe
+
+Volt Ireland Leadership
+
+Volt Ireland at the GA in Frankfurt from Thijs’ perspective
+
+Expansion of our social media presence
+
+What does Volt think?
+
+Politics has stuck in solutions of the last century. But we look at realistic, social and sustainable solutions of the 21st century. Volt sees six challenges for this.
+
+The EU on the Global Stage
+
+The EU on the Global Stage
+
+In a world that is changing drastically, Volt wants the EU to become an actor for a fairer, more sustainable and more equal world. To achieve this, the EU needs to reform itself and its structures to speak with one voice and act as a true union. Only then will we be capable of playing a significant role on the global stage.
+
+The EU on the Global Stage
+
+Everything in 'The EU on the Global Stage'
+
+No-one should be left behind in Europe, but according to the European Commission, factors such as wealth, education level and social status heavily influence our chances at well-being. Volt is committed to fighting discrimination, improving social mobility, and building a society in which we can all thrive. Quality public services and the highest standards of protection, both on and offline, are crucial for building a prosperous Europe.
+
+Everything in 'Thriving Together'
+
+A more humane and safe asylum system
+
+A more humane and safe asylum system
+
+Europe’s current asylum system is dysfunctional. It leads to refugees and asylum seekers enduring distressing conditions, and being left in legal limbo. There is an urgent need for change. Volt aims to introduce a fair relocation system, protect the human rights of vulnerable individuals, and create safe regular pathways for refugees.
+
+A more humane and safe asylum system
+
+Everything in 'A more humane and safe asylum system'
+
+Empowering European Democracy
+
+Empowering European Democracy
+
+Volt is committed to creating a more democratic and fairer EU that tackles modern challenges. We will build a system that prioritises the interest of over 500 million citizens, transcending the constraints of national politics, and strengthening trust in the European project, through an informed citizenry and a robust and transparent European media landscape.
+
+Empowering European Democracy
+
+Everything in 'Empowering European Democracy'
+
+An ambitious climate agenda for Europe
+
+An ambitious climate agenda for Europe
+
+Climate change is already here. To mitigate its effects, we need to eliminate greenhouse emissions and transition to a greener economy. Volt has a holistic plan for that. Starting from the Paris Agreement targets, we envision a zero-carbon future with sustainable buildings, empowered energy communities and decentralized energy systems that work for all Europeans.
+
+An ambitious climate agenda for Europe
+
+Everything in 'An ambitious climate agenda for Europe'
+
+Volt has defined 5+1 fundamental Challenges that need to be tackled in each European country and in Europe as a whole.
+
+Why 5 + 1 Challenges?
+
+The 5 Challenges are basically the same for every country, but their implementation can be adapted on the national level to take into account local realities.
+
+The +1 Challenge – our proposal to reform and strengthen the EU – is identical across all our national programmes.
+
+View the policy portfolio
+
+Education and digitalisation are key elements of the 21st century
+
+An innovative economy must be the engine of society's progress
+
+No-one should be left behind - no matter their gender, income, religion. or origin
+
+Europe needs to assume responsibility for its role in global challenges
+
+People must be empowered to influence politics beyond elections alone
+
+We love the EU - this doesn't mean there is no room for improvement
+
+Sign up for our monthly newsletter and follow everything Volt Ireland
+
+Open Positions at Volt Europa

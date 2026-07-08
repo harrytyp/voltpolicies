@@ -1,0 +1,187 @@
+Europäisches Wahlprogramm 2024-2029 – Volt Österreich
+
+nav-menu#openSitesNav">
+
+Volt in deinem Bundesland
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+Politik zum Mitmachen
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt ist in über 30 Ländern in Europa vertreten. Hier findest du Links zu den Websites von Volt in anderen Ländern.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltoesterreich.org/suche">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+data-nav-menu-target="link" data-title="5">
+
+Deine Spende für Volt!
+
+Jobs bei Volt Österreich
+
+Politik zum Mitmachen
+
+Programm für Österreich
+
+Europäisches Wahlprogramm 2024-2029
+
+Wirtschaftliche Renaissance
+
+Soziale Gleichberechtigung
+
+Politisch aktive Bürgerschaft
+
+Europäische Communities
+
+Unsere Functional Teams
+
+Hochschulen retten heißt Zukunft sichern
+
+Ein freies Europa ohne innereuropäische Grenzen
+
+Vier Jahre Krieg in der Ukraine - Österreich und Europa tragen mehr Verantwortung denn je
+
+Eine europäische Armee in drei Schritten: Es wäre naiv, dagegen zu sein!
+
+Volt verlangt nach der Militäroperation in Venezuela ein vereintes und entschlossenes Europa
+
+Für ein Nachtzugnetz in Europa!
+
+Meet & Greet mit Volt in Graz
+
+Eckhaus/Bar28, Rechbauerstraße 15, 8010 Graz
+
+General Assembly Social Events
+
+Panel mit Damian Böselager und anderen: “Is Security a European Issue? Why Defense, Resilience, and Democracy Cannot Be National Endeavors”
+
+Impact Hub Vienna, Lindengasse 56/18-19, 1070 Wien, Österreich
+
+Volt Meet & Greet in Salzburg
+
+ARGE Beisl, Ulrike-Gschwandtner-Straße 5, 5020 Salzburg
+
+Volt Europa General Assembly Bratislava
+
+Príkopova 6, 831 03 Bratislava, Slowakei
+
+Servus Volt! Regelmäßiger Europastammtisch in Linz
+
+Restaurant "Alte Welt" am Hauptplatz 4 in Linz
+
+Europäisches Wahlprogramm 2024-2029
+
+Welche Ziele hat Volt?
+
+topic-sidebar#toggleSidebar">
+
+Programm für Österreich
+
+Überblicks-Fassung des Wahlprogramms zur EU-Wahl 2024
+
+Europäisches Wahlprogramm 2024-2029
+
+Wahlprogramm Wien 2020
+
+Programm Wien Wahl 2025
+
+Europäisches Wahlprogramm 2024-2029
+
+Volt ist durch und durch europäisch organisiert – das gilt selbstverständlich auch für unser politisches Programm, das nicht aus der Feder einer nationalen Partei stammt, sondern von über 30.000 Mitgliedern in 31 europäischen Ländern gestaltet und beschlossen wurde.
+
+Unsere Vision für die Europäische Union ist ein klimaneutrales, innovatives, gerechtes und ein föderales Europa. Wir sind überzeugt davon, dass ein starkes Europa die Lösung ist, um Krisen zu bewältigen. Globale Probleme können wir nicht auf nationaler Ebene lösen - sondern nur gemeinsam angehen!
+
+Fünf Schlüsselfragen für Europa bis 2029
+
+In unserem Wahlprogramm für die kommende Legislaturperiode des Europäischen Parlaments von 2024 bis 2029 konzentrieren wir uns auf fünf Schlüsselbereiche: Europas
+
+geopolitische Bedeutung
+
+menschenwürdiger Migration
+
+europäischen Demokratie
+
+und seiner Ökosysteme.
+
+Trau dich! Unser europäisches Wahlprogramm für 2024-2029
+
+Unser europäisches Wahlprogramm für 2024-2029
+
+Überblicks-Fassung des Wahlprogramms
+
+(in vielen weiteren Sprachen)
+
+Die 5+1 Heraus­forderungen
+
+Volt hat 5+1 grundlegende Herausforderungen definiert, die in jedem europäischen Land und in Europa als Ganzes in Angriff genommen werden müssen.
+
+Warum 5 + 1 Herausforderungen?
+
+Die 5 Herausforderungen sind im Grunde für jedes Land die gleichen, aber ihre Umsetzung kann auf nationaler Ebene angepasst werden, um den lokalen Gegebenheiten Rechnung zu tragen.
+
+Die Herausforderung +1 - unser Vorschlag zur Reform und Stärkung der EU - ist in allen unseren nationalen Programmen identisch.
+
+Europäisches Wahlprogramm 2024-2029
+
+Bildung und Digitalisierung sind Schlüsselelemente des 21. Jahrhunderts.
+
+Wirtschaftliche Renaissance
+
+Eine innovative Wirtschaft ist der Motor für den Fortschritt der Gesellschaft.
+
+Soziale Gleichberechtigung
+
+Niemand sollte zurückgelassen werden - ungeachtet von Geschlecht, Einkommen, Religion oder Herkunft.
+
+Für globalen Ausgleich
+
+Europa muss seiner Verantwortung in der Welt zur Sicherung unserer gemeinsamen Zukunft gerecht werden.
+
+Politisch aktive Bürgerschaft
+
+Die europäischen Bürger*innen müssen dazu in der Lage sein, fundierte politische Entscheidungen zu treffen, selbstständig über Wahlen hinaus Einfluss auf die Politik zu nehmen und ihre demokratischen Rechte auszuüben.
+
+Wir lieben die EU - das heißt aber nicht, dass es keinen Raum für Verbesserungen gibt.
+
+Als Mitglied mitwirken, mitarbeiten und mitentscheiden.
+
+Um noch mehr Menschen erreichen zu können, benötigen wir deine Spende!
+
+Auf dem Laufenden bleiben
+
+Du interessierst dich für Volt und willst auf dem aktuellen Stand bleiben?
+
+Dann abonniere unseren Newsletter und erfahre alle Neuigkeiten von und zu Volt.
+
+Halte mich informiert!
+
+Allgemeine Fragen und Feedback an:
+
+Fragen zur Mitgliedschaft oder zum Mitmachen:
+
+Presse- und Medienanfragen an:

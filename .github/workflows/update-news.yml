@@ -5,33 +5,40 @@ on:
     - cron: '0 6 * * *'  # Once daily at 06:00 UTC
   workflow_dispatch:
 
-# Explicit write permissions for git push
-permissions:
-  contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       
       - name: Install dependencies
-        run: pip install requests pymupdf beautifulsoup4
+        run: |
+          pip install --upgrade pip
+          pip install sentence-transformers faiss-cpu numpy pymupdf
       
       - name: Check for new PDFs
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python .github/scripts/check_new_pdfs.py
       
       - name: Fetch news (incremental)
         run: python .github/scripts/fetch_news.py
       
-      - name: Generate status + sources
+      - name: Build FAISS semantic index
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: python scripts/build_index.py
+      
+      - name: Generate status & sources
         run: |
           python .github/scripts/generate_status.py
           python .github/scripts/generate_sources.py
@@ -48,6 +55,6 @@ jobs:
           else
             CHANGED=$(git diff --cached --stat | tail -1)
             git commit -m "Auto-update: $CHANGED"
-            git pull --rebase origin main || echo "Rebase skipped (no common ancestor — will force)"
+            git pull --rebase origin main
             git push origin main
           fi

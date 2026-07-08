@@ -1,0 +1,203 @@
+1. La Démocratie – Volt France
+
+nav-menu#openSitesNav">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Nos régions et villes
+
+Volt Europa est un parti pan-européen comptant plus de 35 000 membres dans 31 pays européens.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltfrance.org/recherche">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+data-nav-menu-target="link" data-title="5">
+
+Notre programme pour les élections législatives anticipées de 2024
+
+Notre programme pour les élections législatives anticipées de 2024
+
+2. La Transition écologique
+
+Notre programme pour les élections législatives anticipées de 2024
+
+Élections consulaires de 2026 : le projet de Volt
+
+Notre programme pour les élections européennes de 2024
+
+Notre programme pour les élections législatives anticipées de 2024
+
+Renaissance économique
+
+Renforcement du pouvoir des citoyens
+
++1 Réforme de l'Union européenne
+
+Voir toutes les politiques
+
+Communautés européennes
+
+Le Conseil des régions
+
+L'Europe doit défendre la CPI contre les sanctions américaines
+
+Dernière ligne progressiste aux urnes !
+
+Ce dimanche 24 mai, Volt Chypre se présente aux élections législatives
+
+Une fête de l'Europe vraiment européenne !
+
+Retour sur la soupe violette de 2026
+
+Journée mondiale de la liberté de la presse
+
+Voir plus d'actualités
+
+Assemblée Générale Volt Europa à Bratislava
+
+Príkopova 6, 831 03 Bratislava, Slovakia
+
+Meet and Greet avec Volt à Toulouse
+
+Café L' Astronef, 3 place des Avions, 31400 Toulouse
+
+La prise de contrôle hostile de la démocratie par les géants de la tech
+
+Notre programme pour les élections législatives anticipées de 2024
+
+topic-sidebar#toggleSidebar">
+
+Notre programme pour les élections législatives anticipées de 2024
+
+Notre programme pour les élections législatives anticipées de 2024
+
+Introduction législatives 2024
+
+Transition écologique
+
+2. La Transition écologique
+
+Défense et politique extérieure
+
+4. Défense et politique extérieure
+
+1.1 Pour une République du 21ème siècle
+
+Élire les député.e.s à la proportionnelle
+
+La Ve République est le seul régime de l’Union européenne qui n’utilise pas la proportionnelle dans l’élection des députés. Cet outil permettrait d’assurer une juste représentation de toutes les forces politiques en présence. Contrairement à une idée répandue, les gouvernements chez nos voisins ne sont pas caractérisés par une instabilité chronique.
+
+Élire le/la présidente de la République par un vote au jugement majoritaire, après les législatives.
+
+Cela inciterait les citoyens à noter les candidats en fonction de leurs appréciations réelles plutôt qu'à voter « utile » ou « stratégique ». Dans cette configuration, le président ou la présidente sera le gardien des institutions et non pas élu sur un programme de gouvernement. Le Premier ministre disposera du pouvoir exécutif en s'appuyant sur une majorité à l'Assemblée nationale.
+
+Abaisser le droit de vote à 16 ans, pour toutes les élections.
+
+À travers l’Europe, de nombreux pays ont déjà abaissé le droit de vote à 16 ans. De nombreux travaux politiques soulignent que plus les citoyens commencent à voter tôt, plus ils conservent cette pratique tout au long de leur vie. Lutter contre l’abstention chez les jeunes passe par ce changement.
+
+Étendre le droit de vote aux citoyens européens pour l’ensemble des élections nationales.
+
+Ce droit s’appliquerait à tous les citoyens européens vivant en France depuis plus d'un an et étant inscrits sur les listes électorales. Nous étendrons également aux ressortissants de pays hors UE le droit de vote aux élections locales.
+
+Introduire un bulletin de vote unique.
+
+Notre système oblige chaque parti à financer deux bulletins de vote pour chaque citoyen : c’est une véritable barrière au renouvellement des idées politiques. Volt souhaite introduire un bulletin unique où figurent les noms de la totalité des candidat.e.s à une élection. C'est plus démocratique et c'est aussi plus durable – en évitant l'abattage massif d’arbres à chaque élection.
+
+Abaisser la barrière de remboursement des frais de campagne à 0,5 % des votes exprimés.
+
+La barrière actuelle de 5 % est considérable pour un petit parti qui souhaite engager des fonds afin de participer à une campagne. Tout comme on encourage les start-up novatrices dans le secteur privé, le système politique devrait favoriser le renouvellement des idées et des partis. Les seuls gagnants de la situation actuelle sont les partis établis, qui bénéficient de leur situation d’oligopole.
+
+1.2. Oser le saut fédéral
+
+Établir un gouvernement européen opérationnel, légitimé par une majorité au Parlement.
+
+Nous souhaitons transformer le collège des Commissaires en un véritable gouvernement européen, avec un Premier Ministre choisi et élu par le Parlement Européen.
+
+Mettre fin à l’unanimité au sein du Conseil de l'UE
+
+pour permettre une véritable politique étrangère et fiscale européenne.
+
+Rendre l'UE seule responsable des frontières extérieures de l'UE à terme.
+
+Pour faire avancer cette proposition, Volt propose de lancer la discussion sur l'octroi à l'Union européenne de la compétence pour protéger les frontières non-européennes de la France.
+
+Accorder le droit d'initiative législative au Parlement européen
+
+pour que les eurodéputés puissent enfin proposer des lois sans attendre la Commission européenne.
+
+Doter l'Union européenne de ressources propres afin d’assurer son indépendance financière.
+
+Nous voulons financer le budget de l'UE par des impôts européens – comme une taxe « bio » aux frontières de l’UE –, afin d’augmenter le budget de l’Union. À long terme, l'UE devrait être en mesure de prélever ses propres taxes en remplacement des contributions nationales – comme une taxe sur les transactions financières.
+
+Sanctionner tout État en situation d’infraction répétée à l’État de droit en demandant l’activation de l’article 7 du Traité sur l’Union européenne.
+
+Il est temps de priver Orbán de ses droits de vote en réponse à son chantage délétère pour la stabilité et la sécurité de l’Union.
+
+1.3. Pour une vraie transparence de la vie politique et des médias
+
+Publier de manière proactive des statistiques trimestrielles sur les recettes et les dépenses du gouvernement
+
+à tous les niveaux. Nous souhaitons créer une prise de conscience des revenus et des dépenses publiques et exiger des institutions gouvernementales qu'elles publient un rapport trimestriel dans un format vulgarisé et compréhensible par le grand public.
+
+Exiger la transparence pour les dons personnels aux partis politiques supérieurs à 3000 euros
+
+. Sans transparence sur l'identité des sympathisants les plus généreux, les médias comme les citoyens n'ont aucun moyen de vérifier que l'argent privé injecté dans les campagnes électorales ne donne pas lieu à des pratiques clientélistes.
+
+Veiller à ce que le Conseil constitutionnel soit une institution indépendante
+
+. Nous voulons rendre obligatoire les compétences judiciaires pour siéger au Conseil, une pratique commune dans l'UE. Nous souhaitons également que les anciens présidents ne soient plus automatiquement nommés au Conseil.
+
+Garantir un accès non discriminatoire à Internet
+
+. Nous nous engageons en faveur de la préservation de la neutralité du réseau au niveau national et européen.
+
+Développer un débat public européen continu dans les médias nationaux
+
+pour informer suffisamment les citoyens sur les questions européennes. En remplissant ce rôle, nos médias seront à même de réduire la distance entre la France, Bruxelles et l'Europe dans son ensemble.
+
+Défendre le modèle de redevance audiovisuelle
+
+pour assurer un équilibre sain entre le journalisme des médias publics et privés. Nous souhaitons ainsi assurer une visibilité financière de long terme pour l’audiovisuel public, qui ne passe pas par la TVA.
+
+Les 5 défis sont essentiellement les mêmes défis pour chaque pays, mais leur mise en oeuvre peut etre adaptée au niveau national pour prendre en compte les réalités locales.
+
+Le défi +1 – notre proposition pour réformer et renforcer l'Union Européenne – est le même dans tous les programmes nationaux.
+
+Voir toutes nos politiques
+
+Renaissance économique
+
+Renforcement du pouvoir des citoyens
+
+Réforme de l'union Européenne
+
+Participez au changement pour un avenir Made in Europe
+
+Aidez-nous à prendre de l’ampleur avec votre don
+
+Abonnez vous au bulletin pour ne rien rater de Volt France
+
+Contact presse et médias

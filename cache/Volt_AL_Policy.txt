@@ -1,0 +1,127 @@
+Policies – Volt Albania
+
+nav-menu#openSitesNav">
+
+nav-menu#toggleLanguageMenu">
+
+nav-menu#openSitesNav">
+
+nav-menu#closeSitesNav"
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
+
+Volt is a pan-European party and movement with over 22,000 members in 31 countries.
+
+nav-menu#closeSitesNav">
+
+class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
+
+search#containerClicked search#submit" action="https://voltalbania.org/search">
+
+search#search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="inherit">
+
+search#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput"
+
+name="q" data-nav-menu-target="link" data-title="6">
+
+search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+
+nav-menu#openTab" data-nav-menu-target="link"
+
+data-nav-menu-target="link" data-title="2">
+
+data-nav-menu-target="link" data-title="3">
+
+data-nav-menu-target="link" data-title="4">
+
+Albania is Europe, Europe is Albania
+
+For a stronger democratic Albania
+
+Diaspora law proposal
+
+Climate neutral in 2040
+
+Done, with corruption
+
+For a stronger democratic Albania
+
+Volt Albania Opposes TikTok Ban: A Hasty Decision That Undermines Freedom of Expression
+
+Volt Albania: A New Wind in Albanian Politics?
+
+One year after the terrorist attacks on Israel: choosing the side of human rights
+
+Recording the first episode of the new TV program - Future made in Europe
+
+The Volt Albania team is at the Volt General Assembly in Paris
+
+What does Volt think?
+
+We think it's time for new politics, time for politics for you.
+
+To get Albania into the EU is our number one priority!
+
+Albania is Europe, Europe is Albania
+
+For a better and stronger Europe
+
+Everything in 'Albania in the EU'
+
+Done, with corruption
+
+Done, with corruption
+
+One corrupt set of politicians replaces another. It is time for something new, politicians who care about Albanians. Not their wallet.
+
+Everything in 'Done, with corruption'
+
+Our beautiful country has to be protected against exploitation. For a healthy life.
+
+Climate neutral in 2040
+
+Everything in 'Protect nature'
+
+For a stronger democratic Albania
+
+For a stronger democratic Albania
+
+Diaspora law proposal
+
+Everything in 'For a stronger democratic Albania'
+
+Volt has defined 5+1 fundamental Challenges that need to be tackled in each European country and in Europe as a whole.
+
+Why 5 + 1 Challenges?
+
+The 5 Challenges are basically the same for every country, but their implementation can be adapted on the national level to take into account local realities.
+
+The +1 Challenge – our proposal to reform and strengthen the EU – is identical across all our national programmes.
+
+View the policy portfolio
+
+Education and digitalisation are key elements of the 21st century
+
+An innovative economy must be the engine of society's progress
+
+No-one should be left behind - no matter their gender, income, religion. or origin
+
+Europe needs to assume responsibility for its role in global challenges
+
+People must be empowered to influence politics beyond elections alone
+
+We love the EU - this doesn't mean there is no room for improvement
+
+Discuss work and decide with us.
+
+With your support we can increase our budget and do more good in Albania.
+
+Subscribe to our newsletter
+
+Click on the button below to subscribe to our newsletter and stay up-to-date about everything we do.
+
+Statutes and annual reports
+
+General questions and feedback
+
+Press and media enquiries

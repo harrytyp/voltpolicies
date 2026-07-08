@@ -1,0 +1,11 @@
+{
+  "document": "Volt EE Policy",
+  "url": "",
+  "source": "Volt EE Policy",
+  "pages": [
+    {
+      "page": 1,
+      "text": "Policies \u2013 Volt Eesti / Estonia\n\nnav-menu#openSitesNav\">\n\nnav-menu#openSitesNav\">\n\nnav-menu#closeSitesNav\"\n\nclass=\"flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden\">\n\nVolt is a pan-European party and movement with over 22,000 members in 31 countries.\n\nnav-menu#closeSitesNav\">\n\nclass=\"flex cursor-pointer items-center gap-3 text-body-2 text-purple-500\">\n\nsearch#containerClicked search#submit\" action=\"https://voltestonia.org/search\">\n\nsearch#search\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"inherit\">\n\nsearch#checkInput focus->nav-menu#openTab keyup->search#search keyup->search#checkInput\"\n\nname=\"q\" data-nav-menu-target=\"link\" data-title=\"6\">\n\nsearch#clearInput\" xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"17\" viewBox=\"0 0 16 17\" fill=\"none\">\n\nnav-menu#openTab\" data-nav-menu-target=\"link\"\n\ndata-nav-menu-target=\"link\" data-title=\"2\">\n\nEverything in 'Policies'\n\nMeepraten, meewerken en mee beslissen. Al\n\nMeepraten, meewerken en mee beslissen. Al\n\nSchrijf je in voor onze maandelijkse nieuwsbrief en volg alle ontwikkelingen omtrent Volt.\n\nGeneral questions and feedback\n\nPress and media enquiries"
+    }
+  ]
+}

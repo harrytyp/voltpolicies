@@ -1,0 +1,75 @@
+Volt Europa - Data Protection Report 2020
+Data Protection Officers
+Mariano delli Santi had ended his activities as DPO because a change in his job did not 
+leave him time to continue. Thanks a lot to him for his activity the time before.
+The Board appointed Robert Seifert in July and Mistale Taylor in August as new DPOs. 
+Data Governance
+DPO Mistale Taylor takes part in the new founded  “Governance Commission”.
+The DPOs keep an eye on the declaration of data policy, which has to be included in 
+websites, so Volt Europa can publish a legal adequate and sufficient version.
+The DPOs gave advice on how to modify privacy documents on national websites.
+Accountability
+The “Data Protection Library”, placed on Google-Drive, was started in November. This 
+collection of relevant data protection documents serves as a reference book for Volt as 
+well as complying with Art. 5 (2) GDPR to supervisory authorities. This project will be 
+continued in 2021.
+Rights of the data subject
+Several requests reached the DPO. We coordinated the requested actions in close 
+cooperation with the Tech Lead Jose Antonio Abellan Lax. Some requests concerned 
+information about personal data, others concern the deletion of data, mostly about e-
+mail accounts that are no longer used.
+This led to a general guideline. The DPOs submitted a proposal to the Bord of Volt 
+Europa for “Guidelines for handling requests relating to the rights of data subjects 
+(Art. 15 - 22 GDPR)”, which the Board approved in December.
+An information sheet for data subjects according to Art. 13 GDPR was set up and placed 
+in the “Data Protection Library” where anyone can read and download the information 
+we are obliged to provide.
+Joint Contollership
+The work of the “Data Processing Agreement Working Group” was taken up and 
+continued. Drafts for a “Joint Controllership Agreement” according to Art. 26 GDPR was 
+sent to some national chapters of Volt, such as Germany, the Netherlands and Italy.
+In December the Agreements with Germany and Netherlands were established by the 
+European Board and the national Boards. More agreements with other Member 
+Associations will follow next.
+Technical and organisational measures [TOM] 
+According to Art. 25 and 32 GDPR there are processing contracts needed with external 
+processors, e.g. software suppliers. The DPOs started an overview and arranged the 
+completion of the contracts and agreements.
+
+
+Page 2 - Volt Data Protection Report 2020
+Records of processing activities
+There is no obligation to keep records of processing activities for organisations 
+employing fewer than 250 persons, except if there are special risks [Art. 30 (5) GDPR].
+Nevertheless it is favorable to have an overview about this. So the DPOs started to build 
+a register of processing activities; it will be continued in 2021.
+Risk assessment
+If the data processing "is likely to result in a high risk for the rights and freedoms of 
+natural persons" [Art. 35 (1) GDPR] a ”Data Protection Impact Assessment (DPIA)” is 
+required. This is obvious e. g. for health data. The DPOs help to analyse, if a specific 
+processing needs a DPIA. If it is needed, a special software tool developed in France, 
+adopted by German authorities, guides through the process of establishing the DPIA or 
+the DPO can conduct a DPIA following the ICO model.
+Until now the DPOs were involved in one software development. We could find out that 
+therefore no DPIA is needed.
+Personal data breach 
+Rules for handling of data breaches according to Art. 33 – 34 GDPR are not yet defined. 
+This will be a project for 2021.
+National chapters
+Beyond the topics mentioned above there have been some contacts to know each other 
+and to discuss advice for national data governance. 
+Perspective
+There is a high level of awareness of data protection in Volt Europa. We will help to take 
+the legally correct measures for this.
+We want to complete the “Data Protection Library” to be able to demonstrate 
+compliance with the GDPR and show accountability as Art. 5 GDPR demanded. 
+We will work for more “Joint Controllership Agreements” and other data processing 
+contracts with national chapters.
+We want to expand the network of data protection management in Volt.
+And we try to answer questions about data protection to the best of our knowledge and 
+belief.
+December 2020
+Mistale Taylor
+Robert Seifert
+Co-Data Protection Officer
+Co-Data Protection Officer
