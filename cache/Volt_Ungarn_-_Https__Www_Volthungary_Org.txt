@@ -1,18 +1,8 @@
 404 Page Not Found – Volt Magyarország / Hungary
 
-nav-menu#openSitesNav">
-
-nav-menu#toggleLanguageMenu">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
 Volt is a pan-European party and movement with over 22,000 members in 31 countries.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -29,9 +19,5 @@ search#clearInput" xmlns="http://www.w3.org/2000/svg" width="16" height="17" vie
 nav-menu#openTab" data-nav-menu-target="link"
 
 data-nav-menu-target="link" data-title="2">
-
-Our political priorities
-
-Subscribe to our newsletter!
 
 Receive our monthly newsletter and get informed about our events and our most recently published content.

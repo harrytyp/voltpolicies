@@ -1,20 +1,10 @@
 Statuten, Grundsatzprogramm, Positionspapiere und Unvereinbarkeitsbeschlüsse von Volt Deutschland – Volt Deutschland
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
-
-Volt in deinem Bundesland
 
 Volt Deutschland Merchandise Shop
 
 Volt ist in über 30 Ländern in Europa vertreten. Hier findest du Links zu den Websites von Volt in anderen Ländern.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -36,53 +26,31 @@ data-nav-menu-target="link" data-title="3">
 
 data-nav-menu-target="link" data-title="4">
 
-data-nav-menu-target="link" data-title="5">
-
-Deine Spende für Volt!
-
 Hochspannung - powered by Volt - Podcast
 
 Statuten, Grundsatzprogramm, Positionspapiere und Unvereinbarkeitsbeschlüsse von Volt Deutschland
-
-Wirtschaftliche Renaissance
-
-Soziale Gleichberechtigung
-
-Politisch aktive Bürgerschaft
 
 European Communities (Website von Volt Europa)
 
 Gewählte Volter*innen in ganz Europa
 
+Statement der Bundesvorsitzenden von Volt Deutschland zur GFF-Studie über die AfD
+
+Bundestag debattiert über Organspende: Volt fordert Einführung der Widerspruchsregelung
+
+Volt Deutschland wählt neues Präsidium und erweitert Bundesvorstand
+
+Volt Europa wählt mit Sven Franck deutschen Politiker an die Spitze der paneuropäischen Partei
+
+Statement zur 1. Lesung der Krankenhausreform
+
 Europa muss den Internationalen Strafgerichtshof gegen US‑Sanktionen verteidigen
 
-„Danke für Europa, Helmut!“ – Volt begleitet Umbenennung der Berliner Hofjägerallee in Helmut-Kohl-Allee mit pro-europäischer Aktion
-
-Würde kennt kein Ablaufdatum - Volt fordert Rechtsanspruch auf unbefristeten Schwerbehindertenausweis
-
-Volt Deutschland stellt auf Bundesparteitag die Weichen für das Superwahljahr 2029
-
-Historisches Mandat für die Demokratie: Verfassungsmehrheit in Ungarn ebnet Weg für tiefgreifende EU-Reformen
-
-Wissenschaft statt Mythen: Am Weltgesundheitstag setzt Volt auf Evidenz, Prävention und digitale Innovation
-
-Generalversammlung (General Assembly) von Volt Europa
-
-Príkopova 6, 831 03 Bratislava, Slowakei
-
-Statuten, Grundsatzprogramm, Positionspapiere und Unvereinbarkeitsbeschlüsse von Volt Deutschland
-
-Welche Ziele hat Volt?
-
-topic-sidebar#toggleSidebar">
-
 Statuten, Grundsatzprogramm, Positionspapiere und Unvereinbarkeitsbeschlüsse von Volt Deutschland
 
 Statuten, Grundsatzprogramm, Positionspapiere und Unvereinbarkeitsbeschlüsse von Volt Deutschland
 
-Schiedsgerichtsordnung
-
-Allgemeine Wahlordnung
+Statuten, Grundsatzprogramm, Positionspapiere und Unvereinbarkeitsbeschlüsse von Volt Deutschland
 
 Geschäftsordnung für Bundesparteitage
 
@@ -98,43 +66,25 @@ Nukleare Teilhabe in Europa neu denken
 
 Magnetschwebebahn: Potenziale für eine zukunftsfeste Mobilität nutzen
 
-Unvereinbarkeitsbeschlüsse
-
 Unvereinbarkeitsbeschluss Antisemitismus und zum Schutz jüdischen Lebens
 
 Unvereinbarkeitsbeschluss für jegliche Zusammenarbeit mit rassistischen, rechtsextremen, demokratie- und verfassungsfeindlichen Gruppierungen und Parteien, insbesondere der AfD
 
 Unvereinbarkeitsbeschluss Linksextremismus
 
-Die 5+1 Heraus­forderungen
-
 Volt hat 5+1 grundlegende Herausforderungen definiert, die in jedem europäischen Land und in Europa als Ganzes in Angriff genommen werden müssen.
-
-Warum 5 + 1 Herausforderungen?
 
 Die 5 Herausforderungen sind im Grunde für jedes Land die gleichen, aber ihre Umsetzung kann auf nationaler Ebene angepasst werden, um den lokalen Gegebenheiten Rechnung zu tragen.
 
 Die Herausforderung Nr. 1 - unser Vorschlag zur Reform und Stärkung der EU - ist in allen unseren nationalen Programmen identisch.
 
-Programme von Volt Deutschland
-
-Ein intelligenter Staat
-
 Bildung und Digitalisierung sind Schlüsselelemente des 21. Jahrhunderts.
-
-Wirtschaftliche Renaissance
 
 Eine innovative Wirtschaft ist der Motor für den Fortschritt der Gesellschaft.
 
-Soziale Gleichberechtigung
-
 Niemand sollte zurückgelassen werden - ungeachtet von Geschlecht, Einkommen, Religion oder Herkunft.
 
-Für globalen Ausgleich
-
 Europa muss seiner Verantwortung in der Welt zur Sicherung unserer gemeinsamen Zukunft gerecht werden.
-
-Politisch aktive Bürgerschaft
 
 Die europäischen Bürger*innen müssen dazu in der Lage sein, fundierte politische Entscheidungen zu treffen, selbstständig über Wahlen hinaus Einfluss auf die Politik zu nehmen und ihre demokratischen Rechte auszuüben.
 
@@ -148,15 +98,7 @@ Abonniere unseren monatlichen Newsletter und erfahre alle Neuigkeiten von und zu
 
 Statuten, Grundsatzprogramm, Positionspapiere
 
-Mitmachen & unterstützen
-
 Volt Deutschland Merchandise Shop
-
-Volt Europa Merchandise Shop
-
-Allgemeine Fragen & Feedback
-
-Presse und Medienanfragen
 
 Einladungen & Anfragen zu Events
 

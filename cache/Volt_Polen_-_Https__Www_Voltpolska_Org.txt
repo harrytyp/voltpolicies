@@ -1,22 +1,10 @@
 404 Page Not Found – Volt Polska
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
-
-Strony innych oddziałów Volt
 
 Jesteśmy wspólnotą liczącą ponad 30 000 osób z 31 krajów, której nie jest obojętna przyszłość Europy.
 
 Ponad 100 wybranych przedstawicieli w całej Unii Europejskiej reprezentuje nasze interesy na poziomie lokalnym, krajowym i europejskim.
-
-Volt w innych krajach
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -38,35 +26,17 @@ data-nav-menu-target="link" data-title="3">
 
 data-nav-menu-target="link" data-title="4">
 
-Często zadawane pytania
-
-Wakaty na wolne stanowiska
-
 Rozwój infrastruktury – darmowe autostrady i nowoczesna kolej
-
-Legalna, bezpieczna aborcja
-
-Energetyka i ekologia
-
-Zobacz wszystkie postulaty
-
-Volt w Parlamencie Europejskim
 
 Wnioski z doświadczeń Austro-Węgier dla idei federalnej Europy
 
 Nowe władze w Volt Polska! Poznaj skład Zarządu po wyborach
-
-Podsumowanie Walnego Zebrania
 
 Nasza wizja europejskiej niepodległości: Stany Zjednoczone Europy!
 
 Współprzewodniczący Maciej Tadeusiak podsumowuje rok 2025
 
 Stanowisko Volt w sprawie obrażania pamięci Polek i Polaków
-
-Zobacz więcej wiadomości
-
-404 - Nie znaleziono strony
 
 Niestety, strona, na którą próbujesz wejść, (już) nie istnieje. Staramy się monitorować wszystkie tego typu problemy i je naprawiać. Możesz skorzystać z funkcji wyszukiwania w menu na górze po prawej stronie, lub przejść do
 
@@ -75,7 +45,3 @@ Stań się częścią Volt Polska. Pracuj, dyskutuj i decyduj z nami!
 Dzięki Twojemu wsparciu możemy zwiększać naszą widoczność i się rozwijać!
 
 Zapisz się do naszego newslettera aby być na bieżąco z naszą działalnością.
-
-Wspólnoty Europejskie
-
-Ogólne pytania i opinie

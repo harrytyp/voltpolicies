@@ -1,18 +1,10 @@
 404 Page Not Found – Volt România
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
 Suntem prezenți în toate țările UE!
 
 Avem peste 20,000 de membri în 31 de țări europene!
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -34,21 +26,9 @@ data-nav-menu-target="link" data-title="3">
 
 data-nav-menu-target="link" data-title="4">
 
-Petiții și inițiative
-
-Politica de confidențialitate
-
-Vezi toate politicile
-
-Statutul Volt România
-
-Biroul Executiv Național
-
 România riscă o criză socială majoră. Austeritatea nu este soluția
 
 Educația digitală pentru o economie digitală
-
-Școala de vară Volt România
 
 Volt România la primul examen electoral!
 
@@ -58,18 +38,8 @@ Partidul Volt România lansează campania de strângere de semnături pentru ale
 
 Ne pare rău, dar pagina căutată de tine nu (mai) există. Verifică meniul din stânga sus pentru a găsi ce cauți, mergi înapoi la
 
-, sau trimite-ne un mesaj la
-
-dacă nu găsești ceea ce cauți.
-
 Fii parte din schimbarea pe care dorești să o vezi!
 
 Avem nevoie de sprijin financiar pentru a ne face auziți
 
-Newsletter Volt Europa
-
 Abonează-te la newsletter-ul Volt Europa & Volt România pentru a fi la curent cu toate noutățile din mișcarea pan-europeană Volt!
-
-Secretariatul General
-
-Politica de confidențialitate

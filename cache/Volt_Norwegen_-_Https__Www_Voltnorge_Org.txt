@@ -1,18 +1,6 @@
-Policies – Volt Norge
-
-nav-menu#openSitesNav">
-
-nav-menu#toggleLanguageMenu">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
 Volt is active in more than 30 countries throughout Europe. Find all the national sites below.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -50,23 +38,13 @@ Stronger Together in a Changing World
 
 A new economy that works for everyone
 
-The EU on the Global Stage
-
-For chances without borders
-
 A more humane and safe asylum system
 
 A dynamic European labour market
 
 A thriving EU with renewed legitimacy
 
-Empowering European Democracy
-
 An ambitious climate agenda for Europe
-
-Healthy European Ecosystems
-
-Integrity at Volt Europa
 
 Volt Sense - European Citizen Sensor Network
 
@@ -83,8 +61,6 @@ Volt Norway at the General Assembly in Warsaw
 Volt Norway at the Country Council Retreat in Berlin
 
 Europe at the Edge: Why we cannot trust the old security order anymore
-
-What does Volt think?
 
 Politics has stuck in solutions of the last century. But we look at realistic, social and sustainable solutions of the 21st century. Volt sees six challenges for this.
 
@@ -120,10 +96,6 @@ Move towards a circular economy
 
 Everything in 'A new economy that works for everyone'
 
-The EU on the Global Stage
-
-The EU on the Global Stage
-
 In a world that is changing drastically, Volt wants the EU to become an actor for a fairer, more sustainable and more equal world. To achieve this, the EU needs to reform itself and its structures to speak with one voice and act as a true union. Only then will we be capable of playing a significant role on the global stage.
 
 One voice for the EU in the world
@@ -138,25 +110,17 @@ Everything in 'The EU on the Global Stage'
 
 No-one should be left behind in Europe, but according to the European Commission, factors such as wealth, education level and social status heavily influence our chances at well-being. Volt is committed to fighting discrimination, improving social mobility, and building a society in which we can all thrive. Quality public services and the highest standards of protection, both on and offline, are crucial for building a prosperous Europe.
 
-Guarantee equal opportunities
-
 Ensure that the fundamental rights of LGBTQIA+ people are respected across the Union
 
 Strengthen sanctions against hate crimes
 
 Everything in 'Thriving Together'
 
-For chances without borders
-
-For chances without borders
-
 Europe is held back by unrealised potential. Our proposal ushers in a new era of empowerment over punishment. Those struggling most deserve support through basic income and opportunities through reskilling. Successful citizens and businesses will thrive with fewer barriers. By lifting all Europeans with coordinated reforms in income, taxes and worker rights at the EU level, we can unlock an unprecedented era in which every person's potential, in every region, is fulfilled for a brighter future of shared prosperity.
 
 Develop a European Social Union
 
 Create a European Basic Income (EBI)
-
-Set minimum wage standards
 
 Everything in 'For chances without borders'
 
@@ -182,8 +146,6 @@ A dynamic European labour market
 
 Recognising Europe’s need to attract new talent while preventing workers’ exploitation, Volt proposes a common European migration code to manage migration effectively and fill skills gaps. Our goal is to create a system that respects the rights of migrant workers, boosts the appeal of the European market and fosters prosperity for a European Union that is truly rights-based and offers the same guarantees across all Member States.
 
-Attract international talent
-
 Create a safe environment for all workers
 
 Create regular and safe ways to meet the high demand across all industries
@@ -204,21 +166,13 @@ Build the path towards a European Federal Declaration
 
 Establish the right of legislative initiative for the European Parliament
 
-Elect an EU Prime Minister
-
 Everything in 'A thriving EU with renewed legitimacy'
-
-Empowering European Democracy
-
-Empowering European Democracy
 
 Volt is committed to creating a more democratic and fairer EU that tackles modern challenges. We will build a system that prioritises the interest of over 500 million citizens, transcending the constraints of national politics, and strengthening trust in the European project, through an informed citizenry and a robust and transparent European media landscape.
 
 Harmonised voting systems for European elections
 
 Voting rights in your country of residence
-
-European Political Parties
 
 Citizen participation in policy-making
 
@@ -240,13 +194,7 @@ Reduce harmful industrial emissions
 
 Everything in 'An ambitious climate agenda for Europe'
 
-Healthy European Ecosystems
-
-Healthy European Ecosystems
-
 We are part of the European ecosystem, and yet we are allowing the natural world to deteriorate around us. Nature in the EU is in serious decline, with 80% of land and water habitats in bad condition. Volt wants to reverse this trend, revitalising biodiversity in the EU, mitigating the impacts of pollution and ensuring a better life for the animals that we share our continent with
-
-Nature Restoration Law
 
 Transparency, Monitoring and Reporting
 
@@ -254,13 +202,9 @@ Everything in 'Healthy European Ecosystems'
 
 Volt has defined 5+1 fundamental Challenges that need to be tackled in each European country and in Europe as a whole.
 
-Why 5 + 1 Challenges?
-
 The 5 Challenges are basically the same for every country, but their implementation can be adapted on the national level to take into account local realities.
 
 The +1 Challenge – our proposal to reform and strengthen the EU – is identical across all our national programmes.
-
-All Policies in one place
 
 Education and digitalisation are key elements of the 21st century
 

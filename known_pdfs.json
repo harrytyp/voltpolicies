@@ -131,6 +131,340 @@
     "https://voltdeutschland.org/storage/assets-de/pdf/europawahl_2024/ep24_wp_a4_kurzfassung_05-2024.pdf": {
       "name": "ep24 wp a4 kurzfassung 05 2024",
       "source": "Volt Deutschland Wahlprogramme"
+    },
+    "https://www.voltitalia.it/wp-content/uploads/2024/04/Moonshot%20ITA.pdf": {
+      "name": "Moonshot%20ITA",
+      "source": "Volt Italien - /programm"
+    },
+    "https://www.voltitalia.it/wp-content/uploads/2026/05/Definizione-linea-politica_finale-3.pdf": {
+      "name": "Definizione linea politica finale 3",
+      "source": "Volt Italien - /programm"
+    },
+    "https://www.voltitalia.it/wp-content/uploads/2022/09/Volt_it_programma.pdf": {
+      "name": "Volt it programma",
+      "source": "Volt Italien - /programm"
+    },
+    "https://voltnederland.org/storage/doc/volt_verkiezingsprogramma_2025.pdf": {
+      "name": "volt verkiezingsprogramma 2025",
+      "source": "Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma"
+    },
+    "https://voltnederland.org/storage/doc/volt_moonshot_verkiezingsprogramma_ep_nl.pdf": {
+      "name": "volt moonshot verkiezingsprogramma ep nl",
+      "source": "Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma"
+    },
+    "https://www.voltnederland.org/storage/doc/volt_verkiezingsprogramma_ep_nl.pdf": {
+      "name": "volt verkiezingsprogramma ep nl",
+      "source": "Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma"
+    },
+    "https://voltnederland.org/storage/doc/voltnederland_verkiezingsprogramma_2023.pdf": {
+      "name": "voltnederland verkiezingsprogramma 2023",
+      "source": "Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma"
+    },
+    "https://voltnederland.org/storage/_nederland/documenten/volt_hoofdlijnenbeleid.pdf": {
+      "name": "volt hoofdlijnenbeleid",
+      "source": "Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma"
+    },
+    "https://voltportugal.org/storage/legislativas-2025---programa-eleitoral-v.2.3.pdf": {
+      "name": "legislativas 2025 programa eleitoral v.2.3",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt-programa-eleitoral-europeias-2024.pdf": {
+      "name": "volt programa eleitoral europeias 2024",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/eleicoes/volt_programa_legislativas_2024.pdf": {
+      "name": "volt programa legislativas 2024",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/voltportugal_programa_politico_2022.pdf": {
+      "name": "voltportugal programa politico 2022",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_01_mep_mapa-europeu-de-politicas-(02_2020)_0.pdf": {
+      "name": "volt 01 mep mapa europeu de politicas (02 2020) 0",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_02_01_extensao-ao-mep_politica-de-transicao-energetica-e-alteracoes-climaticas.pdf": {
+      "name": "volt 02 01 extensao ao mep politica de transicao energetica e alteracoes climaticas",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_02_02_extensao-ao-mep_politica-de-reforma-eleitoral.pdf": {
+      "name": "volt 02 02 extensao ao mep politica de reforma eleitoral",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_01_iniciativa-politica_politica-nuclear-na-europa---clarificacao.pdf": {
+      "name": "volt 03 01 iniciativa politica politica nuclear na europa clarificacao",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_02_iniciativa-politica_politica-nuclear-na-europa---adenda.pdf": {
+      "name": "volt 03 02 iniciativa politica politica nuclear na europa adenda",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_03_iniciativa-politica_dadivas-de-sangue-.pdf": {
+      "name": "volt 03 03 iniciativa politica dadivas de sangue",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_04_iniciativa-politica_objetivos-de-desenvolvimento-sustentavel.pdf": {
+      "name": "volt 03 04 iniciativa politica objetivos de desenvolvimento sustentavel",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_05_iniciativa-politica_politica-externa-da-ue-.pdf": {
+      "name": "volt 03 05 iniciativa politica politica externa da ue",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_06_iniciativa-politica_politica-para-a-china.pdf": {
+      "name": "volt 03 06 iniciativa politica politica para a china",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/volt_03_07_iniciativa-politica_corredores-humanitarios-e-de-migracao.pdf": {
+      "name": "volt 03 07 iniciativa politica corredores humanitarios e de migracao",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltportugal.org/storage/pdf/declaracao_de_amesterdao-1208b.pdf": {
+      "name": "declaracao de amesterdao 1208b",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://voltromania.org/storage/pdf/cerere-aderare-v1.4---volt-romania.pdf": {
+      "name": "cerere aderare v1.4 volt romania",
+      "source": "Volt Rum\u00e4nien - /policies"
+    },
+    "https://voltslovensko.org/storage/volt-slovensko-content/files/volt_volebny-program-moonshot.pdf": {
+      "name": "volt volebny program moonshot",
+      "source": "Volt Slowakei - /policies"
+    },
+    "https://voltslovensko.org/storage/volt-slovensko-content/files/volt_campaignprogramme_slovakian.pdf": {
+      "name": "volt campaignprogramme slovakian",
+      "source": "Volt Slowakei - /policies"
+    },
+    "https://voltsverige.org/storage/valprogram_sverige_2026_se.pdf": {
+      "name": "valprogram sverige 2026 se",
+      "source": "Volt Schweden - /politik"
+    },
+    "https://voltsverige.org/storage/valprogram_sverige_2026_en.pdf": {
+      "name": "valprogram sverige 2026 en",
+      "source": "Volt Schweden - /politik"
+    },
+    "https://voltsverige.org/storage/code-of-conduct.pdf": {
+      "name": "code of conduct",
+      "source": "Volt Schweden - /politik"
+    }
+  },
+  "html_pages": {
+    "https://volteuropa.org/policies/all-policies": {
+      "name": "Volt Europa - Volteuropa.Org All Policies",
+      "source": "Volt Europa"
+    },
+    "https://voltdeutschland.org/programm/programme/statuten-de": {
+      "name": "Volt Deutschland Statuten - Voltdeutschland.Org Statuten De",
+      "source": "Volt Deutschland Statuten"
+    },
+    "https://www.voltoesterreich.org/programm": {
+      "name": "Volt \u00d6sterreich - Https: Www.Voltoesterreich.Org",
+      "source": "Volt \u00d6sterreich - /programm"
+    },
+    "https://www.voltoesterreich.org/programm/programme": {
+      "name": "Volt \u00d6sterreich - Https: Www.Voltoesterreich.Org",
+      "source": "Volt \u00d6sterreich - /programm/programme"
+    },
+    "https://www.voltbelgium.org/policies": {
+      "name": "Volt Belgien - Https: Www.Voltbelgium.Org",
+      "source": "Volt Belgien - /policies"
+    },
+    "https://www.voltbelgium.org/programme": {
+      "name": "Volt Belgien - Https: Www.Voltbelgium.Org",
+      "source": "Volt Belgien - /programme"
+    },
+    "https://www.voltcroatia.org/policies": {
+      "name": "Volt Kroatien - Https: Www.Voltcroatia.Org",
+      "source": "Volt Kroatien - /policies"
+    },
+    "https://www.voltcroatia.org/program": {
+      "name": "Volt Kroatien - Https: Www.Voltcroatia.Org",
+      "source": "Volt Kroatien - /program"
+    },
+    "http://voltcyprus.org/policies": {
+      "name": "Volt Zypern - Http: Voltcyprus.Org",
+      "source": "Volt Zypern - /policies"
+    },
+    "http://voltcyprus.org/programme": {
+      "name": "Volt Zypern - Http: Voltcyprus.Org",
+      "source": "Volt Zypern - /programme"
+    },
+    "https://www.voltcesko.org/policies": {
+      "name": "Volt Tschechien - Https: Www.Voltcesko.Org",
+      "source": "Volt Tschechien - /policies"
+    },
+    "https://www.voltcesko.org/program": {
+      "name": "Volt Tschechien - Https: Www.Voltcesko.Org",
+      "source": "Volt Tschechien - /program"
+    },
+    "https://www.voltdanmark.org/politik": {
+      "name": "Volt D\u00e4nemark - Https: Www.Voltdanmark.Org",
+      "source": "Volt D\u00e4nemark - /politik"
+    },
+    "https://www.voltdanmark.org/program": {
+      "name": "Volt D\u00e4nemark - Https: Www.Voltdanmark.Org",
+      "source": "Volt D\u00e4nemark - /program"
+    },
+    "https://www.voltfrance.org/programme": {
+      "name": "Volt Frankreich - Https: Www.Voltfrance.Org",
+      "source": "Volt Frankreich - /programme"
+    },
+    "https://www.voltfrance.org/policies": {
+      "name": "Volt Frankreich - Https: Www.Voltfrance.Org",
+      "source": "Volt Frankreich - /policies"
+    },
+    "https://www.voltdeutschland.org/programm/programme/statuten-de": {
+      "name": "Volt Deutschland - Www.Voltdeutschland.Org Statuten De",
+      "source": "Volt Deutschland - /programm/programme/statuten-de"
+    },
+    "https://www.voltgreece.org/programme": {
+      "name": "Volt Griechenland - Https: Www.Voltgreece.Org",
+      "source": "Volt Griechenland - /programme"
+    },
+    "https://www.voltgreece.org/policies": {
+      "name": "Volt Griechenland - Https: Www.Voltgreece.Org",
+      "source": "Volt Griechenland - /policies"
+    },
+    "https://www.volthungary.org/policies": {
+      "name": "Volt Ungarn - Https: Www.Volthungary.Org",
+      "source": "Volt Ungarn - /policies"
+    },
+    "https://www.volthungary.org/program": {
+      "name": "Volt Ungarn - Https: Www.Volthungary.Org",
+      "source": "Volt Ungarn - /program"
+    },
+    "https://voltireland.org/policies": {
+      "name": "Volt Irland - Https: Voltireland.Org",
+      "source": "Volt Irland - /policies"
+    },
+    "https://voltireland.org/programme": {
+      "name": "Volt Irland - Https: Voltireland.Org",
+      "source": "Volt Irland - /programme"
+    },
+    "https://www.voltitalia.org/policies": {
+      "name": "Volt Italien - Https: Www.Voltitalia.Org",
+      "source": "Volt Italien - /policies"
+    },
+    "https://voltkosovo.org/policies": {
+      "name": "Volt Kosovo - Https: Voltkosovo.Org",
+      "source": "Volt Kosovo - /policies"
+    },
+    "https://voltkosovo.org/program": {
+      "name": "Volt Kosovo - Https: Voltkosovo.Org",
+      "source": "Volt Kosovo - /program"
+    },
+    "https://www.voltluxembourg.org/programme": {
+      "name": "Volt Luxemburg - Https: Www.Voltluxembourg.Org",
+      "source": "Volt Luxemburg - /programme"
+    },
+    "https://www.voltluxembourg.org/policies": {
+      "name": "Volt Luxemburg - Https: Www.Voltluxembourg.Org",
+      "source": "Volt Luxemburg - /policies"
+    },
+    "https://www.voltmalta.org/policies": {
+      "name": "Volt Malta - Https: Www.Voltmalta.Org",
+      "source": "Volt Malta - /policies"
+    },
+    "https://www.voltmalta.org/programme": {
+      "name": "Volt Malta - Https: Www.Voltmalta.Org",
+      "source": "Volt Malta - /programme"
+    },
+    "https://www.voltnederland.org/standpunten": {
+      "name": "Volt Niederlande - Https: Www.Voltnederland.Org",
+      "source": "Volt Niederlande - /standpunten"
+    },
+    "https://www.voltnederland.org/policies": {
+      "name": "Volt Niederlande - Https: Www.Voltnederland.Org",
+      "source": "Volt Niederlande - /policies"
+    },
+    "https://www.voltnederland.org/program": {
+      "name": "Volt Niederlande - Https: Www.Voltnederland.Org",
+      "source": "Volt Niederlande - /program"
+    },
+    "https://www.voltnorge.org/politikk": {
+      "name": "Volt Norwegen - Https: Www.Voltnorge.Org",
+      "source": "Volt Norwegen - /politikk"
+    },
+    "https://www.voltnorge.org/policies": {
+      "name": "Volt Norwegen - Https: Www.Voltnorge.Org",
+      "source": "Volt Norwegen - /policies"
+    },
+    "https://www.voltpolska.org/program": {
+      "name": "Volt Polen - Https: Www.Voltpolska.Org",
+      "source": "Volt Polen - /program"
+    },
+    "https://www.voltpolska.org/policies": {
+      "name": "Volt Polen - Https: Www.Voltpolska.Org",
+      "source": "Volt Polen - /policies"
+    },
+    "https://www.voltportugal.org/policies": {
+      "name": "Volt Portugal - Https: Www.Voltportugal.Org",
+      "source": "Volt Portugal - /policies"
+    },
+    "https://www.voltromania.org/program": {
+      "name": "Volt Rum\u00e4nien - Https: Www.Voltromania.Org",
+      "source": "Volt Rum\u00e4nien - /program"
+    },
+    "https://www.voltromania.org/programa": {
+      "name": "Volt Rum\u00e4nien - Https: Www.Voltromania.Org",
+      "source": "Volt Rum\u00e4nien - /programa"
+    },
+    "https://www.voltslovensko.org/program": {
+      "name": "Volt Slowakei - Https: Www.Voltslovensko.Org",
+      "source": "Volt Slowakei - /program"
+    },
+    "https://voltslovenia.org/policies": {
+      "name": "Volt Slowenien - Https: Voltslovenia.Org",
+      "source": "Volt Slowenien - /policies"
+    },
+    "https://voltslovenia.org/program": {
+      "name": "Volt Slowenien - Https: Voltslovenia.Org",
+      "source": "Volt Slowenien - /program"
+    },
+    "https://www.voltespana.org/programa": {
+      "name": "Volt Spanien - Https: Www.Voltespana.Org",
+      "source": "Volt Spanien - /programa"
+    },
+    "https://www.voltespana.org/policies": {
+      "name": "Volt Spanien - Https: Www.Voltespana.Org",
+      "source": "Volt Spanien - /policies"
+    },
+    "https://www.voltespana.org/nuestras-politicas": {
+      "name": "Volt Spanien - Www.Voltespana.Org Nuestras Politicas",
+      "source": "Volt Spanien - /nuestras-politicas"
+    },
+    "https://www.voltsverige.org/program": {
+      "name": "Volt Schweden - Https: Www.Voltsverige.Org",
+      "source": "Volt Schweden - /program"
+    },
+    "https://www.voltswitzerland.org/politik": {
+      "name": "Volt Schweiz - Https: Www.Voltswitzerland.Org",
+      "source": "Volt Schweiz - /politik"
+    },
+    "https://www.voltswitzerland.org/programm": {
+      "name": "Volt Schweiz - Https: Www.Voltswitzerland.Org",
+      "source": "Volt Schweiz - /programm"
+    },
+    "https://www.voltswitzerland.org/policies": {
+      "name": "Volt Schweiz - Https: Www.Voltswitzerland.Org",
+      "source": "Volt Schweiz - /policies"
+    },
+    "https://voltukraine.org/policies": {
+      "name": "Volt Ukraine - Https: Voltukraine.Org",
+      "source": "Volt Ukraine - /policies"
+    },
+    "https://voltukraine.org/program": {
+      "name": "Volt Ukraine - Https: Voltukraine.Org",
+      "source": "Volt Ukraine - /program"
+    },
+    "https://voltuk.org/policies": {
+      "name": "Volt Vereinigtes K\u00f6nigreich - Https: Voltuk.Org",
+      "source": "Volt Vereinigtes K\u00f6nigreich - /policies"
+    },
+    "https://voltuk.org/programme": {
+      "name": "Volt Vereinigtes K\u00f6nigreich - Https: Voltuk.Org",
+      "source": "Volt Vereinigtes K\u00f6nigreich - /programme"
     }
   }
 }

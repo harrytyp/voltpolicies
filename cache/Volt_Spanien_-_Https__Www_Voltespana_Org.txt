@@ -1,30 +1,10 @@
 404 Page Not Found – Volt España
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
-
-Conoce otros equipos de Volt
-
-Volt Finlandia [facebook]
-
-Volt Letonia [facebook]
-
-Volt Lituania [facebook]
-
-Volt Noruega [facebook]
 
 Volt Europa es el primer partido paneuropeo con más de 20.000 miembros en más de 30 países.
 
-Página web de Volt Europa
-
 La tienda de merchandising de Volt
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -46,29 +26,11 @@ data-nav-menu-target="link" data-title="3">
 
 data-nav-menu-target="link" data-title="4">
 
-data-nav-menu-target="link" data-title="5">
-
 Elecciones al Parlamento Europeo
-
-La juventud como prioridad
-
-Digitalización Made in Estonia
 
 Combatir el cambio climático más allá de nuestras fronteras
 
-Participación Ciudadana
-
-Renacimiento Económico
-
-Ver todas las políticas
-
-Identidad corporativa
-
-Junta Directiva de Volt España
-
 Miembros del Parlamento Europeo
-
-Parlamentos Nacionales
 
 Condenamos los ataques sufridos por Volt Portugal
 
@@ -77,12 +39,6 @@ Comunicado sobre las protestas en La Vuelta
 El genocidio en Gaza no permite esperar más: Europa debe actuar
 
 Torre Pacheco y el triunfo del discurso del odio
-
-Asamblea General Ordinaria Junio 2026
-
-Online - se enviará enlace de conexión a los inscritos
-
-404 - Página no encontrada
 
 Lo sentimos, la página que solicitaste (ya) no existe. Realizamos un seguimiento de todos estos errores y mejoraremos nuestro sitio web en consecuencia. Consulta el menú y busca en la parte superior derecha de esta página, ve a la página de
 
@@ -93,7 +49,5 @@ Participa, debate y forma parte de nuestro movimiento.
 Ayúdanos a difundir nuestros valores con una donación.
 
 Suscríbete a nuestra Newsletter y mantente al tanto de todas las novedades.
-
-Diversidad e Inclusión
 
 Si no la pides desde tu email '@volteuropa.org' debes incluir tu nombre completo y tu NIF.

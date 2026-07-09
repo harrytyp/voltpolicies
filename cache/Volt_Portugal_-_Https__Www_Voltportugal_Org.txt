@@ -1,20 +1,8 @@
 404 Page Not Found – Volt Portugal
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
-Outros capítulos do Volt
-
 O Volt Europa é o primeiro partido paneuropeu com mais de 20.000 membros em mais de 30 países.
-
-Todos os capítulos do Volt
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -36,21 +24,15 @@ data-nav-menu-target="link" data-title="3">
 
 data-nav-menu-target="link" data-title="4">
 
-Renascimento Económico
-
-Ver todas as políticas
-
 Portefólio de Políticas do Volt
-
-Comunidades Europeias
-
-Comissão Política Nacional
 
 Candidatos Eleições Legislativas 2025
 
-Volters eleitos em Portugal
+Declaração Política da Assembleia Geral do Volt Europa
 
-Relembrar os ecos da História
+Bratislava, 13 e 14 de Junho de 2026
+
+COMUNICADO: Portuguesa Inês Bravo Figueiredo eleita
 
 Portugal precisa de soberania europeia e não de dependência estratégica
 
@@ -58,34 +40,10 @@ Volt com a comunidade Ucraniana no Dia da Europa
 
 Duarte Costa no Jornal de Leiria
 
-Volt Solicita audiência com António José Seguro
-
-O Alentejo não se esconde atrás de um biombo — mas os números não mentem
-
-404 - Página não encontrada
-
 Desculpe, a página a que tentou aceder não existe.
 
 Por favor, aceda ao menú ou à área de pesquisa no topo desta página, aceda à
 
-para encontrar o que procura.
-
-Torna-te membro do Volt.
-
 Apoia o Volt através de um donativo.
 
-Subscreve a Newsletter
-
 Fica a conhecer mais sobre o Volt através da nossa newsletter mensal.
-
-Estatutos do Volt Portugal
-
-Moção Estratégica Global
-
-Declaração de Princípios
-
-Organização Partidária
-
-Perguntas gerais e feedback
-
-Contacto para os media

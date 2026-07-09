@@ -1,20 +1,10 @@
 404 Page Not Found – Volt Slovenija / Slovenia
 
-nav-menu#openSitesNav">
-
-nav-menu#toggleLanguageMenu">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
 Coming soon - we are preparing to launch Volt in Slovenia
 
 Volt is a pan-European party and movement with over 32,000 members in 30 countries.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -36,32 +26,12 @@ data-nav-menu-target="link" data-title="3">
 
 data-nav-menu-target="link" data-title="4">
 
-Programmes and positions
-
-Programmes and positions
-
-Economic Rennaissance
-
-Our European deputies
-
-The team of Volt Slovenia
-
-Newsletter - April 2026
-
-Newsletter - March 2026
-
 Jaz-Premier.ka ? Do you have what it takes?
-
-Newsletter - February 2026
-
-Newsletter - January 2026
 
 Volt demands Europe to unite after the military operation in Venezuela
 
 Shape the future of Slovenia and Europe!
 
 With your financial support, we can reach more people!
-
-Keep up to date with Volt!
 
 Subscribe to our monthly newsletter and follow all developments regarding Volt.

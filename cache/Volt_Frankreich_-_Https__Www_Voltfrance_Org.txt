@@ -1,18 +1,8 @@
 404 Page Not Found – Volt France
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
-Nos régions et villes
-
 Volt Europa est un parti pan-européen comptant plus de 35 000 membres dans 31 pays européens.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -40,8 +30,6 @@ Notre programme pour les élections législatives anticipées de 2024
 
 Notre programme pour les élections législatives anticipées de 2024
 
-2. La Transition écologique
-
 Notre programme pour les élections législatives anticipées de 2024
 
 Élections consulaires de 2026 : le projet de Volt
@@ -50,41 +38,23 @@ Notre programme pour les élections européennes de 2024
 
 Notre programme pour les élections législatives anticipées de 2024
 
-Renaissance économique
-
 Renforcement du pouvoir des citoyens
 
 +1 Réforme de l'Union européenne
 
-Voir toutes les politiques
+La liberté d'expression pour moi, mais pas pour toi ?
 
-Communautés européennes
+La grande puissance malgré elle
 
-Le Conseil des régions
+Pour Volt, l'avenir de la Grande Bretagne réside au coeur de l'Europe
 
-La loi européenne sur l'expulsion ne calmera pas le monstre
+La nouvelle direction de Volt Europa
 
-L'Europe doit défendre la CPI contre les sanctions américaines
+Marseille - Napoli, un évènement au long cours sur les narcotrafics
 
-Dernière ligne progressiste aux urnes !
+Assemblée Générale Annuelle Volt France
 
-Ce dimanche 24 mai, Volt Chypre se présente aux élections législatives
-
-Une fête de l'Europe vraiment européenne !
-
-Retour sur la soupe violette de 2026
-
-Voir plus d'actualités
-
-Assemblée Générale Volt Europa à Bratislava
-
-Príkopova 6, 831 03 Bratislava, Slovakia
-
-Meet and Greet avec Volt à Toulouse
-
-Café L' Astronef, 3 place des Avions, 31400 Toulouse
-
-La prise de contrôle hostile de la démocratie par les géants de la tech
+Hotel Ibis, 1 impasse du bosquet, RN 250 - 33260 LA TESTE DE BUCH
 
 Désolés, la page que vous demandez n'existe pas (ou plus).
 
@@ -99,5 +69,3 @@ Participez au changement pour un avenir Made in Europe
 Aidez-nous à prendre de l’ampleur avec votre don
 
 Abonnez vous au bulletin pour ne rien rater de Volt France
-
-Contact presse et médias

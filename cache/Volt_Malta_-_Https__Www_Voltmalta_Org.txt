@@ -1,20 +1,10 @@
 404 Page Not Found – Volt Malta
 
-nav-menu#openSitesNav">
-
-nav-menu#toggleLanguageMenu">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
 Our Volt Neighbours in the Mediterranean
 
 Volt is active in more than 30 countries throughout Europe. Find all the national sites below.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -37,10 +27,6 @@ data-nav-menu-target="link" data-title="3">
 data-nav-menu-target="link" data-title="4">
 
 Past Projects & Electoral History
-
-Social Equity & Justice
-
-Environment & Climate Change
 
 Our Projects & Electoral History
 

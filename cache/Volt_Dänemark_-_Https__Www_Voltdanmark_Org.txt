@@ -1,22 +1,8 @@
 404 Page Not Found – Volt Danmark
 
-nav-menu#openSitesNav">
-
-nav-menu#toggleLanguageMenu">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
-Demokratisk Repræsentation
-
 Volt har omkring 22.000 medlemmer i 31 europæiske lande og har folkevalgte på alle niveauer i mange lande.
-
-Volt Europa Hovedside
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -38,27 +24,11 @@ data-nav-menu-target="link" data-title="4">
 
 data-nav-menu-target="link" data-title="5">
 
-Fremtidens Arbejdsmarked
-
-Uddannelse for Fremtiden
-
-Øvrige politiske emner
-
-Volts vej til stemmesedlen
-
 Rooftop Chat med mange forskellige emner
 
 Gladsaxedagen 2024 (mini-Folkemøde)
 
 Volt lancerer Chatbot - spørg om alt vores politik!
-
-Folkemøde Bornholm 2024
-
-København: Purple Hour 💜
-
-København, Studenterhuset, Købmagergade 52,
-
-Odense: Flyering & Sjov
 
 Fejl 404 - Siden blev ikke fundet
 
@@ -71,7 +41,3 @@ Kom med i en progressiv politisk bevægelse og mød andre der vil Europa
 Med din donation kan vi styrke vores arbejde for jeres interesser
 
 Sign up for our newsletter and follow all developments around Volt.
-
-Data, Cookies og Privatliv
-
-Presse og andre afdelinger

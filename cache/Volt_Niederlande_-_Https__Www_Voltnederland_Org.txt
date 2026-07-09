@@ -1,26 +1,8 @@
 404 Page Not Found – Volt Nederland
 
-nav-menu#openSitesNav">
-
-nav-menu#openSitesNav">
-
-nav-menu#closeSitesNav"
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
-Afdelingen in de gemeenten
-
-...alle Volt gemeenten
-
-Afdelingen in de provincies
-
-Volt Provincie Utrecht
-
-...alle Volt provincies
-
 Volt is een pan-Europese partij en beweging met meer dan 23.000 leden in 31 landen.
-
-nav-menu#closeSitesNav">
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500">
 
@@ -44,69 +26,37 @@ data-nav-menu-target="link" data-title="4">
 
 data-nav-menu-target="link" data-title="5">
 
-Gemeenteraadsverkiezingen 2026
-
-Tweede Kamerverkiezingen 2025
-
 Volt There - Buitenlandstichting Volt
 
 Charge - Wetenschappelijk Platform Volt
-
-Ga voor een groene omgeving
-
-Ga voor een goede basis
-
-Ga voor gelijkwaardigheid
 
 Ga voor een innovatieve economie
 
 Ga voor Europa in een veilige wereld
 
-Bekijk alle standpunten
-
-Diversiteit & Inclusie
-
-Connect | Initiatieven
-
 Permanent Overleg Verkiezingsprogramma
+
+Hoe moet box 3 eruitzien? Denk met ons mee!
+
+Een begroting zonder toekomstvisie
+
+Hoe de politiek richting moet geven aan kunstmatige intelligentie (AI)
+
+Volt steunt de Wet strafbaarstelling conversiehandelingen
 
 Eerste Kamer stemt in met omstreden de Uitvoerings- en implementatiewet Asiel- en migratiepact 2026
 
-The future of Ireland is the EU
-
 De toekomst van Ierland is de EU
 
-Laurens Dassen tijdens Europadag: Investeer in Europese alternatieven!
+Eindhoven - Zomer meet-up in het park - Summer meet-up
 
-Historische stemming in de Eerste Kamer over de asielwetten
+Eindhoven, Stadswandelpark bij het Radiomonument, 5615EB Eindhoven
 
-Senaat Praat - Regeringsverklaring, asielwetten en een minderheidskabinet
+Werkwarenhuis, Tramkade 20-24, 5211 VB 's-Hertogenbosch
 
-Terugblikken op de campagne en samen vooruitkijken: richting de Provinciale Statenverkiezingen
+Eindhoven - Zomer meet-up in het park - Summer meet-up
 
-Parkzicht Breda, Paul Windhausenweg 1
-
-Beleidsavond Zuid-Holland: Wonen 🏠
-
-Provinciehuis Zuid-Holland (Zuid-Hollandplein 1, Den Haag)
-
-Eindhoven: Meet-up - Pride month - nog steeds nodig?
-
-Theaterzaal Cafe 't Rozenknopje, Hoogstraat 59, 5615PA Eindhoven
-
-Eindhoven: Pride Parade - United we stand
-
-Hoek Emmasingel, Willemstraat, Eindhoven
-
-Beleidsavond Zuid-Holland: Ruimte 🏙️
-
-Provinciehuis Zuid-Holland (Zuid-Hollandplein 1, Den Haag)
-
-Beleidsavond Zuid-Holland: Democratie & bestuur 🏛️
-
-Provinciehuis Zuid-Holland (Zuid-Hollandplein 1, Den Haag)
-
-404 - Pagina niet gevonden
+Eindhoven, Stadswandelpark bij het Radiomonument, 5615EB Eindhoven
 
 Sorry, deze pagina bestaat niet (meer). We houden deze foutmeldingen bij om de website te verbeteren.
 
@@ -117,12 +67,6 @@ Meepraten, meewerken en mee beslissen. Vanaf €2,50 / maand.
 Met jouw donatie voeren we campagne voor de verkiezingen!
 
 Schrijf je in voor onze maandelijkse nieuwsbrief en volg alle ontwikkelingen rond Volt.
-
-Statuten & Jaarverslagen
-
-Initiatieven | Connect
-
-Diversiteit & Inclusie
 
 Volt There - Buitenlandstichting Volt
 

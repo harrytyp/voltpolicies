@@ -1993,7 +1993,7 @@ VERKIEZINGSPROGRAMMA 2023
 Volt Nederland
 Volt Nederland
 2.2.2 Kernenergie in de
-energiemix  
+energiemix 
 Met kernenergie vergroten we in eerste 
 instantie de leveringszekerheid van energie, 
 kunnen we meer stroom op minder oppervlak 
@@ -2665,7 +2665,7 @@ hierin nemen.
 Er komt een Europees ecolabel dat 
 duurzaamheidseisen meeneemt en bepaalt 
 wat een eerlijke prijs is voor een product. 
-2.4.2 Eerlijke belastingen  
+2.4.2 Eerlijke belastingen 
 Naast aanpassing van de zogenoemde 
 Europese hectaresteun, richten we ons op het 
 afschaffen van andere belastingvoordelen die 
@@ -8516,5 +8516,3 @@ VERKIEZINGSPROGRAMMA 2023
 Volt Nederland
 144
 Volt Nederland
-
-

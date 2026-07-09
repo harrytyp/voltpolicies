@@ -84,10 +84,48 @@
 
 | Source | Articles | Method |
 |--------|----------|--------|
-| Volt Deutschland News | 22 | RSS + Scraping |
-| Volt Europa News | 22 | RSS + Scraping |
+| Bluesky annastrolenberg volteuropa org | 226 | RSS + Scraping |
+| Bluesky reiniervanlanschot volteuropa org | 388 | RSS + Scraping |
+| Bluesky sophieintveld bsky social | 1298 | RSS + Scraping |
+| Bluesky voltdeutschland org | 22 | RSS + Scraping |
+| Bluesky volteuropa org | 741 | RSS + Scraping |
+| Insta voltdeutschland | 12 | RSS + Scraping |
+| Volt Albanien News | 15 | RSS + Scraping |
+| Volt Belgien News | 67 | RSS + Scraping |
+| Volt Bulgarien News | 10 | RSS + Scraping |
+| Volt Deutschland News | 153 | RSS + Scraping |
+| Volt Dänemark News | 0 | RSS + Scraping |
+| Volt Estland News | 8 | RSS + Scraping |
+| Volt Europa News | 185 | RSS + Scraping |
+| Volt Finnland News | 0 | RSS + Scraping |
+| Volt Frankreich News | 20 | RSS + Scraping |
+| Volt Griechenland News | 6 | RSS + Scraping |
+| Volt Irland News | 2 | RSS + Scraping |
+| Volt Italien News | 10 | RSS + Scraping |
+| Volt Kosovo News | 6 | RSS + Scraping |
+| Volt Kroatien News | 18 | RSS + Scraping |
+| Volt Lettland News | 0 | RSS + Scraping |
+| Volt Litauen News | 0 | RSS + Scraping |
+| Volt Luxemburg News | 66 | RSS + Scraping |
+| Volt Malta News | 56 | RSS + Scraping |
+| Volt Niederlande News | 20 | RSS + Scraping |
+| Volt Norwegen News | 21 | RSS + Scraping |
+| Volt Polen News | 13 | RSS + Scraping |
+| Volt Portugal News | 0 | RSS + Scraping |
+| Volt Rumänien News | 0 | RSS + Scraping |
+| Volt Schweden News | 7 | RSS + Scraping |
+| Volt Schweiz News | 51 | RSS + Scraping |
+| Volt Slowakei News | 20 | RSS + Scraping |
+| Volt Slowenien News | 37 | RSS + Scraping |
+| Volt Spanien News | 20 | RSS + Scraping |
+| Volt Tschechien News | 20 | RSS + Scraping |
+| Volt Ukraine News | 0 | RSS + Scraping |
+| Volt Ungarn News | 0 | RSS + Scraping |
+| Volt Vereinigtes Königreich News | 10 | RSS + Scraping |
+| Volt Zypern News | 6 | RSS + Scraping |
 | Volt in the Press Mastodon  | 149 | Mastodon API |
-| **Total** | **193** | |
+| Volt Österreich News | 52 | RSS + Scraping |
+| **Total** | **3735** | |
 
 ---
 
