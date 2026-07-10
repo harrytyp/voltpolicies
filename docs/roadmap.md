@@ -8,15 +8,18 @@
 ## Table of Contents
 
 1. [Why a Roadmap?](#why-a-roadmap)
-2. [Hybrid Search (BM25 + Embeddings)](#1-hybrid-search-bm25--embeddings)
-3. [Retriever-Augmented Generation (RAG)](#2-retriever-augmented-generation-rag)
-4. [Cross-Chapter Comparison](#3-cross-chapter-comparison)
-5. [Document Versioning & Change Detection](#4-document-versioning--change-detection)
-6. [Policy Knowledge Graph](#5-policy-knowledge-graph)
-7. [Automated Consistency Checks](#6-automated-consistency-checks)
-8. [Real-Time Watchdog & Alerts](#7-real-time-watchdog--alerts)
-9. [Evaluation & Quality Metrics](#8-evaluation--quality-metrics)
-10. [Deployment Strategies](#9-deployment-strategies)
+2. [Two-Axis Confidence Model (Grounding × Risk)](#1-two-axis-confidence-model-grounding--risk)
+3. [Reranking (Cross-Encoder After FAISS)](#2-reranking-cross-encoder-after-faiss)
+4. [Citation Gate / NLI Verification](#3-citation-gate--nli-verification)
+5. [Hybrid Search (BM25 + Embeddings)](#4-hybrid-search-bm25--embeddings)
+6. [Retriever-Augmented Generation (RAG)](#5-retriever-augmented-generation-rag)
+7. [Cross-Chapter Comparison](#6-cross-chapter-comparison)
+8. [Document Versioning & Change Detection](#7-document-versioning--change-detection)
+9. [Policy Knowledge Graph](#8-policy-knowledge-graph)
+10. [Automated Consistency Checks](#9-automated-consistency-checks)
+11. [Real-Time Watchdog & Alerts](#10-real-time-watchdog--alerts)
+12. [Evaluation & Quality Metrics](#11-evaluation--quality-metrics)
+13. [Deployment Strategies](#12-deployment-strategies)
 
 ---
 
@@ -36,7 +39,423 @@ The proposals below are ordered from **lowest effort / highest impact** to most 
 
 ---
 
-## 1. Hybrid Search (BM25 + Embeddings)
+## ⚡ Key Inspirations from Volt Relay
+
+*The following three sections were inspired by [Volt Relay](https://volt-relay.vercel.app) — a sibling project building a comms-intelligence app for Volt chapters. Their design for confidence modelling, reranking, and citation verification is directly applicable to our research tool. See the full analysis below each feature.*
+
+---
+
+## 1. Two-Axis Confidence Model (Grounding × Risk)
+
+### The Problem
+
+Today `volt_check` returns a single verdict based on a cosine similarity threshold:
+
+```python
+if score >= 0.7 → MATCH (HIGH)
+elif score >= 0.4 → PARTIAL_MATCH (MEDIUM)
+else → NO_MATCH (LOW)
+```
+
+This is **one-dimensional**: it tells you how semantically close a chunk is, but not:
+- **Where** the position comes from (EU-level policy? A local position paper? A blog post?)
+- **How risky** it would be to cite publicly (is it on a sensitive topic? does it name an opponent?)
+- **Whether a position actually exists** or the tool just found the closest noise
+
+A user searching *"What does Volt say about nuclear energy?"* gets back a score of 0.53 with five chunks, but has no way to tell: *Is this an official adopted position or just one MEP's opinion?*
+
+### What Volt Relay Does Differently
+
+Volt Relay models confidence on **two independent axes**:
+
+**Axis 1 — Grounding (where the line comes from)**
+
+| Level | Meaning | Source |
+|-------|---------|--------|
+| europe | an adopted Europe-wide Volt position | the shared EU policy corpus |
+| national | an adopted national-chapter position | the chapter's policy corpus |
+| adhoc | a chapter-adopted ad-hoc stance (unofficial) | adopted in-app (no-line flow) |
+| principle | no specific line, but a Volt principle applies | inferred, flagged as such |
+| none | no Volt line on this topic yet | — |
+
+**Axis 2 — Risk (how dangerous it is to cite)**
+
+A result can be perfectly grounded and still risky. Risk is raised by: naming an opponent, a sensitive topic (migration, religion, defence), potential factual or legal exposure, off-brand tone, or internal inconsistency with a prior stance.
+
+**Combined confidence (derived from both axes):**
+
+```
+🟢 Green  = grounded (europe/national/adhoc) AND low risk
+           → publishable, quick read enough
+
+🟠 Orange = principle-only OR medium risk
+           → own the stance before citing
+
+🔴 Red    = grounding none OR high risk
+           → research before using
+```
+
+A grounded post can still be **red purely on risk** — e.g. a contrast post that names an opponent on a sensitive topic.
+
+### Why This Matters for Volt Policies
+
+Our users (researchers, journalists, policy analysts) need to know **not just that a result exists, but how much weight to give it**. A document from the EU-level Moonshot programme should be weighted higher than a local news article, even if both have similar cosine scores.
+
+The single-axis score conflates two very different questions:
+1. *"Is there a relevant policy?"* → Grounding
+2. *"Should I cite it publicly?"* → Risk
+
+### How It Would Work
+
+**Step 1: Classify document type on ingest** — each chunk already carries a `source` field. Extend `build_index.py` to tag each chunk with a `grounding_level`:
+
+```python
+GROUDING_RULES = [
+    ("mop 9.0", "europe"),
+    ("moonshot", "europe"),
+    ("amsterdam declaration", "europe"),
+    ("election programme", "national"),
+    ("wahlprogramm", "national"),
+    ("grundsatzprogramm", "national"),
+    ("position paper", "national"),
+    ("incompatibility resolution", "national"),
+    ("news", "principle"),
+    # fallback: principle
+]
+
+def classify_grounding(source: str, title: str) -> str:
+    source_lower = f"{source} {title}".lower()
+    for keyword, level in GROUDING_RULES:
+        if keyword in source_lower:
+            return level
+    return "principle"
+```
+
+**Step 2: Risk classification** — lightweight keyword-based classifier:
+
+```python
+RISK_KEYWORDS = {
+    "high": ["migration", "religion", "defence", "military",
+             "gegen", "opponent", "nuclear", "spionage"],
+    "medium": ["reform", "steuer", "regulation", "eu reform",
+               "incompatibility"],
+}
+
+def classify_risk(text: str) -> str:
+    text_lower = text.lower()
+    if any(kw in text_lower for kw in RISK_KEYWORDS["high"]):
+        return "high"
+    if any(kw in text_lower for kw in RISK_KEYWORDS["medium"]):
+        return "medium"
+    return "low"
+```
+
+**Step 3: Compute confidence**:
+
+```python
+CONFIDENCE_MATRIX = {
+    ("europe", "low"):    "green",
+    ("national", "low"):  "green",
+    ("adhoc", "low"):     "green",
+    ("principle", "low"): "orange",
+    ("europe", "medium"): "green",
+    ("national", "medium"): "orange",
+    ("principle", "medium"): "orange",
+    ("none", "low"):      "red",
+    (_, "high"):          "red",
+}
+```
+
+**Step 4: Expose in `volt_check`** — the tool returns both axes plus the derived colour:
+
+```python
+@mcp.tool()
+def volt_check(statement: str, chapters: str = None) -> str:
+    # ... existing retrieval ...
+    return {
+        "statement": statement,
+        "confidence": {
+            "level": "green",      # green / orange / red
+            "grounding": "national",  # from document type
+            "grounding_source": "Volt Deutschland BTW 2025 Programme",
+            "risk": "low",            # from content analysis
+            "risk_reason": None,      # "Sensitive topic: defence"
+        },
+        "sources": [...]
+    }
+```
+
+### GitHub Implementation
+
+- **File changes**: `mcp_server.py` (update `volt_check`), `build_index.py` (tag grounding on ingest), new `scripts/confidence.py`
+- **Dependencies**: None — keyword-based classification needs no model download
+- **Effort**: ~1-2 days, mostly testing edge cases on the risk rubric
+
+### HuggingFace Implementation
+
+The same logic runs identically in a Space — the classifier is pure Python with no GPU requirement. A Gradio tab could show a "Confidence Explorer" where users tweak the risk rubric and see how verdicts change.
+
+### What Problem This Solves
+
+> Users currently get a meaningless float score. After: they get an **actionable verdict** — green = safe to cite, orange = needs review, red = avoid. This is the single highest-leverage improvement because it requires no new infrastructure, no new models, and fundamentally changes how useful each result is.
+
+---
+
+## 2. Reranking (Cross-Encoder After FAISS)
+
+### The Problem
+
+FAISS with `IndexFlatIP` does **bi-encoder search**: query and document are independently embedded, then compared via cosine similarity. This is fast (sub-millisecond for 7K vectors) but misses nuance because the query and document never "see" each other during ranking.
+
+A bi-encoder might rank:
+
+```
+Query: "What is Volt's position on EU defence?"
+
+1. "Volt supports a European defence union" (score 0.72) ✓
+2. "Volt Deutschland supports the Bundeswehr" (score 0.68) ✗ (wrong scope)
+3. "Volt opposes defence spending cuts" (score 0.65) ? (context unclear)
+```
+
+A cross-encoder would correctly downgrade #2 because it can jointly attend to "EU defence" in the query vs. "Bundeswehr" (national) in the document. The cross-encoder sees the **relationship** between them; the bi-encoder only sees independent semantic fields.
+
+### What Volt Relay Does Differently
+
+Volt Relay uses **Cohere embed-v4 for retrieval + Cohere rerank-v3.5 for reranking**:
+
+```
+Query ──► FAISS (bi-encoder) ──► Top 50 ──► Reranker (cross-encoder) ──► Top 10
+```
+
+The reranker is a **cross-encoder**: it takes the query and each candidate document as a pair and outputs a relevance score. This is slower (O(n) forward passes for n candidates) but significantly more accurate because both texts are processed jointly by a transformer.
+
+### Why This Matters for Volt Policies
+
+Our index is only 7,300 vectors — small enough that reranking Top 50–100 candidates is trivial even on CPU. The quality gain is substantial:
+
+| Aspect | Bi-encoder (current) | Cross-encoder (proposed) |
+|--------|---------------------|--------------------------|
+| Speed | ~1ms for 7K vectors | ~100-500ms for 50 pairs (CPU) |
+| Ranking quality | Good (semantic fields) | Excellent (joint attention) |
+| Query specificity | Misses query intent nuance | Context-aware relevance |
+| Cross-lingual | Embedding alignment only | Joint understanding |
+| Implementation | Already done | Add one model call |
+
+Cross-encoders are particularly good at **disambiguating scope**: "EU defence policy" vs. "German defence policy" — a bi-encoder sees both as "defence" + "policy" and gives similar scores. A cross-encoder sees the full query context and correctly prioritises EU-level documents.
+
+### How It Would Work
+
+**Step 1: Add a cross-encoder model.** Load alongside the bi-encoder in `search_semantic.py`:
+
+```python
+# In search_semantic.py
+_cross_encoder = None
+
+def _load_cross_encoder():
+    global _cross_encoder
+    if _cross_encoder is None:
+        from sentence_transformers import CrossEncoder
+        _cross_encoder = CrossEncoder("BAAI/bge-reranker-v2-m3")
+    return _cross_encoder
+```
+
+`BAAI/bge-reranker-v2-m3` is a good choice because:
+- Multilingual (trained on 100+ languages, matching our E5-small)
+- Small enough for CPU (~1 GB download)
+- Outputs a relevance score (0-1) directly comparable to our current scores
+
+**Step 2: Optional reranking in search:**
+
+```python
+def semantic_search(query, max_results=10, chapters=None, rerank=True):
+    index, chunks = _load_index()
+    # Same bi-encoder first pass as today
+    scores, indices = index.search(query_vec, k=50)  # Get more candidates
+    
+    # Rerank top 50 with cross-encoder
+    if rerank and len(candidates) > max_results:
+        pairs = [(query, c["text"]) for c in candidates]
+        reranker = _load_cross_encoder()
+        rerank_scores = reranker.predict(pairs)
+        
+        # Re-sort by reranker score
+        for i, c in enumerate(candidates):
+            c["score"] = float(rerank_scores[i])
+        candidates.sort(key=lambda x: x["score"], reverse=True)
+    
+    return candidates[:max_results]
+```
+
+**Step 3: Expose as a parameter** so users can choose speed vs. accuracy:
+
+```python
+@mcp.tool()
+def volt_search(query, max_results=10, chapters=None, rerank=True):
+    """... rerank: use cross-encoder for better accuracy (slower) ..."""
+```
+
+### GitHub Implementation
+
+- **File changes**: `scripts/search_semantic.py` (add cross-encoder loading + reranking step), `mcp_server.py` (expose `rerank` parameter)
+- **Dependencies**: `sentence-transformers` already installed; CrossEncoder comes from the same package
+- **Model**: `BAAI/bge-reranker-v2-m3` (1.1 GB download on first run)
+- **Effort**: ~1-2 days, mostly testing cross-lingual quality
+
+### HuggingFace Implementation
+
+The cross-encoder loads once at startup on a Space. A GPU Space makes it near-instant, but CPU is fine for 50 pairs (~300ms per rerank pass). The Gradio search interface can add a "rerank" toggle.
+
+### What Problem This Solves
+
+> The bi-encoder returns **semantically related** results — not necessarily **relevantly related** to the specific query. Reranking cuts noise by ~30–50% in practice: the top 3 results after reranking are consistently on-topic, where the bi-encoder often includes tangentially related documents. For a research tool where users scan top-5 results, this directly translates to trust and efficiency.
+
+---
+
+## 3. Citation Gate / NLI Verification
+
+### The Problem
+
+When `volt_check` says *"Volt supports X (source: MOP 9.0, p. 12)"*, there is no guarantee that the chunk actually says that. The cosine similarity score tells us the chunk is *about the same topic* — not that it *supports the same claim*.
+
+A search for *"Volt supports nuclear energy"* might return a chunk that says *"Volt opposes nuclear energy"* simply because both are about nuclear energy. The tool does not distinguish between:
+
+| Retrieved chunk | Score | Reality |
+|-----------------|-------|---------|
+| "Volt supports a European nuclear deterrent" | 0.71 | SUPPORT | ← Correct |
+| "Volt opposes nuclear energy on safety grounds" | 0.68 | OPPOSE | ← Wrong direction |
+| "Nuclear energy is a complex issue requiring..." | 0.65 | NEUTRAL | ← Not a position |
+
+Currently the user must manually read each chunk to determine directionality. This is **verification labour** that the tool should automate.
+
+### What Volt Relay Does Differently
+
+Volt Relay's **citation gate** runs after generation:
+
+```
+Draft with citations
+    │
+    ▼
+Parse into (claim, citation) pairs
+    │
+    ├──► NLI entailment check: does citation support claim?
+    │       • entailed → green (keeps citation)
+    │       • neutral → orange (strips citation)
+    │       • contradict → red (blocked)
+    │
+    └──► LLM fact-check on ambiguous pairs
+```
+
+**Natural Language Inference (NLI)** models are trained to classify the relationship between two texts:
+
+- **ENTAILMENT**: The citation supports the claim (green)
+- **CONTRADICTION**: The citation contradicts the claim (red — blocked)
+- **NEUTRAL**: The citation is unrelated to the claim (orange — citation removed)
+
+### Why This Matters for Volt Policies
+
+Our current `volt_check` cannot distinguish **support from opposition**. An NLI gate would upgrade every result with a **stance label**:
+
+```python
+{
+    "text": "Volt opposes nuclear energy on safety grounds",
+    "claim": "Volt supports nuclear energy",
+    "nli_verdict": "CONTRADICTION",  # ← New!
+    "usable": False,
+    "reason": "The cited document contradicts the claimed position"
+}
+```
+
+This is transformative for fact-checking workflows. A journalist checking *"Does Volt support nuclear energy?"* gets not just chunks but a clear **for/against/neutral** verdict per source, plus an automatic flag when the claim contradicts the document.
+
+### How It Would Work
+
+**Step 1: Add an NLI model.** Many options, ordered by size:
+
+| Model | Size | Languages | Quality |
+|-------|------|-----------|---------|
+| `MoritzLaurer/DeBERTa-v3-base-mnli-fever-docnli-ling-2c` | ~500 MB | 100+ | Excellent |
+| `cross-encoder/nli-deberta-v3-base` | ~500 MB | EN (transfer to multilingual) | Very good |
+| `microsoft/deberta-large-mnli` | ~1.5 GB | EN | Best for EN |
+
+**Step 2: Verify every (claim, chunk) pair:**
+
+```python
+_nli_model = None
+
+def _load_nli():
+    global _nli_model
+    if _nli_model is None:
+        from transformers import pipeline
+        _nli_model = pipeline(
+            "zero-shot-classification",
+            model="MoritzLaurer/DeBERTa-v3-base-mnli-fever-docnli-ling-2c",
+        )
+    return _nli_model
+
+def verify_claim(claim: str, chunk_text: str) -> dict:
+    """Check whether chunk_text supports, contradicts, or is neutral to claim."""
+    nli = _load_nli()
+    result = nli(claim, [chunk_text], hypothesis_template="This text is about {}.")
+    # Map to our categories
+    label = result["labels"][0]  # highest score
+    score = result["scores"][0]
+    
+    if label == "ENTAILMENT" and score > 0.6:
+        return {"verdict": "SUPPORT", "score": score, "usable": True}
+    elif label == "CONTRADICTION" and score > 0.6:
+        return {"verdict": "CONTRADICT", "score": score, "usable": False}
+    else:
+        return {"verdict": "NEUTRAL", "score": score, "usable": False,
+                "note": "Document is topically related but does not clearly support or oppose"}
+```
+
+**Step 3: Integrate into `volt_check`:**
+
+```python
+@mcp.tool()
+def volt_check(statement: str, chapters: str = None, verify: bool = True) -> str:
+    results = semantic_search(statement, max_results=5, chapters=ch)
+    
+    enhanced = []
+    for r in results:
+        entry = {**r}
+        if verify:
+            entry["verification"] = verify_claim(statement, r["text_preview"])
+            if not entry["verification"]["usable"]:
+                entry["confidence"]["level"] = "red"  # Downgrade
+        enhanced.append(entry)
+    
+    return {"statement": statement, "results": enhanced, ...}
+```
+
+### Performance Considerations
+
+NLI inference takes ~100-300ms per pair on CPU. For 5 results per query, that's ~0.5-1.5 seconds added — acceptable for an MCP tool. To keep latency low:
+- Only run NLI when the `verify=True` flag is set
+- Cache NLI results by (claim_hash, chunk_hash) — identical queries from different users reuse cached verdicts
+- Limit to top 3-5 results (the ones users actually act on)
+
+### GitHub Implementation
+
+- **File changes**: `scripts/search_semantic.py` (add NLI verification), `mcp_server.py` (expose `verify` parameter)
+- **Dependencies**: `transformers` + `torch` (already in the ecosystem; may need to add `torch`)
+- **Model**: `MoritzLaurer/DeBERTa-v3-base-mnli-fever-docnli-ling-2c` (~500 MB)
+- **Effort**: ~3-4 days (model loading, edge cases, cross-lingual testing)
+
+### HuggingFace Implementation
+
+NLI models run on CPU (slow but functional) or GPU (near-instant). On HF Spaces:
+- CPU: ~300ms per pair → adds ~1.5s per query — acceptable for a "verify" toggle
+- T4 GPU: ~30ms per pair → almost free
+- Cache with `datasets` or `joblib` on the persistent volume
+
+### What Problem This Solves
+
+> The tool's single biggest blind spot: it retrieves topically related documents but **cannot tell support from opposition**. A user checking "Does Volt support nuclear energy?" gets results about nuclear energy — period. NLI verification transforms this into an **actual answer**: "These 2 documents support, this 1 contradicts, and 2 are neutral." For a fact-checking/research tool this is the difference between useful and misleading.
+
+---
+
+## 4. Hybrid Search (BM25 + Embeddings)
 
 ### Problem
 
@@ -83,7 +502,7 @@ On HuggingFace Spaces, the BM25 index is built at startup (or pre-packaged). Hug
 
 ---
 
-## 2. Retriever-Augmented Generation (RAG)
+## 5. Retriever-Augmented Generation (RAG)
 
 ### Problem
 
@@ -148,7 +567,7 @@ The Gradio interface adds a chat tab: "Ask a policy question" with real-time str
 
 ---
 
-## 3. Cross-Chapter Comparison
+## 6. Cross-Chapter Comparison
 
 ### Problem
 
@@ -201,7 +620,7 @@ Built with Plotly or Observable Plot, updated on each index rebuild.
 
 ---
 
-## 4. Document Versioning & Change Detection
+## 7. Document Versioning & Change Detection
 
 ### Problem
 
@@ -271,7 +690,7 @@ Versioning is simpler on Spaces because the **persistent storage** (attached Vol
 
 ---
 
-## 5. Policy Knowledge Graph
+## 8. Policy Knowledge Graph
 
 ### Problem
 
@@ -337,7 +756,7 @@ A **visual graph explorer** Space: an interactive D3.js/Force-Directed graph sho
 
 ---
 
-## 6. Automated Consistency Checks
+## 9. Automated Consistency Checks
 
 ### Problem
 
@@ -406,7 +825,7 @@ A dedicated "Consistency Dashboard" Space that visualises contradictions as a fo
 
 ---
 
-## 7. Real-Time Watchdog & Alerts
+## 10. Real-Time Watchdog & Alerts
 
 ### Problem
 
@@ -446,7 +865,7 @@ HuggingFace Spaces with **persistent storage** can run a background thread:
 
 ---
 
-## 8. Evaluation & Quality Metrics
+## 11. Evaluation & Quality Metrics
 
 ### Problem
 
@@ -512,7 +931,7 @@ A "Quality Dashboard" Space with:
 
 ---
 
-## 9. Deployment Strategies
+## 12. Deployment Strategies
 
 ### GitHub (Current)
 
@@ -616,26 +1035,34 @@ Keep the **GitHub repo as the data layer** (CI checks for new content, commits r
 ```
 High Impact
     │
-    │   🏛️ RAG Analysis        🔍 Hybrid Search
-    │   ★★★★★                  ★★★★★
+    │   🟢 Confidence Model      🔍 Hybrid Search
+    │   ★★★★★ (no deps!)         ★★★★★
     │
-    │   🕸️ Knowledge Graph     📊 Cross-Chapter
-    │   ★★★★★                  ★★★★☆
+    │   📐 Reranking             🏛️ RAG Analysis
+    │   ★★★★★                   ★★★★★
     │
-    │   ⚖️ Consistency          🕰️ Versioning
-    │   ★★★★☆                  ★★★★☆
+    │   🛡️ Citation Gate         📊 Cross-Chapter
+    │   ★★★★☆                   ★★★★☆
     │
-    │   🔔 Watchdog            📏 Benchmark
-    │   ★★★☆☆                  ★★★☆☆
+    │   🕸️ Knowledge Graph       ⚖️ Consistency
+    │   ★★★★★                   ★★★★☆
+    │
+    │   🕰️ Versioning            📏 Benchmark
+    │   ★★★★☆                   ★★★☆☆
+    │
+    │   🔔 Watchdog
+    │   ★★★☆☆
     │
     └──────────────────────────────────→ Low Effort
          Low Effort                High Effort
 ```
 
-**Low-hanging fruit:** Hybrid Search + Benchmark (~2 days)
-**Transformative:** RAG Analysis + Cross-Chapter Comparison (~1 week)
-**Visionary:** Knowledge Graph + Consistency Pipeline (~2–3 weeks)
+**Key insight from Volt Relay:** the three highest-leverage additions *(Confidence Model, Reranking, Citation Gate)* all follow the same pattern — they **upgrade existing retrieval with intelligence** rather than building new retrieval. Together they transform our search from *"here are some related documents"* to *"here is what Volt believes, how sure we are, and why we can prove it."*
+
+**Low-hanging fruit:** Confidence Model + Benchmark (~1-2 days)
+**Transformative:** Reranking + Citation Gate + RAG Analysis (~1 week)
+**Visionary:** Knowledge Graph + Consistency Pipeline (~2-3 weeks)
 
 ---
 
-*This roadmap is a living document. Contributions, corrections, and new ideas are welcome via Issues and Pull Requests.*
+*This roadmap is a living document. Contributions, corrections, and new ideas are welcome via Issues and Pull Requests. The first three sections were inspired by [Volt Relay](https://volt-relay.vercel.app) — a communications-intelligence sibling project for Volt chapters.*
