@@ -1,4 +1,4 @@
-404 Page Not Found – Volt Sverige / Sweden
+Politik – Volt Sverige / Sweden
 
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
@@ -48,11 +48,117 @@ Föreläsning om EU-federalism med Carl-Vincent Reimers
 
 Reimersholmsgatan 45, Stockholm
 
-Sidan du försöker nå finns inte, har flyttats eller är tillfälligt otillgänglig.
+Politiken har fastnat i förra århundradet. Trots globala kriser, krig, växande extremism och ett allt större behov av europeisk integration fortsätter den svenska blockpolitiken att leverera låsningar i stället för lösningar. Samtidigt duckar de etablerade partierna för många av vår tids viktigaste frågor, och ett socialliberalt vakuum har uppstått.
 
-Kontrollera adressen eller använd menyn för att hitta rätt innehåll.
+Inför riksdagsvalet 2026 presenterar Volt en komplett handlingsplan, byggd på åtta pelare och förankrad i idéer, erfarenheter och lösningar från hela Europa.
 
-Om problemet kvarstår, kontakta oss på:
+Här är Volt Sveriges officiella valprogram:
+
+Programmet finns även som PDF på både
+
+Vår tids största utmaningar stannar inte vid nationsgränsen, och det kan inte våra lösningar heller göra. Volt vill se ett Sverige som tar en ledande roll i kärnan av ett enat Europa.
+
+Skapa en europeisk kapitalmarknad
+
+Driv frågan om integrerade EU-styrkor
+
+Avskaffa gränskontroller inom EU
+
+Ett splittrat försvar är ett sårbart försvar. När det geopolitiska säkerhetsläget i vårt närområde snabbt försämras, räcker det inte längre med nationella utfästelser. Volt vill bygga ett suveränt, europeiskt försvarssamarbete från grunden.
+
+Samordna den europeiska upphandlingen av ammunition och handeldvapen
+
+Prioritera försvarsinköp från europeiska företag
+
+Säkerställa Europas oberoende inom militär transport och logistik
+
+Inrätta ett EU-nätverk av övervakningssatelliter
+
+Vården ska finnas där när vi behöver den. Att vårdköer växer och arbetsmiljön för vår personal haltar är ett systemfel. Volt vill flytta fokus till förebyggande vård, garantera jämlik tillgång till vård och avlasta systemet med digital samverkan.
+
+Inkludera tandvård inom ramen för högkostnadsskyddet
+
+Se till att alla vårdgivare är anslutna till NPÖ
+
+Att erkänna hälsocoacher som vårdpersonal
+
+Skapa nya samarbetsformer för tidig upptäckt av neurologiska utvecklingsstörningar
+
+Allt i '3. Hälso- och sjukvård'
+
+För att hela Sverige ska leva och ställa om måste det vara enkelt, pålitligt och billigt att resa hållbart. Volt vill genomföra en genomgripande strukturreform av svensk infrastruktur och knyta samman våra nät med kontinenten på riktigt.
+
+Ge Green Cargo och SJ samhällsansvar
+
+Harmonisera avgifterna för järnvägs- och vägtransporter
+
+Begränsa statligt stöd till endast en flygplats per region
+
+Avskaffa vägskatten för fordon som uteslutande används för kollektivtrafik
+
+Ett starkt samhälle mäts efter hur vi behandlar våra medmänniskor och skyddar de mest sårbara. Volt vill föra en migrationspolitik som är human, rättssäker och långsiktigt hållbar, samtidigt som de mänskliga rättigheterna alltid respekteras.
+
+Sätt stopp för förhalandet av EU:s direktiv om lönetransparens
+
+Försvara könstillhörighetslagen
+
+Rättsligt erkännande av icke-binära personer
+
+Den gröna industriomställningen kräver enorma mängder ren energi. Volt vill undanröja politiska bromsklossar och skapa stabila spelregler för att snabbt bygga ut den havsbaserade vindkraften och säkra vårt oberoende.
+
+Inrätta upphandlingszoner för havsbaserade vindkraftsparker
+
+Avskaffa kommunernas vetorätt när det gäller kritisk infrastruktur och energiprojekt
+
+Det finns ingen Planet B, ändå tillåts politiker sätta upp ambitiösa miljömål utan att hållas ansvariga när de monterar ner dem. Volt vill flytta klimatarbetet från tomma ord till rättsligt bindande mekanismer.
+
+Reformera klimatlagen för rättsligt ansvar
+
+Återinföra kravet på inblandning av biobränsle
+
+Öronmärka alla intäkter från EU:s ETS 2 för klimat- och energiåtgärder
+
+8. Digital innovation och säkerhet
+
+8. Digital innovation och säkerhet
+
+Europa ska inte bara reglera den digitala framtiden utan bygga den. Volt vill frigöra teknisk innovation samtidigt som vi garanterar skydd mot både kommersiell massövervakning och utländsk datainsyn.
+
+Inrätta långsiktig finansiering för ideella organisationer inom mjukvarubranschen
+
+Krav på suverän europeisk molninfrastruktur för offentliga myndigheter
+
+Påskynda införandet av Ena (Sveriges federerade datautbyte)
+
+Säg upp statliga avtal med Palantir
+
+Allt i '8. Digital innovation och säkerhet'
+
+Sätt press på den ryska skuggflottan
+
+Krav på att friskolor ska vara ideella
+
+Legalisera produktion och användning av cannabis
+
+Tillämpa konsekvenser vid brott mot de mänskliga rättigheterna
+
+Volt har definierat 5+1 grundläggande utmaningar som måste hanteras i varje europeiskt land och i Europa som helhet.
+
+De 5 utmaningarna är i grunden desamma för varje land, men genomförandet kan anpassas på nationell nivå för att ta hänsyn till lokala förhållanden.
+
++1-utmaningen – vårt förslag för att reformera och stärka EU – är identisk i alla våra nationella program.
+
+Utbildning och digitalisering är centrala delar av 2000-talet.
+
+En innovativ ekonomi måste vara motorn för samhällets framsteg.
+
+Ingen ska lämnas utanför – oavsett kön, inkomst, religion eller ursprung.
+
+Europa måste ta ansvar för sin roll i globala utmaningar.
+
+Människor måste ges makt att påverka politiken, inte bara i samband med val.
+
+Vi älskar EU – men det betyder inte att det saknas utrymme för förbättringar.
 
 Rösta, engagera dig och bli en del av vårt paneuropeiska nätverk.
 

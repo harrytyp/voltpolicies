@@ -465,6 +465,30 @@
     "https://voltuk.org/programme": {
       "name": "Volt Vereinigtes K\u00f6nigreich - Https: Voltuk.Org",
       "source": "Volt Vereinigtes K\u00f6nigreich - /programme"
+    },
+    "https://www.voltitalia.org/programm": {
+      "name": "Volt Italien - Https: Www.Voltitalia.Org",
+      "source": "Volt Italien - /programm"
+    },
+    "https://www.voltnederland.org/standpunten/overzicht/verkiezingsprogramma": {
+      "name": "Volt Niederlande - Overzicht Verkiezingsprogramma",
+      "source": "Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma"
+    },
+    "https://www.voltportugal.org/programa": {
+      "name": "Volt Portugal - Https: Www.Voltportugal.Org",
+      "source": "Volt Portugal - /programa"
+    },
+    "https://www.voltromania.org/policies": {
+      "name": "Volt Rum\u00e4nien - Https: Www.Voltromania.Org",
+      "source": "Volt Rum\u00e4nien - /policies"
+    },
+    "https://www.voltslovensko.org/policies": {
+      "name": "Volt Slowakei - Https: Www.Voltslovensko.Org",
+      "source": "Volt Slowakei - /policies"
+    },
+    "https://www.voltsverige.org/politik": {
+      "name": "Volt Schweden - Https: Www.Voltsverige.Org",
+      "source": "Volt Schweden - /politik"
     }
   }
 }

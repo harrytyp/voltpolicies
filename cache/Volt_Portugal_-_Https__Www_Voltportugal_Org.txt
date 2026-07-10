@@ -1,5 +1,3 @@
-404 Page Not Found – Volt Portugal
-
 class="flex cursor-pointer items-center gap-3 text-body-2 text-purple-500 lg:hidden">
 
 O Volt Europa é o primeiro partido paneuropeu com mais de 20.000 membros em mais de 30 países.
@@ -40,9 +38,69 @@ Volt com a comunidade Ucraniana no Dia da Europa
 
 Duarte Costa no Jornal de Leiria
 
-Desculpe, a página a que tentou aceder não existe.
+Queres saber mais sobre as nossas propostas políticas?
 
-Por favor, aceda ao menú ou à área de pesquisa no topo desta página, aceda à
+Portefólio de Políticas do Volt
+
+Programa Eleitoral Legislativas 2025
+
+Programa Eleitoral Europeias 2024
+
+Programa Eleitoral Legislativas 2024
+
+Consulta o Programa Eleitoral do Volt para as Eleições Legislativas de 2024 e fica a conhecer todas as medidas que defendemos.
+
+Programa eleitoral Legislativas 2022
+
+Consulta aqui o nosso programa para as Eleições Legislativas de 2022
+
+Programa eleitoral Legislativas 2022
+
+Mapa Europeu de Políticas - MEP
+
+Novembro de 2019 - Neste Portefólio encontrarás as várias propostas políticas do Volt.
+
+Políticas de Transiçao Energética e Alterações Climáticas
+
+Maio de 2020 - Extensão ao Portefólio (MEP)
+
+Políticas de Transiçao Energética e Alterações Climáticas
+
+Junho de 2020 - Extensão ao Portefólio (MEP)
+
+Iniciativa Política: Política Nuclear na Europa
+
+Outubro de 2020 - Clarificação da Extensão de Maio de 2020
+
+Iniciativa Política: Política Nuclear na Europa
+
+Iniciativa Política: Política Nuclear na Europa
+
+Outubro de 2020 - Adenda à Extensão de Maio de 2020
+
+Iniciativa Política: Política Nuclear na Europa
+
+Iniciativa Política: Dádivas de Sangue
+
+Iniciativa Política: Dádivas de Sangue
+
+Iniciativa Política: Objetivos Desenvolvimento Sustentável
+
+Iniciativa Política: Objetivos Desenvolvimento Sustentável
+
+Iniciativa Política: Política Externa da UE
+
+Iniciativa Política: Política Externa da UE
+
+Iniciativa Política: Relações com a China
+
+Iniciativa Política: Relações com a China
+
+Iniciativa Política: Corredores Humanitários e Migrações
+
+Iniciativa Política: Corredores Humanitários e Migrações
+
+Programa do Volt para o Parlamento Europeu 2019-2024
 
 Apoia o Volt através de um donativo.
 
