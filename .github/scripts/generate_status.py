@@ -9,74 +9,93 @@ import sys
 from pathlib import Path
 from datetime import datetime
 
-# Use cache_manager for correct path
 sys.path.insert(0, str(Path(__file__).parent))
 from cache_manager import get_cache_dir
 
 KNOWN_PDFS = Path(__file__).parent.parent.parent / "known_pdfs.json"
+CHAPTERS_CONFIG = Path(__file__).parent.parent.parent / "scripts" / "chapters.json"
+
+
+def load_chapters() -> dict:
+    if CHAPTERS_CONFIG.exists():
+        with open(CHAPTERS_CONFIG, 'r', encoding='utf-8') as f:
+            return json.load(f).get("chapters", {})
+    return {}
+
+
+def get_country_flag(name: str) -> str:
+    flags = {
+        "Volt Europa": "🇪🇺",
+        "Volt Albanien": "🇦🇱", "Volt Österreich": "🇦🇹",
+        "Volt Belgien": "🇧🇪", "Volt Bulgarien": "🇧🇬",
+        "Volt Kroatien": "🇭🇷", "Volt Zypern": "🇨🇾",
+        "Volt Tschechien": "🇨🇿", "Volt Dänemark": "🇩🇰",
+        "Volt Estland": "🇪🇪", "Volt Finnland": "🇫🇮",
+        "Volt Frankreich": "🇫🇷", "Volt Deutschland": "🇩🇪",
+        "Volt Griechenland": "🇬🇷", "Volt Ungarn": "🇭🇺",
+        "Volt Irland": "🇮🇪", "Volt Italien": "🇮🇹",
+        "Volt Kosovo": "🇽🇰", "Volt Lettland": "🇱🇻",
+        "Volt Litauen": "🇱🇹", "Volt Luxemburg": "🇱🇺",
+        "Volt Malta": "🇲🇹", "Volt Niederlande": "🇳🇱",
+        "Volt Norwegen": "🇳🇴", "Volt Polen": "🇵🇱",
+        "Volt Portugal": "🇵🇹", "Volt Rumänien": "🇷🇴",
+        "Volt Slowakei": "🇸🇰", "Volt Slowenien": "🇸🇮",
+        "Volt Spanien": "🇪🇸", "Volt Schweden": "🇸🇪",
+        "Volt Schweiz": "🇨🇭", "Volt Ukraine": "🇺🇦",
+        "Volt Vereinigtes Königreich": "🇬🇧",
+    }
+    return flags.get(name, "🏳️")
 
 
 def main():
     CACHE_DIR = get_cache_dir()
-    # Count PDFs
+    chapters = load_chapters()
+
+    # Count PDFs by source
     meta_files = list(CACHE_DIR.glob("*_meta.json"))
     pdf_count = len(meta_files)
-    
-    # Count by source
-    europa = 0
-    deutschland = 0
-    pdf_list = []
+
+    pdf_by_source = {}
+    europa_pdfs = 0
     for mf in meta_files:
         with open(mf, 'r', encoding='utf-8') as f:
             meta = json.load(f)
-        name = meta.get("document", mf.stem.replace("_meta", ""))
         url = meta.get("url", "")
-        pages = len(meta.get("pages", []))
-        
         if "volteuropa.org" in url:
-            europa += 1
-            source = "Europa"
+            source = "Volt Europa"
+            europa_pdfs += 1
         else:
-            deutschland += 1
-            source = "Deutschland"
-        
-        pdf_list.append({
-            "name": name,
-            "source": source,
-            "url": url,
-            "pages": pages
-        })
-    
+            # Try to identify country from URL
+            source = "Other"
+            for name, info in chapters.items():
+                domain = info.get("website", "").split("//")[-1].split("/")[0]
+                if domain and domain in url:
+                    source = name
+                    break
+            if source == "Other":
+                source = "Volt Deutschland"
+        pdf_by_source[source] = pdf_by_source.get(source, 0) + 1
+
     # Count news
     news_files = list(CACHE_DIR.glob("news_*.json"))
     news_counts = {}
     total_news = 0
-    news_list = []
-    
+
     for nf in news_files:
         with open(nf, 'r', encoding='utf-8') as f:
             articles = json.load(f)
-        
         source_name = nf.stem.replace("news_", "").replace("_", " ")
         count = len(articles)
         news_counts[source_name] = count
         total_news += count
-        
-        for a in articles[:5]:  # Sample
-            news_list.append({
-                "title": a.get("title", "")[:80],
-                "source": source_name,
-                "date": a.get("date", "")[:10],
-                "link": a.get("link", "")
-            })
-    
+
     # Get last update time
     if meta_files:
         last_pdf = max(mf.stat().st_mtime for mf in meta_files)
         last_update = datetime.fromtimestamp(last_pdf).strftime("%Y-%m-%d %H:%M UTC")
     else:
         last_update = "N/A"
-    
+
     # Generate STATUS.md
     status = f"""# 📊 Volt Policies — Live Status
 
@@ -86,45 +105,58 @@ def main():
 
 | Category | Count |
 |----------|-------|
-| Volt Europa PDFs | {europa} |
-| Volt Deutschland PDFs | {deutschland} |
-| **Total PDFs** | **{pdf_count}** |
 """
-    
+
+    for source, count in sorted(pdf_by_source.items()):
+        flag = get_country_flag(source)
+        status += f"| {flag} {source} PDFs | {count} |\n"
+    status += f"| **Total PDFs** | **{pdf_count}** |\n"
+
     for source, count in sorted(news_counts.items()):
         status += f"| {source} | {count} |\n"
-    
     status += f"| **Total News** | **{total_news}** |\n"
     status += f"| **Grand Total** | **{pdf_count + total_news}** |\n"
-    
-    status += f"""
+
+    # Sources section
+    status += """
 ## Sources
 
 ### PDF Sources
 - [Volt Europa Policies](https://volteuropa.org/policies/all-policies)
-- [Volt Deutschland Statuten](https://voltdeutschland.org/programm/programme/statuten-de)
-- [Volt Deutschland Wahlprogramme](https://voltdeutschland.org/programm/programme/wahlprogramme)
+"""
+    for name in sorted(chapters.keys()):
+        info = chapters[name]
+        flag = get_country_flag(name)
+        status += f"- [{flag} {name}]({info['website']})\n"
 
+    status += """
 ### News Sources
-- Volt Deutschland News (RSS + Scraping)
-- Volt Europa News (RSS + Scraping)
-- [Volt in the Press](https://mastodon.social/@voltinthepress) (Mastodon API — all posts)
+"""
+    for source in sorted(news_counts.keys()):
+        method = "Mastodon API" if "Mastodon" in source else "Bluesky" if "Bluesky" in source or "bsky" in source else "Instagram" if "Insta" in source else "RSS"
+        chapter_key = source.replace(" News", "")
+        if chapter_key in chapters:
+            flag = get_country_flag(chapter_key)
+            status += f"- {flag} {source} ({method})\n"
+        else:
+            status += f"- {source} ({method})\n"
 
+    status += """
 ## CI Workflow
 
 | Workflow | Status | Schedule |
 |----------|--------|----------|
-| [Update Volt Policies](https://github.com/harrytyp/voltpolicies/actions/workflows/update-news.yml) | ![Update](https://github.com/harrytyp/voltpolicies/actions/workflows/update-news.yml/badge.svg) | Every 6 hours |
+| [Update Volt Policies](https://github.com/harrytyp/voltpolicies/actions/workflows/update-news.yml) | ![Update](https://github.com/harrytyp/voltpolicies/actions/workflows/update-news.yml/badge.svg) | Daily at 06:00 UTC |
 
 ---
 
 *This file is auto-generated. Do not edit manually.*
 """
-    
+
     # Write STATUS.md
     status_path = Path(__file__).parent.parent.parent / "STATUS.md"
     status_path.write_text(status, encoding='utf-8')
-    print(f"Generated STATUS.md: {pdf_count} PDFs, {total_news} news articles")
+    print(f"Generated STATUS.md: {pdf_count} PDFs from {len(pdf_by_source)} countries, {total_news} news articles")
 
 
 if __name__ == "__main__":

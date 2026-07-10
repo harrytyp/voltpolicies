@@ -114,14 +114,19 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
         return []
 
 
-def scrape_paginated(name: str, base_url: str, path: str, max_pages: int = 20) -> list:
-    """Scrape all pages of a news section."""
+def scrape_paginated(name: str, base_url: str, path: str) -> list:
+    """Scrape all pages of a news section.
+    
+    Iterates through all pages until no new articles are found
+    (page has only already-seen links or is empty).
+    """
     print(f"  Scraping: {name} (all pages)...")
     
     all_articles = []
     seen = set()
+    empty_pages = 0
     
-    for page in range(1, max_pages + 1):
+    for page in range(1, 101):  # Safety limit: 100 pages max
         url = f"{base_url.rstrip('/')}{path}?page={page}"
         try:
             r = subprocess.run(
@@ -164,8 +169,12 @@ def scrape_paginated(name: str, base_url: str, path: str, max_pages: int = 20) -
                         page_articles += 1
             
             if page_articles == 0:
-                # No new articles on this page - we've reached the end
-                break
+                empty_pages += 1
+                if empty_pages >= 2:
+                    # Two consecutive empty pages = definitely at the end
+                    break
+            else:
+                empty_pages = 0
                 
         except Exception as e:
             print(f"    Error on page {page}: {e}")
@@ -225,29 +234,62 @@ def fetch_all_news() -> dict:
     global CACHE_DIR
     CACHE_DIR = get_cache_dir()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    
+
     all_news = {}
-    
-    # 1. Volt Deutschland (RSS + paginated scraping)
-    print("\n=== Volt Deutschland ===")
-    de_rss = fetch_rss_feed("Volt Deutschland RSS", "https://voltdeutschland.org/neuigkeiten/rss")
-    de_paginated = scrape_paginated("Volt Deutschland", "https://voltdeutschland.org", "/neuigkeiten", max_pages=10)
-    
-    existing_de = load_existing("Volt Deutschland News")
-    all_news["Volt Deutschland News"] = merge_incremental(existing_de, de_rss + de_paginated)
-    
-    # 2. Volt Europa (RSS + paginated scraping)
+
+    # Load chapters config
+    chapters_path = Path(__file__).parent.parent.parent / "scripts" / "chapters.json"
+    with open(chapters_path, 'r', encoding='utf-8') as f:
+        config = json.load(f)
+
+    chapters = config.get("chapters", {})
+
+    # 1. Volt Europa (pan-European - RSS + paginated scraping)
     print("\n=== Volt Europa ===")
     eu_rss = fetch_rss_feed("Volt Europa RSS", "https://volteuropa.org/news/rss")
-    eu_paginated = scrape_paginated("Volt Europa", "https://volteuropa.org", "/news", max_pages=15)
-    
+    eu_paginated = scrape_paginated("Volt Europa", "https://volteuropa.org", "/news")
     existing_eu = load_existing("Volt Europa News")
     all_news["Volt Europa News"] = merge_incremental(existing_eu, eu_rss + eu_paginated)
-    
+
+    # 2. National chapters (RSS feeds)
+    for name, info in sorted(chapters.items()):
+        site = info.get("website", "")
+        feeds = info.get("rss_feeds", [])
+        news_path = info.get("news_path", "/news")
+        lang = info.get("news_lang", "en")
+        cache_name = f"{name} News"
+
+        print(f"\n=== {name} ===")
+
+        # Try RSS feeds
+        all_articles = []
+        feeds_active = False
+        for feed_path in feeds:
+            feed_url = site.rstrip('/') + feed_path
+            articles = fetch_rss_feed(f"{name} RSS", feed_url)
+            all_articles.extend(articles)
+            if articles:
+                print(f"    ✓ RSS active: {feed_path}")
+                feeds_active = True
+                break
+
+        # Always supplement with website scraping (catches articles
+        # that appear on the news listing page but NOT in the RSS feed,
+        # e.g. manually published pieces, special statements).
+        print(f"  Supplementing: {name} (website scrape)...")
+        scraped = scrape_paginated(name, site, news_path)
+        all_articles.extend(scraped)
+        if scraped and not feeds_active:
+            print(f"    ✓ Website scrape active (RSS was unavailable): {news_path}")
+        elif scraped:
+            print(f"    ✓ RSS supplemented with {len(scraped)} website articles")
+
+        existing = load_existing(cache_name)
+        all_news[cache_name] = merge_incremental(existing, all_articles)
+
     # 3. Mastodon (all posts via API)
     print("\n=== Mastodon ===")
     mastodon = fetch_mastodon_all("voltinthepress")
-    
     existing_mastodon = load_existing("Volt in the Press  Mastodon")
     all_news["Volt in the Press (Mastodon)"] = merge_incremental(existing_mastodon, mastodon)
     

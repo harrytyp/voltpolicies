@@ -10,17 +10,75 @@ import json
 import subprocess
 from pathlib import Path
 
-# Default cache locations (checked in order)
-DEFAULT_CACHE_PATHS = [
-    Path.home() / ".hermes" / "skills" / "research" / "volt-policy-reference-check" / "cache",
-]
+# This script's location helps us find the project root
+_SCRIPT_DIR = Path(__file__).resolve().parent  # .github/scripts/
+_PROJECT_ROOT = _SCRIPT_DIR.parent.parent  # voltpolicies/
 
-# Config file location
+
+def _guess_cache_dir() -> Path | None:
+    """Auto-detect project-local cache directory.
+    
+    Checks if we're running from within the voltpolicies repo structure.
+    Works on any machine after `git clone` with zero configuration.
+    """
+    candidate = _PROJECT_ROOT / "cache"
+    if candidate.is_dir() or candidate.parent.exists():
+        return candidate
+    return None
+
+
+def get_cache_dir() -> Path:
+    """Get the cache directory.
+    
+    Resolution order:
+      1. VOLT_CACHE_DIR environment variable
+      2. Project-local cache (autodetected from script path)
+      3. Config file (legacy)
+      4. Default ~/.hermes/skills/... fallback
+    
+    Returns:
+        Path to the cache directory
+    """
+    # 1. Env var override (for CI, Docker, explicit config)
+    env_dir = os.environ.get("VOLT_CACHE_DIR")
+    if env_dir:
+        p = Path(env_dir)
+        p.mkdir(parents=True, exist_ok=True)
+        return p
+    
+    # 2. Project-local cache (works on any clone, no config needed)
+    project_cache = _guess_cache_dir()
+    if project_cache is not None:
+        return project_cache
+    
+    # 3. Legacy config file
+    legacy_config = Path.home() / ".hermes" / "skills" / "research" / "volt-policy-reference-check" / "config.json"
+    if legacy_config.exists():
+        import json
+        with open(legacy_config, 'r') as f:
+            config = json.load(f)
+        if 'cache_dir' in config:
+            custom = Path(config['cache_dir'])
+            custom.mkdir(parents=True, exist_ok=True)
+            return custom
+    
+    # 4. Legacy default fallback
+    default = Path.home() / ".hermes" / "skills" / "research" / "volt-policy-reference-check" / "cache"
+    default.mkdir(parents=True, exist_ok=True)
+    return default
+
+
+# ── Legacy support ────────────────────────────────────────────────────────
+# The functions below (CONFIG_PATH, load_config, save_config) are kept for
+# backward compatibility — used by setup_github_repo, setup_custom_path,
+# push_to_github, and the CLI. The new get_cache_dir() no longer uses them
+# as primary resolution; it falls through to project-local autodetection.
+
 CONFIG_PATH = Path.home() / ".hermes" / "skills" / "research" / "volt-policy-reference-check" / "config.json"
 
 
 def load_config() -> dict:
-    """Load configuration from config.json."""
+    """Load configuration from config.json (legacy)."""
     if CONFIG_PATH.exists():
         with open(CONFIG_PATH, 'r') as f:
             return json.load(f)
@@ -28,30 +86,10 @@ def load_config() -> dict:
 
 
 def save_config(config: dict):
-    """Save configuration to config.json."""
+    """Save configuration to config.json (legacy)."""
     CONFIG_PATH.parent.mkdir(parents=True, exist_ok=True)
     with open(CONFIG_PATH, 'w') as f:
         json.dump(config, f, indent=2)
-
-
-def get_cache_dir() -> Path:
-    """Get the cache directory from config or default."""
-    config = load_config()
-    
-    # Check for custom cache path
-    if 'cache_dir' in config:
-        custom = Path(config['cache_dir'])
-        if custom.exists() or custom.parent.exists():
-            return custom
-    
-    # Check for GitHub repo
-    if 'github_repo' in config:
-        repo_path = Path.home() / ".hermes" / "volt-policy-cache"
-        if repo_path.exists():
-            return repo_path / "cache"
-    
-    # Default
-    return DEFAULT_CACHE_PATHS[0]
 
 
 def setup_github_repo(repo_url: str):

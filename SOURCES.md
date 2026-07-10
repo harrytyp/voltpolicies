@@ -33,26 +33,7 @@
 
 ---
 
-## 🇩🇪 Volt Deutschland Policies
-
-### Statuten (Statutes)
-
-| Document | PDF |
-|----------|-----|
-| Allgemeine Wahlordnung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/allgemeine-wahlordnung-von-volt-deutschland.pdf) |
-| Finanzordnung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/finanzordnung-von-volt-deutschland.pdf) |
-| Geschäftsordnung Bundesparteitage | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/geschaftsordnung-fur-ordentliche-und-ausserordentliche-bundesparteitage-von-volt-deutschland-1.pdf) |
-| Geschäftsordnung Online-Bundesparteitage | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/volt-deutschland-go-obpt-202602.pdf) |
-| Satzung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/satzung-von-volt-deutschland.pdf) |
-| Schiedsgerichtsordnung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/schiedsgerichtsordnung-von-volt-deutschland.pdf) |
-
-### Programme
-
-| Document | PDF |
-|----------|-----|
-| Grundsatzprogramm 2023 | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/grundsatzprogramm_volt_deutschland_2023_01_28.pdf) |
-
-### Wahlprogramme (Election Programmes)
+## 🇩🇪 Volt Deutschland
 
 | Document | PDF |
 |----------|-----|
@@ -60,23 +41,95 @@
 | Bundestagswahl 2025 | [PDF](https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf) |
 | Bundestagswahl 2025 (Leichte Sprache) | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/btw-wahl-2025/gepruftes-wahl-programm-leichte-sprache-volt-bundestags-wahl-2025.pdf) |
 | Europawahl 2024 | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/europawahl_2024/volt-wahlprogramm-europawahl-2024.pdf) |
-
-### Positionspapiere (Position Papers)
-
-| Document | PDF |
-|----------|-----|
+| Finanzordnung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/finanzordnung-von-volt-deutschland.pdf) |
+| Geschäftsordnung Bundesparteitage | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/geschaftsordnung-fur-ordentliche-und-ausserordentliche-bundesparteitage-von-volt-deutschland-1.pdf) |
+| Geschäftsordnung Online-Bundesparteitage | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/volt-deutschland-go-obpt-202602.pdf) |
+| Grundsatzprogramm 2023 | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/grundsatzprogramm_volt_deutschland_2023_01_28.pdf) |
 | Position: Ehegattensplitting | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/ehegattensplitting-stufenweise-abschaffen-(1).pdf) |
 | Position: Magnetschwebebahn | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/positionspapier-_magnetschwebebahn-potenziale-fur-eine-zukunftsfeste-mobilitat-nutzen_-(veroffentlichte-version).pdf) |
 | Position: Nukleare Teilhabe | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/nukleare-teilhabe-in-europa-neu-denken-1.pdf) |
 | Position: Wehrfähige EU | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/positionspapier-wehrfahige-eu-2-ziel-als-mindestsatz-fur-eine-eu-kompatible-vollausstattung-der-bundeswehr.pdf) |
-
-### Unvereinbarkeitsbeschlüsse (Incompatibility Decisions)
-
-| Document | PDF |
-|----------|-----|
+| Satzung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/satzung-von-volt-deutschland.pdf) |
+| Schiedsgerichtsordnung | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/statuten_de/schiedsgerichtsordnung-von-volt-deutschland.pdf) |
 | Unvereinbarkeit: Antisemitismus | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/unvereinbarkeitsbeschluss-antisemitismus-und-zum-schutz-judischen-lebens.pdf) |
 | Unvereinbarkeit: Linksextremismus | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/unvereinbarkeitsbeschluss-linksextremismus-(1).pdf) |
 | Unvereinbarkeit: Rechtsextremismus | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/politische_programme_de/unvereinbarkeitsbeschluss-fur-jegliche-zusammenarbeit-mit-rassistischen,-rechtsextremen,-demokratie-und-verfassungsfeindlichen-gruppierungen-und-parteien,-insbesondere-der-afd-(1).pdf) |
+
+---
+
+## 🏳️ Volt Deutschland Wahlprogramme
+
+| Document | PDF |
+|----------|-----|
+| ep24 wp a4 kurzfassung 05 2024 | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/europawahl_2024/ep24_wp_a4_kurzfassung_05-2024.pdf) |
+
+---
+
+## 🏳️ Volt Italien - /programm
+
+| Document | PDF |
+|----------|-----|
+| Definizione linea politica finale 3 | [PDF](https://www.voltitalia.it/wp-content/uploads/2026/05/Definizione-linea-politica_finale-3.pdf) |
+| Moonshot%20ITA | [PDF](https://www.voltitalia.it/wp-content/uploads/2024/04/Moonshot%20ITA.pdf) |
+| Volt it programma | [PDF](https://www.voltitalia.it/wp-content/uploads/2022/09/Volt_it_programma.pdf) |
+
+---
+
+## 🇳🇱 Volt Niederlande
+
+| Document | PDF |
+|----------|-----|
+| volt verkiezingsprogramma ep nl | [PDF](https://www.voltnederland.org/storage/doc/volt_verkiezingsprogramma_ep_nl.pdf) |
+
+---
+
+## 🏳️ Volt Niederlande - /standpunten/overzicht/verkiezingsprogramma
+
+| Document | PDF |
+|----------|-----|
+| volt hoofdlijnenbeleid | [PDF](https://voltnederland.org/storage/_nederland/documenten/volt_hoofdlijnenbeleid.pdf) |
+| volt moonshot verkiezingsprogramma ep nl | [PDF](https://voltnederland.org/storage/doc/volt_moonshot_verkiezingsprogramma_ep_nl.pdf) |
+| volt verkiezingsprogramma 2025 | [PDF](https://voltnederland.org/storage/doc/volt_verkiezingsprogramma_2025.pdf) |
+| voltnederland verkiezingsprogramma 2023 | [PDF](https://voltnederland.org/storage/doc/voltnederland_verkiezingsprogramma_2023.pdf) |
+
+---
+
+## 🏳️ Volt Portugal - /programa
+
+| Document | PDF |
+|----------|-----|
+| declaracao de amesterdao 1208b | [PDF](https://voltportugal.org/storage/pdf/declaracao_de_amesterdao-1208b.pdf) |
+| legislativas 2025 programa eleitoral v.2.3 | [PDF](https://voltportugal.org/storage/legislativas-2025---programa-eleitoral-v.2.3.pdf) |
+| volt 01 mep mapa europeu de politicas (02 2020) 0 | [PDF](https://voltportugal.org/storage/pdf/volt_01_mep_mapa-europeu-de-politicas-(02_2020)_0.pdf) |
+| volt 02 01 extensao ao mep politica de transicao energetica e alteracoes climaticas | [PDF](https://voltportugal.org/storage/pdf/volt_02_01_extensao-ao-mep_politica-de-transicao-energetica-e-alteracoes-climaticas.pdf) |
+| volt 02 02 extensao ao mep politica de reforma eleitoral | [PDF](https://voltportugal.org/storage/pdf/volt_02_02_extensao-ao-mep_politica-de-reforma-eleitoral.pdf) |
+| volt 03 01 iniciativa politica politica nuclear na europa clarificacao | [PDF](https://voltportugal.org/storage/pdf/volt_03_01_iniciativa-politica_politica-nuclear-na-europa---clarificacao.pdf) |
+| volt 03 02 iniciativa politica politica nuclear na europa adenda | [PDF](https://voltportugal.org/storage/pdf/volt_03_02_iniciativa-politica_politica-nuclear-na-europa---adenda.pdf) |
+| volt 03 03 iniciativa politica dadivas de sangue | [PDF](https://voltportugal.org/storage/pdf/volt_03_03_iniciativa-politica_dadivas-de-sangue-.pdf) |
+| volt 03 04 iniciativa politica objetivos de desenvolvimento sustentavel | [PDF](https://voltportugal.org/storage/pdf/volt_03_04_iniciativa-politica_objetivos-de-desenvolvimento-sustentavel.pdf) |
+| volt 03 05 iniciativa politica politica externa da ue | [PDF](https://voltportugal.org/storage/pdf/volt_03_05_iniciativa-politica_politica-externa-da-ue-.pdf) |
+| volt 03 06 iniciativa politica politica para a china | [PDF](https://voltportugal.org/storage/pdf/volt_03_06_iniciativa-politica_politica-para-a-china.pdf) |
+| volt 03 07 iniciativa politica corredores humanitarios e de migracao | [PDF](https://voltportugal.org/storage/pdf/volt_03_07_iniciativa-politica_corredores-humanitarios-e-de-migracao.pdf) |
+| volt programa eleitoral europeias 2024 | [PDF](https://voltportugal.org/storage/pdf/volt-programa-eleitoral-europeias-2024.pdf) |
+| volt programa legislativas 2024 | [PDF](https://voltportugal.org/storage/pdf/eleicoes/volt_programa_legislativas_2024.pdf) |
+| voltportugal programa politico 2022 | [PDF](https://voltportugal.org/storage/pdf/voltportugal_programa_politico_2022.pdf) |
+
+---
+
+## 🏳️ Volt Rumänien - /policies
+
+| Document | PDF |
+|----------|-----|
+| cerere aderare v1.4 volt romania | [PDF](https://voltromania.org/storage/pdf/cerere-aderare-v1.4---volt-romania.pdf) |
+
+---
+
+## 🏳️ Volt Slowakei - /policies
+
+| Document | PDF |
+|----------|-----|
+| volt campaignprogramme slovakian | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt_campaignprogramme_slovakian.pdf) |
+| volt volebny program moonshot | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt_volebny-program-moonshot.pdf) |
 
 ---
 
@@ -84,12 +137,12 @@
 
 | Source | Articles | Method |
 |--------|----------|--------|
-| Bluesky annastrolenberg volteuropa org | 226 | RSS + Scraping |
-| Bluesky reiniervanlanschot volteuropa org | 388 | RSS + Scraping |
-| Bluesky sophieintveld bsky social | 1298 | RSS + Scraping |
-| Bluesky voltdeutschland org | 22 | RSS + Scraping |
-| Bluesky volteuropa org | 741 | RSS + Scraping |
-| Insta voltdeutschland | 12 | RSS + Scraping |
+| Bluesky annastrolenberg volteuropa org | 226 | Bluesky |
+| Bluesky reiniervanlanschot volteuropa org | 388 | Bluesky |
+| Bluesky sophieintveld bsky social | 1298 | Bluesky |
+| Bluesky voltdeutschland org | 22 | Bluesky |
+| Bluesky volteuropa org | 741 | Bluesky |
+| Insta voltdeutschland | 12 | Instagram |
 | Volt Albanien News | 15 | RSS + Scraping |
 | Volt Belgien News | 67 | RSS + Scraping |
 | Volt Bulgarien News | 10 | RSS + Scraping |
