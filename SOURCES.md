@@ -24,12 +24,56 @@
 | Amsterdam Declaration | [PDF](https://volteuropa.org/storage/pdf/policies/amsterdam_declaration.pdf) |
 | Amsterdam Declaration (Supporting) | [PDF](https://volteuropa.org/storage/pdf/policies/supporting_document_amsterdam_declaration.pdf) |
 | Campaign Narrative 2024 | [PDF](https://volteuropa.org/storage/pdf/eu-elections-2024/campaign-narrative-2024-eu-elections.pdf) |
+| Data Protection Report 2020 | [PDF](https://volteuropa.org/storage/pdf/audit_financial_data_protection_reports/2020_volt_europa-data_protection_report.pdf) |
+| Data Protection Report 2021 | [PDF](https://volteuropa.org/storage/data-protection-report-2021.pdf) |
+| Data Protection Report 2022 | [PDF](https://volteuropa.org/storage/data-protection-report-2022.pdf) |
 | Economic Vision | [PDF](https://volteuropa.org/storage/pdf/policies/the-economic-vision-of-volt-europa-final.pdf) |
 | Electoral Reform | [PDF](https://volteuropa.org/storage/pdf/policies/electoral-reform-policy.pdf) |
 | Energy Transition & Climate Change | [PDF](https://volteuropa.org/storage/pdf/policies/energy-transition-&-climate-change.pdf) |
 | European Constitution | [PDF](https://volteuropa.org/storage/pdf/policies/provisions-for-a-european-constitution.pdf) |
+| Exotic Pet Policy | [PDF](https://volteuropa.org/storage/exotic-pet-policies.docx.pdf) |
+| Integrity Syllabus | [PDF](https://volteuropa.org/storage/integrity-syllabus.pdf) |
 | Live Animal Transportation | [PDF](https://volteuropa.org/storage/pdf/policies/regulation-of-live-animal-transportation.pdf) |
+| Officials Handbook | [PDF](https://volteuropa.org/storage/officials-handbook.pdf) |
 | Space Policy | [PDF](https://volteuropa.org/storage/pdf/policies/volt-space-policy.pdf) |
+
+---
+
+## 🏳️ Volt AT
+
+| Document | PDF |
+|----------|-----|
+| Finanzordnung Volt AT | [PDF](https://voltoesterreich.org/storage/pdf/voltat_finanzordnung_fassung-02.09.2023.pdf) |
+| Wahlprogramm Wien 2025 | [PDF](https://voltoesterreich.org/storage/wien/wahlprogramm/2025_02_22_programm-wien-wahl-2025-final-de.pdf) |
+
+---
+
+## 🏳️ Volt BE
+
+| Document | PDF |
+|----------|-----|
+| Federaal Verkiezingsprogramma NL | [PDF](https://voltbelgium.org/storage/pdf/2024/20240502---nl-federaal.pdf) |
+| Financial Provisions BE | [PDF](https://voltbelgium.org/storage/governance_documents/volt-belgium---financial-provisions-(15.12.2024).pdf) |
+| How to Defend Europe | [PDF](https://voltbelgium.org/storage/regional/oost-vlaanderen/evenementen/2025-10-15-european-defence/how-to-defend-europe.pdf) |
+| Mapping of Policies BE 2023 | [PDF](https://voltbelgium.org/storage/pdf/mop_voltbelgium_2023.pdf) |
+| Rules of Procedure BE | [PDF](https://voltbelgium.org/storage/governance_documents/volt-belgium---rules-of-procedure-of-the-association-(15.12.2024).pdf) |
+| Vlaanderen2040 Regionalprogramma | [PDF](https://voltbelgium.org/storage/pdf/2024/vlaanderen2040_31_10_2023.pdf) |
+
+---
+
+## 🇧🇬 Volt Bulgarien
+
+| Document | PDF |
+|----------|-----|
+| Публичен регистър BG | [PDF](https://volt.bg/wp-content/uploads/2020/06/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%B2%D1%8A%D0%B2-%D0%B2%D1%80%D1%8A%D0%B7%D0%BA%D0%B0-%D1%81-%D1%87%D0%BB.29-%D0%B0%D0%BB.2-%D1%82.1-%D0%BD%D0%B0-%D0%97%D0%9F%D0%9F-%D0%BA%D1%8A%D0%BC-24-%D1%8E%D0%BB%D0%B8-1.pdf) |
+
+---
+
+## 🏳️ Volt DE
+
+| Document | PDF |
+|----------|-----|
+| How to Vote in Germany EN | [PDF](https://voltdeutschland.org/storage/assets-de/pdf/eur-pass/englisch_-how-to-vote-in-germany-as-non-german-eur-citizen.pdf) |
 
 ---
 
@@ -65,6 +109,22 @@
 
 ---
 
+## 🏳️ Volt ES
+
+| Document | PDF |
+|----------|-----|
+| Programa Campaña EN | [PDF](https://voltespana.org/storage/pdf/programa_campana_en.pdf) |
+
+---
+
+## 🏳️ Volt FR
+
+| Document | PDF |
+|----------|-----|
+| Programme ETE 2024 | [PDF](https://voltfrance.org/storage/pdf/programmeete20243mb.pdf) |
+
+---
+
 ## 🏳️ Volt Italien - /programm
 
 | Document | PDF |
@@ -72,6 +132,30 @@
 | Definizione linea politica finale 3 | [PDF](https://www.voltitalia.it/wp-content/uploads/2026/05/Definizione-linea-politica_finale-3.pdf) |
 | Moonshot%20ITA | [PDF](https://www.voltitalia.it/wp-content/uploads/2024/04/Moonshot%20ITA.pdf) |
 | Volt it programma | [PDF](https://www.voltitalia.it/wp-content/uploads/2022/09/Volt_it_programma.pdf) |
+
+---
+
+## 🏳️ Volt LU
+
+| Document | PDF |
+|----------|-----|
+| European Campaign Programme EN | [PDF](https://voltluxembourg.org/storage/pdf/ecp-own-design-en.pdf) |
+
+---
+
+## 🏳️ Volt MT
+
+| Document | PDF |
+|----------|-----|
+| Malta Manifesto 2022 | [PDF](https://voltmalta.org/storage/files/volt-malta-manifesto-2022.pdf) |
+
+---
+
+## 🏳️ Volt NL
+
+| Document | PDF |
+|----------|-----|
+| Verkiezingsprogramma Inleiding EN | [PDF](https://voltnederland.org/storage/doc/volt_vp_inleiding_english_a4s_v1.pdf) |
 
 ---
 
@@ -116,11 +200,45 @@
 
 ---
 
+## 🏳️ Volt RO
+
+| Document | PDF |
+|----------|-----|
+| Cod Etică și Conduită | [PDF](https://voltromania.org/storage/pdf/cod-etica-conduita.pdf) |
+
+---
+
 ## 🏳️ Volt Rumänien - /policies
 
 | Document | PDF |
 |----------|-----|
 | cerere aderare v1.4 volt romania | [PDF](https://voltromania.org/storage/pdf/cerere-aderare-v1.4---volt-romania.pdf) |
+
+---
+
+## 🏳️ Volt SE
+
+| Document | PDF |
+|----------|-----|
+| PR Nederlandska Valresultatet | [PDF](https://voltsverige.org/storage/pdf/pr_nederlandska-valresultatet.pdf) |
+
+---
+
+## 🏳️ Volt SK
+
+| Document | PDF |
+|----------|-----|
+| Stanovy (Satzung) SK | [PDF](https://voltslovensko.org/storage/legal/240212-schvalene-stanovy.pdf) |
+
+---
+
+## 🏳️ Volt Schweden - /politik
+
+| Document | PDF |
+|----------|-----|
+| code of conduct | [PDF](https://voltsverige.org/storage/code-of-conduct.pdf) |
+| valprogram sverige 2026 en | [PDF](https://voltsverige.org/storage/valprogram_sverige_2026_en.pdf) |
+| valprogram sverige 2026 se | [PDF](https://voltsverige.org/storage/valprogram_sverige_2026_se.pdf) |
 
 ---
 
@@ -130,6 +248,43 @@
 |----------|-----|
 | volt campaignprogramme slovakian | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt_campaignprogramme_slovakian.pdf) |
 | volt volebny program moonshot | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt_volebny-program-moonshot.pdf) |
+
+---
+
+## 🇪🇸 Volt Spanien
+
+| Document | PDF |
+|----------|-----|
+| volt-spanien-equilibrio-global | [PDF](https://voltespana.org/storage/pdf/programaelectoralespana2023/4_equilibrio_global.pdf) |
+| volt-spanien-programa-electoral-2023 | [PDF](https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf) |
+
+---
+
+## 🇬🇧 Volt Vereinigtes Königreich
+
+| Document | PDF |
+|----------|-----|
+| UK Constitution | [PDF](https://voltuk.org/storage/pdf/2024/volt-uk-constitution.pdf) |
+| UK General Election Manifesto 2024 | [PDF](https://voltuk.org/storage/pdf/2024/volt-uk-manifesto-general-election.pdf) |
+
+---
+
+## 🇨🇾 Volt Zypern
+
+| Document | PDF |
+|----------|-----|
+| Cyprus Founding Declaration EN | [PDF](https://voltcyprus.org/storage/volt-cyprus/old-website/cy_founding_declaration_en-m7vmzvdlqquykpe4.pdf) |
+| Economic Vision Final Draft | [PDF](https://voltcyprus.org/storage/volt-cyprus/old-website/the-economic-vision-of-volt-europa---final-draft-dwxwqaz1l5fp3yx2.pdf) |
+| Volt Cyprus Statute EN | [PDF](https://voltcyprus.org/storage/volt-cyprus/volt-cyprus-statute-eng.pdf) |
+
+---
+
+## 🇦🇹 Volt Österreich
+
+| Document | PDF |
+|----------|-----|
+| volt-wahlprogramm-europawahl-2024 | [PDF](https://voltoesterreich.org/storage/pdf/volt-wahlprogramm-europawahl-2024.pdf) |
+| volt_eur_electoral_moonshot_programme_2024-29 | [PDF](https://voltoesterreich.org/storage/pdf/volt_eur_electoral_moonshot_programme_2024-29.pdf) |
 
 ---
 
@@ -144,14 +299,14 @@
 | Bluesky volteuropa org | 741 | Bluesky |
 | Insta voltdeutschland | 12 | Instagram |
 | Volt Albanien News | 15 | RSS + Scraping |
-| Volt Belgien News | 67 | RSS + Scraping |
+| Volt Belgien News | 68 | RSS + Scraping |
 | Volt Bulgarien News | 10 | RSS + Scraping |
-| Volt Deutschland News | 153 | RSS + Scraping |
+| Volt Deutschland News | 158 | RSS + Scraping |
 | Volt Dänemark News | 0 | RSS + Scraping |
 | Volt Estland News | 8 | RSS + Scraping |
-| Volt Europa News | 185 | RSS + Scraping |
+| Volt Europa News | 197 | RSS + Scraping |
 | Volt Finnland News | 0 | RSS + Scraping |
-| Volt Frankreich News | 20 | RSS + Scraping |
+| Volt Frankreich News | 27 | RSS + Scraping |
 | Volt Griechenland News | 6 | RSS + Scraping |
 | Volt Irland News | 2 | RSS + Scraping |
 | Volt Italien News | 10 | RSS + Scraping |
@@ -159,26 +314,26 @@
 | Volt Kroatien News | 18 | RSS + Scraping |
 | Volt Lettland News | 0 | RSS + Scraping |
 | Volt Litauen News | 0 | RSS + Scraping |
-| Volt Luxemburg News | 66 | RSS + Scraping |
+| Volt Luxemburg News | 68 | RSS + Scraping |
 | Volt Malta News | 56 | RSS + Scraping |
-| Volt Niederlande News | 20 | RSS + Scraping |
+| Volt Niederlande News | 25 | RSS + Scraping |
 | Volt Norwegen News | 21 | RSS + Scraping |
 | Volt Polen News | 13 | RSS + Scraping |
 | Volt Portugal News | 0 | RSS + Scraping |
 | Volt Rumänien News | 0 | RSS + Scraping |
-| Volt Schweden News | 7 | RSS + Scraping |
+| Volt Schweden News | 12 | RSS + Scraping |
 | Volt Schweiz News | 51 | RSS + Scraping |
-| Volt Slowakei News | 20 | RSS + Scraping |
+| Volt Slowakei News | 24 | RSS + Scraping |
 | Volt Slowenien News | 37 | RSS + Scraping |
 | Volt Spanien News | 20 | RSS + Scraping |
-| Volt Tschechien News | 20 | RSS + Scraping |
+| Volt Tschechien News | 21 | RSS + Scraping |
 | Volt Ukraine News | 0 | RSS + Scraping |
 | Volt Ungarn News | 0 | RSS + Scraping |
 | Volt Vereinigtes Königreich News | 10 | RSS + Scraping |
 | Volt Zypern News | 6 | RSS + Scraping |
 | Volt in the Press Mastodon  | 149 | Mastodon API |
-| Volt Österreich News | 52 | RSS + Scraping |
-| **Total** | **3735** | |
+| Volt Österreich News | 56 | RSS + Scraping |
+| **Total** | **3781** | |
 
 ---
 
