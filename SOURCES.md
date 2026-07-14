@@ -321,7 +321,7 @@
 | Volt Polen News | 13 | RSS + Scraping |
 | Volt Portugal News | 0 | RSS + Scraping |
 | Volt Rumänien News | 0 | RSS + Scraping |
-| Volt Schweden News | 12 | RSS + Scraping |
+| Volt Schweden News | 13 | RSS + Scraping |
 | Volt Schweiz News | 51 | RSS + Scraping |
 | Volt Slowakei News | 24 | RSS + Scraping |
 | Volt Slowenien News | 37 | RSS + Scraping |
@@ -333,7 +333,7 @@
 | Volt Zypern News | 6 | RSS + Scraping |
 | Volt in the Press Mastodon  | 149 | Mastodon API |
 | Volt Österreich News | 56 | RSS + Scraping |
-| **Total** | **3783** | |
+| **Total** | **3784** | |
 
 ---
 
