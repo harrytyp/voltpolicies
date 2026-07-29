@@ -247,6 +247,7 @@
 | Document | PDF |
 |----------|-----|
 | volt campaignprogramme slovakian | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt_campaignprogramme_slovakian.pdf) |
+| volt slovensko komunalnoregionalny program | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt-slovensko_komunalnoregionalny-program.pdf) |
 | volt volebny program moonshot | [PDF](https://voltslovensko.org/storage/volt-slovensko-content/files/volt_volebny-program-moonshot.pdf) |
 
 ---
@@ -306,7 +307,7 @@
 | Volt Estland News | 8 | RSS + Scraping |
 | Volt Europa News | 200 | RSS + Scraping |
 | Volt Finnland News | 0 | RSS + Scraping |
-| Volt Frankreich News | 30 | RSS + Scraping |
+| Volt Frankreich News | 31 | RSS + Scraping |
 | Volt Griechenland News | 6 | RSS + Scraping |
 | Volt Irland News | 2 | RSS + Scraping |
 | Volt Italien News | 10 | RSS + Scraping |
@@ -323,7 +324,7 @@
 | Volt Rumänien News | 0 | RSS + Scraping |
 | Volt Schweden News | 13 | RSS + Scraping |
 | Volt Schweiz News | 51 | RSS + Scraping |
-| Volt Slowakei News | 24 | RSS + Scraping |
+| Volt Slowakei News | 26 | RSS + Scraping |
 | Volt Slowenien News | 37 | RSS + Scraping |
 | Volt Spanien News | 20 | RSS + Scraping |
 | Volt Tschechien News | 21 | RSS + Scraping |
@@ -331,9 +332,9 @@
 | Volt Ungarn News | 0 | RSS + Scraping |
 | Volt Vereinigtes Königreich News | 10 | RSS + Scraping |
 | Volt Zypern News | 6 | RSS + Scraping |
-| Volt in the Press Mastodon  | 0 | Mastodon API |
+| Volt in the Press Mastodon  | 149 | Mastodon API |
 | Volt Österreich News | 56 | RSS + Scraping |
-| **Total** | **3645** | |
+| **Total** | **3797** | |
 
 ---
 
