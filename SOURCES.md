@@ -330,11 +330,11 @@
 | Volt Tschechien News | 22 | RSS + Scraping |
 | Volt Ukraine News | 0 | RSS + Scraping |
 | Volt Ungarn News | 0 | RSS + Scraping |
-| Volt Vereinigtes Königreich News | 10 | RSS + Scraping |
+| Volt Vereinigtes Königreich News | 11 | RSS + Scraping |
 | Volt Zypern News | 6 | RSS + Scraping |
 | Volt in the Press Mastodon  | 149 | Mastodon API |
 | Volt Österreich News | 58 | RSS + Scraping |
-| **Total** | **3823** | |
+| **Total** | **3824** | |
 
 ---
 
