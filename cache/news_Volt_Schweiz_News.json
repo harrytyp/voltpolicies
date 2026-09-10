@@ -422,5 +422,21 @@
     "date": "Tue, 01 Sep 2026 18:24:00 +0200",
     "source": "Volt Schweiz RSS",
     "via": "rss"
+  },
+  {
+    "title": "Nuclear Power Referendum: Volt in Switzerland Supports the Signature CollectionThe Swiss Parliament has lifted the ban on building new nuclear power plants enacted in 2017. Now, a broad alliance is fi",
+    "link": "https://www.voltswitzerland.org/news/nuclear-power-referendum-volt-in-switzerland-supports-the-signature-collection",
+    "description": "",
+    "date": "",
+    "source": "Volt Schweiz",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Fact Check on the Chaos-InitiativeSwitzerland is no accident. It is the result of generations who have founded families, immigrated, researched, cultivated, and collaborated. In doing so, they have ov",
+    "link": "https://www.voltswitzerland.org/news/fact-check-on-the-chaos-initiative",
+    "description": "",
+    "date": "",
+    "source": "Volt Schweiz",
+    "via": "website_scrape"
   }
 ]
