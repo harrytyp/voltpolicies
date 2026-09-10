@@ -19,6 +19,12 @@ INDEX_PATH = CACHE_DIR / "faiss.index"
 CHUNKS_PATH = CACHE_DIR / "chunks.json"
 MODEL_NAME = "intfloat/multilingual-e5-small"
 
+# Fehlerseiten-Muster: "404 Page Not Found", "404 - Page not found", "<title>404 ..."
+JUNK_RE = re.compile(
+    r"(?:404\s*[-–—]?\s*page\s+not\s+found|page\s+not\s+found\s*[-–—]\s*volt|<title>\s*404|\b404\s+not\s+found\b)",
+    re.I,
+)
+
 
 def load_news_chunks() -> list[dict]:
     """Load all news articles and split into searchable chunks."""
@@ -83,6 +89,9 @@ def load_pdf_chunks() -> list[dict]:
             text = page_data.get("text", "").strip()
             if not text or len(text) < 50:
                 continue
+            # Fehlerseiten-Ausdrucke (alt eingesammelt) nicht indizieren
+            if JUNK_RE.search(text[:4000]):
+                continue
 
             chunks.append({
                 "text": text[:3000],
@@ -123,6 +132,9 @@ def load_html_chunks() -> list[dict]:
         text = txt_file.read_text(encoding='utf-8', errors='replace').strip()
         if not text or len(text) < 500:
             continue
+        # Fehlerseiten (404-Seiten) nicht indizieren
+        if JUNK_RE.search(text[:4000]):
+            continue
 
         source = txt_file.stem.replace("_", " ").replace("-", " ").strip()
         if source in seen_sources:
@@ -131,8 +143,8 @@ def load_html_chunks() -> list[dict]:
         src_lower = source.lower()
         if any(kw in src_lower for kw in admin_keywords):
             continue
-        if re.match(r'^volt (dänemark|finnland|lettland|litauen)', src_lower):
-            continue  # These only have nav, no real content
+        # Nur echtes Boilerplate aussortieren, nicht ganze Laender:
+        # die Qualitaetspruefung unten (>=3 lange Zeilen) ist das Kriterium.
         
         # Check text quality: must have substantial content
         if sum(1 for line in text.split('\n') if len(line.strip()) > 50) < 3:
@@ -175,22 +187,38 @@ def build_index():
             existing_chunks = json.load(f)
         print(f"   Existing: {len(existing_chunks)} chunks")
 
-    existing_texts = {c["text"][:200] for c in existing_chunks}
-
     # Gather new chunks
     news_chunks = load_news_chunks()
     pdf_chunks = load_pdf_chunks()
     html_chunks = load_html_chunks()
     all_chunks = news_chunks + pdf_chunks + html_chunks
 
+    # Veraltete Chunks verwerfen: Quellen, die es im Cache nicht mehr gibt
+    # (geloeschte/umbenannte Dokumente, alte News-Dateien). Sonst bleiben sie
+    # fuer immer im Index und liefern Treffer zu nicht mehr vorhandenen Inhalten.
+    # WICHTIG: erst danach die "schon vorhanden"-Praefixe bilden, sonst gelten
+    # umbenannte Dokumente als bereits indexiert (alter Name) und fallen raus.
+    live_sources = {c["source"] for c in all_chunks}
+    full_rebuild = False
+    if existing_chunks and live_sources:
+        kept = [c for c in existing_chunks if c.get("source") in live_sources]
+        dropped = len(existing_chunks) - len(kept)
+        if dropped:
+            print(f"   🧹 {dropped} veraltete Chunks entfernt (Quelle nicht mehr im Cache) -> Vollaufbau")
+            existing_chunks = kept
+            full_rebuild = True
+
+    existing_texts = {c["text"][:200] for c in existing_chunks}
     new_chunks = [c for c in all_chunks if c["text"][:200] not in existing_texts]
 
     if not new_chunks:
         print("   No new chunks to embed.")
         # Still rebuild FAISS from all existing chunks
         all_chunks = existing_chunks
+        to_embed = existing_chunks if full_rebuild else []
     else:
         all_chunks = existing_chunks + new_chunks
+        to_embed = all_chunks if full_rebuild else new_chunks
         print(f"   New: {len(new_chunks)} chunks to embed")
 
     if not all_chunks:
@@ -206,9 +234,9 @@ def build_index():
     print(f"   Model: {MODEL_NAME}")
 
     # Embed all chunks that don't have embeddings yet
-    if new_chunks:
-        texts = [c["text"][:2000] for c in new_chunks]
-        print(f"   Embedding {len(texts)} new chunks...")
+    if to_embed:
+        texts = [c["text"][:2000] for c in to_embed]
+        print(f"   Embedding {len(texts)} chunks...")
         new_embeddings = model.encode(texts, show_progress_bar=True, normalize_embeddings=True)
         print(f"   Done! Dimension: {new_embeddings.shape[1]}")
     else:
@@ -220,26 +248,18 @@ def build_index():
 
     dim = model.get_sentence_embedding_dimension()
 
-    if INDEX_PATH.exists():
+    if INDEX_PATH.exists() and not full_rebuild:
         # Load existing index and add new embeddings
         index = faiss.read_index(str(INDEX_PATH))
         if new_embeddings is not None:
             index.add(np.array(new_embeddings, dtype=np.float32))
         print(f"   Updated index: {index.ntotal} vectors")
     else:
-        # Create new index
+        # Neuer Index (kein Bestand oder Chunks wurden verworfen)
         index = faiss.IndexFlatIP(dim)  # Inner product = cosine similarity (normalized)
         if new_embeddings is not None:
             index.add(np.array(new_embeddings, dtype=np.float32))
         print(f"   Created new index: {index.ntotal} vectors")
-
-        # Also embed existing chunks that were loaded from cache
-        if existing_chunks and not new_chunks:
-            texts = [c["text"][:2000] for c in existing_chunks]
-            print(f"   Embedding {len(texts)} existing chunks...")
-            existing_embeddings = model.encode(texts, show_progress_bar=True, normalize_embeddings=True)
-            index.add(np.array(existing_embeddings, dtype=np.float32))
-            print(f"   Index now: {index.ntotal} vectors")
 
     # Save
     print(f"\n💾 Saving...")

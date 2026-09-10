@@ -23,12 +23,18 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install sentence-transformers faiss-cpu numpy pymupdf
+          pip install sentence-transformers faiss-cpu numpy pymupdf beautifulsoup4
       
       - name: Check for new PDFs
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python .github/scripts/check_new_pdfs.py
+      
+      - name: Audit policy URLs & cache
+        # Bericht im CI-Log; bricht den Update-Lauf nicht ab (Volt-Seiten
+        # antworten sporadisch nicht -> kein False-Positive-Fail des Tagesjobs)
+        continue-on-error: true
+        run: python scripts/audit_policy_urls.py
       
       - name: Fetch news (incremental)
         run: python .github/scripts/fetch_news.py

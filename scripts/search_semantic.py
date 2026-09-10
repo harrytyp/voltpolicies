@@ -5,6 +5,7 @@ Replaces old string-matching + dictionary approach.
 """
 
 import json
+import re
 import numpy as np
 from pathlib import Path
 
@@ -72,7 +73,12 @@ def semantic_search(query: str, max_results: int = 10, chapters: list[str] = Non
     query_vec = np.array(query_vec, dtype=np.float32)
 
     # Search
-    scores, indices = index.search(query_vec, min(max_results * 3, index.ntotal))
+    # Bei Kapitel-Filter wird NACH dem Top-k gefiltert: der Kandidatenpool muss
+    # deshalb der ganze Index sein, sonst bleiben einzelne Laender leer (z.B. "CZ"
+    # liefert nichts, weil DE/AT die Top-Treffer belegen). IndexFlatIP scannt
+    # ohnehin alle Vektoren, das kostet also nur die Rueckgabe groesserer Listen.
+    k = index.ntotal if chapters else min(max_results * 3, index.ntotal)
+    scores, indices = index.search(query_vec, k)
 
     # Collect results with chapter filtering
     results = []
@@ -83,7 +89,7 @@ def semantic_search(query: str, max_results: int = 10, chapters: list[str] = Non
         source = chunk.get("source", "")
 
         # Apply chapter filter
-        if chapters and not _match_chapter(source, chapters):
+        if chapters and not _match_chapter(chunk, chapters):
             continue
 
         results.append({
@@ -102,8 +108,15 @@ def semantic_search(query: str, max_results: int = 10, chapters: list[str] = Non
     return results
 
 
-def _match_chapter(source: str, chapters: list[str]) -> bool:
-    """Check if a source matches the requested chapter filter."""
+def _match_chapter(chunk: dict, chapters: list[str]) -> bool:
+    """Kapitel-Filter fuer einen Chunk.
+
+    Drei Wege, weil Volt-Dokumentnamen uneinheitlich sind:
+      1. Domain der Dokument-URL passt zur Kapitel-Website (zuverlaessigster Weg)
+      2. vollstaendiger Kapitelname im Quellnamen ("Volt Tschechien Politiky")
+      3. Laendercode als eigenstaendiges Wort ("Volt HR Policy") - NICHT als
+         Teilstring, sonst matcht "LV" in "digitaLV ersion" oder "SE" in "hessen".
+    """
     if not chapters:
         return True
 
@@ -114,18 +127,27 @@ def _match_chapter(source: str, chapters: list[str]) -> bool:
         with open(chapters_path, 'r', encoding='utf-8') as f:
             chapter_config = json.load(f).get("chapters", {})
 
-    source_lower = source.lower()
+    source_lower = str(chunk.get("source", "")).lower()
+    url_lower = str(chunk.get("url", "")).lower()
+
     for chapter in chapters:
         chapter_lower = chapter.lower().strip()
         if chapter_lower in ("eu", "europa", "volt europa"):
-            if "volt europa" in source_lower or "europa" in source_lower:
+            if ("volteuropa.org" in url_lower or "volt europa" in source_lower
+                    or "europa" in source_lower
+                    or re.search(r"(?<![a-z0-9])eu(?![a-z0-9])", source_lower)):
                 return True
             continue
-        if chapter_lower in source_lower or source_lower in chapter_lower:
-            return True
-        # Match country codes
         for name, info in chapter_config.items():
-            if info.get("country", "").lower() == chapter_lower:
-                if name.lower() in source_lower or source_lower in name.lower():
-                    return True
+            if info.get("country", "").lower() != chapter_lower:
+                continue
+            # Domain ohne www, damit www./nicht-www-Varianten beide passen
+            domain = info.get("website", "").split("//")[-1].rstrip("/").lower()
+            domain = domain[4:] if domain.startswith("www.") else domain
+            if domain and domain in url_lower:
+                return True
+            if name.lower() in source_lower:
+                return True
+            if re.search(rf"(?<![a-z0-9]){re.escape(chapter_lower)}(?![a-z0-9])", source_lower):
+                return True
     return False

@@ -35,7 +35,22 @@ POLICY_PAGES = {
 }
 POLICY_PAGES.update(NATIONAL_POLICY_PAGES)
 
+# Gleiche URL unter zwei Labels (z.B. DE-Statuten hartcodiert + aus chapters.json)
+# fuehrt sonst zu doppelt extrahierten Dokumenten. Letztes Label gewinnt.
+_by_url = {}
+for _label, _url in POLICY_PAGES.items():
+    if _url in _by_url:
+        print(f"  Hinweis: doppeltes Ziel {_url} ({_label} == {_by_url[_url]})")
+    _by_url[_url] = _label
+POLICY_PAGES = {_label: _url for _url, _label in _by_url.items()}
+
 SKIP_PATTERNS = ["kurzwahlprogramm", "kurzform"]
+
+# Fehlerseiten-Muster: "404 Page Not Found", "404 - Page not found", "<title>404 ..."
+JUNK_RE = re.compile(
+    r"(?:404\s*[-–—]?\s*page\s+not\s+found|page\s+not\s+found\s*[-–—]\s*volt|<title>\s*404|\b404\s+not\s+found\b)",
+    re.I,
+)
 
 CACHE_DIR = Path(__file__).parent.parent.parent / "cache"
 KNOWN_PDFS_FILE = CACHE_DIR.parent / "known_pdfs.json"
@@ -60,7 +75,7 @@ def save_known_pdfs(known: dict):
 def scrape_pdf_links(url: str) -> list:
     """Scrape a page for PDF links."""
     try:
-        result = subprocess.run(["curl", "-sL", url], capture_output=True, text=True, timeout=30)
+        result = subprocess.run(["curl", "-sfL", url], capture_output=True, text=True, timeout=30)
         if result.returncode != 0:
             return []
         html_content = result.stdout
@@ -86,7 +101,7 @@ def scrape_pdf_links(url: str) -> list:
 def find_internal_links(url: str, domain: str) -> list:
     """Find all internal links on a page — prioritized by policy relevance."""
     try:
-        result = subprocess.run(["curl", "-sL", url], capture_output=True, text=True, timeout=30)
+        result = subprocess.run(["curl", "-sfL", url], capture_output=True, text=True, timeout=30)
         if result.returncode != 0:
             return []
         html_content = result.stdout
@@ -154,12 +169,17 @@ def scrape_html_text(url: str) -> tuple[str, str]:
     Returns (title, text).
     """
     try:
-        result = subprocess.run(["curl", "-sL", url], capture_output=True, text=True, timeout=30)
+        result = subprocess.run(["curl", "-sfL", url], capture_output=True, text=True, timeout=30)
         if result.returncode != 0 or len(result.stdout) < 500:
             return ("", "")
         
         html_content = result.stdout
         title = ""
+
+        # Fehlerseiten (HTTP 404 / "Page not found") nie als Policy-Text speichern
+        if JUNK_RE.search(html_content[:4000]):
+            print(f"       - Fehlerseite erkannt (404), uebersprungen: {url}")
+            return ("", "")
         
         if HAS_SOUP:
             soup = BeautifulSoup(html_content, 'html.parser')
@@ -234,6 +254,11 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
         if not pages:
             return ""
 
+        # Fehlerseiten nicht als Dokument speichern (z.B. "Page not found"-Ausdrucke)
+        if JUNK_RE.search("\n".join(full_text_parts)[:4000]):
+            print(f"  Warning: Fehlerseite erkannt, {pdf_path.name} wird nicht uebernommen")
+            return ""
+
         # Save .txt (full text)
         full_text = "\n\n".join(full_text_parts)
         txt_path.write_text(full_text, encoding='utf-8')
@@ -260,7 +285,7 @@ def download_pdf(url: str, name: str) -> Path:
     pdf_path = CACHE_DIR / f"{safe_name}.pdf"
     try:
         result = subprocess.run(
-            ["curl", "-sL", "-o", str(pdf_path), url],
+            ["curl", "-sfL", "-o", str(pdf_path), url],
             capture_output=True, text=True, timeout=60
         )
         if result.returncode == 0 and pdf_path.exists() and pdf_path.stat().st_size > 1000:
@@ -279,18 +304,13 @@ def get_pdf_name(url: str) -> str:
 
 
 def get_html_name(url: str, source: str) -> str:
-    """Get a readable name for an HTML policy page."""
-    # Use the path segments
-    path = url.split('?')[0].rstrip('/')
-    segments = [s for s in path.split('/') if s and s not in ('programm', 'programme', 'program', 'policies', 'politik', 'politiques', 'programa', 'standpunten', 'politikk')]
-    if segments:
-        name = ' - '.join(segments[-2:])
-    else:
-        name = path.split('/')[-1]
-    name = name.replace('-', ' ').replace('_', ' ')
+    """Get a readable name for an HTML policy page (letztes Pfadsegment + Kapitel)."""
+    from urllib.parse import unquote
+    path = unquote(url.split('?')[0]).rstrip('/')
+    seg = path.split('/')[-1] or 'policy'
+    name = seg.replace('-', ' ').replace('_', ' ')
     name = re.sub(r'\s+', ' ', name).strip()
-    name = name.title()
-    return f"{source} - {name}"
+    return f"{source} - {name.title()}"
 
 
 def main():
@@ -330,23 +350,24 @@ def main():
             else:
                 print(f"       ✗ Failed to download")
         
-        # If no PDFs found on this page, try extracting HTML content
-        if not pdf_urls:
-            html_url = url
-            norm_url = normalize_url(html_url)
-            if norm_url not in known.get("html_pages", {}):
-                print(f"  Trying HTML extraction...")
-                title, text = scrape_html_text(html_url)
-                if title and text and len(text) > 500:
-                    html_name = get_html_name(html_url, source.split(' - ')[0] if ' - ' in source else source)
-                    safe_name = re.sub(r'[^\w\-]', '_', html_name)
-                    txt_path = CACHE_DIR / f"{safe_name}.txt"
-                    txt_path.write_text(text, encoding='utf-8')
-                    print(f"       ✓ Extracted HTML: '{title}' ({len(text)} chars)")
-                    new_html.append({"name": html_name, "url": html_url, "source": source, "text_length": len(text)})
-                    known.setdefault("html_pages", {})[norm_url] = {"name": html_name, "source": source}
-                else:
-                    print(f"       - No extractable policy content found")
+        # HTML-Text der Policy-Seite IMMER versuchen (nicht nur wenn keine PDFs
+        # gefunden wurden): Seiten, die auf ein PDF verlinken (z.B. HR/RO mit dem
+        # Moonshot-PDF), fielen sonst komplett aus dem Index. `known_pdfs` sorgt
+        # dafuer, dass jede URL nur einmal extrahiert wird.
+        norm_url = normalize_url(url)
+        if norm_url not in known.get("html_pages", {}):
+            print(f"  Trying HTML extraction...")
+            title, text = scrape_html_text(url)
+            if title and text and len(text) > 500:
+                html_name = get_html_name(url, source.split(' - ')[0] if ' - ' in source else source)
+                safe_name = re.sub(r'[^\w\-]', '_', html_name)
+                txt_path = CACHE_DIR / f"{safe_name}.txt"
+                txt_path.write_text(text, encoding='utf-8')
+                print(f"       ✓ Extracted HTML: '{title}' ({len(text)} chars)")
+                new_html.append({"name": html_name, "url": url, "source": source, "text_length": len(text)})
+                known.setdefault("html_pages", {})[norm_url] = {"name": html_name, "source": source}
+            else:
+                print(f"       - No extractable policy content found")
     
     save_known_pdfs(known)
     
