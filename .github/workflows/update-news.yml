@@ -50,6 +50,7 @@ jobs:
           python .github/scripts/generate_sources.py
       
       - name: Commit and push
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -58,9 +59,25 @@ jobs:
           
           if git diff --cached --quiet; then
             echo "No changes — skipping commit"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
             CHANGED=$(git diff --cached --stat | tail -1)
             git commit -m "Auto-update: $CHANGED"
             git pull --rebase origin main
             git push origin main
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Restart HuggingFace Space
+        # Neuer Index -> Space sofort neu starten, damit der fertige Index
+        # schon warm ist und nicht erst beim ersten User lädt.
+        if: steps.commit.outputs.pushed == 'true'
+        continue-on-error: true
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          HTTP=$(curl -sS -o /dev/null -w "%{http_code}" -X POST \
+            -H "Authorization: Bearer $HF_TOKEN" \
+            "https://huggingface.co/api/spaces/harrytyp/voltpolicies/restart")
+          echo "Space restart HTTP: $HTTP"
+          test "$HTTP" = "200"
