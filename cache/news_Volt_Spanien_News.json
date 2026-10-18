@@ -182,5 +182,829 @@
     "date": "Mon, 14 Sep 2026 19:54:00 +0200",
     "source": "Volt Spanien RSS",
     "via": "rss"
+  },
+  {
+    "title": "Comunicado 29NEn relación a la convocatoria de Elecciones Generales para el 29 de noviembre de 2026.",
+    "link": "https://www.voltespana.org/noticias/comunicado-29n",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "50 años de caminoVolt apuesta por mejorar el control democrático para profundizar en los valores de igualdad y libertad amparados por la voluntad colectiva",
+    "link": "https://www.voltespana.org/noticias/50-anos-de-camino",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Podemos ganar la pazVolt España apuesta por el sentido práctico y realista para lograr la estabilidad en Gaza",
+    "link": "https://www.voltespana.org/noticias/podemos-ganar-la-paz",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Condenamos los ataques sufridos por Volt PortugalVolt España condena los actos de violencia política sufridos por Volt Portugal en Rio Maior y reivindica una democracia más fuerte y participativa",
+    "link": "https://www.voltespana.org/noticias/nota-prensa-condena-ataques-sufridos-volt-portugal",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Comunicado sobre las protestas en La VueltaEn Volt España queremos manifestar nuestro apoyo firme al derecho a protestar pacíficamente en solidaridad con el pueblo palestino, especialmente ante denunc",
+    "link": "https://www.voltespana.org/noticias/protestas-la-vuelta",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El genocidio en Gaza no permite esperar más: Europa debe actuarEn Gaza, la crisis humanitaria es insostenible. Es hora de ir más allá. Debe implantarse un alto el fuego permanente, respetarse el Derec",
+    "link": "https://www.voltespana.org/noticias/el-genocidio-en-gaza-no-permite-esperar-mas-europa-debe-actuar",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Torre Pacheco y el triunfo del discurso del odioLo ocurrido en Torre Pacheco es una señal de alarma. Y hay que tomársela en serio.",
+    "link": "https://www.voltespana.org/noticias/torre-pacheco-y-el-triunfo-del-discurso-del-odio",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "[RETRACTADO] «Ley de \"Autoamnistía\": con prisa, pactada y sin aval ciudadano»⚠️ Este artículo ha sido retractado por acuerdo de la Junta Directiva a 30 de noviembre de 2025, tras conocer la discordanc",
+    "link": "https://www.voltespana.org/noticias/ley-de-autoamnistia-con-prisa-pactada-y-sin-aval-ciudadano",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Llamada urgente a la regeneración democráticaAnte los últimos escándalos de corrupción: una llamada urgente a la regeneración democrática.",
+    "link": "https://www.voltespana.org/noticias/llamada-urgente-a-la-regeneracion-democratica",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El expresidente de Estonia, Toomas Hendrik Ilves, se une a Volt 🇪🇪 💜El jueves 10 de abril de 2025, una delegación de Volt, integrada por la copresidenta Francesca Romana D’Antuono, el secretario gener",
+    "link": "https://www.voltespana.org/noticias/el-expresidente-de-estonia-toomas-hendrik-ilves-se-une-a-volt-ee",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El Gobierno israelí ha roto el alto el fuego en Gaza. Europa debe tenerlo en cuenta.Los gazatíes vuelven a estar «atrapados, bombardeados y hambrientos», según una declaración firmada por siete agenci",
+    "link": "https://www.voltespana.org/noticias/el-gobierno-israeli-ha-roto-el-alto-el-fuego-en-gaza-europa-debe-tenerlo-en-cuenta",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "¿Existe una política de transporte ferroviario en España?Para poder hablar de una propuesta de política ferroviaria en España, es necesario poner la situación actual en contexto. Y para ello, nos tene",
+    "link": "https://www.voltespana.org/noticias/politica-ferroviaria-estelles",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt se une a los Verdes/ALE en el Parlamento EuropeoTras negociar tanto con los Verdes/ALE como con Renew Europe, la membresía de Volt votó a qué grupo se unirían sus cinco eurodiputados. Un 87% votó",
+    "link": "https://www.voltespana.org/noticias/volt-se-une-a-los-verdes-ale-en-el-parlamento-europeo",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt consigue cinco representantes en el Parlamento EuropeoVolt, el único partido paneuropeo, obtuvo cinco escaños en su segunda cita electoral. El partido estará representado por Anna Strolenberg y R",
+    "link": "https://www.voltespana.org/noticias/volt-consigue-cinco-eurodiputados",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Unidad en la diversidad: Por qué necesitamos reformar las elecciones europeasLas elecciones europeas están a la vuelta de la esquina. En junio de 2024, aproximadamente 373 millones de ciudadanos de la",
+    "link": "https://www.voltespana.org/noticias/unidad-en-la-diversidad-por-que-necesitamos-reformar-las-elecciones-europeas",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La Europa que podemos serEn este Día de Europa, celebremos la Europa que podemos ser. Una Europa en paz. Una Europa unida. Una Europa democrática.",
+    "link": "https://www.voltespana.org/noticias/la-europa-que-podemos-ser",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Candidatos  a eurodiputados viajaron a Ucrania y propusieron medidas para la victoria de UcraniaLa semana pasada, representantes de Volt de todo el continente, entre ellos los candidatos a eurodiputad",
+    "link": "https://www.voltespana.org/noticias/candidatos-a-eurodiputados-viajaron-a-ucrania-y-propusieron-medidas-para-la-victoria-de-ucrania",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Poniendo fin a la corrupción: un compromiso con la transparencia y la participación ciudadanaSi algo desvirtúa la política es la corrupción. Más que la falta de diálogo, de seriedad o de compromiso qu",
+    "link": "https://www.voltespana.org/noticias/poniendo-fin-a-la-corrupcion-un-compromiso-con-la-transparencia-y-la-participacion-ciudadana",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Resultados PISA 2022: Volt llama a la priorización de la equidad educativaLos resultados del último informe del Programa para la Evaluación Internacional de Alumnos (PISA) de la OCDE, publicados recie",
+    "link": "https://www.voltespana.org/noticias/resultados-pisa-2022-volt-llama-a-la-priorizacion-de-la-equidad-educativa",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Varsovia y Bruselas: una oportunidad única para avanzarMientras se asienta el polvo en el panorama político polaco después de que el Parlamento nombrara el lunes a Donald Tusk Primer Ministro del país",
+    "link": "https://www.voltespana.org/noticias/varsovia-y-bruselas-una-oportunidad-unica-para-avanzar",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Hacia una Europa federalLa idea del federalismo europeo, que con frecuencia ha sido malinterpretada, malentendida o directamente vilipendiada, merece una reconsideración en el panorama actual. Desde s",
+    "link": "https://www.voltespana.org/noticias/hacia-una-europa-federal",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt Europa presenta una visión fuerte para Europa y elige a su nueva junta directiva en ParísParís, Francia - Volt Europa, el primer partido paneuropeo, organizó su mayor Asamblea General (AG) el 25 ",
+    "link": "https://www.voltespana.org/noticias/volt-europa-presenta-una-vision-fuerte-para-europa-y-elige-a-su-nueva-junta-directiva-en-paris",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt España elige a sus candidatos de lista para las elecciones europeas de 2024Tras reunirnos este fin de semana para celebrar nuestra Asamblea General, hemos acudido a emitir nuestro voto para selec",
+    "link": "https://www.voltespana.org/noticias/volt-espana-elige-a-sus-candidatos-de-lista-para-las-elecciones-europeas-de-2024",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La juventud en las institucionesEn Volt consideramos que los y las jóvenes deben estar en el centro de la toma de decisiones. No con frases vacías, ni con promesas vagas, sino con acciones concretas.",
+    "link": "https://www.voltespana.org/noticias/la-juventud-en-las-instituciones",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre la investidura y la amnistíaPosición de Volt sobre la investidura y la amnistía.",
+    "link": "https://www.voltespana.org/noticias/sobre-la-investidura-y-la-amnistia",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Defender la equidad de la regla: La visión de Volt Europa para una sociedad inclusiva con la menstruaciónHoy es el Día Internacional para la Erradicación de la Pobreza, y nos centramos en el escándalo",
+    "link": "https://www.voltespana.org/noticias/defender-la-equidad-de-la-regla-la-vision-de-volt-europa-para-una-sociedad-inclusiva-con-la-menstruacion",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Posicionamiento Volt España Conflicto Hamás-IsraelEn Volt España estamos absolutamente consternados por la violencia desmedida que está sufriendo tanto la población israelí como la palestina. No hay j",
+    "link": "https://www.voltespana.org/noticias/posicionamiento-volt-espana-conflicto-hamas-israel",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Europa ante el Desafío del Conflicto entre Armenia y AzerbaiyánEl 21 de septiembre conmemoramos la independencia de Armenia en 1991 y el Día Internacional de la Paz, pero este ambiente de celebració s",
+    "link": "https://www.voltespana.org/noticias/europa-ante-el-desafio-del-conflicto-entre-armenia-y-azerbaiyan",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Las responsabilidades de la UE frente a su expansiónLa expansión de la Unión Europea cobra relevancia debido a la agresión rusa en Ucrania. La UE debe por una parte respaldar a los países candidatos y",
+    "link": "https://www.voltespana.org/noticias/las-responsabilidades-de-la-ue-frente-a-su-expansion",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "No es solo el besoEl éxito de la selección femenina de fútbol de España es un símbolo de la lucha contra la desigualdad y el abuso de poder.",
+    "link": "https://www.voltespana.org/noticias/no-es-solo-el-beso",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La batalla contra el euroescepticismo la debe liderar EspañaDurante la presidencia del Consejo de la UE, España debe liderar la reforma institucional para abordar el creciente antieuropeísmo y ganar l",
+    "link": "https://www.voltespana.org/noticias/la-batalla-contra-el-euroescepticismo-la-debe-liderar-espana",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Cómo moverse de manera ecológica y eficiente por Madrid durante el Orgullo (y la Asamblea General de Volt España)Muévete por Madrid de la mejor manera posible",
+    "link": "https://www.voltespana.org/noticias/como-moverse-de-manera-ecologica-y-eficiente-por-madrid-durante-el-orgullo-y-la-asamblea-general-de-volt-espana",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Comunicado 23JEn relación a la convocatoria de Elecciones Generales para el 23 de julio de 2024.",
+    "link": "https://www.voltespana.org/noticias/comunicado-23j",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Hacia una solución sostenible al problema de la vivienda en EspañaLa problemática de la vivienda en las grandes ciudades es un fenómeno que afecta a una gran mayoría de los países europeos, incluyendo",
+    "link": "https://www.voltespana.org/noticias/hacia-una-solucion-sostenible-al-problema-de-la-vivienda-en-espana",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El exponente más antidemocrático de la democraciaRevitalizando al exponente más antidemocrático de la democracia",
+    "link": "https://www.voltespana.org/noticias/el-exponente-mas-antidemocratico-de-la-democracia",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "74 Aniversario de la OTANEl temor a la expansión del comunismo llevó a varios países europeos a firmar tratados de defensa común, que culminaron con la creación de la OTAN. Hoy es su 74 aniversario.",
+    "link": "https://www.voltespana.org/noticias/74-aniversario-de-la-otan",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Día Internacional de la Mujer y la Niña en la CienciaSegún el informe “Científicas en cifras-2021”, elaborado por la Unidad de Mujeres y Ciencia (UMyC) del Ministerio de Ciencia e Innovación, el númer",
+    "link": "https://www.voltespana.org/noticias/dia-internacional-de-la-mujer-y-la-nina-en-la-ciencia",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "No está solo en tu cabezaSobre la salud mental y la educación.",
+    "link": "https://www.voltespana.org/noticias/no-esta-solo-en-tu-cabeza",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Comunicado conjunto de Volt Portugal, España, Francia, Italia, Grecia y Chipre sobre los incendios forestalesEl sur de Europa se enfrenta de nuevo a una serie de incendios forestales y olas de calor.",
+    "link": "https://www.voltespana.org/noticias/comunicado-conjunto-de-volt-portugal-espana-francia-italia-grecia-y-chipre-sobre-los-incendios-forestales",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre la importancia del periodismo¿Por qué el periodismo es uno de los pilares fundamentales para el buen funcionamiento de nuestro sistema democrático?",
+    "link": "https://www.voltespana.org/noticias/sobre-la-importancia-del-periodismo",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Postura de Volt Europa sobre la situación actual del derecho al abortoPostura de Volt Europa sobre la situación actual del derecho al aborto",
+    "link": "https://www.voltespana.org/noticias/postura-de-volt-europa-sobre-la-situacion-actual-del-derecho-al-aborto",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Declaración de Volt España sobre la crisis migratoria de MelillaEn la madrugada del sábado 25 de junio, alrededor de dos mil migrantes asaltaron la valla que rodea el enclave español de Melilla, en Ma",
+    "link": "https://www.voltespana.org/noticias/declaracion-de-volt-espana-sobre-la-crisis-migratoria-de-melilla",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Mensaje de Luis RodríguezElecciones en Andalucía",
+    "link": "https://www.voltespana.org/noticias/mensaje-de-luis-rodriguez",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre la modificación de la LO de Salud Sexual y ReproductivaHace unos días se aprobó en España el proyecto para la reforma de la Ley Orgánica 2/2010, de 3 de marzo, de salud sexual y reproductiva y d",
+    "link": "https://www.voltespana.org/noticias/sobre-la-modificacion-de-la-lo-de-salud-sexual-y-reproductiva",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Día Mundial del Agua¿Por qué las aguas subterráneas merecen su propio Día Mundial del Agua?",
+    "link": "https://www.voltespana.org/noticias/dia-mundial-del-agua",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Guía para activarse en apoyo a UcraniaQué hacer para apoyar a Ucrania tras la invasión rusa",
+    "link": "https://www.voltespana.org/noticias/guia-para-activarse-en-apoyo-a-ucrania",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Andalucía en Europa. Día de Andalucía – Año 2022Andalucía, enclave estratégico que une el Atlántico con el Mediterráneo, unión y encuentro de culturas, gastronomía de tradición y vanguardia.",
+    "link": "https://www.voltespana.org/noticias/andalucia-en-europa-dia-de-andalucia-ano-2022",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Declaración sobre la Invasión de UcraniaEstamos profundamente preocupados por la decisión del presidente Putin de declarar la guerra a Ucrania y nos solidarizamos con el pueblo ucraniano.",
+    "link": "https://www.voltespana.org/noticias/declaracion-sobre-la-invasion-de-ucrania",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre la Situación en la Frontera de UcraniaPara que el proyecto europeo tenga éxito, necesitamos una respuesta coordinada en la frontera ucraniana.",
+    "link": "https://www.voltespana.org/noticias/sobre-la-situacion-en-la-frontera-de-ucrania",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre la Agricultura y GanaderíaAunque el sector primario haya perdido protagonismo en la mayoría de las economías europeas, es un sector importante que debemos apoyar desde las instituciones.",
+    "link": "https://www.voltespana.org/noticias/sobre-la-agricultura-y-ganaderia",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Día Internacional de la Eliminación de la Violencia contra la MujerEn el mundo, una de cada tres mujeres ha sufrido violencia física o sexual al menos una vez en su vida, la mayoría por parte de su pa",
+    "link": "https://www.voltespana.org/noticias/dia-internacional-de-la-eliminacion-de-la-violencia-contra-la-mujer",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Día de la Memoria TransexualHoy, 20 de noviembre, se conmemora el Día Internacional de la Memoria Trans, cuyo fin es recordar a las personas transexuales que han sido asesinadas en todo el mundo.",
+    "link": "https://www.voltespana.org/noticias/dia-de-la-memoria-transexual",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre la COP26Desde el comienzo de la COP26, y con las sonoras ausencias de China y Rusia, muchos creían que esta reunión mostraría, una vez más, que los líderes mundiales tienen pocas intenciones de ",
+    "link": "https://www.voltespana.org/noticias/sobre-la-cop26",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre el Precio de la Luz en EspañaEl precio de la luz en España es un tema controvertido que se ha metido en la conversación de tod*s debido al incremento considerable y continuado de la tarifa.",
+    "link": "https://www.voltespana.org/noticias/sobre-el-precio-de-la-luz-en-espana",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Semana Europea de la MovilidadVolt Europa apuesta por una revolución europea de la bicicleta",
+    "link": "https://www.voltespana.org/noticias/semana-europea-de-la-movilidad",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Discurso sobre el Estado de la Unión 2021 - Postura de VoltAnálisis de Volt Europa y Damian Boeselager sobre el discurso sobre el Estado de la Unión 2021",
+    "link": "https://www.voltespana.org/noticias/discurso-sobre-el-estado-de-la-union-2021-postura-de-volt",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Día Internacional de la Preservación de la Capa de OzonoSi tenemos que hablar de los éxitos colectivos del ser humano podemos destacar el Protocolo de Montreal de 2003 donde se decretó la eliminación ",
+    "link": "https://www.voltespana.org/noticias/dia-internacional-de-la-preservacion-de-la-capa-de-ozono",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Hacia unas Fuerzas Armadas EuropeasLa situación que está viviendo Afganistán desde que el presidente Joe Biden anunciara la retirada de tropas estadounidenses del país ha ido empeorando progresivament",
+    "link": "https://www.voltespana.org/noticias/hacia-unas-fuerzas-armadas-europeas",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Postura de Volt Europa sobre la situación en AfganistánLa UE debe tomar medidas urgentes para hacer frente a la crisis humanitaria en Afganistán, salvar y proteger las vidas de los afganos y condenar ",
+    "link": "https://www.voltespana.org/noticias/postura-de-volt-europa-sobre-la-situacion-en-afganistan",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre el plan para ampliar los aeropuertos de Barcelona y MadridEl gobierno central comunicó este martes la inversión de 3.300 millones de euros para ampliar los aeropuertos de Madrid y Barcelona. Des",
+    "link": "https://www.voltespana.org/noticias/sobre-el-plan-para-ampliar-los-aeropuertos-de-barcelona-y-madrid",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La importancia de la agricultura y la ganadería sostenibleHace unos días, el ministro de consumo Alberto Garzón participó en una campaña de concienciación sobre el consumo excesivo de carne. En ella s",
+    "link": "https://www.voltespana.org/noticias/la-importancia-de-la-agricultura-y-la-ganaderia-sostenible",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Acerca de los sucesos de Cuba, por los derechos humanosEntre los derechos humanos encontramos algunos que muchas veces son puestos en duda y que son un reflejo de la madurez de una sociedad. Son aquel",
+    "link": "https://www.voltespana.org/noticias/acerca-de-los-sucesos-de-cuba-por-los-derechos-humanos",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt España condena las agresiones LGTBIfóbicasDesde Volt no podemos permanecer pasivos y nos unimos a las condenas de las últimas agresiones LGTBIfóbicas acontecidas en los últimos meses, siendo esto",
+    "link": "https://www.voltespana.org/noticias/volt-espana-condena-las-agresiones-lgtbifobicas",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Recuperación ecológica, recuperación económicaCon la pandemia hemos visto como la economía ha sufrido un gran golpe, casi tan grande como los que lleva sufriendo la naturaleza desde hace ya muchos año",
+    "link": "https://www.voltespana.org/noticias/recuperacion-ecologica-recuperacion-economica",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "¡Basta Ya!Las manifestaciones de protesta en contra de la violencia contra el colectivo LGTBIQ+ tuvieron lugar el día 5 de Julio, en todas las ciudades españolas.",
+    "link": "https://www.voltespana.org/noticias/basta-ya",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "OrgulloHistoria e importancia del Orgullo",
+    "link": "https://www.voltespana.org/noticias/orgullo",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El futuro de Europa comienza onlineEn 2019, la presidenta de la Comisión Europea, Ursula Von der Leyen, lanzó una propuesta, inicialmente concebida por el presidente francés Emmanuel Macron, para una ",
+    "link": "https://www.voltespana.org/noticias/el-futuro-de-europa-comienza-online",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt y su compromiso con el medio ambienteJunio, mes de concienciación",
+    "link": "https://www.voltespana.org/noticias/volt-y-su-compromiso-con-el-medio-ambiente",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El debate sobre las patentes de las vacunas contra el COVID-19Ante los estragos causados por la pandemia de COVID-19, la Organización Mundial del Comercio (OMC) propuso suspender las patentes de las v",
+    "link": "https://www.voltespana.org/noticias/el-debate-sobre-las-patentes-de-las-vacunas-contra-el-covid-19",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Sobre las amenazas a los políticosLas recientes amenazas que han recibido dirigentes políticos españoles son la consecuencia de un discurso político que busca la crispación social, hilando en el panor",
+    "link": "https://www.voltespana.org/noticias/sobre-las-amenazas-a-los-politicos",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Preparados para un mundo que ya no existeTodo el mundo tiene su propia percepción del mundo. Todo el mundo tiene una lista de buenos y malos, así como un imaginario sobre cómo es el mundo. ¿Pero qué p",
+    "link": "https://www.voltespana.org/noticias/preparados-para-un-mundo-que-ya-no-existe",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El supuesto Milagro de las vacunas¿Quién pensaba que sería posible tener no una, sino tres o más vacunas contra COVID-19 en menos de un año de su devastadora llegada a Italia? ¿Cómo ha sido posible? ¿",
+    "link": "https://www.voltespana.org/noticias/el-supuesto-milagro-de-las-vacunas",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "\"Un grave riesgo para la unidad de España y para el orden constitucional\"Así empieza el manifiesto que han escrito 271 mandos retirados de las Fuerzas Armadas (FAS) en vísperas del aniversario de la C",
+    "link": "https://www.voltespana.org/noticias/un-grave-riesgo-para-la-unidad-de-espana-y-para-el-orden-constitucional",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "COMUNICADO DE VOLT EUROPA ESPAÑA CON RESPECTO A LA PROPUESTA DEL GOBIERNO PARA REFORMAR LA RENOVACIÓN DEL CGPJEn defensa de la independencia judicial y la separación de poderes",
+    "link": "https://www.voltespana.org/noticias/comunicado-de-volt-europa-espana-con-respecto-a-la-propuesta-del-gobierno-para-reformar-la-renovacion-del-cgpj",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Volt respalda la iniciativa «Votantes sin fronteras» para extender plenos derechos políticos a todos los ciudadanos de la UEPor César Vera Prieto Vicepresidente Volt Europa España",
+    "link": "https://www.voltespana.org/noticias/volt-respalda-la-iniciativa-votantes-sin-fronteras-para-extender-plenos-derechos-politicos-a-todos-los-ciudadanos-de-la-ue",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El infierno de MoriaEs la noche entre el 8 y el 9 de septiembre. Un incendio destruye casi por completo el campo de refugiados de Moria, Lesbos, Grecia. Un campamento creado en 2015 para acoger tempor",
+    "link": "https://www.voltespana.org/noticias/el-infierno-de-moria",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Europa ya no mira (solo) al oesteEstados Unidos y Europa decidieron apoyarse en su camino desde el fin de la Segunda Guerra Mundial. La colaboración entre ambos bloques siempre ha pasado por altos y b",
+    "link": "https://www.voltespana.org/noticias/europa-ya-no-mira-solo-al-oeste",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El Ingreso Mínimo VitalEn España existen ayudas, de diversa índole, dirigidos a personas con riesgo de exclusión. Estos programas tienen como objeto asegurar la cohesión social y cierta solidaridad co",
+    "link": "https://www.voltespana.org/noticias/el-ingreso-minimo-vital",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Populismo a examenPor Aleksandra Sojka, investigadora postdoctoral Juan de la Cierva del Departamento de Ciencias Sociales de la Universidad Carlos III de Madrid.",
+    "link": "https://www.voltespana.org/noticias/populismo-a-examen",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Manifiesto PanUE del Día del OrgulloHace 51 años los disturbios de Stonewall inyectaron nueva energía en el movimiento LGBTIQ+. Hace 48 años se organizaron en Europa los primeros desfiles del Orgullo;",
+    "link": "https://www.voltespana.org/noticias/manifiesto-panue-del-dia-del-orgullo",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Xièxiè. Spasibo. ¿Gracias?La pandemia que sufre nuestro planeta tiene un origen claro, Wuhan, capital de la provincia de Hubei, en China, con más de once millones de personas viviendo en ella. El 8 de",
+    "link": "https://www.voltespana.org/noticias/xiexie-spasibo-gracias",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "¿Miedo a un futuro mejor?Cuando hace ahora cuatro años ganó en Reino Unido la opción de abandonar la Unión Europea se levantó un revuelo tremendo. Prácticamente nadie se creía lo que acababa de pasar,",
+    "link": "https://www.voltespana.org/noticias/miedo-a-un-futuro-mejor",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La UE y el medio ambiente: el cuento de caperucita verde y el lobo de carbónPor Claudia Gallego (Initiative 89)",
+    "link": "https://www.voltespana.org/noticias/la-ue-y-el-medio-ambiente-el-cuento-de-caperucita-verde-y-el-lobo-de-carbon",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "EuropeCares. Un éxito de Volt.Volt Europa, ha lanzado durante el confinamiento la campaña EuropeCares (https://www.europecares.org/), con el objetivo de conseguir recaudar al menos 20.000 mascarillas ",
+    "link": "https://www.voltespana.org/noticias/europecares-un-exito-de-volt",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Nadie se queda atrásCuando “quedarse en casa” parece algo fácil de hacer para algunas personas, no debemos olvidar lo que significa para quienes no tienen ingresos, trabajo, acceso a productos básicos",
+    "link": "https://www.voltespana.org/noticias/nadie-se-queda-atras",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Carta Abierta del 9 de Mayo Día de Europa- 70 años de la Declaración SchumanCarta abierta a la ciudadanía europea",
+    "link": "https://www.voltespana.org/noticias/carta-abierta-del-9-de-mayo-dia-de-europa-70-anos-de-la-declaracion-schuman",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Un “New Deal” para EuropaLa visión de Volt Europa para un poscovid-19 justo y verde y medidas de inversión para desarrollo digital",
+    "link": "https://www.voltespana.org/noticias/un-new-deal-para-europa",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Recuperación sostenible mediante presupuestos EuropeosDeclaración de Damian Boeselager (Diputado del parlamento europeo por Volt Europa/Verdes EFA, ponente alternativo para el RSP/BICC en el Comité de",
+    "link": "https://www.voltespana.org/noticias/recuperacion-sostenible-mediante-presupuestos-europeos",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Apoyo (ético) a las empresasSegún hemos podido leer en prensa, Dinamarca está siendo muy ambiciosa en el plan de reactivación económica. Probablemente la más eficaz pueda ser la de cubrir la mayor par",
+    "link": "https://www.voltespana.org/noticias/apoyo-etico-a-las-empresas",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "De Orban y Andalucía en tiempos de alarmaEl lunes 30 de marzo, en plena pandemia del coronavirus azotando a casi todos los países europeos, Viktor Orbán consiguió que el Parlamento húngaro le otorgase",
+    "link": "https://www.voltespana.org/noticias/de-orban-y-andalucia-en-tiempos-de-alarma",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Corona-bonos y solidaridad económica en tiempos del COVID-19A la luz de la discusión sobre la posibilidad de una emisión conjunta de deuda de la Eurozona y en reacción a la angustia económica causada",
+    "link": "https://www.voltespana.org/noticias/corona-bonos-y-solidaridad-econo-mica-en-tiempos-del-covid-19",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Posicionamiento de Volt España sobre la crisis del Coronavirus – Covid19Nos encontramos en un punto crítico para el futuro de la Unión Europea, la crisis del Covid-19 además de presentar un desafío al",
+    "link": "https://www.voltespana.org/noticias/posicionamiento-de-volt-espana-sobre-la-crisis-del-coronavirus-covid19",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "¡Las buenas instituciones importan!Por Damian Boeselager",
+    "link": "https://www.voltespana.org/noticias/las-buenas-instituciones-importan",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Tender puentes en la España posterior al 10NEspaña es conocido como un país de contrastes, pero más allá de las dicotomías tópicas y típicas, no es diferente al resto de países. Sin embargo, esa sensa",
+    "link": "https://www.voltespana.org/noticias/tender-puentes-en-la-espana-posterior-al-10n",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Lanzamos la ley por la bordaEl pasado 24 de octubre el pleno del Parlamento Europeo rechazó por dos votos una resolución que apelaba a la responsabilidad de la UE para reforzar las operaciones de salv",
+    "link": "https://www.voltespana.org/noticias/lanzamos-la-ley-por-la-borda",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El futuro es de todosEn las recientes declaraciones del presidente Trump en la cumbre convocada por la ONU sobre el cambio climático, afirmaba que el futuro es de los patriotas y no de los globalistas",
+    "link": "https://www.voltespana.org/noticias/el-futuro-es-de-todos",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La ofensiva de ErdoganEl presidente turco Erdogan tiene el control de la situación y Europa no sabe cómo reaccionar.",
+    "link": "https://www.voltespana.org/noticias/la-ofensiva-de-erdogan",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "El avance inevitable del globalismoHace ya más de quince años de mi Erasmus en Florencia, de aquellos días conservo recuerdos y amistades. Una de las personas que más caló en mí fue un portugués un añ",
+    "link": "https://www.voltespana.org/noticias/el-avance-inevitable-del-globalismo",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Manifiesto fundacional Volt EuropaLas sociedades europeas del siglo XXI se enfrentan a muchos retos sociales, políticos y económicos.",
+    "link": "https://www.voltespana.org/noticias/manifiesto-fundacional-volt-europa",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "¿Qué es Volt?Volt es el primer movimiento político paneuropeo progresista. Empezamos nuestro viaje en marzo de 2017, el día en que se anunció el principio del Brexit, y contamos a día de hoy con más d",
+    "link": "https://www.voltespana.org/noticias/que-es-volt",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Asamblea General de ÁmsterdamEste fin de semana de 27 y 28 de octubre de 2018 ha tenido lugar la asamblea general de Volt Europa en la ciudad de Ámsterdam. Allí 450 volters, miembros y voluntarios de ",
+    "link": "https://www.voltespana.org/noticias/asamblea-general-de-amsterdam",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "La Declaración de ÁmsterdamLa Declaración de Ámsterdam corresponde al programa con el que Volt Europa se presentará en las elecciones europeas de 2019 en toda la Unión Europea. En toda la Unión Europe",
+    "link": "https://www.voltespana.org/noticias/la-declaracion-de-amsterdam",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
+  },
+  {
+    "title": "Manifestación #noBrexitLa salida de Reino Unido de la Unión Europea será recordada como un FRACASO de todos: de Bruselas, de Londres y nuestra como ciudadanos europeos.",
+    "link": "https://www.voltespana.org/noticias/manifestacion-nobrexit",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
   }
 ]
