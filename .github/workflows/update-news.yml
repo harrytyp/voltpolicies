@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 6 * * *'  # Once daily at 06:00 UTC
   workflow_dispatch:
+    inputs:
+      # Nur ein Boolean, kein Freitext -> keine Injection-Fläche.
+      force_restart:
+        description: 'HF Space auch ohne Datenänderung neu starten (Index warm halten)'
+        type: boolean
+        default: false
 
 jobs:
   update:
@@ -37,6 +43,8 @@ jobs:
         run: python scripts/audit_policy_urls.py
       
       - name: Fetch news (incremental)
+        # Feeds werden tolerant geparst; tote Feeds werden geloggt und
+        # uebersprungen (Liste am Ende des Logs), der Schritt schlägt nie fehl.
         run: python .github/scripts/fetch_news.py
       
       - name: Build FAISS semantic index
@@ -70,14 +78,40 @@ jobs:
 
       - name: Restart HuggingFace Space
         # Neuer Index -> Space sofort neu starten, damit der fertige Index
-        # schon warm ist und nicht erst beim ersten User lädt.
-        if: steps.commit.outputs.pushed == 'true'
+        # schon warm ist und nicht erst beim ersten User lädt. Der Space klont
+        # das GitHub-Repo beim Start und lädt cache/faiss.index + chunks.json;
+        # ohne Neustart behält der laufende Space seinen alten Index im Speicher.
+        # Manuell erzwingbar über workflow_dispatch input force_restart.
+        if: steps.commit.outputs.pushed == 'true' || inputs.force_restart == true
         continue-on-error: true
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          HTTP=$(curl -sS -o /dev/null -w "%{http_code}" -X POST \
-            -H "Authorization: Bearer $HF_TOKEN" \
-            "https://huggingface.co/api/spaces/harrytyp/voltpolicies/restart")
-          echo "Space restart HTTP: $HTTP"
-          test "$HTTP" = "200"
+          if [ -z "${HF_TOKEN:-}" ]; then
+            echo "::error::Repo-Secret HF_TOKEN fehlt - Space-Restart nicht möglich."
+            exit 1
+          fi
+          RESTART_URL="https://huggingface.co/api/spaces/harrytyp/voltpolicies/restart"
+          HTTP=""
+          for attempt in 1 2 3; do
+            HTTP=$(curl -sS -o /tmp/hf_restart.json -w "%{http_code}" -X POST \
+              -H "Authorization: Bearer $HF_TOKEN" \
+              "$RESTART_URL")
+            echo "Space restart attempt $attempt -> HTTP $HTTP"
+            [ "$HTTP" = "200" ] && break
+            cat /tmp/hf_restart.json || true
+            sleep 15
+          done
+          if [ "$HTTP" != "200" ]; then
+            echo "::error::Space restart failed (HTTP $HTTP)"
+            exit 1
+          fi
+          # Nachkontrolle: Space muss wieder RUNNING werden
+          for i in 1 2 3 4 5 6; do
+            sleep 10
+            STAGE=$(curl -sS "https://huggingface.co/api/spaces/harrytyp/voltpolicies" \
+              | grep -o '"stage":"[A-Za-z]*"' | head -1)
+            echo "Space runtime $STAGE (check $i/6)"
+            echo "$STAGE" | grep -q '"stage":"RUNNING"' && break
+          done
+          echo "::notice::Space restart triggered (HTTP 200)"

@@ -8,7 +8,7 @@
     "Volt Albanien": {
       "country": "AL",
       "website": "https://www.voltalbania.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "sq",
       "policy_pages": ["/policies"]
@@ -40,7 +40,7 @@
     "Volt Kroatien": {
       "country": "HR",
       "website": "https://www.voltcroatia.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "hr",
       "policy_pages": ["/politike"]
@@ -72,7 +72,7 @@
     "Volt Estland": {
       "country": "EE",
       "website": "http://volteesti.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "et",
       "policy_pages": ["/poliitikad"]
@@ -139,7 +139,7 @@
     "Volt Kosovo": {
       "country": "XK",
       "website": "https://voltkosovo.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "sq",
       "policy_pages": ["/policies"]
@@ -163,7 +163,7 @@
     "Volt Luxemburg": {
       "country": "LU",
       "website": "https://www.voltluxembourg.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "fr",
       "policy_pages": ["/policies"]
@@ -171,7 +171,7 @@
     "Volt Malta": {
       "country": "MT",
       "website": "https://www.voltmalta.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "en",
       "policy_pages": ["/policies"]
@@ -187,7 +187,7 @@
     "Volt Norwegen": {
       "country": "NO",
       "website": "https://www.voltnorge.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "no",
       "policy_pages": ["/policies"]
@@ -219,7 +219,7 @@
     "Volt Slowakei": {
       "country": "SK",
       "website": "https://www.voltslovensko.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "sk",
       "policy_pages": ["/politiky"]
@@ -227,7 +227,7 @@
     "Volt Slowenien": {
       "country": "SI",
       "website": "https://voltslovenia.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "sl",
       "policy_pages": ["/policies"]
@@ -235,7 +235,7 @@
     "Volt Spanien": {
       "country": "ES",
       "website": "https://www.voltespana.org",
-      "rss_feeds": ["/feed", "/rss", "/noticias/rss", "/noticias/feed"],
+      "rss_feeds": ["/noticias/rss", "/feed", "/rss", "/noticias/feed"],
       "news_path": "/noticias",
       "news_lang": "es",
       "policy_pages": ["/politicas"]
@@ -243,7 +243,7 @@
     "Volt Schweden": {
       "country": "SE",
       "website": "https://www.voltsverige.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss", "/nyheter/rss"],
+      "rss_feeds": ["/nyheter/rss", "/feed", "/rss", "/news/rss"],
       "news_path": "/nyheter",
       "news_lang": "sv",
       "policy_pages": ["/politik"]
@@ -251,7 +251,7 @@
     "Volt Schweiz": {
       "country": "CH",
       "website": "https://www.voltswitzerland.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
+      "rss_feeds": ["/news/rss", "/feed", "/rss"],
       "news_path": "/news",
       "news_lang": "de",
       "policy_pages": ["/policies"]
@@ -259,8 +259,8 @@
     "Volt Ukraine": {
       "country": "UA",
       "website": "https://voltukraine.org",
-      "rss_feeds": ["/feed", "/rss", "/news/rss"],
-      "news_path": "/news",
+      "rss_feeds": ["/novyny/rss", "/feed", "/rss", "/news/rss"],
+      "news_path": "/novyny",
       "news_lang": "uk",
       "policy_pages": ["/polityka"]
     },

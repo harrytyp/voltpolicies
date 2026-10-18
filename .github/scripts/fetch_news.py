@@ -3,6 +3,11 @@
 Fetch ALL Volt news with pagination.
 Sources: RSS + Mastodon API + Website scraping (all pages).
 Only adds NEW articles (incremental).
+
+Robustheit: Feed-Antworten werden auf HTTP-Status und Feed-Marker geprueft und
+tolerant geparst. Ein Feed, der keine Feed-Antwort liefert (z.B. HTML-404-Seite
+oder Bot-Wall) oder dessen XML nicht lesbar ist, wird uebersprungen und am Ende
+namentlich im Log aufgelistet - der Lauf bricht dadurch nie ab.
 """
 
 import json
@@ -18,42 +23,147 @@ from cache_manager import get_cache_dir
 
 CACHE_DIR = None
 
+# Browser-User-Agent: einige Volt-Seiten liefern ohne UA eine Fehlerseite.
+UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
-def fetch_rss_feed(name: str, url: str) -> list:
-    """Fetch RSS feed."""
-    print(f"  RSS: {name}...")
+ATOM_NS = "{http://www.w3.org/2005/Atom}"
+DC_NS = "{http://purl.org/dc/elements/1.1/}"
+
+# Uebersprungene Feeds (name, url, grund) - wird am Ende berichtet, damit ein
+# fehlender Feed im Log sichtbar ist statt still zu verschwinden.
+SKIPPED_FEEDS = []
+
+# HTML-Feeds enthalten oft benannte Entities, die XML nicht kennt (&nbsp;,
+# &ndash;, ...) -> ElementTree bricht mit "undefined entity" ab. Ausserdem
+# entfernen wir das interne DTD (Billion-Laughs-/XXE-Vektor) und Steuerzeichen.
+_DOCTYPE_RE = re.compile(r"<!DOCTYPE[^>]*?(\[[^\]]*\])?>", re.S)
+_CTRL_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
+_ENTITY_RE = re.compile(r"&(?!#\d+;|#x[0-9a-fA-F]+;)([A-Za-z][A-Za-z0-9]*);")
+_XML_ENTITIES = {"amp", "lt", "gt", "quot", "apos"}
+
+
+def http_get(url: str, timeout: int = 30):
+    """GET per curl. Liefert (status, body). status == '' bedeutet: curl selbst
+    ist gescheitert (Timeout/DNS) - dann steht der Grund im body."""
     try:
         result = subprocess.run(
-            ["curl", "-sL", url],
-            capture_output=True, text=True, timeout=30
+            ["curl", "-sSL", "--max-time", str(timeout), "-A", UA,
+             "-w", "\n__HTTP_STATUS__%{http_code}", url],
+            capture_output=True, text=True, timeout=timeout + 20,
         )
-        if result.returncode != 0:
-            return []
-        
-        root = ET.fromstring(result.stdout)
-        articles = []
-        
-        for item in root.findall('.//item'):
-            title = item.findtext('title', '')
-            link = item.findtext('link', '')
-            description = unescape(item.findtext('description', ''))
-            pub_date = item.findtext('pubDate', '')
-            
-            if title or link:
-                articles.append({
-                    'title': title.strip(),
-                    'link': link.strip(),
-                    'description': re.sub(r'<[^>]+>', '', description).strip()[:500],
-                    'date': pub_date.strip(),
-                    'source': name,
-                    'via': 'rss'
-                })
-        
-        print(f"    → {len(articles)} articles")
-        return articles
     except Exception as e:
-        print(f"    → Error: {e}")
+        return "", f"curl failed: {e}"
+
+    body, sep, status = result.stdout.rpartition("__HTTP_STATUS__")
+    if not sep:
+        return "", (result.stderr.strip() or "leere Antwort")[:200]
+    return status.strip(), body
+
+
+def _is_feed(body: str) -> bool:
+    head = body[:1000].lstrip()
+    return "<rss" in head or "<feed" in head or "<rdf:RDF" in head
+
+
+def _sanitize_xml(raw: str) -> str:
+    """HTML-Feeds ertraeglich machen (DOCTYPE weg, Steuerzeichen weg,
+    HTML-Entities -> Unicode). Unbekannte Entities werden zu Text, damit das
+    XML auch dann lesbar bleibt."""
+    text = _DOCTYPE_RE.sub("", raw)
+    text = _CTRL_RE.sub("", text)
+
+    def _entity(m):
+        token = m.group(0)
+        if m.group(1) in _XML_ENTITIES:
+            return token
+        decoded = unescape(token)
+        return decoded if decoded != token else m.group(1)
+
+    return _ENTITY_RE.sub(_entity, text)
+
+
+def _parse_feed(raw: str, name: str):
+    """Feed-XML tolerant parsen. None, wenn auch die Reparatur scheitert."""
+    try:
+        return ET.fromstring(raw)
+    except ET.ParseError as first:
+        try:
+            root = ET.fromstring(_sanitize_xml(raw))
+        except ET.ParseError:
+            return None
+        print(f"    ! XML repariert (HTML-Entities entfernt): {first}")
+        return root
+
+
+def _item_text(item, *names: str) -> str:
+    for n in names:
+        value = item.findtext(n)
+        if value:
+            return value
+    return ""
+
+
+def _atom_link(item) -> str:
+    """Alternate-Link eines Atom-Eintrags."""
+    links = item.findall(f"{ATOM_NS}link")
+    for link in links:
+        if link.get("rel", "alternate") == "alternate" and link.get("href"):
+            return link.get("href")
+    for link in links:
+        if link.get("href"):
+            return link.get("href")
+    return ""
+
+
+def fetch_rss_feed(name: str, url: str) -> list:
+    """RSS- oder Atom-Feed holen. Bricht nie ab: Fehler werden geloggt, der
+    Feed wird uebersprungen, der naechste Feed bzw. der Website-Scrape greift."""
+    print(f"  RSS: {name} ({url})...")
+
+    status, raw = http_get(url)
+    if status == "":
+        print(f"    → uebersprungen: {raw[:100]}")
+        SKIPPED_FEEDS.append((name, url, raw[:100] or "keine Antwort"))
         return []
+    if status != "200":
+        print(f"    → uebersprungen: HTTP {status} (kein Feed unter dieser URL)")
+        SKIPPED_FEEDS.append((name, url, f"HTTP {status}"))
+        return []
+    if not _is_feed(raw):
+        print(f"    → uebersprungen: keine Feed-Antwort ({len(raw)} Bytes HTML)")
+        SKIPPED_FEEDS.append((name, url, f"keine Feed-Antwort ({len(raw)} Bytes HTML)"))
+        return []
+
+    root = _parse_feed(raw, name)
+    if root is None:
+        print("    → uebersprungen: XML nicht lesbar (auch nach Reparatur)")
+        SKIPPED_FEEDS.append((name, url, "XML nicht lesbar"))
+        return []
+
+    # RSS 2.0 <item>, sonst Atom <entry>
+    items = root.findall(".//item") or root.findall(f".//{ATOM_NS}entry")
+    articles = []
+    for item in items:
+        title = _item_text(item, "title", f"{ATOM_NS}title")
+        link = _item_text(item, "link", f"{ATOM_NS}id") or _atom_link(item)
+        description = _item_text(item, "description", f"{ATOM_NS}summary",
+                                 f"{ATOM_NS}content")
+        pub_date = _item_text(item, "pubDate", f"{ATOM_NS}published",
+                              f"{ATOM_NS}updated", f"{DC_NS}date")
+
+        if title or link:
+            articles.append({
+                'title': unescape(title).strip(),
+                'link': link.strip(),
+                'description': re.sub(r'<[^>]+>', '', unescape(description)).strip()[:500],
+                'date': pub_date.strip(),
+                'source': name,
+                'via': 'rss'
+            })
+
+    print(f"    → {len(articles)} articles")
+    return articles
 
 
 def fetch_mastodon_all(username: str = "voltinthepress") -> list:
@@ -62,7 +172,7 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
     
     try:
         r = subprocess.run(
-            ["curl", "-sL", f"https://mastodon.social/api/v1/accounts/lookup?acct={username}"],
+            [ "curl", "-sL", f"https://mastodon.social/api/v1/accounts/lookup?acct={username}"],
             capture_output=True, text=True, timeout=30
         )
         account = json.loads(r.stdout)
@@ -116,46 +226,52 @@ def fetch_mastodon_all(username: str = "voltinthepress") -> list:
 
 def scrape_paginated(name: str, base_url: str, path: str) -> list:
     """Scrape all pages of a news section.
-    
+
     Iterates through all pages until no new articles are found
-    (page has only already-seen links or is empty).
+    (page has only already-seen links or is empty). Erkennt Artikel-Links am
+    konfigurierten News-Pfad (z.B. /news/, /neuigkeiten/, /novyny/).
     """
     print(f"  Scraping: {name} (all pages)...")
-    
+
+    bases = base_url.rstrip('/')
+    # Der konfigurierte News-Pfad ist selbst ein Artikel-Praefix (Ukraine
+    # z.B. /novyny/) - so werden auch Chapters ohne /news/-URL erfasst.
+    patterns = {"/news/", "/neuigkeiten/", path.rstrip('/') + "/"}
+
     all_articles = []
     seen = set()
     empty_pages = 0
-    
+    page = 0
+
     for page in range(1, 101):  # Safety limit: 100 pages max
-        url = f"{base_url.rstrip('/')}{path}?page={page}"
+        url = f"{bases}{path}?page={page}"
         try:
-            r = subprocess.run(
-                ["curl", "-sL", url],
-                capture_output=True, text=True, timeout=30
-            )
-            
+            status, body = http_get(url)
+            if status != "200":
+                print(f"    Page {page}: HTTP {status or 'curl-Fehler'} - Ende der Liste")
+                break
+
             from bs4 import BeautifulSoup
-            soup = BeautifulSoup(r.stdout, 'html.parser')
-            
+            soup = BeautifulSoup(body, 'html.parser')
+
             page_articles = 0
             for a in soup.find_all('a', href=True):
                 href = a['href']
                 text = a.get_text(strip=True)
-                
+
                 if not text or len(text) < 15:
                     continue
-                
+
                 # Match article patterns
-                is_article = False
-                if '/neuigkeiten/' in href and href != '/neuigkeiten' and '?' not in href:
-                    is_article = True
-                elif '/news/' in href and href != '/news' and '?' not in href:
-                    is_article = True
-                
+                is_article = any(p in href for p in patterns) and "?" not in href
+
                 if is_article:
                     if not href.startswith('http'):
-                        href = base_url.rstrip('/') + ('/' if not href.startswith('/') else '') + href
-                    
+                        href = bases + ('/' if not href.startswith('/') else '') + href
+                    # Listing-Seiten des News-Pfads selbst ausschliessen
+                    if href.rstrip('/') in {bases + p.rstrip('/') for p in patterns}:
+                        continue
+
                     if href not in seen:
                         seen.add(href)
                         all_articles.append({
@@ -167,7 +283,7 @@ def scrape_paginated(name: str, base_url: str, path: str) -> list:
                             'via': 'website_scrape'
                         })
                         page_articles += 1
-            
+
             if page_articles == 0:
                 empty_pages += 1
                 if empty_pages >= 2:
@@ -175,11 +291,11 @@ def scrape_paginated(name: str, base_url: str, path: str) -> list:
                     break
             else:
                 empty_pages = 0
-                
+
         except Exception as e:
             print(f"    Error on page {page}: {e}")
             break
-    
+
     print(f"    → {len(all_articles)} articles across {page} pages")
     return all_articles
 
@@ -303,6 +419,15 @@ def fetch_all_news() -> dict:
         print(f"  {name}: {count} articles")
     
     print(f"\nTotal: {total} articles")
+
+    # Fehlende Feeds namentlich berichten (kein stilles Verschlucken)
+    if SKIPPED_FEEDS:
+        print(f"\n=== Feeds uebersprungen: {len(SKIPPED_FEEDS)} ===")
+        for name, url, why in SKIPPED_FEEDS:
+            print(f"  - {name}: {url} ({why})")
+    else:
+        print("\n=== Feeds uebersprungen: 0 ===")
+
     return all_news
 
 
