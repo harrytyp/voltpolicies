@@ -96,8 +96,8 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
           if [ -z "${HF_TOKEN:-}" ]; then
-            echo "::error::Repo-Secret HF_TOKEN fehlt - Space-Restart nicht möglich."
-            exit 1
+            echo "Kein Repo-Secret HF_TOKEN gesetzt, Schritt uebersprungen. Der Space laedt seinen Index inzwischen selbst nach (Pull-Thread in app.py), der Neustart ist nur noch Zugabe."
+            exit 0
           fi
           RESTART_URL="https://huggingface.co/api/spaces/harrytyp/voltpolicies/restart"
           HTTP=""
