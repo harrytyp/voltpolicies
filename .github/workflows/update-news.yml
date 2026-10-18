@@ -81,6 +81,14 @@ jobs:
         # schon warm ist und nicht erst beim ersten User lädt. Der Space klont
         # das GitHub-Repo beim Start und lädt cache/faiss.index + chunks.json;
         # ohne Neustart behält der laufende Space seinen alten Index im Speicher.
+        #
+        # Ursache des früheren HTTP 401: das Repo-Secret HF_TOKEN war nie
+        # gesetzt. Der Header ging als 'Authorization: Bearer ' (leer) raus,
+        # HF antwortet darauf mit 401 ("Invalid username or password.") - auch
+        # ohne Header. Der Header selbst war korrekt interpoliert.
+        # Secret setzen: Settings -> Secrets and variables -> Actions ->
+        # New repository secret, Name HF_TOKEN, Wert = HF-Token von harrytyp
+        # (Schreibrechte). Der Guard unten bricht sonst mit ::error:: ab.
         # Manuell erzwingbar über workflow_dispatch input force_restart.
         if: steps.commit.outputs.pushed == 'true' || inputs.force_restart == true
         continue-on-error: true
