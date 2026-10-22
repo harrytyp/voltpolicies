@@ -307,7 +307,7 @@
 | Volt Litauen News | 0 | RSS + Scraping |
 | Volt Luxemburg News | 72 | RSS + Scraping |
 | Volt Malta News | 56 | RSS + Scraping |
-| Volt Niederlande News | 375 | RSS + Scraping |
+| Volt Niederlande News | 377 | RSS + Scraping |
 | Volt Norwegen News | 21 | RSS + Scraping |
 | Volt Polen News | 14 | RSS + Scraping |
 | Volt Portugal News | 6 | RSS + Scraping |
@@ -316,7 +316,7 @@
 | Volt Schweiz News | 60 | RSS + Scraping |
 | Volt Slowakei News | 29 | RSS + Scraping |
 | Volt Slowenien News | 37 | RSS + Scraping |
-| Volt Spanien News | 126 | RSS + Scraping |
+| Volt Spanien News | 128 | RSS + Scraping |
 | Volt Tschechien News | 24 | RSS + Scraping |
 | Volt Ukraine News | 2 | RSS + Scraping |
 | Volt Ungarn News | 0 | RSS + Scraping |
@@ -324,7 +324,7 @@
 | Volt Zypern News | 14 | RSS + Scraping |
 | Volt in the Press Mastodon  | 149 | Mastodon API |
 | Volt Österreich News | 66 | RSS + Scraping |
-| **Total** | **4764** | |
+| **Total** | **4768** | |
 
 ---
 
