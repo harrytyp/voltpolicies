@@ -338,7 +338,7 @@
   {
     "title": "@voltoesterreich @feike @voltnederland @eddyhartog @erikkemp @laurensdassen @mariekekoekkoek @voltde",
     "link": "https://mastodon.social/@voltinthepress/115943083318523681",
-    "description": "@voltoesterreich @feike @voltnederland @eddyhartog @erikkemp @laurensdassen @mariekekoekkoek @voltdeutschland @VoltBerlin @voltbremen @voltbw @voltfrankfurt @VoltHessen @VoltEssen @friedrich @hgbruenker @voltdanmark @voltluxembourg @voltslovenija @philippe_schannes This was discussed roughly a year ago on EUR board level, but rejected (don&#39;t remember why). But topic can be picked up again of course. EUR Comms lead would be the main contact.",
+    "description": "@voltoesterreich @feike @voltnederland @eddyhartog @erikkemp @laurensdassen @mariekekoekkoek @voltdeutschland @VoltBerlin @voltbremen @voltbw @voltfrankfurt @VoltHessen @VoltEssen @friedrich @hgbruenker @voltdanmark @voltluxembourg @voltslovenija @philippe_schannes@toot.community This was discussed roughly a year ago on EUR board level, but rejected (don&#39;t remember why). But topic can be picked up again of course. EUR Comms lead would be the main contact.",
     "date": "2026-01-23T06:50:51.720Z",
     "source": "Volt in the Press (Mastodon)",
     "via": "mastodon_api",
@@ -573,16 +573,16 @@
     "external_links": []
   },
   {
-    "title": "Sign the petition for a United States of Europe NOW! 🇪🇺👉 https://loom.ly/LK4Ndcc#volt #volteuropa #e",
+    "title": "Sign the petition for a United States of Europe NOW! 🇪🇺👉 loom.ly/LK4Ndcc#volt #volteuropa #eu #europ",
     "link": "https://mastodon.social/@voltinthepress/115691658857865338",
-    "description": "Sign the petition for a United States of Europe NOW! 🇪🇺👉 https://loom.ly/LK4Ndcc#volt #volteuropa #eu #europe",
+    "description": "Sign the petition for a United States of Europe NOW! 🇪🇺👉 loom.ly/LK4Ndcc#volt #volteuropa #eu #europe",
     "date": "2025-12-09T21:10:18.810Z",
     "source": "Volt in the Press (Mastodon)",
     "via": "mastodon_api",
     "external_links": [
-      "https://loom.ly/LK4Ndcc",
       "https://mastodon.social/tags/volt",
-      "https://mastodon.social/tags/volteuropa"
+      "https://mastodon.social/tags/volteuropa",
+      "https://mastodon.social/tags/eu"
     ]
   },
   {
@@ -1097,14 +1097,14 @@
   {
     "title": "🇲🇩 Moldova’s future is in the EU! 🇪🇺Volt congratulates PAS on their decisive victory. Despite Russia",
     "link": "https://mastodon.social/@voltinthepress/115288010759257353",
-    "description": "🇲🇩 Moldova’s future is in the EU! 🇪🇺Volt congratulates PAS on their decisive victory. Despite Russian intimidation, the people of Moldova have again chosen Europe.We stand with them on their path to EU membership. Do you? 💜 Join Volt 👉 https://volt.team/simple-join/en#Moldova #volt #volteuropa",
+    "description": "🇲🇩 Moldova’s future is in the EU! 🇪🇺Volt congratulates PAS on their decisive victory. Despite Russian intimidation, the people of Moldova have again chosen Europe.We stand with them on their path to EU membership. Do you? 💜 Join Volt 👉 volt.team/simple-join/en#Moldova #volt #volteuropa",
     "date": "2025-09-29T14:17:17.616Z",
     "source": "Volt in the Press (Mastodon)",
     "via": "mastodon_api",
     "external_links": [
-      "https://volt.team/simple-join/en",
       "https://mastodon.social/tags/Moldova",
-      "https://mastodon.social/tags/volt"
+      "https://mastodon.social/tags/volt",
+      "https://mastodon.social/tags/volteuropa"
     ]
   },
   {
@@ -1612,7 +1612,7 @@
   {
     "title": "Follow Friday in the Volt Universe:🇩🇪  Germany@voltdeutschland @VoltBerlin @voltbremen @voltbw @Volt",
     "link": "https://mastodon.social/@voltinthepress/114754608861431895",
-    "description": "Follow Friday in the Volt Universe:🇩🇪  Germany@voltdeutschland @VoltBerlin @voltbremen @voltbw @VoltEssen @voltfrankfurt @VoltHessen @friedrich @hgbruenker 🇱🇺  Luxembourg@voltluxembourg @philippe_schannes🇳🇱  Netherlands@voltnederland @eddyhartog @erikkemp @laurensdassen @mariekekoekkoek 🇪🇺 More National Chapters:🇩🇰  @voltdanmark 🇦🇹  @voltoesterreich 🇸🇮  @voltslovenija Missing any accounts? Let us know 💜 #FollowFriday #volt #volteuropa",
+    "description": "Follow Friday in the Volt Universe:🇩🇪  Germany@voltdeutschland @VoltBerlin @voltbremen @voltbw @VoltEssen @voltfrankfurt @VoltHessen @friedrich @hgbruenker 🇱🇺  Luxembourg@voltluxembourg @philippe_schannes@toot.community🇳🇱  Netherlands@voltnederland @eddyhartog @erikkemp @laurensdassen @mariekekoekkoek 🇪🇺 More National Chapters:🇩🇰  @voltdanmark 🇦🇹  @voltoesterreich 🇸🇮  @voltslovenija Missing any accounts? Let us know 💜 #FollowFriday #volt #volteuropa",
     "date": "2025-06-27T09:26:10.612Z",
     "source": "Volt in the Press (Mastodon)",
     "via": "mastodon_api",
@@ -1737,14 +1737,12 @@
   {
     "title": "@schnur @voltinthenews@berlin.social The renaming is done for all channels (eg also BlueSky and our ",
     "link": "https://mastodon.social/@voltinthepress/114683997456536797",
-    "description": "@schnur @voltinthenews@berlin.social The renaming is done for all channels (eg also BlueSky and our new upcoming internal platform). The mastodon instance https://berlin.social seemed too narrow in geographical scope so generic instance https://mastodon.social was chosen.",
+    "description": "@schnur @voltinthenews@berlin.social The renaming is done for all channels (eg also BlueSky and our new upcoming internal platform). The mastodon instance berlin.social seemed too narrow in geographical scope so generic instance mastodon.social was chosen.",
     "date": "2025-06-14T22:08:46.036Z",
     "source": "Volt in the Press (Mastodon)",
     "via": "mastodon_api",
     "external_links": [
-      "https://mementomori.social/@schnur",
-      "https://berlin.social",
-      "https://mastodon.social"
+      "https://mementomori.social/@schnur"
     ]
   }
 ]
