@@ -1022,5 +1022,21 @@
     "date": "",
     "source": "Volt Spanien",
     "via": "website_scrape"
+  },
+  {
+    "title": "Accidente ferroviario en Urda (Toledo)",
+    "link": "https://voltespana.org/noticias/accidente-ferroviario-en-urda-toledo",
+    "description": "Una vez más, España ha vuelto a ser sacudida por una tragedia con un inmenso coste en vidas humanas. Coincidiendo con el segundo aniversario de la DANA que arrasó la comarca de la Horta Sud de València, y nueve meses después del accidente ferroviario de Adamuz, nuestra red ferroviaria de alta velocidad ha vuelto a sufrir otro accidente ferroviario en la línea Madrid - Sevilla, a la altura de la población toledana de Urda.Una vez más, la solidaridad de los ciudadanos de las poblaciones cercanas h",
+    "date": "Sun, 01 Nov 2026 12:30:00 +0100",
+    "source": "Volt Spanien RSS",
+    "via": "rss"
+  },
+  {
+    "title": "Accidente ferroviario en Urda (Toledo)Comunicado de Volt España sobre el accidente ferroviario del 28 de octubre.",
+    "link": "https://www.voltespana.org/noticias/accidente-ferroviario-en-urda-toledo",
+    "description": "",
+    "date": "",
+    "source": "Volt Spanien",
+    "via": "website_scrape"
   }
 ]
