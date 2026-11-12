@@ -230,6 +230,7 @@
 | code of conduct | [PDF](https://voltsverige.org/storage/code-of-conduct.pdf) |
 | valprogram sverige 2026 en | [PDF](https://voltsverige.org/storage/valprogram_sverige_2026_en.pdf) |
 | valprogram sverige 2026 se | [PDF](https://voltsverige.org/storage/valprogram_sverige_2026_se.pdf) |
+| valprogram sverige 2026 se | [PDF](https://voltsverige.org/storage/elections/2026/valprogram_sverige_2026_se.pdf) |
 
 ---
 
@@ -302,12 +303,12 @@
 | Volt Irland News | 20 | RSS + Scraping |
 | Volt Italien News | 14 | RSS + Scraping |
 | Volt Kosovo News | 6 | RSS + Scraping |
-| Volt Kroatien News | 32 | RSS + Scraping |
+| Volt Kroatien News | 33 | RSS + Scraping |
 | Volt Lettland News | 0 | RSS + Scraping |
 | Volt Litauen News | 0 | RSS + Scraping |
 | Volt Luxemburg News | 72 | RSS + Scraping |
 | Volt Malta News | 56 | RSS + Scraping |
-| Volt Niederlande News | 377 | RSS + Scraping |
+| Volt Niederlande News | 379 | RSS + Scraping |
 | Volt Norwegen News | 21 | RSS + Scraping |
 | Volt Polen News | 14 | RSS + Scraping |
 | Volt Portugal News | 6 | RSS + Scraping |
@@ -324,7 +325,7 @@
 | Volt Zypern News | 14 | RSS + Scraping |
 | Volt in the Press Mastodon  | 147 | Mastodon API |
 | Volt Österreich News | 66 | RSS + Scraping |
-| **Total** | **4831** | |
+| **Total** | **4834** | |
 
 ---
 
