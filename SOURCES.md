@@ -291,7 +291,7 @@
 | Bluesky volteuropa org | 741 | Bluesky |
 | Insta voltdeutschland | 12 | Instagram |
 | Volt Albanien News | 15 | RSS + Scraping |
-| Volt Belgien News | 83 | RSS + Scraping |
+| Volt Belgien News | 85 | RSS + Scraping |
 | Volt Bulgarien News | 10 | RSS + Scraping |
 | Volt Deutschland News | 195 | RSS + Scraping |
 | Volt Dänemark News | 0 | RSS + Scraping |
@@ -306,7 +306,7 @@
 | Volt Kroatien News | 34 | RSS + Scraping |
 | Volt Lettland News | 0 | RSS + Scraping |
 | Volt Litauen News | 0 | RSS + Scraping |
-| Volt Luxemburg News | 72 | RSS + Scraping |
+| Volt Luxemburg News | 74 | RSS + Scraping |
 | Volt Malta News | 56 | RSS + Scraping |
 | Volt Niederlande News | 381 | RSS + Scraping |
 | Volt Norwegen News | 21 | RSS + Scraping |
@@ -317,7 +317,7 @@
 | Volt Schweiz News | 61 | RSS + Scraping |
 | Volt Slowakei News | 30 | RSS + Scraping |
 | Volt Slowenien News | 37 | RSS + Scraping |
-| Volt Spanien News | 130 | RSS + Scraping |
+| Volt Spanien News | 132 | RSS + Scraping |
 | Volt Tschechien News | 24 | RSS + Scraping |
 | Volt Ukraine News | 2 | RSS + Scraping |
 | Volt Ungarn News | 0 | RSS + Scraping |
@@ -325,7 +325,7 @@
 | Volt Zypern News | 14 | RSS + Scraping |
 | Volt in the Press Mastodon  | 147 | Mastodon API |
 | Volt Österreich News | 66 | RSS + Scraping |
-| **Total** | **4839** | |
+| **Total** | **4845** | |
 
 ---
 
